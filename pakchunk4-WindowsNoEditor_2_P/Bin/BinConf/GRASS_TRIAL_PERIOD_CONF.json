@@ -1,0 +1,139 @@
+{
+  "Name": "GRASS_TRIAL_PERIOD_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "start_time",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "period",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "unlock_slot",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "weekly_effect",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "weekly_pet",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "trail_id",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "rewards",
+      "Type": "EStruct",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 90,
+      "Struct": {
+        "Name": "GRASS_TRIAL_PERIOD_CONF.rewards",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "point_required",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          },
+          {
+            "Name": "reward",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    },
+    {
+      "Name": "show_reward",
+      "Type": "EStruct",
+      "Offset": 32,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 8,
+      "Struct": {
+        "Name": "GRASS_TRIAL_PERIOD_CONF.show_reward",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "item_type",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "item_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "item_count",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "old_slot",
+      "Type": "EUint32",
+      "Offset": 36,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "weekly_initial_skill_num",
+      "Type": "EUint32",
+      "Offset": 40,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "event_active",
+      "Type": "EBool",
+      "Offset": 44,
+      "Size": 1
+    }
+  ]
+}

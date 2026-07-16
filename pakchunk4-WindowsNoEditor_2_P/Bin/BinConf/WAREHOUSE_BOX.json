@@ -1,0 +1,35 @@
+{
+  "Name": "WAREHOUSE_BOX",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "recipe",
+      "Type": "EStruct",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "WAREHOUSE_BOX.recipe",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "recipe_list",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Name": "WATER_MARK_WHITE_LIST_CONF",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "openid",
+      "Type": "EString",
+      "Offset": 0,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "world_id",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "account_type",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "account",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "operator",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "note",
+      "Type": "EString",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

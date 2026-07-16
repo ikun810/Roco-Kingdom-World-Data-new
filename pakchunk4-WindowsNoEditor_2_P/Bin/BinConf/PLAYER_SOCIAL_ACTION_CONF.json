@@ -1,0 +1,68 @@
+{
+  "Name": "PLAYER_SOCIAL_ACTION_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "social_behanvior_type",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "desc",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "trigger_action_type",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "is_skip_battle_period",
+      "Type": "EBool",
+      "Offset": 16,
+      "Size": 1
+    },
+    {
+      "Name": "satisfy_time",
+      "Type": "EInt32",
+      "Offset": 17,
+      "Size": 4
+    },
+    {
+      "Name": "satisfy_action_num",
+      "Type": "EInt32",
+      "Offset": 21,
+      "Size": 4
+    },
+    {
+      "Name": "cancel_time",
+      "Type": "EInt32",
+      "Offset": 25,
+      "Size": 4
+    },
+    {
+      "Name": "cancel_action_num",
+      "Type": "EInt32",
+      "Offset": 29,
+      "Size": 4
+    },
+    {
+      "Name": "list_sort",
+      "Type": "EInt32",
+      "Offset": 33,
+      "Size": 4
+    }
+  ]
+}

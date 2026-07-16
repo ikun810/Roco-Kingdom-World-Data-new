@@ -1,0 +1,1055 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "npc_id": 53005,
+      "refresh_content_id": 30300501,
+      "scene_id": 103,
+      "world_boss_refer": 13000158,
+      "block_id": 121030062
+    },
+    "2": {
+      "id": 2,
+      "npc_id": 65497,
+      "refresh_content_id": 1200899,
+      "scene_id": 103,
+      "world_boss_refer": 9801,
+      "block_id": 121030075,
+      "finish_type": 1,
+      "bgm_world_combat_state": "World_Combat_Type;Common"
+    },
+    "3": {
+      "id": 3,
+      "npc_id": 65132,
+      "refresh_content_id": 2301029,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 13000152,
+      "sequence_id": 7,
+      "block_id": 121030087,
+      "bgm_world_combat_state": "World_Combat_Type;Common"
+    },
+    "4": {
+      "id": 4,
+      "npc_id": 65517,
+      "refresh_content_id": 1200805,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4072,
+      "trophy_id": 50213,
+      "sequence_id": 7,
+      "task_name": "无",
+      "living_area_name": "旧飞艇航道",
+      "block_id": 121030079,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        67002,
+        67003,
+        67004
+      ]
+    },
+    "5": {
+      "id": 5,
+      "npc_id": 65518,
+      "refresh_content_id": 1200806,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4074,
+      "trophy_id": 50215,
+      "sequence_id": 6,
+      "task_name": "无",
+      "living_area_name": "叽叽喳喳台地",
+      "block_id": 101030134,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67000,
+        67001
+      ]
+    },
+    "6": {
+      "id": 6,
+      "npc_id": 65514,
+      "refresh_content_id": 1200807,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4021,
+      "trophy_id": 50212,
+      "sequence_id": 5,
+      "task_name": "主线任务",
+      "living_area_name": "风息山口",
+      "block_id": 121030089,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        65553,
+        65555
+      ]
+    },
+    "7": {
+      "id": 7,
+      "npc_id": 65515,
+      "refresh_content_id": 1200808,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4022,
+      "trophy_id": 50210,
+      "sequence_id": 2,
+      "task_name": "主线任务",
+      "living_area_name": "奥贝斯坦湖",
+      "block_id": 121030090,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        65557,
+        65558
+      ]
+    },
+    "8": {
+      "id": 8,
+      "npc_id": 65516,
+      "refresh_content_id": 1200809,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4020,
+      "trophy_id": 50214,
+      "sequence_id": 4,
+      "task_name": "主线任务",
+      "living_area_name": "月牙湖岸",
+      "block_id": 121030091,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67008
+      ]
+    },
+    "9": {
+      "id": 9,
+      "npc_id": 120017,
+      "refresh_content_id": 1200811,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4078,
+      "trophy_id": 50216,
+      "sequence_id": 1,
+      "task_name": "无",
+      "living_area_name": "月牙湖岸",
+      "block_id": 121030092,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        120018
+      ],
+      "hit_anim_alpha": 10
+    },
+    "10": {
+      "id": 10,
+      "npc_id": 53005,
+      "refresh_content_id": 1200819,
+      "scene_id": 103,
+      "world_boss_refer": 13000158,
+      "task_name": "未知",
+      "block_id": 121030071,
+      "bgm_world_combat_state": "World_Combat_Type;YiLiSi"
+    },
+    "11": {
+      "id": 11,
+      "npc_id": 120012,
+      "refresh_content_id": 1200820,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4085,
+      "trophy_id": 50223,
+      "sequence_id": 8,
+      "task_name": "未知",
+      "living_area_name": "星霜崖地",
+      "block_id": 101030118,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        120021
+      ]
+    },
+    "12": {
+      "id": 12,
+      "npc_id": 65516,
+      "refresh_content_id": 1600251,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 13000156,
+      "sequence_id": 3,
+      "task_name": "未知",
+      "living_area_name": "月牙湖岸",
+      "block_id": 121030076,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67008
+      ]
+    },
+    "13": {
+      "id": 13,
+      "npc_id": 53023,
+      "refresh_content_id": 1200860,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3071,
+      "whether_nightmare": true,
+      "block_id": 101030124,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        53050,
+        53051,
+        53052,
+        67010,
+        67011
+      ]
+    },
+    "14": {
+      "id": 14,
+      "npc_id": 53026,
+      "refresh_content_id": 1200861,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4019,
+      "whether_nightmare": true,
+      "area_func": 1010010,
+      "block_id": 121030093,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "15": {
+      "id": 15,
+      "npc_id": 53027,
+      "refresh_content_id": 1000730,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3308,
+      "whether_nightmare": true,
+      "block_id": 101030127,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "16": {
+      "id": 16,
+      "npc_id": 53028,
+      "refresh_content_id": 1000733,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030063,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "17": {
+      "id": 17,
+      "npc_id": 53029,
+      "refresh_content_id": 1000734,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3263,
+      "whether_nightmare": true,
+      "area_func": 1010011,
+      "block_id": 101030144,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67033,
+        67034
+      ]
+    },
+    "18": {
+      "id": 18,
+      "npc_id": 53030,
+      "refresh_content_id": 1000729,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030142,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67036
+      ]
+    },
+    "19": {
+      "id": 19,
+      "npc_id": 53034,
+      "refresh_content_id": 1001080,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4090,
+      "trophy_id": 50224,
+      "sequence_id": 11,
+      "task_name": "未知",
+      "living_area_name": "咕噜咕噜浅滩",
+      "block_id": 101030065,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        67027,
+        67028,
+        67029
+      ]
+    },
+    "20": {
+      "id": 20,
+      "npc_id": 53035,
+      "refresh_content_id": 1001081,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4088,
+      "trophy_id": 50225,
+      "sequence_id": 15,
+      "task_name": "未知",
+      "living_area_name": "彼得大道",
+      "block_id": 101030066,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "21": {
+      "id": 21,
+      "npc_id": 53036,
+      "refresh_content_id": 1001082,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4086,
+      "trophy_id": 50228,
+      "sequence_id": 10,
+      "task_name": "未知",
+      "living_area_name": "王国城堡",
+      "block_id": 101030067,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        65579,
+        65580,
+        65581,
+        65582,
+        65583,
+        65584,
+        65585,
+        65586,
+        65587,
+        65588,
+        120022
+      ]
+    },
+    "22": {
+      "id": 22,
+      "npc_id": 53037,
+      "refresh_content_id": 1001083,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4079,
+      "trophy_id": 50221,
+      "sequence_id": 12,
+      "task_name": "未知",
+      "living_area_name": "采邑地",
+      "block_id": 431030012,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        67005,
+        67006
+      ]
+    },
+    "23": {
+      "id": 23,
+      "npc_id": 53038,
+      "refresh_content_id": 1001084,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4019,
+      "background_color": 12,
+      "trophy_id": 50226,
+      "sequence_id": 16,
+      "task_name": "未知",
+      "living_area_name": "晨曦山",
+      "block_id": 101030069,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67035
+      ]
+    },
+    "24": {
+      "id": 24,
+      "npc_id": 53039,
+      "refresh_content_id": 1001085,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4089,
+      "trophy_id": 50233,
+      "sequence_id": 19,
+      "task_name": "未知",
+      "living_area_name": "监管区",
+      "block_id": 101030072,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        120006
+      ]
+    },
+    "25": {
+      "id": 25,
+      "npc_id": 53040,
+      "refresh_content_id": 1001086,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4064,
+      "trophy_id": 50231,
+      "sequence_id": 18,
+      "task_name": "未知",
+      "living_area_name": "黑水峡",
+      "block_id": 101030071,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        120014,
+        65574
+      ]
+    },
+    "26": {
+      "id": 26,
+      "npc_id": 53041,
+      "refresh_content_id": 1001087,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4011,
+      "trophy_id": 50232,
+      "sequence_id": 14,
+      "task_name": "未知",
+      "living_area_name": "恶水沼泽",
+      "block_id": 101030070,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        65571
+      ]
+    },
+    "27": {
+      "id": 27,
+      "npc_id": 53042,
+      "refresh_content_id": 1001088,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4084,
+      "background_color": 20,
+      "trophy_id": 50234,
+      "sequence_id": 13,
+      "task_name": "未知",
+      "living_area_name": "望风半岛",
+      "block_id": 101030073,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        120011
+      ]
+    },
+    "28": {
+      "id": 28,
+      "npc_id": 53043,
+      "refresh_content_id": 1001089,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4087,
+      "trophy_id": 50230,
+      "sequence_id": 17,
+      "task_name": "未知",
+      "living_area_name": "甜水农庄",
+      "block_id": 101030074,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        120007,
+        65572
+      ]
+    },
+    "29": {
+      "id": 29,
+      "npc_id": 53044,
+      "refresh_content_id": 1001584,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030142,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67036
+      ]
+    },
+    "30": {
+      "id": 30,
+      "npc_id": 53045,
+      "refresh_content_id": 1001585,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030142,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67036
+      ]
+    },
+    "31": {
+      "id": 31,
+      "npc_id": 53046,
+      "refresh_content_id": 1001593,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030144,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67033,
+        67034
+      ]
+    },
+    "32": {
+      "id": 32,
+      "npc_id": 53047,
+      "refresh_content_id": 1001594,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030144,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67033,
+        67034
+      ]
+    },
+    "33": {
+      "id": 33,
+      "npc_id": 53048,
+      "refresh_content_id": 1001600,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030127,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "34": {
+      "id": 34,
+      "npc_id": 53049,
+      "refresh_content_id": 1001601,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "block_id": 101030127,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "35": {
+      "id": 35,
+      "npc_id": 53053,
+      "refresh_content_id": 1001612,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030128,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67018,
+        67020
+      ]
+    },
+    "36": {
+      "id": 36,
+      "npc_id": 53054,
+      "refresh_content_id": 1001613,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030128,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67018,
+        67020
+      ]
+    },
+    "37": {
+      "id": 37,
+      "npc_id": 53055,
+      "refresh_content_id": 1001614,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030128,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67018,
+        67020
+      ]
+    },
+    "38": {
+      "id": 38,
+      "npc_id": 53056,
+      "refresh_content_id": 1001623,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030129,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "39": {
+      "id": 39,
+      "npc_id": 53057,
+      "refresh_content_id": 1001624,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030129,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "40": {
+      "id": 40,
+      "npc_id": 53058,
+      "refresh_content_id": 1001625,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030129,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "41": {
+      "id": 41,
+      "npc_id": 53059,
+      "refresh_content_id": 1001634,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030133,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67023,
+        67024,
+        67025,
+        67026
+      ]
+    },
+    "42": {
+      "id": 42,
+      "npc_id": 53060,
+      "refresh_content_id": 1001635,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030133,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67023,
+        67024,
+        67025,
+        67026
+      ]
+    },
+    "43": {
+      "id": 43,
+      "npc_id": 53061,
+      "refresh_content_id": 1001636,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030133,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67023,
+        67024,
+        67025,
+        67026
+      ]
+    },
+    "44": {
+      "id": 44,
+      "npc_id": 53062,
+      "refresh_content_id": 1001645,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030130,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67037
+      ]
+    },
+    "45": {
+      "id": 45,
+      "npc_id": 53063,
+      "refresh_content_id": 1001646,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030130,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67037
+      ]
+    },
+    "46": {
+      "id": 46,
+      "npc_id": 53064,
+      "refresh_content_id": 1001647,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030130,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67037
+      ]
+    },
+    "47": {
+      "id": 47,
+      "npc_id": 53050,
+      "refresh_content_id": 1001656,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030131,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67010,
+        67011
+      ]
+    },
+    "48": {
+      "id": 48,
+      "npc_id": 53051,
+      "refresh_content_id": 1001657,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030131,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67010,
+        67011
+      ]
+    },
+    "49": {
+      "id": 49,
+      "npc_id": 53052,
+      "refresh_content_id": 1001658,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030131,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67010,
+        67011
+      ]
+    },
+    "50": {
+      "id": 50,
+      "npc_id": 53065,
+      "refresh_content_id": 1001667,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030132,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "51": {
+      "id": 51,
+      "npc_id": 53066,
+      "refresh_content_id": 1001668,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030132,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "52": {
+      "id": 52,
+      "npc_id": 53067,
+      "refresh_content_id": 1001669,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "block_id": 101030132,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space"
+    },
+    "53": {
+      "id": 53,
+      "npc_id": 120015,
+      "refresh_content_id": 1001686,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4083,
+      "trophy_id": 50217,
+      "sequence_id": 9,
+      "task_name": "未知",
+      "living_area_name": "岚语峰西侧",
+      "block_id": 101030119,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67016,
+        67017
+      ]
+    },
+    "54": {
+      "id": 54,
+      "npc_id": 20605,
+      "refresh_content_id": 4300072,
+      "scene_id": 131,
+      "whether_display": 1,
+      "world_boss_refer": 3156,
+      "whether_nightmare": true,
+      "sequence_id": 9,
+      "task_name": "未知",
+      "living_area_name": "裘卡的幻境",
+      "block_id": 121030094,
+      "bgm_world_combat_state": "World_Combat_Type;QiuKa",
+      "preloading_npc": [
+        120020
+      ]
+    },
+    "59": {
+      "id": 59,
+      "npc_id": 120043,
+      "refresh_content_id": 31000051,
+      "scene_id": 103,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "sequence_id": 5,
+      "task_name": "主线任务",
+      "living_area_name": "风息山口",
+      "block_id": 121030089,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67037
+      ]
+    },
+    "60": {
+      "id": 60,
+      "npc_id": 120044,
+      "refresh_content_id": 31000052,
+      "scene_id": 103,
+      "world_boss_refer": 3278,
+      "whether_nightmare": true,
+      "sequence_id": 4,
+      "task_name": "主线任务",
+      "living_area_name": "奥贝斯坦湖",
+      "block_id": 121030090,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67033,
+        67034
+      ]
+    },
+    "61": {
+      "id": 61,
+      "npc_id": 120045,
+      "refresh_content_id": 31000053,
+      "scene_id": 103,
+      "world_boss_refer": 3102,
+      "whether_nightmare": true,
+      "sequence_id": 2,
+      "task_name": "主线任务",
+      "living_area_name": "月牙湖岸",
+      "block_id": 121030091,
+      "bgm_world_combat_state": "World_Combat_Type;EMeng_Space",
+      "preloading_npc": [
+        67018,
+        67020
+      ]
+    },
+    "62": {
+      "id": 62,
+      "npc_id": 65596,
+      "refresh_content_id": 1002626,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4007,
+      "sequence_id": 20,
+      "task_name": "无",
+      "block_id": 101030135,
+      "bgm_world_combat_state": "World_Combat_Type;YuSanJia"
+    },
+    "63": {
+      "id": 63,
+      "npc_id": 65597,
+      "refresh_content_id": 1002627,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4005,
+      "sequence_id": 21,
+      "task_name": "无",
+      "block_id": 101030135,
+      "bgm_world_combat_state": "World_Combat_Type;YuSanJia"
+    },
+    "64": {
+      "id": 64,
+      "npc_id": 65598,
+      "refresh_content_id": 1002628,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4006,
+      "sequence_id": 22,
+      "task_name": "无",
+      "block_id": 101030135,
+      "bgm_world_combat_state": "World_Combat_Type;YuSanJia"
+    },
+    "65": {
+      "id": 65,
+      "npc_id": 67043,
+      "refresh_content_id": 1002655,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4101,
+      "trophy_id": 50235,
+      "sequence_id": 23,
+      "living_area_name": "结晶森林",
+      "block_id": 671030002,
+      "bgm_world_combat_state": "World_Combat_Type;Easy",
+      "preloading_npc": [
+        65553,
+        65555
+      ]
+    },
+    "66": {
+      "id": 66,
+      "npc_id": 67045,
+      "refresh_content_id": 1002656,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4102,
+      "trophy_id": 50236,
+      "sequence_id": 24,
+      "living_area_name": "陶晶镇",
+      "block_id": 671030003,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        67002,
+        67003,
+        67004
+      ]
+    },
+    "67": {
+      "id": 67,
+      "npc_id": 67044,
+      "refresh_content_id": 1002657,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 4104,
+      "trophy_id": 50237,
+      "sequence_id": 25,
+      "living_area_name": "威廉古堡",
+      "block_id": 671030004,
+      "bgm_world_combat_state": "World_Combat_Type;Common",
+      "preloading_npc": [
+        67008
+      ]
+    },
+    "68": {
+      "id": 68,
+      "npc_id": 53068,
+      "refresh_content_id": 1002672,
+      "scene_id": 103,
+      "whether_display": 1,
+      "world_boss_refer": 3564,
+      "block_id": 101030067,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "800": {
+      "id": 800,
+      "npc_id": 670001,
+      "refresh_content_id": 2400540,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7001,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "801": {
+      "id": 801,
+      "npc_id": 670002,
+      "refresh_content_id": 2400563,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7002,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "802": {
+      "id": 802,
+      "npc_id": 670003,
+      "refresh_content_id": 2400564,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7003,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "803": {
+      "id": 803,
+      "npc_id": 670004,
+      "refresh_content_id": 2400565,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7004,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "804": {
+      "id": 804,
+      "npc_id": 670005,
+      "refresh_content_id": 2400570,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7005,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "805": {
+      "id": 805,
+      "npc_id": 670006,
+      "refresh_content_id": 2400571,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7006,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "806": {
+      "id": 806,
+      "npc_id": 670007,
+      "refresh_content_id": 2400572,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7007,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "807": {
+      "id": 807,
+      "npc_id": 670008,
+      "refresh_content_id": 2400573,
+      "scene_id": 401,
+      "whether_display": 1,
+      "world_boss_refer": 7008,
+      "block_id": 244010006,
+      "bgm_world_combat_state": "World_Combat_Type;Hard"
+    },
+    "8000": {
+      "id": 8000,
+      "npc_id": 190101,
+      "refresh_content_id": 29000101,
+      "scene_id": 116,
+      "world_boss_refer": 4090,
+      "block_id": 541160004,
+      "bgm_world_combat_state": "World_Combat_Type;Hard",
+      "preloading_npc": [
+        67027,
+        67028,
+        67029
+      ]
+    }
+  }
+}

@@ -1,0 +1,3924 @@
+{
+  "RocoDataRows": {
+    "10003": {
+      "id": 10003,
+      "sub_scene_res_list": [
+        10010,
+        10018,
+        10019,
+        10020,
+        10022,
+        10026,
+        10027,
+        10028,
+        10017,
+        10034,
+        10036,
+        10037,
+        10038,
+        10039,
+        10035,
+        50001,
+        50002,
+        50003,
+        10041,
+        10042,
+        10043,
+        10044,
+        10045,
+        10046,
+        10047,
+        10048,
+        10049,
+        10050,
+        10051,
+        10052,
+        10053,
+        10054,
+        10055,
+        10058,
+        10059,
+        10060
+      ],
+      "scene_id": 103,
+      "scene_export_id": 103,
+      "task_scene_group": 1,
+      "scene_res_name": "卡洛西亚大陆",
+      "source": "/Game/ArtRes/Level/Game/BigWorld/L_Bigworld_01_Release/L_Bigworld_01_Release",
+      "main_source": "L_Bigworld_01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "world_width": 279400.0,
+      "world_top_left_x": 244500.0,
+      "world_top_left_y": 515400.0,
+      "minimap_zoom": 0.07,
+      "x_size": 2000,
+      "y_size": 2000,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true,
+      "is_battle": true,
+      "battle_position": "103;430811;671497;890",
+      "position_display_type": 2
+    },
+    "10010": {
+      "id": 10010,
+      "scene_id": 103,
+      "scene_export_id": 1000,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "伊里斯小屋",
+      "not_teleport_scene_role_flag": 1520,
+      "world_map_entry_npc_content_id": 4900085,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A1/Indoor_A1_04/Indoor_A1_04_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A1_04_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10011": {
+      "id": 10011,
+      "is_unused": true,
+      "scene_id": 111,
+      "scene_export_id": 111,
+      "scene_res_name": "战斗测试场景",
+      "source": "/Game/Levels/TestBattle",
+      "main_source": "TestBattle",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10013": {
+      "id": 10013,
+      "scene_id": 113,
+      "scene_export_id": 113,
+      "task_scene_group": 1,
+      "scene_res_name": "风眠圣所",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_FengMianShengSuo_01/Dungeon_A1_FengMianShengSuo_01_Release",
+      "main_source": "Dungeon_A1_FengMianShengSuo_01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "world_width": 279400.0,
+      "world_top_left_x": 244500.0,
+      "world_top_left_y": 515400.0,
+      "minimap_zoom": 0.07,
+      "x_size": 2000,
+      "y_size": 2000,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10014": {
+      "id": 10014,
+      "is_unused": true,
+      "scene_id": 114,
+      "scene_export_id": 114,
+      "scene_res_name": "王国城堡",
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/BigWorld/L_Bigworld_01_Release/L_Bigworld_01_Release",
+      "main_source": "L_Bigworld_01_Release",
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10015": {
+      "id": 10015,
+      "is_unused": true,
+      "scene_id": 115,
+      "scene_export_id": 114,
+      "scene_res_name": "王国城堡野外",
+      "source": "/Game/ArtRes/Level/Game/BigWorld/L_Bigworld_01_Release/L_Bigworld_01_Release",
+      "main_source": "L_Bigworld_01_Release",
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10016": {
+      "id": 10016,
+      "scene_id": 116,
+      "scene_export_id": 116,
+      "scene_res_name": "AI测试场景",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "source": "/Game/NewRoco/Modules/AI/BehaviorTree/Test/MFBT_Test/BTTestMap",
+      "main_source": "BTTestMap",
+      "build_physx": true
+    },
+    "10017": {
+      "id": 10017,
+      "scene_id": 103,
+      "scene_export_id": 1001,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "魔法学院教室",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1522,
+      "world_map_entry_npc_content_id": 4300241,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_01/Indoor_B1_01_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10018": {
+      "id": 10018,
+      "scene_id": 103,
+      "scene_export_id": 1002,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "魔法学院",
+      "not_teleport_scene_role_flag": 1521,
+      "source": "/Game/ArtRes/Level/Game/MagicAcademy/Release/MA_Release",
+      "main_source": "MA_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true,
+      "daily_build_battlefield": true,
+      "is_battle": true,
+      "battle_position": "103;-802979;-778280;29974",
+      "position_display_type": 2
+    },
+    "10019": {
+      "id": 10019,
+      "scene_id": 103,
+      "scene_export_id": 1003,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "皮卡的服装店",
+      "world_map_entry_npc_content_id": 1500021,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A1/Indoor_A1_02/Indoor_A1_02_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A1_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true
+    },
+    "10020": {
+      "id": 10020,
+      "scene_id": 103,
+      "scene_export_id": 1004,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "安妮的道具店",
+      "world_map_entry_npc_content_id": 2901726,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A1/Indoor_A1_03/Indoor_A1_03_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A1_03_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true
+    },
+    "10021": {
+      "id": 10021,
+      "scene_id": 121,
+      "scene_export_id": 121,
+      "scene_res_name": "白树空间",
+      "function_ban_id": 46,
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A1/Plot_A1_LearnMagic_New/Plot_A1_LearnMagic_New_Release",
+      "main_source": "Plot_A1_LearnMagic_New_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10022": {
+      "id": 10022,
+      "scene_id": 103,
+      "scene_export_id": 1005,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "生态园",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1525,
+      "world_map_entry_npc_content_id": 4300176,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_10/Indoor_B1_10_Release",
+      "main_source": "Indoor_B1_10_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Indoor_B1_10_YiXiang_Plot",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10024": {
+      "id": 10024,
+      "scene_id": 124,
+      "scene_export_id": 124,
+      "scene_res_name": "空中飞艇",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A1/Plot_A1_Airship/Plot_A1_Airship_Release",
+      "main_source": "Plot_A1_Airship_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10025": {
+      "id": 10025,
+      "scene_id": 125,
+      "scene_export_id": 125,
+      "scene_res_name": "白树空间的通道",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "function_ban_id": 46,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A1/Plot_A1_Theway/Plot_A1_Theway_Release",
+      "main_source": "Plot_A1_Theway_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10026": {
+      "id": 10026,
+      "scene_id": 103,
+      "scene_export_id": 1006,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "学院大厅",
+      "root_scene_res_id": 10018,
+      "world_map_entry_npc_content_id": 4300177,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_09/Indoor_B1_09_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_09_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true
+    },
+    "10027": {
+      "id": 10027,
+      "scene_id": 103,
+      "scene_export_id": 1007,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "怪谈社",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1526,
+      "world_map_entry_npc_content_id": 4300154,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_12/Indoor_B1_12_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_12_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10028": {
+      "id": 10028,
+      "scene_id": 103,
+      "scene_export_id": 1008,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "礼拜堂",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1527,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "function_ban_id": 48,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_19/Indoor_B1_19_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_19_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 1,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10029": {
+      "id": 10029,
+      "scene_id": 129,
+      "scene_export_id": 129,
+      "task_scene_group": 2,
+      "scene_res_name": "梦境",
+      "root_scene_res_id": 10018,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "function_ban_id": 32,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_Nightmare/Indoor_B1_Nightmare_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_Nightmare_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10030": {
+      "id": 10030,
+      "scene_id": 130,
+      "scene_export_id": 130,
+      "task_scene_group": 1,
+      "scene_res_name": "黑暗灵魂之河",
+      "function_ban_id": 21,
+      "ban_magic": [
+        3,
+        4,
+        2,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A1/Plot_A1_RiverOfSouls/Plot_A1_RiverOfSouls_Release",
+      "if_mainchara_light_scene": true,
+      "main_source": "Plot_A1_RiverOfSouls_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "world_width": 279400.0,
+      "world_top_left_x": 244500.0,
+      "world_top_left_y": 515400.0,
+      "minimap_zoom": 0.07,
+      "x_size": 2000,
+      "y_size": 2000,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10031": {
+      "id": 10031,
+      "scene_id": 131,
+      "scene_export_id": 131,
+      "task_scene_group": 2,
+      "scene_res_name": "迷幻之境",
+      "root_scene_res_id": 10018,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/B1/Plot_B1_MirrorLevel1F/Plot_B1_MirrorLevel1F_Release",
+      "main_source": "Plot_B1_MirrorLevel1F_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10032": {
+      "id": 10032,
+      "scene_id": 132,
+      "scene_export_id": 132,
+      "task_scene_group": 2,
+      "scene_res_name": "魔法学院正反广场",
+      "root_scene_res_id": 10018,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "function_ban_id": 32,
+      "ban_type": [
+        6,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_inverted_zone/Indoor_B1_inverted_zone_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_inverted_zone_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10033": {
+      "id": 10033,
+      "scene_id": 133,
+      "scene_export_id": 133,
+      "task_scene_group": 2,
+      "scene_res_name": "噩梦危机魔法学院",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1530,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "function_ban_id": 47,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/B1/Plot_B1_FinalBattle/Plot_B1_FinalBattle_Release",
+      "main_source": "Plot_B1_FinalBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10034": {
+      "id": 10034,
+      "scene_id": 103,
+      "scene_export_id": 1009,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "礼拜堂",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 1527,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "function_ban_id": 48,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/B1/Indoor_B1_20/Indoor_B1_20_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_B1_20_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10035": {
+      "id": 10035,
+      "scene_id": 103,
+      "scene_export_id": 1010,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "福尔摩卡侦探社",
+      "not_teleport_scene_role_flag": 1532,
+      "world_map_entry_npc_content_id": 1600547,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_03/Indoor_A2_03_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_03_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10036": {
+      "id": 10036,
+      "scene_id": 103,
+      "scene_export_id": 1011,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "王国城堡服装店",
+      "world_map_entry_npc_content_id": 1500029,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_05/Indoor_A2_05_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_05_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10037": {
+      "id": 10037,
+      "scene_id": 103,
+      "scene_export_id": 1012,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "彼得大道的服装店",
+      "world_map_entry_npc_content_id": 1500030,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_06/Indoor_A2_06_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_06_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10038": {
+      "id": 10038,
+      "scene_id": 103,
+      "scene_export_id": 1013,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "王国城堡",
+      "not_teleport_scene_role_flag": 160201,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_01/Indoor_A2_01_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Indoor_A2_01_d_Plot;Indoor_A2_01_YiXiang_Plot",
+      "daily_build_nav": true,
+      "daily_build_physx": true,
+      "daily_build_battlefield": true
+    },
+    "10039": {
+      "id": 10039,
+      "scene_id": 103,
+      "scene_export_id": 1014,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "洛克银行",
+      "world_map_entry_npc_content_id": 1600625,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_02/Indoor_A2_02_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "daily_build_nav": true,
+      "daily_build_physx": true,
+      "daily_build_battlefield": true
+    },
+    "10040": {
+      "id": 10040,
+      "scene_id": 140,
+      "scene_export_id": 140,
+      "task_scene_group": 1,
+      "scene_res_name": "交汇镇旅店",
+      "not_teleport_scene_role_flag": 1533,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 32,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A1/Indoor_A1_01/Indoor_A1_01_Release",
+      "main_source": "Indoor_A1_01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10041": {
+      "id": 10041,
+      "scene_id": 103,
+      "scene_export_id": 1018,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "秘密基地",
+      "not_teleport_scene_role_flag": 160204,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_KelixiyaHideout/Plot_A2_KelixiyaHideout_Release",
+      "main_source": "Plot_A2_KelixiyaHideout_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10042": {
+      "id": 10042,
+      "scene_id": 103,
+      "scene_export_id": 1019,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "王国城堡休息厅",
+      "not_teleport_scene_role_flag": 160203,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_07/Indoor_A2_07_Release",
+      "main_source": "Indoor_A2_07_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Indoor_A2_07_Nightmare_Plot"
+    },
+    "10043": {
+      "id": 10043,
+      "scene_id": 103,
+      "scene_export_id": 1020,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "贵族餐厅",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_08/Indoor_A2_08_Release",
+      "main_source": "Indoor_A2_08_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10044": {
+      "id": 10044,
+      "scene_id": 103,
+      "scene_export_id": 1021,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "温馨小屋",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_09/Indoor_A2_09_Release",
+      "main_source": "Indoor_A2_09_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10045": {
+      "id": 10045,
+      "scene_id": 103,
+      "scene_export_id": 1022,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "舒适餐厅",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_10/Indoor_A2_10_Release",
+      "main_source": "Indoor_A2_10_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10046": {
+      "id": 10046,
+      "scene_id": 103,
+      "scene_export_id": 1023,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "书店",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_11/Indoor_A2_11_Release",
+      "main_source": "Indoor_A2_11_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10047": {
+      "id": 10047,
+      "scene_id": 103,
+      "scene_export_id": 1024,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "银行总部二楼",
+      "world_map_entry_npc_content_id": 1600625,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_13/Indoor_A2_13_Release",
+      "main_source": "Indoor_A2_13_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10048": {
+      "id": 10048,
+      "scene_id": 103,
+      "scene_export_id": 1025,
+      "is_sub_scene": true,
+      "task_scene_group": 2,
+      "scene_res_name": "怪谈社密室",
+      "root_scene_res_id": 10018,
+      "not_teleport_scene_role_flag": 160202,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/B1/Plot_B1_GhostStoryClub/Plot_B1_GhostStoryClub_Release",
+      "main_source": "Plot_B1_GhostStoryClub_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10049": {
+      "id": 10049,
+      "scene_id": 103,
+      "scene_export_id": 1026,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "圣锤遗迹",
+      "not_teleport_scene_role_flag": 160207,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_HolyShieldRuins/Plot_A2_HolyShieldRuins_Release",
+      "main_source": "Plot_A2_HolyShieldRuins_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Plot_A2_HolyShieldRuins_LMP_OFF_Lights;Plot_A2_HolyShieldRuins_LMP_ON_Lights"
+    },
+    "10050": {
+      "id": 10050,
+      "scene_id": 103,
+      "scene_export_id": 1027,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "鱼腹",
+      "not_teleport_scene_role_flag": 160206,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_InsideAWaSha/Plot_A2_InsideAWaSha_Release",
+      "main_source": "Plot_A2_InsideAWaSha_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10051": {
+      "id": 10051,
+      "scene_id": 103,
+      "scene_export_id": 1028,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "城堡顶部",
+      "not_teleport_scene_role_flag": 160210,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 161,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        4,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_KCliexi/Plot_A2_KCliexi_Release",
+      "main_source": "Plot_A2_KCliexi_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10052": {
+      "id": 10052,
+      "scene_id": 103,
+      "scene_export_id": 1029,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "城堡顶部",
+      "not_teleport_scene_role_flag": 160211,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 161,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        4,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_KCliexihengban/Plot_A2_KCliexihengban_Release",
+      "main_source": "Plot_A2_KCliexihengban_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "scene_view_list": [
+        1
+      ],
+      "scene_view_params_list": [
+        "caoxihuizhang"
+      ],
+      "scene_view_yaw_list": [
+        -90
+      ]
+    },
+    "10053": {
+      "id": 10053,
+      "scene_id": 103,
+      "scene_export_id": 1030,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "时钟内部",
+      "not_teleport_scene_role_flag": 160212,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 161,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        4,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_KCliexizhonglou/Plot_A2_KCliexizhonglou_Release",
+      "main_source": "Plot_A2_KCliexizhonglou_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10054": {
+      "id": 10054,
+      "scene_id": 103,
+      "scene_export_id": 1031,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "王国监狱",
+      "not_teleport_scene_role_flag": 160208,
+      "world_map_entry_npc_content_id": 4900167,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_KCprison/Plot_A2_KCprison_Release",
+      "main_source": "Plot_A2_KCprison_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Plot_A2_KCprison_On_Lights;Plot_A2_KCprison_Off_Lights"
+    },
+    "10055": {
+      "id": 10055,
+      "scene_id": 103,
+      "scene_export_id": 1032,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "沉船旋涡",
+      "not_teleport_scene_role_flag": 160205,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_Shipwreck/Plot_A2_Shipwreck_Release",
+      "main_source": "Plot_A2_Shipwreck_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2
+    },
+    "10056": {
+      "id": 10056,
+      "scene_id": 141,
+      "scene_export_id": 141,
+      "task_scene_group": 1,
+      "scene_res_name": "光系灵魂之河",
+      "not_teleport_scene_role_flag": 160213,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 161,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        4,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/A2/Plot_A2_RiverOfLightsys/Plot_A2_RiverOfLightsys_Release",
+      "main_source": "Plot_A2_RiverOfLightsys_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Plot_A2_RiverOfLightsys_ShuaiLuo_Lights;Plot_A2_RiverOfLightsys_HuiHuang_Lights",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10057": {
+      "id": 10057,
+      "scene_id": 134,
+      "scene_export_id": 131,
+      "task_scene_group": 2,
+      "scene_res_name": "迷幻之境",
+      "root_scene_res_id": 10018,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_B1mofaxueyuan_png.img_B1mofaxueyuan_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Plot/B1/Plot_B1_MirrorLevel1F/Plot_B1_MirrorLevel1F_Release",
+      "main_source": "Plot_B1_MirrorLevel1F_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "10058": {
+      "id": 10058,
+      "scene_id": 103,
+      "scene_export_id": 1033,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "威廉古堡",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_14/Indoor_A2_14_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_14_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "daily_build_nav": true,
+      "daily_build_physx": true,
+      "daily_build_battlefield": true
+    },
+    "10059": {
+      "id": 10059,
+      "scene_id": 103,
+      "scene_export_id": 1034,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "绘本空间",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "function_ban_id": 133,
+      "ban_type": [
+        6,
+        4,
+        8,
+        14,
+        1
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S3/Season_S3_Press_Scene_BookWorld/Season_S3_Press_Scene_BookWorld_Release",
+      "main_source": "Season_S3_Press_Scene_BookWorld_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "load_level_skill_before": "/Game/ArtRes/Effects/G6Skill/S3/G6_LGHB_Teleport",
+      "load_level_skill_after": "/Game/ArtRes/Effects/G6Skill/S3/G6_LGHB_TeleportEnd",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "daily_build_nav": true,
+      "daily_build_physx": true
+    },
+    "10060": {
+      "id": 10060,
+      "scene_id": 103,
+      "scene_export_id": 1038,
+      "task_scene_group": 1,
+      "scene_res_name": "圣剑异空间",
+      "not_teleport_scene_role_flag": 160209,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 162,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_SuiShiFengChang/Dungeon_A1_SuiShiFengChang_Release",
+      "main_source": "Dungeon_A1_SuiShiFengChang_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20001": {
+      "id": 20001,
+      "scene_id": 201,
+      "scene_export_id": 201,
+      "task_scene_group": 1,
+      "scene_res_name": "九幽菇的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Battle01/Dungeon_A1_Battle01_Release",
+      "main_source": "Dungeon_A1_Battle01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20002": {
+      "id": 20002,
+      "scene_id": 202,
+      "scene_export_id": 202,
+      "task_scene_group": 1,
+      "scene_res_name": "皇家狮鹫的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Battle02/Dungeon_A1_Battle02_Release",
+      "main_source": "Dungeon_A1_Battle02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20003": {
+      "id": 20003,
+      "is_unused": true,
+      "scene_id": 203,
+      "scene_export_id": 203,
+      "task_scene_group": 1,
+      "scene_res_name": "海岛绿网",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20004": {
+      "id": 20004,
+      "scene_id": 204,
+      "scene_export_id": 204,
+      "task_scene_group": 1,
+      "scene_res_name": "尖嘴狐仙的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_TorchTreasure02/Dungeon_A1_TorchTreasure02_Release",
+      "main_source": "Dungeon_A1_TorchTreasure02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20005": {
+      "id": 20005,
+      "scene_id": 205,
+      "scene_export_id": 205,
+      "task_scene_group": 1,
+      "scene_res_name": "海枝枝的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Battle03/Dungeon_A1_Battle03_Release",
+      "main_source": "Dungeon_A1_Battle03_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20006": {
+      "id": 20006,
+      "scene_id": 206,
+      "scene_export_id": 206,
+      "task_scene_group": 1,
+      "scene_res_name": "鳗尾兽的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Battle04/Dungeon_A1_Battle04_Release",
+      "main_source": "Dungeon_A1_Battle04_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20007": {
+      "id": 20007,
+      "scene_id": 207,
+      "scene_export_id": 207,
+      "task_scene_group": 1,
+      "scene_res_name": "雪灵的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Battle05/Dungeon_A1_Battle05_Release",
+      "main_source": "Dungeon_A1_Battle05_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20008": {
+      "id": 20008,
+      "scene_id": 208,
+      "scene_export_id": 208,
+      "task_scene_group": 1,
+      "scene_res_name": "怖哭菇的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_Battle06/Dungeon_A2_Battle06_Release",
+      "main_source": "Dungeon_A2_Battle06_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20009": {
+      "id": 20009,
+      "scene_id": 209,
+      "scene_export_id": 209,
+      "task_scene_group": 1,
+      "scene_res_name": "圆号鱼的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Stone02/Dungeon_A1_Stone02_Release",
+      "main_source": "Dungeon_A1_Stone02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20010": {
+      "id": 20010,
+      "scene_id": 210,
+      "scene_export_id": 210,
+      "task_scene_group": 1,
+      "scene_res_name": "麦克达克的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Stone01/Dungeon_A1_Stone01_Release",
+      "main_source": "Dungeon_A1_Stone01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20011": {
+      "id": 20011,
+      "scene_id": 211,
+      "scene_export_id": 211,
+      "task_scene_group": 1,
+      "scene_res_name": "法瑞莎莎的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_Waterlevel01/Dungeon_A1_Waterlevel01_Release",
+      "main_source": "Dungeon_A1_Waterlevel01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20012": {
+      "id": 20012,
+      "is_unused": true,
+      "scene_id": 212,
+      "scene_export_id": 203,
+      "scene_res_name": "破风山谷",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20013": {
+      "id": 20013,
+      "is_unused": true,
+      "scene_id": 213,
+      "scene_export_id": 203,
+      "scene_res_name": "传送魔镜",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20014": {
+      "id": 20014,
+      "scene_id": 214,
+      "scene_export_id": 214,
+      "scene_res_name": "迷迷箱怪的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_TreasureChest/Dungeon_A1_TreasureChest_Release",
+      "main_source": "Dungeon_A1_TreasureChest_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20015": {
+      "id": 20015,
+      "is_unused": true,
+      "scene_id": 215,
+      "scene_export_id": 203,
+      "scene_res_name": "风起的星火",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20016": {
+      "id": 20016,
+      "is_unused": true,
+      "scene_id": 216,
+      "scene_export_id": 203,
+      "scene_res_name": "踏板谜题（测试）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20017": {
+      "id": 20017,
+      "is_unused": true,
+      "scene_id": 217,
+      "scene_export_id": 203,
+      "scene_res_name": "潜行观测（测试）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20018": {
+      "id": 20018,
+      "is_unused": true,
+      "scene_id": 218,
+      "scene_export_id": 203,
+      "scene_res_name": "万千奇境",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20019": {
+      "id": 20019,
+      "scene_id": 219,
+      "scene_export_id": 219,
+      "scene_res_name": "琉璃水母的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_BattleWater/Dungeon_A2_BattleWater_Release",
+      "main_source": "Dungeon_A2_BattleWater_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20020": {
+      "id": 20020,
+      "scene_id": 220,
+      "scene_export_id": 220,
+      "scene_res_name": "镜中世界",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_BattleIce/Dungeon_A2_BattleIce_Release",
+      "main_source": "Dungeon_A2_BattleIce_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20021": {
+      "id": 20021,
+      "scene_id": 221,
+      "scene_export_id": 221,
+      "scene_res_name": "石冠王蜥的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_type": [
+        1,
+        6,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_BattleSand/Dungeon_A2_BattleSand_Release",
+      "main_source": "Dungeon_A2_BattleSand_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20022": {
+      "id": 20022,
+      "is_unused": true,
+      "scene_id": 222,
+      "scene_export_id": 203,
+      "scene_res_name": "地下花园",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20023": {
+      "id": 20023,
+      "scene_id": 223,
+      "scene_export_id": 223,
+      "scene_res_name": "古啦多的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_MineTreasure/Dungeon_A2_MineTreasure_Release",
+      "main_source": "Dungeon_A2_MineTreasure_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20024": {
+      "id": 20024,
+      "is_unused": true,
+      "scene_id": 224,
+      "scene_export_id": 203,
+      "scene_res_name": "花中之巫",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20025": {
+      "id": 20025,
+      "is_unused": true,
+      "scene_id": 225,
+      "scene_export_id": 203,
+      "scene_res_name": "高塔之秘",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20026": {
+      "id": 20026,
+      "is_unused": true,
+      "scene_id": 226,
+      "scene_export_id": 203,
+      "scene_res_name": "水之道",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20027": {
+      "id": 20027,
+      "is_unused": true,
+      "scene_id": 227,
+      "scene_export_id": 203,
+      "scene_res_name": "星落遗船",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20028": {
+      "id": 20028,
+      "is_unused": true,
+      "scene_id": 228,
+      "scene_export_id": 203,
+      "scene_res_name": "觅踪花园",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20029": {
+      "id": 20029,
+      "is_unused": true,
+      "scene_id": 229,
+      "scene_export_id": 203,
+      "scene_res_name": "精灵迷阵",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20030": {
+      "id": 20030,
+      "is_unused": true,
+      "scene_id": 230,
+      "scene_export_id": 203,
+      "scene_res_name": "真实之门",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20031": {
+      "id": 20031,
+      "scene_id": 231,
+      "scene_export_id": 231,
+      "scene_res_name": "叮叮恶魔的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_BlackInCage/Dungeon_A2_BlackInCage_Release",
+      "main_source": "Dungeon_A2_BlackInCage_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20032": {
+      "id": 20032,
+      "is_unused": true,
+      "scene_id": 232,
+      "scene_export_id": 203,
+      "scene_res_name": "石柱阵",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20033": {
+      "id": 20033,
+      "is_unused": true,
+      "scene_id": 233,
+      "scene_export_id": 203,
+      "scene_res_name": "雪山暖屋",
+      "ban_magic": [
+        3,
+        2
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20034": {
+      "id": 20034,
+      "scene_id": 234,
+      "scene_export_id": 234,
+      "scene_res_name": "大隐于市",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_StreetTreasure/Dungeon_A2_StreetTreasure_Release",
+      "main_source": "Dungeon_A2_StreetTreasure_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20035": {
+      "id": 20035,
+      "scene_id": 235,
+      "scene_export_id": 235,
+      "scene_res_name": "水晶屋",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_StreetHouse02/Dungeon_A2_StreetHouse02_Release",
+      "main_source": "Dungeon_A2_StreetHouse02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20036": {
+      "id": 20036,
+      "scene_id": 236,
+      "scene_export_id": 236,
+      "scene_res_name": "晶石蜗的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_TreasureLight/Dungeon_A2_TreasureLight_Release",
+      "main_source": "Dungeon_A2_TreasureLight_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20037": {
+      "id": 20037,
+      "scene_id": 237,
+      "scene_export_id": 237,
+      "scene_res_name": "地下管道",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RailTreasure/Dungeon_A2_RailTreasure_Release",
+      "main_source": "Dungeon_A2_RailTreasure_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20038": {
+      "id": 20038,
+      "is_unused": true,
+      "scene_id": 238,
+      "scene_export_id": 203,
+      "scene_res_name": "眠星风阵",
+      "ban_vitality": 1,
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20039": {
+      "id": 20039,
+      "scene_id": 239,
+      "scene_export_id": 239,
+      "scene_res_name": "幻影屋",
+      "world_map_entry_npc_content_id": 2901726,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "function_ban_id": 38,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_FindXiaoye/Dungeon_A2_FindXiaoye_Release",
+      "main_source": "Dungeon_A2_FindXiaoye_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20040": {
+      "id": 20040,
+      "scene_id": 240,
+      "scene_export_id": 240,
+      "scene_res_name": "上升管道",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_Pipe/Dungeon_A2_Pipe_Release",
+      "main_source": "Dungeon_A2_Pipe_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20041": {
+      "id": 20041,
+      "is_unused": true,
+      "scene_id": 241,
+      "scene_export_id": 203,
+      "scene_res_name": "沙漠之星",
+      "ban_magic": [
+        3
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20042": {
+      "id": 20042,
+      "scene_id": 242,
+      "scene_export_id": 242,
+      "scene_res_name": "斑枭的守护地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_HiddenInWater/Dungeon_A2_HiddenInWater_Release",
+      "main_source": "Dungeon_A2_HiddenInWater_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20043": {
+      "id": 20043,
+      "scene_id": 243,
+      "scene_export_id": 243,
+      "task_scene_group": 1,
+      "scene_res_name": "恩佐的秘密实验室",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A1qingfengsheng_png.img_A1qingfengsheng_png'",
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A1/Dungeon_A1_TQ05_Lab/Dungeon_A1_TQ05_Lab_Release",
+      "main_source": "Dungeon_A1_TQ05_Lab_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20044": {
+      "id": 20044,
+      "scene_id": 244,
+      "scene_export_id": 244,
+      "scene_res_name": "彼得大道码头下水道",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_UnderPipe01/Dungeon_A2_UnderPipe01_Release",
+      "main_source": "Dungeon_A2_UnderPipe01_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20045": {
+      "id": 20045,
+      "scene_id": 245,
+      "scene_export_id": 245,
+      "scene_res_name": "彼得大道广场下水道",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_UnderPipe02/Dungeon_A2_UnderPipe02_Release",
+      "main_source": "Dungeon_A2_UnderPipe02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20046": {
+      "id": 20046,
+      "is_unused": true,
+      "scene_id": 246,
+      "scene_export_id": 203,
+      "scene_res_name": "海岛绿网（测试）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20047": {
+      "id": 20047,
+      "is_unused": true,
+      "scene_id": 247,
+      "scene_export_id": 203,
+      "scene_res_name": "空空颅的蛋（测试）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20048": {
+      "id": 20048,
+      "is_unused": true,
+      "scene_id": 248,
+      "scene_export_id": 203,
+      "scene_res_name": "花怨鳗的蛋（测试）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20049": {
+      "id": 20049,
+      "is_unused": true,
+      "scene_id": 249,
+      "scene_export_id": 203,
+      "task_scene_group": 1,
+      "scene_res_name": "黑巫师之影",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2/Dungeon_A2_RobberBattle/Dungeon_A2_RobberBattle_Release",
+      "main_source": "Dungeon_A2_RobberBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20050": {
+      "id": 20050,
+      "is_unused": true,
+      "scene_id": 250,
+      "scene_export_id": 250,
+      "scene_res_name": "豆丁双子（白盒）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/DemoLevels/Dungeon_A2_Mountaion/Dungeon_A2_Mountaion",
+      "main_source": "Dungeon_A2_Mountaion",
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20051": {
+      "id": 20051,
+      "is_unused": true,
+      "scene_id": 251,
+      "scene_export_id": 251,
+      "scene_res_name": "夜游魔守护地（白盒）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/DemoLevels/Dungeon_A2_Tower/Dungeon_A2_Tower",
+      "main_source": "Dungeon_A2_Tower",
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20052": {
+      "id": 20052,
+      "is_unused": true,
+      "scene_id": 252,
+      "scene_export_id": 252,
+      "scene_res_name": "星云旅者守护地（白盒）",
+      "source": "/Game/ArtRes/Level/Game/Dungeon/DemoLevels/Dungeon_A2_Gravity/Dungeon_A2_Gravity",
+      "main_source": "Dungeon_A2_Gravity",
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20053": {
+      "id": 20053,
+      "scene_id": 253,
+      "scene_export_id": 253,
+      "scene_res_name": "不咕钟的守护地",
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Clock/Dungeon_A2a_Clock_Release",
+      "main_source": "Dungeon_A2a_Clock_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20054": {
+      "id": 20054,
+      "is_unused": true,
+      "scene_id": 254,
+      "scene_export_id": 254,
+      "scene_res_name": "火巨人的守护地",
+      "function_ban_id": 56,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Huojuren/Dungeon_A2a_Huojuren_Release",
+      "main_source": "Dungeon_A2a_Huojuren_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20055": {
+      "id": 20055,
+      "is_unused": true,
+      "scene_id": 255,
+      "scene_export_id": 255,
+      "scene_res_name": "森巨人的守护地",
+      "function_ban_id": 56,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Senjuren/Dungeon_A2a_Senjuren_Release",
+      "main_source": "Dungeon_A2a_Senjuren_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20056": {
+      "id": 20056,
+      "scene_id": 256,
+      "scene_export_id": 256,
+      "scene_res_name": "碎晶蝎的守护地",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_TreasureNight/Dungeon_A2a_TreasureNight_Release",
+      "main_source": "Dungeon_A2a_TreasureNight_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20057": {
+      "id": 20057,
+      "scene_id": 257,
+      "scene_export_id": 257,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower/Dungeon_A2a_MimiFuTower_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20058": {
+      "id": 20058,
+      "scene_id": 258,
+      "scene_export_id": 253,
+      "scene_res_name": "不咕钟的守护地",
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Clock/Dungeon_A2a_Clock_Release",
+      "main_source": "Dungeon_A2a_Clock_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20059": {
+      "id": 20059,
+      "scene_id": 259,
+      "scene_export_id": 253,
+      "scene_res_name": "不咕钟的守护地",
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Clock/Dungeon_A2a_Clock_Release",
+      "main_source": "Dungeon_A2a_Clock_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20060": {
+      "id": 20060,
+      "scene_id": 260,
+      "scene_export_id": 253,
+      "scene_res_name": "不咕钟的守护地",
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Clock/Dungeon_A2a_Clock_Release",
+      "main_source": "Dungeon_A2a_Clock_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20061": {
+      "id": 20061,
+      "scene_id": 261,
+      "scene_export_id": 253,
+      "scene_res_name": "不咕钟的守护地",
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Clock/Dungeon_A2a_Clock_Release",
+      "main_source": "Dungeon_A2a_Clock_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20062": {
+      "id": 20062,
+      "scene_id": 262,
+      "scene_export_id": 262,
+      "scene_res_name": "雪巨人的守护地",
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_WarmHouse/Dungeon_A2a_WarmHouse_Release",
+      "main_source": "Dungeon_A2a_WarmHouse_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20063": {
+      "id": 20063,
+      "scene_id": 263,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20064": {
+      "id": 20064,
+      "scene_id": 264,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20065": {
+      "id": 20065,
+      "scene_id": 265,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20066": {
+      "id": 20066,
+      "scene_id": 266,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20067": {
+      "id": 20067,
+      "scene_id": 267,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20068": {
+      "id": 20068,
+      "scene_id": 268,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20069": {
+      "id": 20069,
+      "scene_id": 269,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20070": {
+      "id": 20070,
+      "scene_id": 270,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20071": {
+      "id": 20071,
+      "scene_id": 271,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20072": {
+      "id": 20072,
+      "scene_id": 272,
+      "scene_export_id": 263,
+      "scene_res_name": "芽眼魔的守护地",
+      "function_ban_id": 57,
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_MimiFuTower_02/Dungeon_A2a_MimiFuTower_02_Release",
+      "main_source": "Dungeon_A2a_MimiFuTower_02_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20073": {
+      "id": 20073,
+      "scene_id": 273,
+      "scene_export_id": 273,
+      "scene_res_name": "火巨人的守护地",
+      "function_ban_id": 56,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7,
+        4
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Huojuren/Dungeon_A2a_Huojuren_Release",
+      "main_source": "Dungeon_A2a_Huojuren_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "20074": {
+      "id": 20074,
+      "scene_id": 274,
+      "scene_export_id": 274,
+      "scene_res_name": "森巨人的守护地",
+      "function_ban_id": 56,
+      "ban_type": [
+        6
+      ],
+      "ban_magic": [
+        3,
+        2,
+        6,
+        7,
+        4
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Dungeon/A2a/Dungeon_A2a_Senjuren/Dungeon_A2a_Senjuren_Release",
+      "main_source": "Dungeon_A2a_Senjuren_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "30001": {
+      "id": 30001,
+      "sub_scene_res_list": [
+        30002
+      ],
+      "scene_id": 301,
+      "scene_export_id": 301,
+      "task_scene_group": 1,
+      "scene_res_name": "家园室内",
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Homeworld/A1_Home/MainLevel_Runtime",
+      "main_source": "MainLevel_Runtime",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "30002": {
+      "id": 30002,
+      "scene_id": 301,
+      "scene_export_id": 2000,
+      "task_scene_group": 1,
+      "scene_res_name": "家园种植园",
+      "ban_magic": [
+        3,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Indoor/Homeworld/Indoor_Homeworld_Plant/Indoor_Homeworld_Plant_Release",
+      "main_source": "Indoor_Homeworld_Plant_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "40001": {
+      "id": 40001,
+      "is_unused": true,
+      "scene_id": 401,
+      "scene_export_id": 401,
+      "scene_res_name": "活动-首领角斗场",
+      "function_ban_id": 28,
+      "source": "/Game/ArtRes/Level/Game/Indoor/A2/Indoor_A2_04/Indoor_A2_04_Release",
+      "ban_ride_socket": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "main_source": "Indoor_A2_04_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 1,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "50001": {
+      "id": 50001,
+      "scene_id": 103,
+      "scene_export_id": 1015,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "箱中研究室",
+      "not_teleport_scene_role_flag": 1531,
+      "world_map_entry_npc_content_id": 6400006,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Laboratory/Season_S1_Laboratory_Release",
+      "main_source": "Season_S1_Laboratory_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "50002": {
+      "id": 50002,
+      "scene_id": 103,
+      "scene_export_id": 1016,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "机幕方舟马戏团",
+      "not_teleport_scene_role_flag": 1534,
+      "world_map_entry_npc_content_id": 6400014,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S2/Season_S2_Circus/Season_S2_Circus_Release",
+      "main_source": "Season_S2_Circus_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Season_S2_Circus_LMP_Off_Lights;Season_S2_Circus_LMP_On_Lights",
+      "default_load_sublevel_path": "Season_S2_Circus_LMP_Off_Lights",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "50003": {
+      "id": 50003,
+      "scene_id": 103,
+      "scene_export_id": 1017,
+      "is_sub_scene": true,
+      "task_scene_group": 1,
+      "scene_res_name": "智慧出版社",
+      "not_teleport_scene_role_flag": 1535,
+      "world_map_entry_npc_content_id": 6400019,
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "ban_magic": [
+        3
+      ],
+      "ban_roleplay_tools": [
+        68007
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S3/Season_S3_Press/Season_S3_Press_Release",
+      "main_source": "Season_S3_Press_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "60001": {
+      "id": 60001,
+      "scene_id": 601,
+      "scene_export_id": 601,
+      "scene_res_name": "野外研究院",
+      "source": "/Game/ArtRes/Asset/Map_WhiteBox/Map/howsonguo/caoxihuizhang01",
+      "main_source": "caoxihuizhang01",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "60002": {
+      "id": 60002,
+      "scene_id": 602,
+      "scene_export_id": 602,
+      "scene_res_name": "野外研究院BOSS战",
+      "source": "/Game/ArtRes/Asset/Map_WhiteBox/Map/howsonguo/caoxihuizhang03",
+      "main_source": "caoxihuizhang03",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "60003": {
+      "id": 60003,
+      "scene_id": 603,
+      "scene_export_id": 603,
+      "scene_res_name": "横版场景",
+      "source": "/Game/ArtRes/Asset/Map_WhiteBox/Map/howsonguo/caoxihuizhang02",
+      "main_source": "caoxihuizhang02",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "60004": {
+      "id": 60004,
+      "is_unused": true,
+      "scene_id": 604,
+      "scene_export_id": 604,
+      "scene_res_name": "草系徽章挑战入口场景",
+      "source": "/Game/ArtRes/Asset/Map_WhiteBox/Map/howsonguo/caoxihuizhang04",
+      "main_source": "caoxihuizhang04",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true
+    },
+    "60005": {
+      "id": 60005,
+      "scene_id": 603,
+      "scene_export_id": 1035,
+      "scene_res_name": "记忆中的索米亚草原",
+      "ban_magic": [
+        1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Gameplay/Grasstrial/Gameplay_Grasstrial_SMYCY_Platform/Gameplay_Grasstrial_SMYCY_Platform_Release",
+      "main_source": "Gameplay_Grasstrial_SMYCY_Platform_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "scene_view_list": [
+        1
+      ],
+      "scene_view_params_list": [
+        "caoxihuizhang"
+      ],
+      "scene_view_yaw_list": [
+        -90
+      ],
+      "ban_sceneability_list": [
+        1300020
+      ]
+    },
+    "60006": {
+      "id": 60006,
+      "scene_id": 605,
+      "scene_export_id": 605,
+      "scene_res_name": "记忆中的巨石阵",
+      "ban_magic": [
+        1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Gameplay/Grasstrial/Gameplay_Grasstrial_JSZ_Platform/Gameplay_Grasstrial_JSZ_Platform_Release",
+      "main_source": "Gameplay_Grasstrial_JSZ_Platform_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "scene_view_list": [
+        1
+      ],
+      "scene_view_params_list": [
+        "caoxihuizhang"
+      ],
+      "scene_view_yaw_list": [
+        -90
+      ],
+      "ban_sceneability_list": [
+        1300020
+      ]
+    },
+    "60007": {
+      "id": 60007,
+      "scene_id": 606,
+      "scene_export_id": 606,
+      "scene_res_name": "记忆中的普拉塔草原",
+      "ban_magic": [
+        1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Gameplay/Grasstrial/Gameplay_Grasstrial_PLTCY_Platform/Gameplay_Grasstrial_PLTCY_Platform_Release",
+      "main_source": "Gameplay_Grasstrial_PLTCY_Platform_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200,
+      "scene_view_list": [
+        1
+      ],
+      "scene_view_params_list": [
+        "caoxihuizhang"
+      ],
+      "scene_view_yaw_list": [
+        -90
+      ],
+      "ban_sceneability_list": [
+        1300020
+      ]
+    },
+    "60008": {
+      "id": 60008,
+      "scene_id": 601,
+      "scene_export_id": 1036,
+      "scene_res_name": "草系徽章-野外研究院",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "source": "/Game/ArtRes/Level/Game/Gameplay/Grasstrial/Gameplay_Grasstrial_YWYJY/Gameplay_Grasstrial_YWYJY_Release",
+      "main_source": "Gameplay_Grasstrial_YWYJY_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "60009": {
+      "id": 60009,
+      "scene_id": 602,
+      "scene_export_id": 1037,
+      "scene_res_name": "草系徽章-野外研究院BOSS战",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "source": "/Game/ArtRes/Level/Game/Gameplay/Grasstrial/Gameplay_Grasstrial_YWYJY_Battle/Gameplay_Grasstrial_YWYJY_Battle_Release",
+      "main_source": "Gameplay_Grasstrial_YWYJY_Battle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "80001": {
+      "id": 80001,
+      "scene_id": 801,
+      "scene_export_id": 801,
+      "scene_res_name": "特效验证测试环境",
+      "source": "/Game/ArtRes/Temp/Effect_Test/Level/L_Bigworld_main_vfx",
+      "main_source": "L_Bigworld_main_vfx",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 1,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "90001": {
+      "id": 90001,
+      "scene_id": 901,
+      "scene_export_id": 901,
+      "scene_res_name": "性能测试空大世界",
+      "source": "/Game/ArtRes/Level/SkillPerform/TestWorld2",
+      "main_source": "TestWorld2",
+      "build_package_option": 1,
+      "world_width": 279400.0,
+      "world_top_left_x": 244500.0,
+      "world_top_left_y": 515400.0,
+      "minimap_zoom": 0.07,
+      "x_size": 2000,
+      "y_size": 2000,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100001": {
+      "id": 100001,
+      "is_unused": true,
+      "scene_id": 501,
+      "scene_export_id": 2001,
+      "scene_res_name": "记忆中的黑巫团基地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 45,
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Day05/Season_S1_Day05_Release",
+      "main_source": "Season_S1_Day05_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100002": {
+      "id": 100002,
+      "is_unused": true,
+      "scene_id": 103,
+      "scene_export_id": 2002,
+      "scene_res_name": "记忆中的魔力果之森",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 45,
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Day09/Season_S1_Day09_Release",
+      "main_source": "Season_S1_Day09_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100003": {
+      "id": 100003,
+      "is_unused": true,
+      "scene_id": 503,
+      "scene_export_id": 2003,
+      "scene_res_name": "记忆中的精灵农场",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 45,
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Day13/Season_S1_Day13_Release",
+      "main_source": "Season_S1_Day13_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100004": {
+      "id": 100004,
+      "is_unused": true,
+      "scene_id": 103,
+      "scene_export_id": 2004,
+      "scene_res_name": "记忆中的魔力果之森",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 45,
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Day17/Season_S1_Day17_Release",
+      "main_source": "Season_S1_Day17_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100005": {
+      "id": 100005,
+      "is_unused": true,
+      "scene_id": 103,
+      "scene_export_id": 2005,
+      "scene_res_name": "噩梦龙息帕尔领地",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 45,
+      "ban_type": [
+        6,
+        1,
+        4,
+        8,
+        14
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/Season_S1_Day21/Season_S1_Day21_Release",
+      "main_source": "Season_S1_Day21_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100006": {
+      "id": 100006,
+      "scene_id": 506,
+      "scene_export_id": 2006,
+      "scene_res_name": "高空钢索表演",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 49,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7,
+        1
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S2/Season_S2_Dungeon_Line/Season_S2_Dungeon_Line_Release",
+      "main_source": "Season_S2_Dungeon_Line_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100007": {
+      "id": 100007,
+      "scene_id": 507,
+      "scene_export_id": 2007,
+      "scene_res_name": "大排练室",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 51,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7,
+        1
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S2/Season_S2_Dungeon_Box/Season_S2_Dungeon_Box_Release",
+      "main_source": "Season_S2_Dungeon_Box_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100008": {
+      "id": 100008,
+      "scene_id": 508,
+      "scene_export_id": 2008,
+      "scene_res_name": "绒雪盛典",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 52,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S2/Season_S2_Dungeon_Snow/Season_S2_Dungeon_Snow_Release",
+      "main_source": "Season_S2_Dungeon_Snow_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100009": {
+      "id": 100009,
+      "scene_id": 509,
+      "scene_export_id": 2009,
+      "scene_res_name": "供电室",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 50,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7,
+        1
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S2/Season_S2_Dungeon_Poison/Season_S2_Dungeon_Poison_Release",
+      "main_source": "Season_S2_Dungeon_Poison_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "all_dynamic_load_sublevel_path": "Season_S2_Dungeon_Poison_LMP_off_Lights;Season_S2_Dungeon_Poison_LMP_on_Lights",
+      "default_load_sublevel_path": "Season_S2_Dungeon_Poison_LMP_off_Lights",
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100010": {
+      "id": 100010,
+      "scene_id": 510,
+      "scene_export_id": 2010,
+      "scene_res_name": "扭曲出版社",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 53,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S3/Season_S3_Jiaer/Season_S3_Jiaer_Release",
+      "main_source": "Season_S3_Jiaer_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    },
+    "100011": {
+      "id": 100011,
+      "scene_id": 511,
+      "scene_export_id": 2011,
+      "scene_res_name": "黑加尔创造的神秘空间",
+      "main_map_res_path": "PaperSprite'/Game/NewRoco/Modules/System/MainUI/Raw/Atlas/MainUIStatic/Frames/img_A2wangguojun_png.img_A2wangguojun_png'",
+      "function_ban_id": 53,
+      "ban_type": [
+        6,
+        8,
+        14,
+        4
+      ],
+      "ban_magic": [
+        3,
+        2,
+        4,
+        6,
+        7,
+        1
+      ],
+      "ban_roleplay_tools": [
+        -1
+      ],
+      "source": "/Game/ArtRes/Level/Game/Season/S3/Season_S3_FinalBattle/Season_S3_FinalBattle_Release",
+      "main_source": "Season_S3_FinalBattle_Release",
+      "build_battlefield_and_envinfo": true,
+      "build_physx": true,
+      "build_package_option": 2,
+      "offset_x": 3450,
+      "offset_y": 3450,
+      "tile_size": 25200
+    }
+  }
+}

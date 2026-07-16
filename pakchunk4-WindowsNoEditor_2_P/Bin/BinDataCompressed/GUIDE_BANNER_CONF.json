@@ -1,0 +1,34 @@
+{
+  "RocoDataRows": {
+    "200201": {
+      "id": 200201,
+      "pc_text": "",
+      "mobile_text": ""
+    },
+    "200604": {
+      "id": 200604,
+      "pc_text": "",
+      "mobile_text": ""
+    },
+    "300101": {
+      "id": 300101,
+      "pc_text": "",
+      "mobile_text": ""
+    },
+    "500202": {
+      "id": 500202,
+      "pc_text": "",
+      "mobile_text": ""
+    },
+    "500207": {
+      "id": 500207,
+      "pc_text": "",
+      "mobile_text": ""
+    },
+    "500303": {
+      "id": 500303,
+      "pc_text": "",
+      "mobile_text": ""
+    }
+  }
+}

@@ -154,3 +154,8 @@ message WorldMapAutoTrackNpcInfo {
   uint64 npc_logic_id = 1;
   Next.Position pos = 2;
 }
+
+message SpecialMapNpcEntry {
+  int32 map_show_type = 1;
+  repeated Next.WorldMapNpcInfo npc_infos = 2;
+}

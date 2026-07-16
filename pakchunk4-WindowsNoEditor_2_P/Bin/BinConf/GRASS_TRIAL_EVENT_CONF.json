@@ -1,0 +1,98 @@
+{
+  "Name": "GRASS_TRIAL_EVENT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "icon",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "level",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "type",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "param1",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "param2",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "param3",
+      "Type": "EUint32",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "coin",
+      "Type": "EUint32",
+      "Offset": 32,
+      "Size": 4
+    },
+    {
+      "Name": "refresh_cost",
+      "Type": "EInt32",
+      "Offset": 36,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "reset_cost",
+      "Type": "EInt32",
+      "Offset": 40,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "extra_reward",
+      "Type": "EUint32",
+      "Offset": 44,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "desc",
+      "Type": "EString",
+      "Offset": 48,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

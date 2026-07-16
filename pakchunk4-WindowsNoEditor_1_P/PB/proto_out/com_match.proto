@@ -45,6 +45,7 @@ message MatchInfo {
   int32 pvp_team_score = 23;
   Next.Pvp_MuteGroups self_mute_groups = 25;
   repeated Next.Pvp_MuteGroups same_team_mute_groups = 26;
+  uint32 activity_remain_use_count = 27;
 }
 
 message MatchSuccInfo {
@@ -62,4 +63,5 @@ message MatchSuccInfo {
   int32 pvp_rank_season_max_star = 12;
   int32 welfare_team_role_magic_id = 13;
   int32 welfare_team_cnt = 14;
+  uint32 activity_remain_use_count = 15;
 }

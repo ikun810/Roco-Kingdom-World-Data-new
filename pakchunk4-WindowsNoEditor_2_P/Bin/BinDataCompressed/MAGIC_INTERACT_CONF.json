@@ -1,0 +1,7132 @@
+{
+  "RocoDataRows": {
+    "10001": {
+      "id": 10001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "10002": {
+      "id": 10002,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "611172"
+        }
+      ]
+    },
+    "10003": {
+      "id": 10003,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10079,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10079,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10079,
+          "action_param1": "611172"
+        }
+      ]
+    },
+    "10004": {
+      "id": 10004,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10085,
+          "action_param1": "601024"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10085,
+          "action_param1": "601024"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10085,
+          "action_param1": "601024"
+        }
+      ]
+    },
+    "10005": {
+      "id": 10005,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10086,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10086,
+          "action_param1": "611172"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10086,
+          "action_param1": "611172"
+        }
+      ]
+    },
+    "10006": {
+      "id": 10006,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10085,
+          "action_param1": "601025"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10085,
+          "action_param1": "601025"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10085,
+          "action_param1": "601025"
+        }
+      ]
+    },
+    "10007": {
+      "id": 10007,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 4,
+          "action_type": 10085,
+          "action_param1": "601026"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 4,
+          "action_type": 10085,
+          "action_param1": "601026"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 4,
+          "action_type": 10085,
+          "action_param1": "601026"
+        }
+      ]
+    },
+    "10008": {
+      "id": 10008,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1"
+        }
+      ]
+    },
+    "10009": {
+      "id": 10009,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "2"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "2"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "2"
+        }
+      ]
+    },
+    "10010": {
+      "id": 10010,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "3"
+        },
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "3"
+        },
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "3"
+        }
+      ]
+    },
+    "10012": {
+      "id": 10012,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "4"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "4"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "4"
+        }
+      ]
+    },
+    "10013": {
+      "id": 10013,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "5"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "5"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "5"
+        }
+      ]
+    },
+    "10014": {
+      "id": 10014,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "6"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "6"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "6"
+        }
+      ]
+    },
+    "10015": {
+      "id": 10015,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "7"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "7"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "7"
+        }
+      ]
+    },
+    "10016": {
+      "id": 10016,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "8"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "8"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "8"
+        }
+      ]
+    },
+    "10017": {
+      "id": 10017,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "9"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "9"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "9"
+        }
+      ]
+    },
+    "10018": {
+      "id": 10018,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10076,
+          "action_param1": "120000001"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10076,
+          "action_param1": "120000001"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10076,
+          "action_param1": "120000001"
+        }
+      ]
+    },
+    "10019": {
+      "id": 10019,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10020": {
+      "id": 10020,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10021": {
+      "id": 10021,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10022": {
+      "id": 10022,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10023": {
+      "id": 10023,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10024": {
+      "id": 10024,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10025": {
+      "id": 10025,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10026": {
+      "id": 10026,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10027": {
+      "id": 10027,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10028": {
+      "id": 10028,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10029": {
+      "id": 10029,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10030": {
+      "id": 10030,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10031": {
+      "id": 10031,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10032": {
+      "id": 10032,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10033": {
+      "id": 10033,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10034": {
+      "id": 10034,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10035": {
+      "id": 10035,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10036": {
+      "id": 10036,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10037": {
+      "id": 10037,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10038": {
+      "id": 10038,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10039": {
+      "id": 10039,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10040": {
+      "id": 10040,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10041": {
+      "id": 10041,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10042": {
+      "id": 10042,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10043": {
+      "id": 10043,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10044": {
+      "id": 10044,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10045": {
+      "id": 10045,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10046": {
+      "id": 10046,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10047": {
+      "id": 10047,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10048": {
+      "id": 10048,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10049": {
+      "id": 10049,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10050": {
+      "id": 10050,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10051": {
+      "id": 10051,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10052": {
+      "id": 10052,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10053": {
+      "id": 10053,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10054": {
+      "id": 10054,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10055": {
+      "id": 10055,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10056": {
+      "id": 10056,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10057": {
+      "id": 10057,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10058": {
+      "id": 10058,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10059": {
+      "id": 10059,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10060": {
+      "id": 10060,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10061": {
+      "id": 10061,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10062": {
+      "id": 10062,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10063": {
+      "id": 10063,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10064": {
+      "id": 10064,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10065": {
+      "id": 10065,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10066": {
+      "id": 10066,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10067": {
+      "id": 10067,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10068": {
+      "id": 10068,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10069": {
+      "id": 10069,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10070": {
+      "id": 10070,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10071": {
+      "id": 10071,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10072": {
+      "id": 10072,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10073": {
+      "id": 10073,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10074": {
+      "id": 10074,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10075": {
+      "id": 10075,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10076": {
+      "id": 10076,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10077": {
+      "id": 10077,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10078": {
+      "id": 10078,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10079": {
+      "id": 10079,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10080": {
+      "id": 10080,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10081": {
+      "id": 10081,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10082": {
+      "id": 10082,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10083": {
+      "id": 10083,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10084": {
+      "id": 10084,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10085": {
+      "id": 10085,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10086": {
+      "id": 10086,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10087": {
+      "id": 10087,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10088": {
+      "id": 10088,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10089": {
+      "id": 10089,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10090": {
+      "id": 10090,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10091": {
+      "id": 10091,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10092": {
+      "id": 10092,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10093": {
+      "id": 10093,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10094": {
+      "id": 10094,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10095": {
+      "id": 10095,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10096": {
+      "id": 10096,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10097": {
+      "id": 10097,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10098": {
+      "id": 10098,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10099": {
+      "id": 10099,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10100": {
+      "id": 10100,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10101": {
+      "id": 10101,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10102": {
+      "id": 10102,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10103": {
+      "id": 10103,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10104": {
+      "id": 10104,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10105": {
+      "id": 10105,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10106": {
+      "id": 10106,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10107": {
+      "id": 10107,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10108": {
+      "id": 10108,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10109": {
+      "id": 10109,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10110": {
+      "id": 10110,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10111": {
+      "id": 10111,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10112": {
+      "id": 10112,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10113": {
+      "id": 10113,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10114": {
+      "id": 10114,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10115": {
+      "id": 10115,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10116": {
+      "id": 10116,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10117": {
+      "id": 10117,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10118": {
+      "id": 10118,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10119": {
+      "id": 10119,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10120": {
+      "id": 10120,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10121": {
+      "id": 10121,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10122": {
+      "id": 10122,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10123": {
+      "id": 10123,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10124": {
+      "id": 10124,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10125": {
+      "id": 10125,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10126": {
+      "id": 10126,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10127": {
+      "id": 10127,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10128": {
+      "id": 10128,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10129": {
+      "id": 10129,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10130": {
+      "id": 10130,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10131": {
+      "id": 10131,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10132": {
+      "id": 10132,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10133": {
+      "id": 10133,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10134": {
+      "id": 10134,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10135": {
+      "id": 10135,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10136": {
+      "id": 10136,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10137": {
+      "id": 10137,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10138": {
+      "id": 10138,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10139": {
+      "id": 10139,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10140": {
+      "id": 10140,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10141": {
+      "id": 10141,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10142": {
+      "id": 10142,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10143": {
+      "id": 10143,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10144": {
+      "id": 10144,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10145": {
+      "id": 10145,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10146": {
+      "id": 10146,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10147": {
+      "id": 10147,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10148": {
+      "id": 10148,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10149": {
+      "id": 10149,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10150": {
+      "id": 10150,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10151": {
+      "id": 10151,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10152": {
+      "id": 10152,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10153": {
+      "id": 10153,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10154": {
+      "id": 10154,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10155": {
+      "id": 10155,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10156": {
+      "id": 10156,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10157": {
+      "id": 10157,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10158": {
+      "id": 10158,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10159": {
+      "id": 10159,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10160": {
+      "id": 10160,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10161": {
+      "id": 10161,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10162": {
+      "id": 10162,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10163": {
+      "id": 10163,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10164": {
+      "id": 10164,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10165": {
+      "id": 10165,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10166": {
+      "id": 10166,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10167": {
+      "id": 10167,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10168": {
+      "id": 10168,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10169": {
+      "id": 10169,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10170": {
+      "id": 10170,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10171": {
+      "id": 10171,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10172": {
+      "id": 10172,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10173": {
+      "id": 10173,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10174": {
+      "id": 10174,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10175": {
+      "id": 10175,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10176": {
+      "id": 10176,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10177": {
+      "id": 10177,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10178": {
+      "id": 10178,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10179": {
+      "id": 10179,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10180": {
+      "id": 10180,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10181": {
+      "id": 10181,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        }
+      ]
+    },
+    "10182": {
+      "id": 10182,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        }
+      ]
+    },
+    "10183": {
+      "id": 10183,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10088,
+          "action_param1": "1"
+        }
+      ]
+    },
+    "10184": {
+      "id": 10184,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10185": {
+      "id": 10185,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087
+        }
+      ]
+    },
+    "10186": {
+      "id": 10186,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611178"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611178"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611178"
+        }
+      ]
+    },
+    "10187": {
+      "id": 10187,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "10188": {
+      "id": 10188,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "10189": {
+      "id": 10189,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "200000140"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "200000140"
+        }
+      ]
+    },
+    "10190": {
+      "id": 10190,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "200000150"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "200000150"
+        }
+      ]
+    },
+    "10192": {
+      "id": 10192,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611182"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611182"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611182"
+        }
+      ]
+    },
+    "10193": {
+      "id": 10193,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611222"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611222"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "611222"
+        }
+      ]
+    },
+    "10194": {
+      "id": 10194,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "550000302"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "550000302"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "550000302"
+        }
+      ]
+    },
+    "11001": {
+      "id": 11001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1001"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1001"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "1001"
+        }
+      ]
+    },
+    "20001": {
+      "id": 20001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300004"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300004"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300004"
+        }
+      ]
+    },
+    "20002": {
+      "id": 20002,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300005"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300005"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300005"
+        }
+      ]
+    },
+    "20003": {
+      "id": 20003,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000003"
+        }
+      ]
+    },
+    "20004": {
+      "id": 20004,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000004"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000004"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000004"
+        }
+      ]
+    },
+    "20005": {
+      "id": 20005,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "10"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "10"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "10"
+        }
+      ]
+    },
+    "20009": {
+      "id": 20009,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "11"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "11"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "11"
+        }
+      ]
+    },
+    "20010": {
+      "id": 20010,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "12"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "12"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "12"
+        }
+      ]
+    },
+    "20014": {
+      "id": 20014,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "20015": {
+      "id": 20015,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "120000056"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "120000056"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 21,
+          "action_param1": "120000056"
+        }
+      ]
+    },
+    "20016": {
+      "id": 20016,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001076"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001076"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001076"
+        }
+      ]
+    },
+    "20027": {
+      "id": 20027,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001083"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001083"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "1200589",
+          "action_param2": "120001083"
+        }
+      ]
+    },
+    "20028": {
+      "id": 20028,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10078,
+          "action_param1": "120000002"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10078,
+          "action_param1": "120000002"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10078,
+          "action_param1": "120000002"
+        }
+      ]
+    },
+    "20029": {
+      "id": 20029,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300153"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300153"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300153"
+        }
+      ]
+    },
+    "20031": {
+      "id": 20031,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300155"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300155"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300155"
+        }
+      ]
+    },
+    "20032": {
+      "id": 20032,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300157"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300157"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300157"
+        }
+      ]
+    },
+    "20033": {
+      "id": 20033,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300158"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300158"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300158"
+        }
+      ]
+    },
+    "20034": {
+      "id": 20034,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300162"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300162"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300162"
+        }
+      ]
+    },
+    "20035": {
+      "id": 20035,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300160"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300160"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300160"
+        }
+      ]
+    },
+    "20036": {
+      "id": 20036,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        }
+      ]
+    },
+    "20037": {
+      "id": 20037,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300199"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300199"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300199"
+        }
+      ]
+    },
+    "20038": {
+      "id": 20038,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        }
+      ]
+    },
+    "20039": {
+      "id": 20039,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        }
+      ]
+    },
+    "20040": {
+      "id": 20040,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300171"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300171"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300171"
+        }
+      ]
+    },
+    "20042": {
+      "id": 20042,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "263"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "263"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "263"
+        }
+      ]
+    },
+    "20043": {
+      "id": 20043,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "264"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "264"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "264"
+        }
+      ]
+    },
+    "20044": {
+      "id": 20044,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "265"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "265"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "265"
+        }
+      ]
+    },
+    "20045": {
+      "id": 20045,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "266"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "266"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "266"
+        }
+      ]
+    },
+    "20046": {
+      "id": 20046,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        }
+      ]
+    },
+    "20047": {
+      "id": 20047,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "268"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "268"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "268"
+        }
+      ]
+    },
+    "20048": {
+      "id": 20048,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "269"
+        }
+      ]
+    },
+    "20049": {
+      "id": 20049,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300301"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300301"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300301"
+        }
+      ]
+    },
+    "20050": {
+      "id": 20050,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        }
+      ]
+    },
+    "20051": {
+      "id": 20051,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "270"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "270"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "270"
+        }
+      ]
+    },
+    "20052": {
+      "id": 20052,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300198"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300198"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300198"
+        }
+      ]
+    },
+    "20053": {
+      "id": 20053,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "271"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "271"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "271"
+        }
+      ]
+    },
+    "20054": {
+      "id": 20054,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "272"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "272"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "272"
+        }
+      ]
+    },
+    "20055": {
+      "id": 20055,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300302"
+        }
+      ]
+    },
+    "20056": {
+      "id": 20056,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "273"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "273"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "273"
+        }
+      ]
+    },
+    "20057": {
+      "id": 20057,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000009"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000009"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000009"
+        }
+      ]
+    },
+    "20058": {
+      "id": 20058,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000010"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000010"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000010"
+        }
+      ]
+    },
+    "20059": {
+      "id": 20059,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000011"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000011"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000011"
+        }
+      ]
+    },
+    "20060": {
+      "id": 20060,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "301"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "301"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "301"
+        }
+      ]
+    },
+    "20061": {
+      "id": 20061,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "302"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "302"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 10087,
+          "action_param1": "302"
+        }
+      ]
+    },
+    "20062": {
+      "id": 20062,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "303"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "303"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "303"
+        }
+      ]
+    },
+    "20063": {
+      "id": 20063,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "304"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "304"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "304"
+        }
+      ]
+    },
+    "20064": {
+      "id": 20064,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "305"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "305"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "305"
+        }
+      ]
+    },
+    "20065": {
+      "id": 20065,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "306"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "306"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "306"
+        }
+      ]
+    },
+    "20066": {
+      "id": 20066,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "307"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "307"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "307"
+        }
+      ]
+    },
+    "20067": {
+      "id": 20067,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000012"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000012"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000012"
+        }
+      ]
+    },
+    "20068": {
+      "id": 20068,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000013"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000013"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000013"
+        }
+      ]
+    },
+    "20069": {
+      "id": 20069,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000014"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000014"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000014"
+        }
+      ]
+    },
+    "20070": {
+      "id": 20070,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        }
+      ]
+    },
+    "20071": {
+      "id": 20071,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300459"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300459"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300459"
+        }
+      ]
+    },
+    "20072": {
+      "id": 20072,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300608"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300608"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300608"
+        }
+      ]
+    },
+    "20073": {
+      "id": 20073,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300609"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300609"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300609"
+        }
+      ]
+    },
+    "20074": {
+      "id": 20074,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300613"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300613"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300613"
+        }
+      ]
+    },
+    "20075": {
+      "id": 20075,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "308"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "308"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "308"
+        }
+      ]
+    },
+    "20076": {
+      "id": 20076,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300696"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300696"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300696"
+        }
+      ]
+    },
+    "20077": {
+      "id": 20077,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300697"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300697"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300697"
+        }
+      ]
+    },
+    "20078": {
+      "id": 20078,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300700"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300700"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300700"
+        }
+      ]
+    },
+    "20079": {
+      "id": 20079,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        }
+      ]
+    },
+    "20080": {
+      "id": 20080,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300698"
+        }
+      ]
+    },
+    "20081": {
+      "id": 20081,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300742"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300742"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300742"
+        }
+      ]
+    },
+    "20082": {
+      "id": 20082,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300734"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300734"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300734"
+        }
+      ]
+    },
+    "20083": {
+      "id": 20083,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000025"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000025"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000025"
+        }
+      ]
+    },
+    "20084": {
+      "id": 20084,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000026"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000026"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000026"
+        }
+      ]
+    },
+    "20085": {
+      "id": 20085,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000027"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000027"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000027"
+        }
+      ]
+    },
+    "20086": {
+      "id": 20086,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "20087": {
+      "id": 20087,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1
+        }
+      ]
+    },
+    "20088": {
+      "id": 20088,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30002
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 30002
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 30002
+        }
+      ]
+    },
+    "20089": {
+      "id": 20089,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "313"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "313"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "313"
+        }
+      ]
+    },
+    "20090": {
+      "id": 20090,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "314"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "314"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10087,
+          "action_param1": "314"
+        }
+      ]
+    },
+    "20093": {
+      "id": 20093,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301338"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301338"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301338"
+        }
+      ]
+    },
+    "20094": {
+      "id": 20094,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301335"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301335"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301335"
+        }
+      ]
+    },
+    "20095": {
+      "id": 20095,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301336"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301336"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301336"
+        }
+      ]
+    },
+    "20096": {
+      "id": 20096,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301369"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301369"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1301369"
+        }
+      ]
+    },
+    "20098": {
+      "id": 20098,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601095"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601095"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601095"
+        }
+      ]
+    },
+    "20099": {
+      "id": 20099,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "601096"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "601096"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10078,
+          "action_param1": "601096"
+        }
+      ]
+    },
+    "20100": {
+      "id": 20100,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601097"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601097"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601097"
+        }
+      ]
+    },
+    "20101": {
+      "id": 20101,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300143"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300143"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300143"
+        }
+      ]
+    },
+    "20102": {
+      "id": 20102,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901164"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901164"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901164"
+        }
+      ]
+    },
+    "20103": {
+      "id": 20103,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901163"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901163"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901163"
+        }
+      ]
+    },
+    "20104": {
+      "id": 20104,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901178"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901178"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "2901178"
+        }
+      ]
+    },
+    "20105": {
+      "id": 20105,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300233"
+        }
+      ]
+    },
+    "20106": {
+      "id": 20106,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300183"
+        }
+      ]
+    },
+    "20107": {
+      "id": 20107,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300287"
+        }
+      ]
+    },
+    "20108": {
+      "id": 20108,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "1300322"
+        }
+      ]
+    },
+    "20109": {
+      "id": 20109,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000038"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000038"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000038"
+        }
+      ]
+    },
+    "20201": {
+      "id": 20201,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000036"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000036"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000036"
+        }
+      ]
+    },
+    "20202": {
+      "id": 20202,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000037"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000037"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000037"
+        }
+      ]
+    },
+    "20203": {
+      "id": 20203,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 204
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 204
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 204
+        }
+      ]
+    },
+    "20204": {
+      "id": 20204,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700406",
+          "action_param2": "33435"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700406",
+          "action_param2": "33435"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700406",
+          "action_param2": "33435"
+        }
+      ]
+    },
+    "20205": {
+      "id": 20205,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700409",
+          "action_param2": "33436"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700409",
+          "action_param2": "33436"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700409",
+          "action_param2": "33436"
+        }
+      ]
+    },
+    "20206": {
+      "id": 20206,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700413",
+          "action_param2": "33437"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700413",
+          "action_param2": "33437"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10074,
+          "action_param1": "3700413",
+          "action_param2": "33437"
+        }
+      ]
+    },
+    "20207": {
+      "id": 20207,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 130
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 130
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 130
+        }
+      ]
+    },
+    "20208": {
+      "id": 20208,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10098,
+          "action_param1": "4300336;1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10098,
+          "action_param1": "4300336;1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10098,
+          "action_param1": "4300336;1"
+        }
+      ]
+    },
+    "20209": {
+      "id": 20209,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20210": {
+      "id": 20210,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20211": {
+      "id": 20211,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20212": {
+      "id": 20212,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20213": {
+      "id": 20213,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20214": {
+      "id": 20214,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20215": {
+      "id": 20215,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20216": {
+      "id": 20216,
+      "action_struct": [
+        {
+          "magic_id": 21,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 22,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 23,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20217": {
+      "id": 20217,
+      "action_struct": [
+        {
+          "magic_id": 21,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 22,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 23,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20218": {
+      "id": 20218,
+      "action_struct": [
+        {
+          "magic_id": 21,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 22,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 23,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "20300": {
+      "id": 20300,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1"
+        }
+      ]
+    },
+    "20301": {
+      "id": 20301,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        }
+      ]
+    },
+    "20500": {
+      "id": 20500,
+      "action_struct": [
+        {
+          "magic_id": 21,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        },
+        {
+          "magic_id": 22,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        },
+        {
+          "magic_id": 23,
+          "magic_charge_level": 1,
+          "action_type": 10098
+        }
+      ]
+    },
+    "20501": {
+      "id": 20501,
+      "action_struct": [
+        {
+          "magic_id": 21,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 22,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 23,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "30001": {
+      "id": 30001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "309"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "309"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "309"
+        }
+      ]
+    },
+    "30002": {
+      "id": 30002,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "310"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "310"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "310"
+        }
+      ]
+    },
+    "30003": {
+      "id": 30003,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10099
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10099
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10099
+        }
+      ]
+    },
+    "30004": {
+      "id": 30004,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        }
+      ]
+    },
+    "30005": {
+      "id": 30005,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "311"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "311"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "311"
+        }
+      ]
+    },
+    "30006": {
+      "id": 30006,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "312"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "312"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "312"
+        }
+      ]
+    },
+    "30007": {
+      "id": 30007,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "315"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "315"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10087,
+          "action_param1": "315"
+        }
+      ]
+    },
+    "30008": {
+      "id": 30008,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000034"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000034"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10093,
+          "action_param1": "120000034"
+        }
+      ]
+    },
+    "30009": {
+      "id": 30009,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "30010": {
+      "id": 30010,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "30015": {
+      "id": 30015,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "horizontal_effective_angle": [
+            120,
+            -120
+          ],
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "horizontal_effective_angle": [
+            120,
+            -120
+          ],
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "horizontal_effective_angle": [
+            120,
+            -120
+          ],
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "30016": {
+      "id": 30016,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "z_axis_effective_angle": 60,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "z_axis_effective_angle": 60,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "z_axis_effective_angle": 60,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "30017": {
+      "id": 30017,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10144,
+          "action_param1": "-500"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10144,
+          "action_param1": "-500"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10144,
+          "action_param1": "-500"
+        }
+      ]
+    },
+    "30020": {
+      "id": 30020,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10100
+        }
+      ]
+    },
+    "38001": {
+      "id": 38001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10040,
+          "action_param1": "601008"
+        },
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1
+        }
+      ]
+    },
+    "40001": {
+      "id": 40001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1
+        }
+      ]
+    },
+    "100001": {
+      "id": 100001,
+      "action_struct": [
+        {
+          "magic_id": 31,
+          "magic_charge_level": 1,
+          "action_type": 10145
+        }
+      ]
+    },
+    "100002": {
+      "id": 100002,
+      "action_struct": [
+        {
+          "magic_id": 31,
+          "magic_charge_level": 1,
+          "action_type": 10146
+        },
+        {
+          "magic_id": 32,
+          "magic_charge_level": 1,
+          "action_type": 10145
+        },
+        {
+          "magic_id": 33,
+          "magic_charge_level": 1,
+          "action_type": 10145
+        }
+      ]
+    },
+    "100003": {
+      "id": 100003,
+      "action_struct": [
+        {
+          "magic_id": 31,
+          "magic_charge_level": 1,
+          "action_type": 10146
+        },
+        {
+          "magic_id": 32,
+          "magic_charge_level": 1,
+          "action_type": 10145
+        },
+        {
+          "magic_id": 33,
+          "magic_charge_level": 1,
+          "action_type": 10145
+        }
+      ]
+    },
+    "300001": {
+      "id": 300001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "300002": {
+      "id": 300002,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10168
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10168
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10168
+        }
+      ]
+    },
+    "300003": {
+      "id": 300003,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10164
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10164
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10164
+        }
+      ]
+    },
+    "300004": {
+      "id": 300004,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 240
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 240
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 240
+        }
+      ]
+    },
+    "750001": {
+      "id": 750001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        }
+      ]
+    },
+    "750002": {
+      "id": 750002,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 30003,
+          "action_param1": "1",
+          "action_param2": "1"
+        }
+      ]
+    },
+    "20231160": {
+      "id": 20231160,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900064"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900064"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900064"
+        }
+      ]
+    },
+    "20231161": {
+      "id": 20231161,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900065"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900065"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900065"
+        }
+      ]
+    },
+    "20231162": {
+      "id": 20231162,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900066"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900066"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10090,
+          "action_param1": "3900066"
+        }
+      ]
+    },
+    "42400000": {
+      "id": 42400000,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10077,
+          "action_param1": "30002;30003"
+        }
+      ]
+    },
+    "520203051": {
+      "id": 520203051,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10135
+        }
+      ]
+    },
+    "520203071": {
+      "id": 520203071,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 2,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 2,
+          "action_type": 10135
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 2,
+          "action_type": 10135
+        }
+      ]
+    },
+    "520203091": {
+      "id": 520203091,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 3,
+          "action_type": 319
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 3,
+          "action_type": 319
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 3,
+          "action_type": 319
+        }
+      ]
+    },
+    "550000001": {
+      "id": 550000001,
+      "action_struct": [
+        {
+          "magic_id": 1,
+          "magic_charge_level": 1,
+          "action_type": 10162,
+          "action_param1": "2201895",
+          "action_param2": "2;110",
+          "action_param3": "100;300"
+        },
+        {
+          "magic_id": 2,
+          "magic_charge_level": 1,
+          "action_type": 10162,
+          "action_param1": "5501952",
+          "action_param2": "2;110",
+          "action_param3": "100;300"
+        },
+        {
+          "magic_id": 3,
+          "magic_charge_level": 1,
+          "action_type": 10162,
+          "action_param1": "5501952",
+          "action_param2": "2;110",
+          "action_param3": "100;300"
+        }
+      ]
+    }
+  }
+}

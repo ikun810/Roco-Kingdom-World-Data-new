@@ -1,0 +1,45 @@
+{
+  "Name": "REFRESH_COND_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "npcs",
+      "Type": "EStruct",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 5,
+      "Struct": {
+        "Name": "REFRESH_COND_CONF.npcs",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "npc_id",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "ratio",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "available_time_enum",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "RocoDataRows": {
+    "2": {
+      "id": 2,
+      "start_time": "2024-09-06 10:00:00",
+      "end_time": "2025-09-17 23:59:59"
+    },
+    "2001": {
+      "id": 2001,
+      "duration_time": 14,
+      "bIsRecallActivity": true,
+      "required_group": [
+        {
+          "required_type": 7,
+          "required_param": 14
+        },
+        {
+          "required_type": 8,
+          "required_param": 40
+        }
+      ],
+      "disposable_reward_id": 200000090,
+      "reward_group": [
+        {
+          "reward_id": 200000091
+        },
+        {
+          "reward_id": 200000092
+        },
+        {
+          "reward_id": 200000093
+        },
+        {
+          "reward_id": 200000094
+        },
+        {
+          "reward_id": 200000095
+        },
+        {
+          "reward_id": 200000096
+        },
+        {
+          "reward_id": 200000097
+        }
+      ]
+    },
+    "200001": {
+      "id": 200001,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_miaomiao_bg.img_miaomiao_bg'",
+      "reward_group": [
+        {
+          "reward_id": 200000044
+        },
+        {
+          "reward_id": 200000045
+        },
+        {
+          "reward_id": 200000046
+        },
+        {
+          "reward_id": 200000047
+        },
+        {
+          "reward_id": 200000048
+        },
+        {
+          "reward_id": 200000049
+        },
+        {
+          "reward_id": 200000050
+        }
+      ]
+    },
+    "200007": {
+      "id": 200007,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_kekeguo_bg.img_kekeguo_bg'",
+      "reward_group": [
+        {
+          "reward_id": 200000058
+        }
+      ]
+    },
+    "200008": {
+      "id": 200008,
+      "start_time": "2026-04-17 04:00:00",
+      "end_time": "2026-04-24 03:59:59",
+      "unlock_text": "2024-09-06 10:00:00",
+      "reward_group": [
+        {
+          "reward_id": 200000148
+        }
+      ]
+    },
+    "200009": {
+      "id": 200009,
+      "start_time": "2026-04-24 04:00:00",
+      "end_time": "2026-05-01 03:59:59",
+      "unlock_text": "2025-09-17 23:59:59",
+      "reward_group": [
+        {
+          "reward_id": 200000149
+        }
+      ]
+    },
+    "200010": {
+      "id": 200010,
+      "start_time": "2026-05-01 04:00:00",
+      "end_time": "2026-05-06 03:59:59",
+      "unlock_text": [
+        23,
+        24
+      ],
+      "reward_group": [
+        {
+          "reward_id": 200000150
+        }
+      ]
+    },
+    "200013": {
+      "id": 200013,
+      "reward_group": [
+        {
+          "reward_id": 200300010
+        }
+      ]
+    },
+    "200014": {
+      "id": 200014,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_tongyong_buzhuo.img_tongyong_buzhuo'",
+      "reward_group": [
+        {
+          "reward_id": 200000044
+        },
+        {
+          "reward_id": 200000045
+        },
+        {
+          "reward_id": 200000046
+        },
+        {
+          "reward_id": 200000047
+        },
+        {
+          "reward_id": 200000048
+        },
+        {
+          "reward_id": 200000049
+        },
+        {
+          "reward_id": 200000050
+        }
+      ]
+    },
+    "200015": {
+      "id": 200015,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_tongyong_fudan.img_tongyong_fudan'",
+      "reward_group": [
+        {
+          "reward_id": 200000044
+        },
+        {
+          "reward_id": 200000045
+        },
+        {
+          "reward_id": 200000046
+        },
+        {
+          "reward_id": 200000047
+        },
+        {
+          "reward_id": 200000048
+        },
+        {
+          "reward_id": 200000049
+        },
+        {
+          "reward_id": 200000050
+        }
+      ]
+    },
+    "201001": {
+      "id": 201001,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_miaomiao_bg.img_miaomiao_bg'",
+      "reward_group": [
+        {
+          "reward_id": 710000002
+        },
+        {
+          "reward_id": 710000003
+        },
+        {
+          "reward_id": 710000004
+        },
+        {
+          "reward_id": 710000005
+        },
+        {
+          "reward_id": 710000006
+        },
+        {
+          "reward_id": 710000007
+        },
+        {
+          "reward_id": 710000008
+        }
+      ]
+    },
+    "201002": {
+      "id": 201002,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_miaomiao_bg.img_miaomiao_bg'",
+      "reward_group": [
+        {
+          "reward_id": 710000002
+        },
+        {
+          "reward_id": 710000003
+        },
+        {
+          "reward_id": 710000004
+        },
+        {
+          "reward_id": 710000005
+        },
+        {
+          "reward_id": 710000006
+        },
+        {
+          "reward_id": 710000007
+        },
+        {
+          "reward_id": 710000008
+        }
+      ]
+    },
+    "201003": {
+      "id": 201003,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_miaomiao_bg.img_miaomiao_bg'",
+      "reward_group": [
+        {
+          "reward_id": 710000002
+        },
+        {
+          "reward_id": 710000003
+        },
+        {
+          "reward_id": 710000004
+        },
+        {
+          "reward_id": 710000005
+        },
+        {
+          "reward_id": 710000006
+        },
+        {
+          "reward_id": 710000007
+        },
+        {
+          "reward_id": 710000008
+        }
+      ]
+    },
+    "201004": {
+      "id": 201004,
+      "image_path": "Texture2D'/Game/NewRoco/Modules/System/Activity/Raw/Textures/img_miaomiao_bg.img_miaomiao_bg'",
+      "reward_group": [
+        {
+          "reward_id": 710000002
+        },
+        {
+          "reward_id": 710000003
+        },
+        {
+          "reward_id": 710000004
+        },
+        {
+          "reward_id": 710000005
+        },
+        {
+          "reward_id": 710000006
+        },
+        {
+          "reward_id": 710000007
+        },
+        {
+          "reward_id": 710000008
+        }
+      ]
+    }
+  }
+}

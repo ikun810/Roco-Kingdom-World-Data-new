@@ -1,0 +1,1266 @@
+{
+  "RocoDataRows": {
+    "21": {
+      "id": 1001,
+      "action_type": 21,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "26": {
+      "id": 1002,
+      "action_type": 26,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "32": {
+      "id": 1003,
+      "action_type": 32,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "33": {
+      "id": 1004,
+      "action_type": 33,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "34": {
+      "id": 1005,
+      "action_type": 34,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "35": {
+      "id": 1006,
+      "action_type": 35,
+      "client_submit": true
+    },
+    "43": {
+      "id": 1007,
+      "action_type": 43,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "45": {
+      "id": 1008,
+      "action_type": 45,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "46": {
+      "id": 1009,
+      "action_type": 46,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "49": {
+      "id": 1010,
+      "action_type": 49,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "50": {
+      "id": 1011,
+      "action_type": 50,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "51": {
+      "id": 1012,
+      "action_type": 51,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "52": {
+      "id": 1013,
+      "action_type": 52,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "53": {
+      "id": 1014,
+      "action_type": 53,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "54": {
+      "id": 1015,
+      "action_type": 54,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "55": {
+      "id": 1016,
+      "action_type": 55,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "56": {
+      "id": 1017,
+      "action_type": 56,
+      "client_submit": true
+    },
+    "57": {
+      "id": 1018,
+      "action_type": 57,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "58": {
+      "id": 1019,
+      "action_type": 58,
+      "client_submit": true
+    },
+    "59": {
+      "id": 1020,
+      "action_type": 59,
+      "client_submit": true
+    },
+    "63": {
+      "id": 1021,
+      "action_type": 63,
+      "client_submit": true
+    },
+    "64": {
+      "id": 1022,
+      "action_type": 64,
+      "client_submit": true
+    },
+    "66": {
+      "id": 1023,
+      "action_type": 66,
+      "client_submit": true
+    },
+    "69": {
+      "id": 1026,
+      "action_type": 69,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "70": {
+      "id": 1027,
+      "action_type": 70,
+      "client_submit": true
+    },
+    "71": {
+      "id": 1028,
+      "action_type": 71,
+      "client_submit": true,
+      "wait_begin_data": true
+    },
+    "72": {
+      "id": 1029,
+      "action_type": 72,
+      "client_submit": true
+    },
+    "73": {
+      "id": 1030,
+      "action_type": 73,
+      "client_submit": true
+    },
+    "74": {
+      "id": 1031,
+      "action_type": 74,
+      "client_submit": true
+    },
+    "75": {
+      "id": 1032,
+      "action_type": 75,
+      "client_submit": true
+    },
+    "79": {
+      "id": 1033,
+      "action_type": 79,
+      "client_submit": true
+    },
+    "80": {
+      "id": 1034,
+      "action_type": 80
+    },
+    "81": {
+      "id": 1036,
+      "action_type": 81,
+      "client_submit": true
+    },
+    "82": {
+      "id": 1037,
+      "action_type": 82,
+      "client_submit": true
+    },
+    "90": {
+      "id": 1038,
+      "action_type": 90,
+      "client_submit": true
+    },
+    "91": {
+      "id": 1039,
+      "action_type": 91,
+      "client_submit": true
+    },
+    "92": {
+      "id": 1040,
+      "action_type": 92,
+      "client_submit": true
+    },
+    "93": {
+      "id": 1041,
+      "action_type": 93,
+      "client_submit": true
+    },
+    "94": {
+      "id": 1042,
+      "action_type": 94,
+      "client_submit": true
+    },
+    "95": {
+      "id": 1043,
+      "action_type": 95,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "96": {
+      "id": 1044,
+      "action_type": 96,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "97": {
+      "id": 1045,
+      "action_type": 97,
+      "client_submit": true
+    },
+    "98": {
+      "id": 1046,
+      "action_type": 98,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "99": {
+      "id": 1047,
+      "action_type": 99,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "100": {
+      "id": 1048,
+      "action_type": 100,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "102": {
+      "id": 1049,
+      "action_type": 102,
+      "client_submit": true
+    },
+    "103": {
+      "id": 1050,
+      "action_type": 103,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "104": {
+      "id": 1051,
+      "action_type": 104,
+      "client_submit": true
+    },
+    "105": {
+      "id": 1052,
+      "action_type": 105,
+      "client_submit": true
+    },
+    "106": {
+      "id": 1053,
+      "action_type": 106,
+      "client_submit": true
+    },
+    "114": {
+      "id": 1054,
+      "action_type": 114,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "115": {
+      "id": 1055,
+      "action_type": 115,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "113": {
+      "id": 1056,
+      "action_type": 113,
+      "client_submit": true
+    },
+    "27": {
+      "id": 1057,
+      "action_type": 27,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "28": {
+      "id": 1058,
+      "action_type": 28,
+      "client_submit": true
+    },
+    "10114": {
+      "id": 1059,
+      "action_type": 10114,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "29": {
+      "id": 1060,
+      "action_type": 29,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10118": {
+      "id": 1061,
+      "action_type": 10118,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10022": {
+      "id": 1062,
+      "action_type": 10022,
+      "client_submit": true
+    },
+    "10048": {
+      "id": 1063,
+      "action_type": 10048,
+      "keep_handheld_status": true
+    },
+    "10032": {
+      "id": 1064,
+      "action_type": 10032,
+      "keep_handheld_status": true
+    },
+    "10104": {
+      "id": 1065,
+      "action_type": 10104,
+      "keep_handheld_status": true
+    },
+    "10036": {
+      "id": 1066,
+      "action_type": 10036,
+      "keep_handheld_status": true
+    },
+    "30": {
+      "id": 1067,
+      "action_type": 30,
+      "client_submit": true
+    },
+    "10123": {
+      "id": 1068,
+      "action_type": 10123,
+      "keep_handheld_status": true
+    },
+    "110": {
+      "id": 1069,
+      "action_type": 110,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "36": {
+      "id": 1070,
+      "action_type": 36,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "37": {
+      "id": 1071,
+      "action_type": 37,
+      "keep_handheld_status": true
+    },
+    "118": {
+      "id": 1072,
+      "action_type": 118,
+      "client_submit": true
+    },
+    "111": {
+      "id": 1073,
+      "action_type": 111,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10127": {
+      "id": 1074,
+      "action_type": 10127,
+      "keep_handheld_status": true
+    },
+    "119": {
+      "id": 1075,
+      "action_type": 119
+    },
+    "121": {
+      "id": 1076,
+      "action_type": 121,
+      "client_submit": true
+    },
+    "201": {
+      "id": 1077,
+      "action_type": 201,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "202": {
+      "id": 1078,
+      "action_type": 202,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "120": {
+      "id": 1079,
+      "action_type": 120,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "203": {
+      "id": 1080,
+      "action_type": 203,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "126": {
+      "id": 1081,
+      "action_type": 126,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "131": {
+      "id": 1082,
+      "action_type": 131
+    },
+    "132": {
+      "id": 1083,
+      "action_type": 132
+    },
+    "10306": {
+      "id": 1084,
+      "action_type": 10306,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "112": {
+      "id": 1085,
+      "action_type": 112,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "205": {
+      "id": 1086,
+      "action_type": 205
+    },
+    "44": {
+      "id": 1087,
+      "action_type": 44,
+      "client_submit": true
+    },
+    "10150": {
+      "id": 1088,
+      "action_type": 10150,
+      "client_submit": true
+    },
+    "10151": {
+      "id": 1089,
+      "action_type": 10151,
+      "client_submit": true
+    },
+    "38": {
+      "id": 1090,
+      "action_type": 38,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "39": {
+      "id": 1091,
+      "action_type": 39,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "47": {
+      "id": 1092,
+      "action_type": 47,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "83": {
+      "id": 1093,
+      "action_type": 83,
+      "client_submit": true
+    },
+    "84": {
+      "id": 1094,
+      "action_type": 84,
+      "client_submit": true
+    },
+    "85": {
+      "id": 1095,
+      "action_type": 85,
+      "client_submit": true
+    },
+    "136": {
+      "id": 1096,
+      "action_type": 136,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "135": {
+      "id": 1097,
+      "action_type": 135,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "122": {
+      "id": 1098,
+      "action_type": 122,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "138": {
+      "id": 1099,
+      "action_type": 138,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "41": {
+      "id": 1100,
+      "action_type": 41,
+      "client_submit": true
+    },
+    "40": {
+      "id": 1101,
+      "action_type": 40,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "310": {
+      "id": 1102,
+      "action_type": 310
+    },
+    "311": {
+      "id": 1103,
+      "action_type": 311,
+      "client_submit": true
+    },
+    "312": {
+      "id": 1104,
+      "action_type": 312,
+      "client_submit": true
+    },
+    "321": {
+      "id": 1105,
+      "action_type": 321,
+      "client_submit": true
+    },
+    "322": {
+      "id": 1106,
+      "action_type": 322,
+      "client_submit": true
+    },
+    "323": {
+      "id": 1107,
+      "action_type": 323,
+      "client_submit": true
+    },
+    "324": {
+      "id": 1108,
+      "action_type": 324,
+      "client_submit": true
+    },
+    "301": {
+      "id": 1109,
+      "action_type": 301,
+      "client_submit": true
+    },
+    "302": {
+      "id": 1110,
+      "action_type": 302,
+      "client_submit": true
+    },
+    "303": {
+      "id": 1111,
+      "action_type": 303,
+      "client_submit": true
+    },
+    "304": {
+      "id": 1112,
+      "action_type": 304,
+      "client_submit": true
+    },
+    "305": {
+      "id": 1113,
+      "action_type": 305,
+      "client_submit": true
+    },
+    "139": {
+      "id": 1114,
+      "action_type": 139,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "140": {
+      "id": 1115,
+      "action_type": 140,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "313": {
+      "id": 1116,
+      "action_type": 313,
+      "client_submit": true
+    },
+    "314": {
+      "id": 1117,
+      "action_type": 314
+    },
+    "315": {
+      "id": 1118,
+      "action_type": 315,
+      "client_submit": true
+    },
+    "316": {
+      "id": 1119,
+      "action_type": 316
+    },
+    "317": {
+      "id": 1120,
+      "action_type": 317,
+      "client_submit": true
+    },
+    "318": {
+      "id": 1121,
+      "action_type": 318,
+      "client_submit": true
+    },
+    "319": {
+      "id": 1122,
+      "action_type": 319
+    },
+    "10156": {
+      "id": 1123,
+      "action_type": 10156,
+      "keep_handheld_status": true
+    },
+    "42": {
+      "id": 1124,
+      "action_type": 42,
+      "client_submit": true
+    },
+    "142": {
+      "id": 1125,
+      "action_type": 142,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10095": {
+      "id": 1126,
+      "action_type": 10095,
+      "keep_handheld_status": true
+    },
+    "320": {
+      "id": 1127,
+      "action_type": 320
+    },
+    "78": {
+      "id": 1128,
+      "action_type": 78,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "145": {
+      "id": 1129,
+      "action_type": 145,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "351": {
+      "id": 1130,
+      "action_type": 351,
+      "client_submit": true
+    },
+    "10133": {
+      "id": 1131,
+      "action_type": 10133
+    },
+    "10155": {
+      "id": 1132,
+      "action_type": 10155,
+      "keep_handheld_status": true
+    },
+    "146": {
+      "id": 1133,
+      "action_type": 146,
+      "client_submit": true,
+      "wait_begin_data": true,
+      "keep_handheld_status": true
+    },
+    "76": {
+      "id": 1134,
+      "action_type": 76,
+      "keep_handheld_status": true
+    },
+    "10108": {
+      "id": 1135,
+      "action_type": 10108,
+      "keep_handheld_status": true
+    },
+    "10096": {
+      "id": 1136,
+      "action_type": 10096,
+      "keep_handheld_status": true
+    },
+    "10052": {
+      "id": 1137,
+      "action_type": 10052,
+      "keep_handheld_status": true
+    },
+    "Unknown_134": {
+      "id": 1138,
+      "keep_handheld_status": true
+    },
+    "86": {
+      "id": 1139,
+      "action_type": 86,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "306": {
+      "id": 1140,
+      "action_type": 306,
+      "client_submit": true
+    },
+    "87": {
+      "id": 1141,
+      "action_type": 87,
+      "client_submit": true
+    },
+    "10157": {
+      "id": 1142,
+      "action_type": 10157,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "88": {
+      "id": 1143,
+      "action_type": 88,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "371": {
+      "id": 1144,
+      "action_type": 371,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "108": {
+      "id": 1145,
+      "action_type": 108,
+      "client_submit": true
+    },
+    "10149": {
+      "id": 1146,
+      "action_type": 10149
+    },
+    "150": {
+      "id": 1147,
+      "action_type": 150,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "148": {
+      "id": 1148,
+      "action_type": 148,
+      "client_submit": true
+    },
+    "147": {
+      "id": 1149,
+      "action_type": 147,
+      "client_submit": true
+    },
+    "206": {
+      "id": 1150,
+      "action_type": 206,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10025": {
+      "id": 1151,
+      "action_type": 10025,
+      "client_submit": true
+    },
+    "331": {
+      "id": 1152,
+      "action_type": 331
+    },
+    "10001": {
+      "id": 1153,
+      "action_type": 10001
+    },
+    "10098": {
+      "id": 1154,
+      "action_type": 10098,
+      "keep_handheld_status": true
+    },
+    "10113": {
+      "id": 1155,
+      "action_type": 10113,
+      "keep_handheld_status": true
+    },
+    "10137": {
+      "id": 1156,
+      "action_type": 10137,
+      "keep_handheld_status": true
+    },
+    "372": {
+      "id": 1157,
+      "action_type": 372,
+      "keep_handheld_status": true
+    },
+    "207": {
+      "id": 1158,
+      "action_type": 207,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10131": {
+      "id": 1159,
+      "action_type": 10131
+    },
+    "10006": {
+      "id": 1160,
+      "action_type": 10006
+    },
+    "152": {
+      "id": 1161,
+      "action_type": 152,
+      "client_submit": true
+    },
+    "153": {
+      "id": 1162,
+      "action_type": 153,
+      "client_submit": true
+    },
+    "89": {
+      "id": 1163,
+      "action_type": 89,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10163": {
+      "id": 1164,
+      "action_type": 10163,
+      "client_submit": true
+    },
+    "154": {
+      "id": 1165,
+      "action_type": 154,
+      "client_submit": true
+    },
+    "210": {
+      "id": 1166,
+      "action_type": 210,
+      "client_submit": true
+    },
+    "213": {
+      "id": 1167,
+      "action_type": 213,
+      "client_submit": true
+    },
+    "214": {
+      "id": 1168,
+      "action_type": 214,
+      "client_submit": true
+    },
+    "10164": {
+      "id": 1169,
+      "action_type": 10164,
+      "keep_handheld_status": true
+    },
+    "216": {
+      "id": 1170,
+      "action_type": 216,
+      "client_submit": true,
+      "disable_sync_rotate": true,
+      "keep_handheld_status": true
+    },
+    "217": {
+      "id": 1171,
+      "action_type": 217,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "218": {
+      "id": 1172,
+      "action_type": 218,
+      "client_submit": true
+    },
+    "219": {
+      "id": 1173,
+      "action_type": 219,
+      "client_submit": true
+    },
+    "10165": {
+      "id": 1174,
+      "action_type": 10165,
+      "keep_handheld_status": true
+    },
+    "221": {
+      "id": 1175,
+      "action_type": 221,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10166": {
+      "id": 1176,
+      "action_type": 10166,
+      "client_submit": true
+    },
+    "10167": {
+      "id": 1177,
+      "action_type": 10167,
+      "client_submit": true
+    },
+    "208": {
+      "id": 1178,
+      "action_type": 208,
+      "client_submit": true
+    },
+    "209": {
+      "id": 1179,
+      "action_type": 209,
+      "client_submit": true
+    },
+    "225": {
+      "id": 1180,
+      "action_type": 225,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "226": {
+      "id": 1181,
+      "action_type": 226,
+      "keep_handheld_status": true
+    },
+    "222": {
+      "id": 1182,
+      "action_type": 222,
+      "client_submit": true
+    },
+    "223": {
+      "id": 1183,
+      "action_type": 223,
+      "client_submit": true
+    },
+    "224": {
+      "id": 1184,
+      "action_type": 224,
+      "client_submit": true
+    },
+    "155": {
+      "id": 1185,
+      "action_type": 155,
+      "client_submit": true
+    },
+    "10169": {
+      "id": 1186,
+      "action_type": 10169,
+      "keep_handheld_status": true
+    },
+    "228": {
+      "id": 1187,
+      "action_type": 228,
+      "client_submit": true
+    },
+    "229": {
+      "id": 1188,
+      "action_type": 229,
+      "keep_handheld_status": true
+    },
+    "230": {
+      "id": 1189,
+      "action_type": 230
+    },
+    "231": {
+      "id": 1190,
+      "action_type": 231,
+      "client_submit": true
+    },
+    "109": {
+      "id": 1191,
+      "action_type": 109,
+      "disable_sync_rotate": true,
+      "keep_handheld_status": true
+    },
+    "227": {
+      "id": 1192,
+      "action_type": 227,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "232": {
+      "id": 1193,
+      "action_type": 232,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "233": {
+      "id": 1194,
+      "action_type": 233,
+      "client_submit": true
+    },
+    "234": {
+      "id": 1195,
+      "action_type": 234,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "10175": {
+      "id": 1196,
+      "action_type": 10175,
+      "client_submit": true
+    },
+    "10176": {
+      "id": 1197,
+      "action_type": 10176,
+      "client_submit": true
+    },
+    "236": {
+      "id": 1198,
+      "action_type": 236,
+      "client_submit": true
+    },
+    "10174": {
+      "id": 1199,
+      "action_type": 10174,
+      "client_submit": true
+    },
+    "10173": {
+      "id": 1200,
+      "action_type": 10173,
+      "client_submit": true
+    },
+    "10172": {
+      "id": 1201,
+      "action_type": 10172,
+      "client_submit": true
+    },
+    "10171": {
+      "id": 1202,
+      "action_type": 10171,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "239": {
+      "id": 1203,
+      "action_type": 239,
+      "client_submit": true,
+      "keep_handheld_status": true
+    },
+    "240": {
+      "id": 1204,
+      "action_type": 240,
+      "keep_handheld_status": true
+    },
+    "237": {
+      "id": 1205,
+      "action_type": 237,
+      "client_submit": true
+    },
+    "241": {
+      "id": 1206,
+      "action_type": 241
+    },
+    "10076": {
+      "id": 1207,
+      "action_type": 10076,
+      "keep_handheld_status": true
+    },
+    "10110": {
+      "id": 1208,
+      "action_type": 10110,
+      "keep_handheld_status": true
+    },
+    "10042": {
+      "id": 1209,
+      "action_type": 10042,
+      "keep_handheld_status": true
+    },
+    "10056": {
+      "id": 1210,
+      "action_type": 10056,
+      "keep_handheld_status": true
+    },
+    "10057": {
+      "id": 1211,
+      "action_type": 10057,
+      "keep_handheld_status": true
+    },
+    "10119": {
+      "id": 1212,
+      "action_type": 10119,
+      "keep_handheld_status": true
+    },
+    "10040": {
+      "id": 1213,
+      "action_type": 10040,
+      "keep_handheld_status": true
+    },
+    "10041": {
+      "id": 1214,
+      "action_type": 10041,
+      "keep_handheld_status": true
+    },
+    "10307": {
+      "id": 1215,
+      "action_type": 10307,
+      "keep_handheld_status": true
+    },
+    "10322": {
+      "id": 1216,
+      "action_type": 10322
+    },
+    "10168": {
+      "id": 1217,
+      "action_type": 10168
+    },
+    "220": {
+      "id": 1218,
+      "action_type": 220
+    },
+    "238": {
+      "id": 1219,
+      "action_type": 238
+    },
+    "10161": {
+      "id": 1220,
+      "action_type": 10161,
+      "keep_handheld_status": true
+    },
+    "10020": {
+      "id": 1221,
+      "action_type": 10020
+    },
+    "141": {
+      "id": 1222,
+      "action_type": 141
+    },
+    "400": {
+      "id": 1223,
+      "action_type": 400
+    },
+    "401": {
+      "id": 1224,
+      "action_type": 401
+    },
+    "325": {
+      "id": 1225,
+      "action_type": 325
+    },
+    "326": {
+      "id": 1226,
+      "action_type": 326
+    },
+    "330": {
+      "id": 1227,
+      "action_type": 330
+    },
+    "327": {
+      "id": 1228,
+      "action_type": 327
+    },
+    "10003": {
+      "id": 1229,
+      "action_type": 10003
+    },
+    "10320": {
+      "id": 1230,
+      "action_type": 10320
+    },
+    "10023": {
+      "id": 1231,
+      "action_type": 10023,
+      "keep_handheld_status": true
+    },
+    "137": {
+      "id": 1232,
+      "action_type": 137,
+      "keep_handheld_status": true
+    },
+    "10011": {
+      "id": 1233,
+      "action_type": 10011,
+      "keep_handheld_status": true
+    },
+    "10092": {
+      "id": 1234,
+      "action_type": 10092,
+      "keep_handheld_status": true
+    },
+    "10132": {
+      "id": 1235,
+      "action_type": 10132
+    },
+    "133": {
+      "id": 1236,
+      "action_type": 133,
+      "keep_handheld_status": true
+    },
+    "10126": {
+      "id": 1237,
+      "action_type": 10126,
+      "keep_handheld_status": true
+    },
+    "101": {
+      "id": 1238,
+      "action_type": 101,
+      "keep_handheld_status": true
+    },
+    "10321": {
+      "id": 1239,
+      "action_type": 10321,
+      "keep_handheld_status": true
+    },
+    "117": {
+      "id": 1240,
+      "action_type": 117
+    },
+    "10111": {
+      "id": 1241,
+      "action_type": 10111,
+      "keep_handheld_status": true
+    },
+    "107": {
+      "id": 1242,
+      "action_type": 107,
+      "keep_handheld_status": true
+    },
+    "10014": {
+      "id": 1243,
+      "action_type": 10014,
+      "keep_handheld_status": true
+    },
+    "10012": {
+      "id": 1244,
+      "action_type": 10012,
+      "keep_handheld_status": true
+    },
+    "30001": {
+      "id": 1245,
+      "action_type": 30001,
+      "keep_handheld_status": true
+    },
+    "10044": {
+      "id": 1246,
+      "action_type": 10044,
+      "keep_handheld_status": true
+    },
+    "10160": {
+      "id": 1250,
+      "action_type": 10160
+    },
+    "10170": {
+      "id": 1251,
+      "action_type": 10170
+    }
+  }
+}

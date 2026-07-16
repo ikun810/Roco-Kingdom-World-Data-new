@@ -1,0 +1,4187 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "server_move_type": 3,
+      "vitality_cost": {
+        "cost_per_seconds": 125,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "2": {
+      "id": 2,
+      "server_move_type": 3,
+      "vitality_cost": {
+        "cost_per_seconds": 230,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "3": {
+      "id": 3,
+      "server_move_type": 11,
+      "vitality_cost": {
+        "cost_per_seconds": 25,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "4": {
+      "id": 4,
+      "server_move_type": 12,
+      "vitality_cost": {
+        "cost_per_seconds": 75,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "5": {
+      "id": 5,
+      "server_move_type": 17,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "6": {
+      "id": 6,
+      "server_move_type": 18,
+      "vitality_cost": {
+        "min_start": 1,
+        "start_cost": 200
+      }
+    },
+    "7": {
+      "id": 7,
+      "vitality_cost": {
+        "cost_per_seconds": 100,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "8": {
+      "id": 8,
+      "server_move_type": 6,
+      "vitality_cost": {
+        "cost_per_seconds": 200,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "9": {
+      "id": 9,
+      "server_move_type": 6,
+      "vitality_cost": {
+        "cost_per_seconds": 160,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "10": {
+      "id": 10,
+      "server_move_type": 6,
+      "vitality_cost": {
+        "cost_per_seconds": 200,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "11": {
+      "id": 11,
+      "vitality_cost": {
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "12": {
+      "id": 12,
+      "vitality_cost": {
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "13": {
+      "id": 13,
+      "vitality_cost": {
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "10001": {
+      "id": 10001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 26,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:800",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10002": {
+      "id": 10002,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 30,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:860",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10003": {
+      "id": 10003,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 33,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:900",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10004": {
+      "id": 10004,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:720",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_4",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_4",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10005": {
+      "id": 10005,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 27,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:810",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_5",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_5",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_5",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10006": {
+      "id": 10006,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 23,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:750",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_6",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_6",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_6",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10101": {
+      "id": 10101,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 26,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:540",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10102": {
+      "id": 10102,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 30,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:666",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10103": {
+      "id": 10103,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 33,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:510",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10104": {
+      "id": 10104,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:571",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_4",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_4",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10105": {
+      "id": 10105,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 27,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:676",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_5",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_5",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_5",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10106": {
+      "id": 10106,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 23,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:553",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_6",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_6",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_6",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10201": {
+      "id": 10201,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 26,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:272",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10202": {
+      "id": 10202,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 30,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:493",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10203": {
+      "id": 10203,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 33,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:470",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10204": {
+      "id": 10204,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 20,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_4",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_4",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10205": {
+      "id": 10205,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 27,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:501",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_5",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_5",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_5",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10206": {
+      "id": 10206,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 23,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:482",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_6",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_6",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_6",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "10301": {
+      "id": 10301,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 30,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:430",
+      "move_param_3": "AccelerateCurve:Run_Normal/ride_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Run_Normal/ride_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Normal/ride_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11001": {
+      "id": 11001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:500",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_1",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11002": {
+      "id": 11002,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:800",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_2",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_2",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11003": {
+      "id": 11003,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:300",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_3",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11004": {
+      "id": 11004,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:1200",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_4",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_4",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11005": {
+      "id": 11005,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:900",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_5",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_5",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_5",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_5",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11006": {
+      "id": 11006,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:750",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_6",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_6",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_6",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_6",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11007": {
+      "id": 11007,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:600",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_7",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_7",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_7",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11008": {
+      "id": 11008,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:500",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_8",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_8",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_8",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11009": {
+      "id": 11009,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:2000",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_9",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_9",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_9",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_9",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11010": {
+      "id": 11010,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:800",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_10",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_10",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_10",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_10",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11011": {
+      "id": 11011,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:500",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_11",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_11",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_11",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_11",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11012": {
+      "id": 11012,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:660",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_12",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_12",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_12",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11013": {
+      "id": 11013,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:700",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_13",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_13",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_13",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11014": {
+      "id": 11014,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:433",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_14",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_14",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_14",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11015": {
+      "id": 11015,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:470",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_15",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_15",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_15",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11103": {
+      "id": 11103,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:260",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_3",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11107": {
+      "id": 11107,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:480",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_7",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_7",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_7",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11108": {
+      "id": 11108,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_8",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_8",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_8",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11110": {
+      "id": 11110,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:640",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_10",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_10",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_10",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_10",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11111": {
+      "id": 11111,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_2": "SlopeMaxSpeedCurve:Run_Clown/Ride_SlopeMaxSpeedCurve_Clown_11_2",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_11",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_11",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_11",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11112": {
+      "id": 11112,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_12",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_12",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_12",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "11115": {
+      "id": 11115,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:560",
+      "move_param_3": "AccelerateCurve:Run_Clown/ride_acc_curve_Clown_15",
+      "move_param_4": "DeAccelerateCurve:Run_Clown/ride_deacc_curve_Clown_15",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Clown/ride_angular_Clown_15",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12001": {
+      "id": 12001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 43,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:720",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_1",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12002": {
+      "id": 12002,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 39,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:690",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_2",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12101": {
+      "id": 12101,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 43,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:560",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_1",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12102": {
+      "id": 12102,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 39,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:535",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_2",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12201": {
+      "id": 12201,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 43,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:480",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_1",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "12202": {
+      "id": 12202,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 39,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:460",
+      "move_param_3": "AccelerateCurve:Run_Ganlu/ride_acc_curve_ganlu_2",
+      "move_param_4": "DeAccelerateCurve:Run_Ganlu/ride_deacc_curve_ganlu_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Ganlu/ride_angular_ganlu_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "13001": {
+      "id": 13001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 46,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:600",
+      "move_param_3": "AccelerateCurve:Run_Fly/ride_acc_curve_fly_1",
+      "move_param_4": "DeAccelerateCurve:Run_Fly/ride_deacc_curve_fly_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Fly/ride_angular_fly_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "13002": {
+      "id": 13002,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 46,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_3": "AccelerateCurve:Run_Fly/ride_acc_curve_fly_1",
+      "move_param_4": "DeAccelerateCurve:Run_Fly/ride_deacc_curve_fly_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Fly/ride_angular_fly_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "14001": {
+      "id": 14001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 69,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:700",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "14002": {
+      "id": 14002,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 74,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:750",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "14003": {
+      "id": 14003,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 79,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:800",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "14004": {
+      "id": 14004,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 72,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:725",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_4",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_4",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "14005": {
+      "id": 14005,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 77,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:775",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_5",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_5",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_5",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "15001": {
+      "id": 15001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 72,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:525",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_4",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_4",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_4"
+    },
+    "20001": {
+      "id": 20001,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 24,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:600",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_6",
+      "move_param_4": "MaxFallingSpeed:200",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20002": {
+      "id": 20002,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 23,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:580",
+      "move_param_2": "BaseMaxSpeed:550",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_5",
+      "move_param_4": "MaxFallingSpeed:225",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20003": {
+      "id": 20003,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:570",
+      "move_param_2": "BaseMaxSpeed:600",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_4",
+      "move_param_4": "MaxFallingSpeed:250",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20004": {
+      "id": 20004,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 24,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:550",
+      "move_param_2": "BaseMaxSpeed:550",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_3",
+      "move_param_4": "MaxFallingSpeed:275",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20005": {
+      "id": 20005,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 42,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:530",
+      "move_param_2": "BaseMaxSpeed:600",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_2",
+      "move_param_4": "MaxFallingSpeed:300",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20006": {
+      "id": 20006,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 35,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:500",
+      "move_param_2": "BaseMaxSpeed:550",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding",
+      "move_param_4": "MaxFallingSpeed:325",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20007": {
+      "id": 20007,
+      "move_type": 6,
+      "vitality_cost": {
+        "cost_per_seconds": 100,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:600",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding",
+      "move_param_4": "MaxFallingSpeed:300",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20008": {
+      "id": 20008,
+      "move_type": 6,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 35,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:450",
+      "move_param_2": "BaseMaxSpeed:450",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_tutorial",
+      "move_param_4": "MaxFallingSpeed:325",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "20009": {
+      "id": 20009,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 23,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:580",
+      "move_param_2": "BaseMaxSpeed:550",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_5",
+      "move_param_4": "MaxFallingSpeed:225",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30001": {
+      "id": 30001,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 17,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:400",
+      "move_param_2": "BaseMaxSpeed:720",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30002": {
+      "id": 30002,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:1200",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30003": {
+      "id": 30003,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 21,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:200",
+      "move_param_2": "BaseMaxSpeed:920",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30004": {
+      "id": 30004,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:1200",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30101": {
+      "id": 30101,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 17,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:400",
+      "move_param_2": "BaseMaxSpeed:600",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30102": {
+      "id": 30102,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:1000",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30103": {
+      "id": 30103,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 21,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:200",
+      "move_param_2": "BaseMaxSpeed:800",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30104": {
+      "id": 30104,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:1000",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30201": {
+      "id": 30201,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 17,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:400",
+      "move_param_2": "BaseMaxSpeed:480",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30202": {
+      "id": 30202,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:800",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30203": {
+      "id": 30203,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 21,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:200",
+      "move_param_2": "BaseMaxSpeed:640",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "30204": {
+      "id": 30204,
+      "move_type": 4,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:600",
+      "move_param_2": "BaseMaxSpeed:800",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_2",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_2",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "40001": {
+      "id": 40001,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "520",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "4800",
+      "move_param_5": "1000",
+      "move_param_6": "125",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40002": {
+      "id": 40002,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "560",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "5200",
+      "move_param_5": "832.5",
+      "move_param_6": "75",
+      "move_param_7": "2",
+      "move_param_8": "0.8",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40003": {
+      "id": 40003,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 100,
+        "start_cost": 100
+      },
+      "move_param_1": "600",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "5600",
+      "move_param_5": "850",
+      "move_param_6": "0",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40004": {
+      "id": 40004,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 100,
+        "start_cost": 100
+      },
+      "move_param_1": "640",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "6000",
+      "move_param_5": "750",
+      "move_param_6": "100",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40005": {
+      "id": 40005,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "680",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "6400",
+      "move_param_5": "825",
+      "move_param_6": "80",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40006": {
+      "id": 40006,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 100,
+        "start_cost": 100
+      },
+      "move_param_1": "500",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "2000",
+      "move_param_5": "650",
+      "move_param_6": "25",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40007": {
+      "id": 40007,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "520",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "4800",
+      "move_param_5": "1200",
+      "move_param_6": "75",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "40008": {
+      "id": 40008,
+      "active_type": 2,
+      "vitality_cost": {
+        "min_start": 100,
+        "start_cost": 100
+      },
+      "move_param_1": "500",
+      "move_param_2": "0",
+      "move_param_3": "1400",
+      "move_param_4": "2000",
+      "move_param_5": "650",
+      "move_param_6": "0",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "50001": {
+      "id": 50001,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 300,
+        "start_cost": 300
+      },
+      "move_param_1": "600",
+      "move_param_2": "600",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_6.ride_angular_Gliding_6",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed.fly_up_speed",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_11": "1.2"
+    },
+    "50002": {
+      "id": 50002,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 263,
+        "start_cost": 263
+      },
+      "move_param_1": "580",
+      "move_param_2": "550",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_5.ride_angular_Gliding_5",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_2.fly_up_speed_2",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_11": "1"
+    },
+    "50003": {
+      "id": 50003,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 215,
+        "start_cost": 215
+      },
+      "move_param_1": "570",
+      "move_param_2": "600",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_4.ride_angular_Gliding_4",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_3.fly_up_speed_3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_11": "1.5"
+    },
+    "50004": {
+      "id": 50004,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "550",
+      "move_param_2": "550",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_3.ride_angular_Gliding_3",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_4.fly_up_speed_4",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_11": "1.2"
+    },
+    "50005": {
+      "id": 50005,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 150
+      },
+      "move_param_1": "530",
+      "move_param_2": "600",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_2.ride_angular_Gliding_2",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_5.fly_up_speed_5",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_9": "0",
+      "move_param_10": "1000",
+      "move_param_11": "2"
+    },
+    "50006": {
+      "id": 50006,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 125,
+        "start_cost": 125
+      },
+      "move_param_1": "500",
+      "move_param_2": "550",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding.ride_angular_Gliding",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_6.fly_up_speed_6",
+      "move_param_7": "0",
+      "move_param_8": "1"
+    },
+    "50007": {
+      "id": 50007,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 150
+      },
+      "move_param_1": "600",
+      "move_param_2": "600",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding.ride_angular_Gliding",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_ground.fly_up_speed_ground",
+      "move_param_7": "0",
+      "move_param_8": "1"
+    },
+    "50008": {
+      "id": 50008,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 125,
+        "start_cost": 125
+      },
+      "move_param_1": "450",
+      "move_param_2": "450",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_tutorial.ride_angular_Gliding_tutorial",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_tutorial.fly_up_speed_tutorial",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "move_param_11": "1.2"
+    },
+    "60001": {
+      "id": 60001,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 367,
+        "start_cost": 367
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_1.ride_dash_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_1.ride_dash_curve_1",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60002": {
+      "id": 60002,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 223,
+        "start_cost": 223
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_2.ride_dash_curve_2",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_2.ride_dash_angular_2",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60003": {
+      "id": 60003,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 584,
+        "start_cost": 584
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_3.ride_dash_curve_3",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_3.ride_dash_angular_3",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60004": {
+      "id": 60004,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 217,
+        "start_cost": 217
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_4.ride_dash_curve_4",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_4.ride_dash_angular_4",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60005": {
+      "id": 60005,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 273,
+        "start_cost": 273
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_5.ride_dash_curve_5",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_5.ride_dash_angular_5",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60006": {
+      "id": 60006,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 223,
+        "start_cost": 223
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_6.ride_dash_curve_6",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_6.ride_dash_angular_6",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60007": {
+      "id": 60007,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 417,
+        "start_cost": 417
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_curve_7.ride_dash_curve_7",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash/ride_dash_angular_7.ride_dash_angular_7",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60101": {
+      "id": 60101,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 367,
+        "start_cost": 367
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_1.ride_dash2_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_1.ride_dash2_angular_1",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60102": {
+      "id": 60102,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 223,
+        "start_cost": 223
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_2.ride_dash2_curve_2",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_2.ride_dash2_angular_2",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60103": {
+      "id": 60103,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 584,
+        "start_cost": 584
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_3.ride_dash2_curve_3",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_3.ride_dash2_angular_3",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60104": {
+      "id": 60104,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 217,
+        "start_cost": 217
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_4.ride_dash2_curve_4",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_4.ride_dash2_angular_4",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60105": {
+      "id": 60105,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 273,
+        "start_cost": 273
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_5.ride_dash2_curve_5",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_5.ride_dash2_angular_5",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60106": {
+      "id": 60106,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 223,
+        "start_cost": 223
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_6.ride_dash2_curve_6",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_6.ride_dash2_angular_6",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60107": {
+      "id": 60107,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 417,
+        "start_cost": 417
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_7.ride_dash2_curve_7",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_7.ride_dash2_angular_7",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "60108": {
+      "id": 60108,
+      "active_type": 1,
+      "vitality_cost": {
+        "min_start": 417,
+        "start_cost": 417
+      },
+      "move_param_1": "9999",
+      "move_param_2": "700",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_curve_8.ride_dash2_curve_8",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Dash_Level2/ride_dash2_angular_7.ride_dash2_angular_7",
+      "move_param_5": "300",
+      "move_param_6": "0.3",
+      "move_param_7": "0",
+      "move_param_8": "1",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "70001": {
+      "id": 70001,
+      "active_type": 3,
+      "vitality_cost": {
+        "cost_per_seconds": 100,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      }
+    },
+    "70002": {
+      "id": 70002,
+      "active_type": 3,
+      "vitality_cost": {
+        "cost_per_seconds": 50
+      }
+    },
+    "70003": {
+      "id": 70003,
+      "active_type": 14,
+      "vitality_cost": {}
+    },
+    "80001": {
+      "id": 80001,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 39,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "1.25",
+      "move_param_2": "2400"
+    },
+    "80002": {
+      "id": 80002,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 47,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "1.5",
+      "move_param_2": "2400"
+    },
+    "80003": {
+      "id": 80003,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 54,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "1.75",
+      "move_param_2": "2400"
+    },
+    "80004": {
+      "id": 80004,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 62,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "2",
+      "move_param_2": "2400"
+    },
+    "80005": {
+      "id": 80005,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 70,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "2.25",
+      "move_param_2": "2400"
+    },
+    "80006": {
+      "id": 80006,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 78,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "2.5",
+      "move_param_2": "2400"
+    },
+    "80007": {
+      "id": 80007,
+      "active_type": 8,
+      "vitality_cost": {
+        "cost_per_seconds": 86,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "2.75",
+      "move_param_2": "2400"
+    },
+    "90001": {
+      "id": 90001,
+      "active_type": 7,
+      "vitality_cost": {
+        "cost_per_seconds": 1,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50,
+        "idle_cost": true
+      },
+      "move_param_1": "30",
+      "move_param_2": "50"
+    },
+    "90002": {
+      "id": 90002,
+      "active_type": 7,
+      "vitality_cost": {
+        "cost_per_seconds": 1,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50,
+        "idle_cost": true
+      },
+      "move_param_1": "15",
+      "move_param_2": "50"
+    },
+    "90003": {
+      "id": 90003,
+      "active_type": 7,
+      "vitality_cost": {
+        "cost_per_seconds": 1,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50,
+        "idle_cost": true
+      },
+      "move_param_1": "105",
+      "move_param_2": "50"
+    },
+    "90004": {
+      "id": 90004,
+      "active_type": 7,
+      "vitality_cost": {
+        "cost_per_seconds": 1,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50,
+        "idle_cost": true
+      },
+      "move_param_1": "120",
+      "move_param_2": "50"
+    },
+    "110001": {
+      "id": 110001,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.0001",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_1.powerdash_time_curve_1",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_1.powerdash_speed_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110002": {
+      "id": 110002,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.0002",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_1.powerdash_time_curve_1",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_2.powerdash_speed_curve_2",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110003": {
+      "id": 110003,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.0003",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_1.powerdash_time_curve_1",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_3.powerdash_speed_curve_3",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110004": {
+      "id": 110004,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.9",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_2.powerdash_time_curve_2",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_4.powerdash_speed_curve_4",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "move_param_5": "0",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110005": {
+      "id": 110005,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.4",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_1.powerdash_time_curve_1",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_5.powerdash_speed_curve_5",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110006": {
+      "id": 110006,
+      "active_type": 6,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "0.001",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_time_curve_3.powerdash_time_curve_3",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_3.powerdash_speed_curve_3",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_original_curve.powerdash_original_curve",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110007": {
+      "id": 110007,
+      "active_type": 16,
+      "vitality_cost": {},
+      "move_param_1": "2.5",
+      "move_param_2": "0.8",
+      "move_param_5": "10",
+      "property_modify_speed_param_1": [
+        3
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "110008": {
+      "id": 110008,
+      "active_type": 17,
+      "vitality_cost": {},
+      "move_param_1": "AnimSequence'/Game/ArtRes/AnimSequence/Pets/Win_FanQue2_001/Animation/Fight_Skill_4.Fight_Skill_4",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerDash/powerdash_speed_curve_6.powerdash_speed_curve_6",
+      "move_param_5": "8"
+    },
+    "120001": {
+      "id": 120001,
+      "move_type": 8,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 22,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:380",
+      "move_param_2": "MaxAcceleration:450",
+      "move_param_3": "BrakingDecelerationClimbing:650",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "120002": {
+      "id": 120002,
+      "move_type": 8,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 24,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:450",
+      "move_param_2": "MaxAcceleration:550",
+      "move_param_3": "BrakingDecelerationClimbing:700",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "120003": {
+      "id": 120003,
+      "move_type": 8,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 28,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:520",
+      "move_param_2": "MaxAcceleration:650",
+      "move_param_3": "BrakingDecelerationClimbing:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "130001": {
+      "id": 130001,
+      "active_type": 5,
+      "vitality_cost": {
+        "min_start": 290,
+        "start_cost": 282
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_2.ClimbDash_2",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "130002": {
+      "id": 130002,
+      "active_type": 5,
+      "vitality_cost": {
+        "min_start": 315,
+        "start_cost": 306
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_1.ClimbDash_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "130003": {
+      "id": 130003,
+      "active_type": 5,
+      "vitality_cost": {
+        "min_start": 370,
+        "start_cost": 361
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_3.ClimbDash_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "130004": {
+      "id": 130004,
+      "active_type": 5,
+      "vitality_cost": {
+        "min_start": 210,
+        "start_cost": 200
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_S.ClimbDash_S",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "130005": {
+      "id": 130005,
+      "active_type": 5,
+      "vitality_cost": {
+        "min_start": 370,
+        "start_cost": 361
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_L.ClimbDash_L",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "140001": {
+      "id": 140001,
+      "active_type": 9,
+      "vitality_cost": {
+        "min_start": 250,
+        "start_cost": 250
+      },
+      "move_param_1": "0.2",
+      "move_param_2": "65",
+      "move_param_3": "2000",
+      "move_param_4": "45",
+      "move_param_5": "2000",
+      "move_param_6": "1414",
+      "move_param_7": "1414",
+      "move_param_8": "1"
+    },
+    "140002": {
+      "id": 140002,
+      "active_type": 9,
+      "vitality_cost": {
+        "min_start": 250,
+        "start_cost": 250
+      },
+      "move_param_1": "0.2",
+      "move_param_2": "65",
+      "move_param_3": "1500",
+      "move_param_4": "45",
+      "move_param_5": "2500",
+      "move_param_6": "1414",
+      "move_param_7": "1414",
+      "move_param_8": "1"
+    },
+    "140003": {
+      "id": 140003,
+      "active_type": 9,
+      "vitality_cost": {
+        "min_start": 250,
+        "start_cost": 250
+      },
+      "move_param_1": "0.2",
+      "move_param_2": "75",
+      "move_param_3": "2000",
+      "move_param_4": "45",
+      "move_param_5": "3000",
+      "move_param_6": "1414",
+      "move_param_7": "1414",
+      "move_param_8": "1"
+    },
+    "140004": {
+      "id": 140004,
+      "active_type": 9,
+      "vitality_cost": {
+        "min_start": 250,
+        "start_cost": 250
+      },
+      "move_param_1": "0.2",
+      "move_param_2": "120",
+      "move_param_3": "1500",
+      "move_param_4": "45",
+      "move_param_5": "2500",
+      "move_param_6": "1414",
+      "move_param_7": "1414",
+      "move_param_8": "1"
+    },
+    "150001": {
+      "id": 150001,
+      "active_type": 11,
+      "vitality_cost": {
+        "min_start": 105,
+        "start_cost": 100
+      },
+      "move_param_1": "640",
+      "move_param_2": "0",
+      "move_param_3": "1200",
+      "move_param_4": "6000",
+      "move_param_5": "1200",
+      "move_param_6": "0",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "150002": {
+      "id": 150002,
+      "active_type": 11,
+      "vitality_cost": {
+        "min_start": 105,
+        "start_cost": 100
+      },
+      "move_param_1": "640",
+      "move_param_2": "0",
+      "move_param_3": "1200",
+      "move_param_4": "6000",
+      "move_param_5": "800",
+      "move_param_6": "0",
+      "move_param_7": "1",
+      "property_modify_speed_param_1": [
+        5
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "160001": {
+      "id": 160001,
+      "active_type": 10,
+      "vitality_cost": {
+        "min_start": 400,
+        "start_cost": 400
+      },
+      "move_param_1": "27.5",
+      "move_param_2": "1750",
+      "move_param_3": "0.25",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Grapple/ride_grapple_speed.ride_grapple_speed",
+      "move_param_5": "0.8333333333333334",
+      "move_param_6": "90",
+      "move_param_7": "1.5",
+      "move_param_8": "89.9",
+      "move_param_9": "-60",
+      "property_modify_speed_param_1": [
+        4
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "160002": {
+      "id": 160002,
+      "active_type": 10,
+      "vitality_cost": {
+        "min_start": 400,
+        "start_cost": 200
+      },
+      "move_param_1": "27.5",
+      "move_param_2": "1000",
+      "move_param_3": "0.15",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Grapple/ride_grapple_speed1.ride_grapple_speed1",
+      "move_param_5": "0.8333333333333334",
+      "move_param_6": "90",
+      "move_param_7": "1",
+      "move_param_8": "89.9",
+      "move_param_9": "-60",
+      "property_modify_speed_param_1": [
+        4
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "160003": {
+      "id": 160003,
+      "active_type": 10,
+      "vitality_cost": {
+        "min_start": 400,
+        "start_cost": 250
+      },
+      "move_param_1": "27.5",
+      "move_param_2": "1350",
+      "move_param_3": "0.2",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Grapple/ride_grapple_speed2.ride_grapple_speed2",
+      "move_param_5": "0.8333333333333334",
+      "move_param_6": "90",
+      "move_param_7": "1.5",
+      "move_param_8": "89.9",
+      "move_param_9": "-60",
+      "property_modify_speed_param_1": [
+        4
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "160004": {
+      "id": 160004,
+      "active_type": 10,
+      "vitality_cost": {
+        "min_start": 400,
+        "start_cost": 400
+      },
+      "move_param_1": "27.5",
+      "move_param_2": "1750",
+      "move_param_3": "0.25",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Grapple/ride_grapple_speed3.ride_grapple_speed3",
+      "move_param_5": "1",
+      "move_param_6": "90",
+      "move_param_7": "2",
+      "move_param_8": "89.9",
+      "move_param_9": "-60",
+      "property_modify_speed_param_1": [
+        4
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "170001": {
+      "id": 170001,
+      "move_type": 14,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 25,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:500",
+      "move_param_2": "MaxAcceleration:650",
+      "move_param_3": "BrakingDecelerationClimbing:800",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "170002": {
+      "id": 170002,
+      "move_type": 14,
+      "vitality_cost": {
+        "min_start": 100,
+        "cost_per_seconds": 50,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:380",
+      "move_param_2": "MaxAcceleration:550",
+      "move_param_3": "BrakingDecelerationClimbing:700",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "180001": {
+      "id": 180001,
+      "active_type": 13,
+      "vitality_cost": {
+        "min_start": 210,
+        "start_cost": 200
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_3.ClimbDash_3",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "180002": {
+      "id": 180002,
+      "active_type": 13,
+      "vitality_cost": {
+        "min_start": 210,
+        "start_cost": 200
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ClimbDash/ClimbDash_1.ClimbDash_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        -2000
+      ],
+      "property_modify_speed_param_3": 1
+    },
+    "190001": {
+      "id": 190001,
+      "active_type": 12,
+      "vitality_cost": {}
+    },
+    "200001": {
+      "id": 200001,
+      "move_type": 1,
+      "vitality_cost": {
+        "min_start": 80,
+        "cost_per_seconds": 79,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "BaseMaxSpeed:300",
+      "move_param_3": "AccelerateCurve:Run_Jump/ride_runjump_acc_curve_3",
+      "move_param_4": "DeAccelerateCurve:Run_Jump/ride_JR_deacc_curve_3",
+      "move_param_5": "LinerAngularSpeedCurve:Run_Jump/ride_runjump_angular_3"
+    },
+    "200002": {
+      "id": 200002,
+      "move_type": 6,
+      "vitality_cost": {},
+      "move_param_1": "MaxAcceleration:525",
+      "move_param_2": "BaseMaxSpeed:525",
+      "move_param_3": "LinerAngularSpeedCurve:Gliding/ride_angular_Gliding_5",
+      "move_param_4": "MaxFallingSpeed:150",
+      "move_param_5": "LazyModeGravityModifier:4",
+      "move_param_6": "LazyModeHorizontalVelModifier:0.4",
+      "move_param_7": "LazyModeMaxFallingSpeed:800",
+      "move_param_8": "HangStartSpeed:500"
+    },
+    "200003": {
+      "id": 200003,
+      "active_type": 4,
+      "vitality_cost": {
+        "min_start": 1,
+        "start_cost": 10000000,
+        "cost_percentage_per_seconds": 100,
+        "cost_per_seconds": 10000000,
+        "decay_threshold_percent": 100,
+        "decay_percent": 100
+      },
+      "move_param_1": "750",
+      "move_param_2": "750",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_gliding_curve_1.ride_gliding_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Gliding/ride_angular_Gliding_2.ride_angular_Gliding_2",
+      "move_param_5": "5",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/FlyUp/fly_up_speed_tutorial.fly_up_speed_tutorial",
+      "move_param_7": "0",
+      "move_param_8": "1"
+    },
+    "200004": {
+      "id": 200004,
+      "active_type": 18,
+      "vitality_cost": {},
+      "move_param_1": "400",
+      "move_param_2": "1000",
+      "move_param_3": "700",
+      "move_param_4": "false",
+      "move_param_5": "true"
+    },
+    "200005": {
+      "id": 200005,
+      "active_type": 23,
+      "vitality_cost": {},
+      "move_param_1": "300",
+      "move_param_2": "1000"
+    },
+    "200006": {
+      "id": 200006,
+      "move_type": 16,
+      "vitality_cost": {
+        "min_start": 1
+      },
+      "move_param_1": "300",
+      "move_param_2": "1000",
+      "move_param_3": "900"
+    },
+    "210001": {
+      "id": 210001,
+      "move_type": 15,
+      "active_type": 15,
+      "vitality_cost": {
+        "min_start": 1,
+        "cost_per_seconds": 10,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_acc_curve.balance_acc_curve",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_deacc_curve.balance_deacc_curve",
+      "move_param_3": "1200",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_angular_curve.balance_angular_curve",
+      "move_param_5": "0.3",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_friction_curve.balance_friction_curve",
+      "move_param_7": "0",
+      "move_param_8": "500",
+      "move_param_9": "6",
+      "move_param_10": "20",
+      "move_param_11": "55",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "210002": {
+      "id": 210002,
+      "move_type": 15,
+      "active_type": 15,
+      "vitality_cost": {
+        "min_start": 1,
+        "cost_per_seconds": 10,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_acc_curve_2.balance_acc_curve_2",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_deacc_curve_2.balance_deacc_curve_2",
+      "move_param_3": "1300",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_angular_curve_2.balance_angular_curve_2",
+      "move_param_5": "0.25",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_friction_curve_2.balance_friction_curve_2",
+      "move_param_7": "0",
+      "move_param_8": "600",
+      "move_param_9": "5",
+      "move_param_10": "20",
+      "move_param_11": "65",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "210003": {
+      "id": 210003,
+      "move_type": 15,
+      "active_type": 15,
+      "vitality_cost": {
+        "min_start": 1,
+        "cost_per_seconds": 10,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_acc_curve_3.balance_acc_curve_3",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_deacc_curve_3.balance_deacc_curve_3",
+      "move_param_3": "1400",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_angular_curve_2.balance_angular_curve_2",
+      "move_param_5": "0.35",
+      "move_param_6": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/Balance/balance_friction_curve_3.balance_friction_curve_3",
+      "move_param_7": "0",
+      "move_param_8": "600",
+      "move_param_9": "6",
+      "move_param_10": "20",
+      "move_param_11": "80",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "220001": {
+      "id": 220001,
+      "active_type": 20,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "1",
+      "move_param_2": "0.2",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerJump/powerjump_timez_curve_1.powerjump_timez_curve_1",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerJump/powerjump_timexy_curve_1.powerjump_timexy_curve_1"
+    },
+    "220002": {
+      "id": 220002,
+      "active_type": 20,
+      "vitality_cost": {
+        "min_start": 150,
+        "start_cost": 200,
+        "idle_cost": true
+      },
+      "move_param_1": "1",
+      "move_param_2": "0.2",
+      "move_param_3": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerJump/powerjump_timez_curve_2.powerjump_timez_curve_2",
+      "move_param_4": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/PowerJump/powerjump_timexy_curve_2.powerjump_timexy_curve_2"
+    },
+    "230001": {
+      "id": 230001,
+      "active_type": 19,
+      "vitality_cost": {
+        "min_start": 1
+      },
+      "move_param_1": "200",
+      "move_param_2": "1.5",
+      "move_param_3": "1500",
+      "move_param_4": "5",
+      "move_param_5": "90",
+      "move_param_6": "3500"
+    },
+    "240001": {
+      "id": 240001,
+      "move_type": 16,
+      "vitality_cost": {
+        "min_start": 20,
+        "cost_per_seconds": 17,
+        "decay_threshold_percent": 25,
+        "decay_percent": 50
+      },
+      "move_param_1": "MaxAcceleration:400",
+      "move_param_2": "BaseMaxSpeed:480",
+      "move_param_3": "AccelerateCurve:Swim/ride_swim_acc_curve_1",
+      "move_param_4": "DeAccelerateCurve:Swim/ride_swim_deacc_curve_1",
+      "move_param_5": "LinerAngularSpeedCurve:Swim/ride_swim_angular_1",
+      "property_modify_speed_param_1": [
+        1
+      ],
+      "property_modify_speed_param_2": [
+        952,
+        476,
+        571,
+        4000,
+        4000,
+        2143,
+        1357,
+        8000
+      ]
+    },
+    "250001": {
+      "id": 250001,
+      "active_type": 22,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "1",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ride_throw_speed.ride_throw_speed",
+      "move_param_3": "10",
+      "move_param_4": "500",
+      "move_param_5": "0.1",
+      "move_param_6": "200"
+    },
+    "250002": {
+      "id": 250002,
+      "active_type": 22,
+      "vitality_cost": {
+        "min_start": 200,
+        "start_cost": 200
+      },
+      "move_param_1": "2",
+      "move_param_2": "/Game/NewRoco/Modules/Core/Character/Rides/RideAll/RideCurve/ride_throw_speed_2.ride_throw_speed_2",
+      "move_param_3": "10",
+      "move_param_4": "1000",
+      "move_param_5": "0.1",
+      "move_param_6": "200"
+    },
+    "260001": {
+      "id": 260001,
+      "active_type": 21,
+      "vitality_cost": {},
+      "move_param_1": "/Game/ArtRes/AnimSequence/Pets/Wat_AWaSha1_001/Animation/World_PenShui_loop.World_PenShui_loop"
+    }
+  }
+}

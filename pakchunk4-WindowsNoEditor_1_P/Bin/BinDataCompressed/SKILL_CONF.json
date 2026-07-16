@@ -3790,8 +3790,28 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 80,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20111160,
+        20111170,
+        20111180,
+        20111190,
+        20111200,
+        20111210,
+        20111220,
+        20111230,
+        20111240,
+        20111250,
+        20111260,
+        20111270,
+        20111280,
+        20111290,
+        20111300,
+        20111310,
+        20111320,
+        20111330,
+        20111340
+      ],
+      "delete_resonance_sk_black_list_target": [
         1,
         1,
         1,
@@ -3812,7 +3832,7 @@
         1,
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99,
         99,
         99,
@@ -4652,11 +4672,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 113,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230460
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -4710,11 +4732,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 118,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20010054
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -4794,15 +4818,33 @@
       "hit_para": 10000,
       "skill_result": [
         {
-          "effect_id": 20350560,
+          "effect_id": 20641500,
           "result_target_type": 1,
           "cast_moment": 11,
           "success_rate": 10000,
           "buff_group_level": 1
         },
-        {},
-        {},
-        {},
+        {
+          "effect_id": 20641510,
+          "result_target_type": 1,
+          "cast_moment": 11,
+          "success_rate": 10000,
+          "buff_group_level": 1
+        },
+        {
+          "effect_id": 20641520,
+          "result_target_type": 1,
+          "cast_moment": 11,
+          "success_rate": 10000,
+          "buff_group_level": 1
+        },
+        {
+          "effect_id": 20641530,
+          "result_target_type": 1,
+          "cast_moment": 11,
+          "success_rate": 10000,
+          "buff_group_level": 1
+        },
         {},
         {
           "effect_id": 1004117,
@@ -4820,11 +4862,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 123,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20640580
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -4878,11 +4922,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 127,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20010052
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -5675,11 +5721,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 158,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20320380
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -5734,11 +5782,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 161,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20320225
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -5792,11 +5842,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 164,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20350350
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -6275,11 +6327,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 182,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230571
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -6936,11 +6990,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 205,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20010016
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -7201,13 +7257,17 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 216,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011551,
+        20011552,
+        20011553
+      ],
+      "delete_resonance_sk_black_list_target": [
         1,
         1,
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99,
         99,
         99
@@ -7364,11 +7424,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 225,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011541
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -8061,11 +8123,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 251,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230446
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -8435,11 +8499,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 265,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011524
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -9009,11 +9075,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 286,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20770080
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -9125,11 +9193,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 291,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230570
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -9459,11 +9529,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 302,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230480
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -9618,11 +9690,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 309,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20230790
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -11222,11 +11296,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 363,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20010012
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -11742,11 +11818,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 384,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011529
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -11853,11 +11931,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 389,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20320420
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -12925,11 +13005,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 431,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011531
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -12982,11 +13064,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 434,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011532
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -14187,12 +14271,15 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 472,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20011539,
+        20011540
+      ],
+      "delete_resonance_sk_black_list_target": [
         1,
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         1,
         1
       ]
@@ -14352,8 +14439,27 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 479,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        21460020,
+        21460030,
+        21460040,
+        21460050,
+        21460060,
+        21460070,
+        21460080,
+        21460090,
+        21460100,
+        21460110,
+        21460120,
+        21460130,
+        21460140,
+        21460150,
+        21460160,
+        21460170,
+        21460180,
+        21460190
+      ],
+      "delete_resonance_sk_black_list_target": [
         7,
         7,
         7,
@@ -14373,7 +14479,7 @@
         7,
         7
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99,
         99,
         99,
@@ -15178,13 +15284,17 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 503,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        21460181,
+        21460161,
+        21460021
+      ],
+      "delete_resonance_sk_black_list_target": [
         1,
         1,
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99,
         99,
         99
@@ -15258,13 +15368,17 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 507,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        21360012,
+        20400700,
+        20400750
+      ],
+      "delete_resonance_sk_black_list_target": [
         1,
         1,
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99,
         99,
         99
@@ -15390,7 +15504,7 @@
       "target_type": 9,
       "target_count": 1,
       "cd_round": [
-        0,
+        99,
         0
       ],
       "hit_para": 10000,
@@ -15441,7 +15555,7 @@
       "target_type": 9,
       "target_count": 1,
       "cd_round": [
-        0,
+        99,
         0
       ],
       "hit_para": 10000,
@@ -15637,10 +15751,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004034"
+      "resonance_sk_black_list": [
+        1004034
       ],
-      "is_showlens": 526
+      "resonance_sk_black_list_feature": [
+        200107
+      ]
     },
     "280002": {
       "id": 280002,
@@ -15697,10 +15813,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004035"
+      "resonance_sk_black_list": [
+        1004035
       ],
-      "is_showlens": 530
+      "resonance_sk_black_list_feature": [
+        200076
+      ]
     },
     "280003": {
       "id": 280003,
@@ -15757,10 +15875,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004036"
+      "resonance_sk_black_list": [
+        1004036
       ],
-      "is_showlens": 533
+      "resonance_sk_black_list_feature": [
+        200146
+      ]
     },
     "280004": {
       "id": 280004,
@@ -15818,10 +15938,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004037"
+      "resonance_sk_black_list": [
+        1004037
       ],
-      "is_showlens": 537
+      "resonance_sk_black_list_feature": [
+        200088
+      ]
     },
     "280005": {
       "id": 280005,
@@ -15884,15 +16006,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004088"
-      ],
-      "is_showlens": 540,
-      "special_aoe": 541,
       "resonance_sk_black_list": [
-        1
+        1004088
       ],
       "resonance_sk_black_list_feature": [
+        200110
+      ],
+      "delete_resonance_sk_black_list": [
+        20320228
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -15950,15 +16076,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004039"
-      ],
-      "is_showlens": 544,
-      "special_aoe": 545,
       "resonance_sk_black_list": [
-        1
+        1004039
       ],
       "resonance_sk_black_list_feature": [
+        200132
+      ],
+      "delete_resonance_sk_black_list": [
+        20011013
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -16074,10 +16204,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004041"
+      "resonance_sk_black_list": [
+        1004041
       ],
-      "is_showlens": 550
+      "resonance_sk_black_list_feature": [
+        200078
+      ]
     },
     "280009": {
       "id": 280009,
@@ -16141,10 +16273,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004093"
+      "resonance_sk_black_list": [
+        1004093
       ],
-      "is_showlens": 553
+      "resonance_sk_black_list_feature": [
+        200075
+      ]
     },
     "280010": {
       "id": 280010,
@@ -16206,10 +16340,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004100"
+      "resonance_sk_black_list": [
+        1004100
       ],
-      "is_showlens": 556
+      "resonance_sk_black_list_feature": [
+        200074
+      ]
     },
     "280011": {
       "id": 280011,
@@ -16272,10 +16408,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004056"
+      "resonance_sk_black_list": [
+        1004056
       ],
-      "is_showlens": 559
+      "resonance_sk_black_list_feature": [
+        200106
+      ]
     },
     "280012": {
       "id": 280012,
@@ -16338,10 +16476,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004094"
+      "resonance_sk_black_list": [
+        1004094
       ],
-      "is_showlens": 562
+      "resonance_sk_black_list_feature": [
+        200116
+      ]
     },
     "280013": {
       "id": 280013,
@@ -16399,10 +16539,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004057"
+      "resonance_sk_black_list": [
+        1004057
       ],
-      "is_showlens": 565
+      "resonance_sk_black_list_feature": [
+        200080
+      ]
     },
     "280014": {
       "id": 280014,
@@ -16466,10 +16608,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004058"
+      "resonance_sk_black_list": [
+        1004058
       ],
-      "is_showlens": 568
+      "resonance_sk_black_list_feature": [
+        200149
+      ]
     },
     "280015": {
       "id": 280015,
@@ -16582,10 +16726,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004069"
+      "resonance_sk_black_list": [
+        1004069
       ],
-      "is_showlens": 572
+      "resonance_sk_black_list_feature": [
+        200169
+      ]
     },
     "280017": {
       "id": 280017,
@@ -16643,10 +16789,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004059"
+      "resonance_sk_black_list": [
+        1004059
       ],
-      "is_showlens": 575
+      "resonance_sk_black_list_feature": [
+        200208
+      ]
     },
     "280018": {
       "id": 280018,
@@ -16709,10 +16857,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004092"
+      "resonance_sk_black_list": [
+        1004092
       ],
-      "is_showlens": 578
+      "resonance_sk_black_list_feature": [
+        200174
+      ]
     },
     "280019": {
       "id": 280019,
@@ -16779,15 +16929,22 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004060"
-      ],
-      "is_showlens": 581,
-      "special_aoe": 582,
       "resonance_sk_black_list": [
-        1
+        1004060
       ],
       "resonance_sk_black_list_feature": [
+        200281,
+        200282,
+        200283,
+        200212
+      ],
+      "delete_resonance_sk_black_list": [
+        20011560
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -16847,10 +17004,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004061"
+      "resonance_sk_black_list": [
+        1004061
       ],
-      "is_showlens": 585
+      "resonance_sk_black_list_feature": [
+        200096
+      ]
     },
     "280021": {
       "id": 280021,
@@ -16912,15 +17071,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004062"
-      ],
-      "is_showlens": 588,
-      "special_aoe": 589,
       "resonance_sk_black_list": [
-        1
+        1004062
       ],
       "resonance_sk_black_list_feature": [
+        200222
+      ],
+      "delete_resonance_sk_black_list": [
+        20011530
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -16978,15 +17141,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004063"
-      ],
-      "is_showlens": 592,
-      "special_aoe": 593,
       "resonance_sk_black_list": [
-        1
+        1004063
       ],
       "resonance_sk_black_list_feature": [
+        200111
+      ],
+      "delete_resonance_sk_black_list": [
+        20350351
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -17045,10 +17212,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004064"
+      "resonance_sk_black_list": [
+        1004064
       ],
-      "is_showlens": 596
+      "resonance_sk_black_list_feature": [
+        200124
+      ]
     },
     "280024": {
       "id": 280024,
@@ -17116,15 +17285,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004067"
-      ],
-      "is_showlens": 599,
-      "special_aoe": 600,
       "resonance_sk_black_list": [
-        1
+        1004067
       ],
       "resonance_sk_black_list_feature": [
+        200140
+      ],
+      "delete_resonance_sk_black_list": [
+        20011542
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -17190,10 +17363,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004066"
+      "resonance_sk_black_list": [
+        1004066
       ],
-      "is_showlens": 603
+      "resonance_sk_black_list_feature": [
+        200191
+      ]
     },
     "280026": {
       "id": 280026,
@@ -17257,10 +17432,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004066"
+      "resonance_sk_black_list": [
+        1004066
       ],
-      "is_showlens": 603
+      "resonance_sk_black_list_feature": [
+        200191
+      ]
     },
     "280027": {
       "id": 280027,
@@ -17324,10 +17501,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004066"
+      "resonance_sk_black_list": [
+        1004066
       ],
-      "is_showlens": 603
+      "resonance_sk_black_list_feature": [
+        200191
+      ]
     },
     "280028": {
       "id": 280028,
@@ -17391,10 +17570,12 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004066"
+      "resonance_sk_black_list": [
+        1004066
       ],
-      "is_showlens": 603
+      "resonance_sk_black_list_feature": [
+        200191
+      ]
     },
     "280029": {
       "id": 280029,
@@ -17421,7 +17602,7 @@
       "hit_para": 10000,
       "skill_result": [
         {
-          "effect_id": 20350560,
+          "effect_id": 20400830,
           "result_target_type": 1,
           "cast_moment": 11,
           "success_rate": 10000,
@@ -17453,11 +17634,13 @@
       "target_blood_limit": [
         0
       ],
-      "special_aoe": 123,
-      "resonance_sk_black_list": [
+      "delete_resonance_sk_black_list": [
+        20640580
+      ],
+      "delete_resonance_sk_black_list_target": [
         1
       ],
-      "resonance_sk_black_list_feature": [
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -17522,15 +17705,19 @@
       "target_blood_limit": [
         0
       ],
-      "use_type": [
-        "1004110"
-      ],
-      "is_showlens": 610,
-      "special_aoe": 611,
       "resonance_sk_black_list": [
-        1
+        1004110
       ],
       "resonance_sk_black_list_feature": [
+        200100
+      ],
+      "delete_resonance_sk_black_list": [
+        20540012
+      ],
+      "delete_resonance_sk_black_list_target": [
+        1
+      ],
+      "delete_resonance_sk_black_list_layer": [
         99
       ]
     },
@@ -30818,7 +31005,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7021200": {
       "id": 7021200,
@@ -30868,7 +31058,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7021211": {
       "id": 7021211,
@@ -30931,6 +31124,9 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Nor_GZ_101103",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101103.101103'",
+      "describe_type": [
+        5
+      ],
       "can_changed": 1
     },
     "7030100": {
@@ -33198,9 +33394,7 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Gra_CZ_102037",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
       "describe_type": [
-        5,
-        1,
-        3
+        5
       ],
       "target_blood_limit": [
         0
@@ -33257,9 +33451,7 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Gra_CZ_102038_Y",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
       "describe_type": [
-        5,
-        1,
-        3
+        5
       ],
       "target_blood_limit": [
         0
@@ -33399,7 +33591,6 @@
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
       "describe_type": [
         5,
-        1,
         3
       ],
       "target_blood_limit": [
@@ -33452,9 +33643,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Gra_CZ_102038_Y",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
       "describe_type": [
-        5,
-        1,
-        3
+        12,
+        6
       ],
       "target_blood_limit": [
         0
@@ -35533,6 +35723,9 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        5
+      ],
       "target_blood_limit": [
         0
       ]
@@ -35561,6 +35754,10 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        1,
+        11
+      ],
       "target_blood_limit": [
         0
       ]
@@ -35589,6 +35786,9 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        5
+      ],
       "target_blood_limit": [
         0
       ]
@@ -35617,6 +35817,10 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        12,
+        7
+      ],
       "target_blood_limit": [
         0
       ]
@@ -35664,7 +35868,6 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Fir_MR_103046",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/103046.103046'",
       "describe_type": [
-        6,
         12
       ],
       "target_blood_limit": [
@@ -37672,7 +37875,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5,
+        15
+      ]
     },
     "7050490": {
       "id": 7050490,
@@ -37697,7 +37904,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7050500": {
       "id": 7050500,
@@ -37773,6 +37983,9 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Wat_JS_104034",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/104034.104034'",
+      "describe_type": [
+        12
+      ],
       "can_changed": 1
     },
     "7060090": {
@@ -38506,7 +38719,11 @@
       "dam_para": [
         0
       ],
-      "type": 1
+      "type": 1,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7060251": {
       "id": 7060251,
@@ -38518,7 +38735,11 @@
       "dam_para": [
         0
       ],
-      "type": 1
+      "type": 1,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7060260": {
       "id": 7060260,
@@ -38530,7 +38751,11 @@
       "dam_para": [
         0
       ],
-      "type": 1
+      "type": 1,
+      "describe_type": [
+        5,
+        1
+      ]
     },
     "7060261": {
       "id": 7060261,
@@ -38542,7 +38767,11 @@
       "dam_para": [
         0
       ],
-      "type": 1
+      "type": 1,
+      "describe_type": [
+        5,
+        1
+      ]
     },
     "7060270": {
       "id": 7060270,
@@ -38580,6 +38809,9 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Lig_GL_118029",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118029.118029'",
+      "describe_type": [
+        5
+      ],
       "can_changed": 1
     },
     "7070010": {
@@ -39690,7 +39922,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7070210": {
       "id": 7070210,
@@ -39715,7 +39950,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        6
+      ]
     },
     "7070220": {
       "id": 7070220,
@@ -39740,7 +39979,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7070221": {
       "id": 7070221,
@@ -39790,7 +40032,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7070240": {
       "id": 7070240,
@@ -39829,7 +40074,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Iron_TG_106018",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106018.106018'",
       "describe_type": [
-        5
+        5,
+        1
       ],
       "target_blood_limit": [
         0
@@ -39921,7 +40167,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Iron_JYF_306023",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/306023.306023'",
       "describe_type": [
-        12
+        12,
+        6
       ],
       "target_blood_limit": [
         0
@@ -39971,7 +40218,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Iron_ZQYW_106025",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106025.106025'",
       "describe_type": [
-        12
+        12,
+        7
       ],
       "target_blood_limit": [
         0
@@ -40088,7 +40336,13 @@
           "success_rate": 10000,
           "buff_group_level": 5
         },
-        {},
+        {
+          "effect_id": 20190360,
+          "result_target_type": 1,
+          "cast_moment": 6,
+          "success_rate": 10000,
+          "buff_group_level": 1
+        },
         {
           "effect_id": 20641030,
           "result_target_type": 1,
@@ -42434,7 +42688,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7080460": {
       "id": 7080460,
@@ -42472,7 +42729,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        6
+      ]
     },
     "7080470": {
       "id": 7080470,
@@ -44579,8 +44840,8 @@
       "skill_result": [
         {
           "effect_id": 20400740,
-          "result_target_type": 1,
-          "cast_moment": 11,
+          "result_target_type": 2,
+          "cast_moment": 7,
           "success_rate": 10000,
           "buff_group_level": 1
         }
@@ -45990,7 +46251,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        1
+      ]
     },
     "7100301": {
       "id": 7100301,
@@ -46015,7 +46280,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        1
+      ]
     },
     "7100310": {
       "id": 7100310,
@@ -46151,6 +46420,13 @@
           "result_target_type": 1,
           "cast_moment": 11,
           "success_rate": 10000
+        },
+        {
+          "effect_id": 20190360,
+          "result_target_type": 1,
+          "cast_moment": 6,
+          "success_rate": 10000,
+          "buff_group_level": 1
         }
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Dra_LY_109019_Y",
@@ -47720,6 +47996,10 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        12,
+        25
+      ],
       "target_blood_limit": [
         0
       ]
@@ -47748,6 +48028,9 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        5
+      ],
       "target_blood_limit": [
         0
       ]
@@ -47830,7 +48113,9 @@
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/210030.210030'",
       "describe_type": [
         12,
-        1
+        1,
+        6,
+        19
       ],
       "target_blood_limit": [
         0
@@ -47882,7 +48167,9 @@
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/210030.210030'",
       "describe_type": [
         12,
-        1
+        1,
+        6,
+        19
       ],
       "target_blood_limit": [
         0
@@ -49000,7 +49287,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7120270": {
       "id": 7120270,
@@ -49025,7 +49315,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7120271": {
       "id": 7120271,
@@ -49050,7 +49344,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7120280": {
       "id": 7120280,
@@ -49075,7 +49373,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5,
+        15
+      ]
     },
     "7120290": {
       "id": 7120290,
@@ -49119,6 +49421,11 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Poi_ZQ_211024",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/211024.211024'",
+      "describe_type": [
+        12,
+        1,
+        6
+      ],
       "can_changed": 1
     },
     "7120291": {
@@ -49156,7 +49463,12 @@
         }
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Poi_ZQ_211025_Y",
-      "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/211024.211024'"
+      "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/211024.211024'",
+      "describe_type": [
+        12,
+        1,
+        6
+      ]
     },
     "7120300": {
       "id": 7120300,
@@ -49213,6 +49525,10 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Poi_DY_111026",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111026.111026'",
+      "describe_type": [
+        1,
+        11
+      ],
       "can_changed": 1
     },
     "7120301": {
@@ -49261,10 +49577,22 @@
           "cast_moment": 11,
           "success_rate": 10000,
           "buff_group_level": 1
+        },
+        {},
+        {
+          "effect_id": 20190360,
+          "result_target_type": 1,
+          "cast_moment": 6,
+          "success_rate": 10000,
+          "buff_group_level": 1
         }
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Poi_DY_111027_Y",
-      "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111026.111026'"
+      "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111026.111026'",
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7130100": {
       "id": 7130100,
@@ -50233,7 +50561,7 @@
           "success_rate": 10000
         },
         {
-          "effect_id": 1004008,
+          "effect_id": 1004137,
           "result_target_type": 2,
           "cast_moment": 11,
           "success_rate": 10000
@@ -50548,7 +50876,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        6
+      ]
     },
     "7130340": {
       "id": 7130340,
@@ -50573,7 +50905,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7130350": {
       "id": 7130350,
@@ -52694,7 +53029,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        6
+      ]
     },
     "7140340": {
       "id": 7140340,
@@ -52719,7 +53058,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5,
+        1
+      ]
     },
     "7140350": {
       "id": 7140350,
@@ -54129,9 +54472,7 @@
       "target_blood_limit": [
         0
       ],
-      "common_type": [
-        0
-      ]
+      "is_showlens": 1
     },
     "7150330": {
       "id": 7150330,
@@ -54254,6 +54595,9 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        5
+      ],
       "target_blood_limit": [
         0
       ]
@@ -54282,6 +54626,10 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        5,
+        15
+      ],
       "target_blood_limit": [
         0
       ]
@@ -54310,6 +54658,11 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        12,
+        1,
+        6
+      ],
       "target_blood_limit": [
         0
       ]
@@ -54342,6 +54695,11 @@
         0
       ],
       "hit_para": 10000,
+      "describe_type": [
+        12,
+        1,
+        6
+      ],
       "target_blood_limit": [
         0
       ]
@@ -54388,7 +54746,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Win_QS_214033",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/214033.214033'",
       "describe_type": [
-        5
+        5,
+        15
       ],
       "target_blood_limit": [
         0
@@ -54403,7 +54762,7 @@
         7
       ],
       "dam_para": [
-        170
+        105
       ],
       "type": 1,
       "Skill_Type": 1,
@@ -55090,7 +55449,8 @@
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Cut_WJLY_215015",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/215015.215015'",
       "describe_type": [
-        12
+        12,
+        19
       ],
       "target_blood_limit": [
         0
@@ -55606,7 +55966,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7160340": {
       "id": 7160340,
@@ -55631,7 +55994,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7160341": {
       "id": 7160341,
@@ -55656,7 +56023,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        1,
+        11
+      ]
     },
     "7160350": {
       "id": 7160350,
@@ -55681,7 +56052,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7160360": {
       "id": 7160360,
@@ -55706,7 +56080,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7160370": {
       "id": 7160370,
@@ -55731,7 +56108,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7160380": {
       "id": 7160380,
@@ -55769,6 +56149,10 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Cut_ZW_115020",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115020.115020'",
+      "describe_type": [
+        12,
+        8
+      ],
       "can_changed": 1
     },
     "7170080": {
@@ -56980,7 +57364,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        7
+      ]
     },
     "7170290": {
       "id": 7170290,
@@ -57035,7 +57423,7 @@
       "target_type": 1,
       "target_count": 1,
       "cd_round": [
-        2,
+        0,
         0
       ],
       "hit_para": 10000,
@@ -57046,12 +57434,19 @@
           "cast_moment": 11,
           "success_rate": 10000,
           "buff_group_level": 1
+        },
+        {
+          "effect_id": 1037003,
+          "result_target_type": 1,
+          "cast_moment": 11,
+          "success_rate": 10000
         }
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Gho_RM_116028",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/116028.116028'",
       "describe_type": [
-        12
+        12,
+        7
       ],
       "can_changed": 1
     },
@@ -58077,9 +58472,7 @@
       "target_blood_limit": [
         0
       ],
-      "common_type": [
-        0
-      ]
+      "is_showlens": 1
     },
     "7180240": {
       "id": 7180240,
@@ -59039,7 +59432,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7180390": {
       "id": 7180390,
@@ -59064,7 +59460,11 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        12,
+        8
+      ]
     },
     "7180400": {
       "id": 7180400,
@@ -59089,7 +59489,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7180410": {
       "id": 7180410,
@@ -59114,7 +59517,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7180420": {
       "id": 7180420,
@@ -59139,7 +59545,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7180430": {
       "id": 7180430,
@@ -59176,6 +59585,9 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Dem_ZS_117036",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117036.117036'",
+      "describe_type": [
+        5
+      ],
       "can_changed": 1
     },
     "7180440": {
@@ -59219,6 +59631,9 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Dem_YY_217035",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/217035.217035'",
+      "describe_type": [
+        12
+      ],
       "can_changed": 1
     },
     "7190210": {
@@ -60237,7 +60652,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7190420": {
       "id": 7190420,
@@ -60262,7 +60680,10 @@
         0,
         0
       ],
-      "hit_para": 10000
+      "hit_para": 10000,
+      "describe_type": [
+        5
+      ]
     },
     "7190430": {
       "id": 7190430,
@@ -60306,6 +60727,10 @@
       ],
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Cha_CZ_118033",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118033.118033'",
+      "describe_type": [
+        12,
+        6
+      ],
       "can_changed": 1
     },
     "7190440": {
@@ -60341,6 +60766,9 @@
       "hit_para": 10000,
       "res_id": "/Game/ArtRes/Effects/G6Skill/Jineng/G6_Cha_FZL_118035",
       "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118035.118035'",
+      "describe_type": [
+        5
+      ],
       "can_changed": 1
     },
     "7200000": {
@@ -60698,7 +61126,7 @@
       "target_blood_limit": [
         0
       ],
-      "common_type_number": 1
+      "special_aoe": 1
     },
     "7200008": {
       "id": 7200008,
@@ -71301,9 +71729,7 @@
       "target_blood_limit": [
         0
       ],
-      "common_type": [
-        0
-      ]
+      "is_showlens": 1
     },
     "7999108": {
       "id": 7999108,
@@ -71386,9 +71812,7 @@
       "target_blood_limit": [
         0
       ],
-      "common_type": [
-        0
-      ]
+      "is_showlens": 1
     },
     "7999110": {
       "id": 7999110,

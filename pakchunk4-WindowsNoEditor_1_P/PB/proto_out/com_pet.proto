@@ -32,6 +32,7 @@ enum PetDataBitFlag {
   PDBF_PET_HAS_BACKTRACK_SNAPSHOT = 512;
   PDBF_PET_HAS_BACKTRACK_ITEMS = 1024;
   PDBF_PET_IS_FROM_SEASON = 2048;
+  PDBF_PET_PAUSE_EVOLUTE = 4096;
   PDBF_PET_AFTER_INIT = 8192;
 }
 
@@ -353,6 +354,7 @@ message PetTypeInfo {
     PET_TYPE_MIRROR = 2;
     PET_TYPE_RANDOM = 3;
     PET_TYPE_RANDOM_FIGHT = 4;
+    PET_TYPE_BUFF145 = 5;
   }
   Next.PetTypeInfo.ENUM type = 1;
   int32 param = 2;
@@ -492,6 +494,11 @@ message PetBacktrackShowInfo {
 message PetUsedItems {
   uint32 id = 1;
   uint32 used_num = 2;
+}
+
+message PetBacktrackRoundInfo {
+  uint32 current_round_id = 1;
+  uint32 used_count = 2;
 }
 
 message PetTravelInfo {

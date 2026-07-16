@@ -1,0 +1,178 @@
+{
+  "Name": "FASHION_ITEM_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "name",
+      "Type": "ELocalizedString",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "type",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "type_name",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "headwear_lock",
+      "Type": "EBool",
+      "Offset": 16,
+      "Size": 1
+    },
+    {
+      "Name": "is_skm",
+      "Type": "EBool",
+      "Offset": 17,
+      "Size": 1
+    },
+    {
+      "Name": "shoes_type",
+      "Type": "EInt32",
+      "Offset": 18,
+      "Size": 4
+    },
+    {
+      "Name": "gender",
+      "Type": "EInt32",
+      "Offset": 22,
+      "Size": 4
+    },
+    {
+      "Name": "suits_id",
+      "Type": "EString",
+      "Offset": 26,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "fashion_bond_band",
+      "Type": "EInt32",
+      "Offset": 30,
+      "Size": 4
+    },
+    {
+      "Name": "item_quality",
+      "Type": "EUint32",
+      "Offset": 34,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_tops_tag",
+      "Type": "EInt32",
+      "Offset": 38,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_rings_tag",
+      "Type": "EInt32",
+      "Offset": 42,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_bottoms_tag",
+      "Type": "EInt32",
+      "Offset": 46,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_shoes_tag",
+      "Type": "EInt32",
+      "Offset": 50,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_socks_tag",
+      "Type": "EInt32",
+      "Offset": 54,
+      "Size": 4
+    },
+    {
+      "Name": "icon",
+      "Type": "EString",
+      "Offset": 58,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "model",
+      "Type": "EString",
+      "Offset": 62,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "change_bp",
+      "Type": "EString",
+      "Offset": 66,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "launch_item",
+      "Type": "EBool",
+      "Offset": 70,
+      "Size": 1
+    },
+    {
+      "Name": "is_free_item",
+      "Type": "EBool",
+      "Offset": 71,
+      "Size": 1
+    },
+    {
+      "Name": "display_item",
+      "Type": "EBool",
+      "Offset": 72,
+      "Size": 1
+    },
+    {
+      "Name": "description",
+      "Type": "EString",
+      "Offset": 73,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "acquire_struct",
+      "Type": "EStruct",
+      "Offset": 77,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "FASHION_ITEM_CONF.acquire_struct",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "acquire_way_text",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "behavior_id",
+            "Type": "EInt32",
+            "Offset": 4,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

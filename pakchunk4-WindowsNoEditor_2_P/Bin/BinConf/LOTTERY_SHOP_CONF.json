@@ -1,0 +1,99 @@
+{
+  "Name": "LOTTERY_SHOP_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "shop_name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "shop_pos",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "enable_time",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "disable_time",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "kv_path",
+      "Type": "EStruct",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "LOTTERY_SHOP_CONF.kv_path",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "gender",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "image_kv",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "goods",
+      "Type": "EStruct",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "LOTTERY_SHOP_CONF.goods",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "goods_type",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "goods_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "mail_reward",
+      "Type": "EUint32",
+      "Offset": 28,
+      "Size": 4
+    }
+  ]
+}

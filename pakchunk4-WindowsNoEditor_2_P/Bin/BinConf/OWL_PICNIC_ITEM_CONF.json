@@ -1,0 +1,59 @@
+{
+  "Name": "OWL_PICNIC_ITEM_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "picnic_tool_sequence",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "is_visitor_invalid",
+      "Type": "EBool",
+      "Offset": 8,
+      "Size": 1
+    },
+    {
+      "Name": "picnic_tool_feature",
+      "Type": "EUint32",
+      "Offset": 9,
+      "Size": 4
+    },
+    {
+      "Name": "picnic_tool_feature_time",
+      "Type": "EUint32",
+      "Offset": 13,
+      "Size": 4
+    },
+    {
+      "Name": "picnic_tool_feature_flavor",
+      "Type": "EInt32",
+      "Offset": 17,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "picnic_tool_flavor_text",
+      "Type": "EString",
+      "Offset": 21,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "picnic_tool_feature_text",
+      "Type": "EString",
+      "Offset": 25,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

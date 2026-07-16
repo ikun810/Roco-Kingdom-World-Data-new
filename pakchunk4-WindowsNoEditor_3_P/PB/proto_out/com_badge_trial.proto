@@ -1,0 +1,255 @@
+package Next;
+
+import "com_base_types.proto";
+import "xls_enum.proto";
+import "com_goods.proto";
+import "com_pet.proto";
+
+enum NodeRefreshType {
+  NRT_EVENT = 1;
+  NRT_REWARD = 2;
+}
+
+enum RewardAction {
+  RA_FUSE_SKILL = 0;
+  RA_ADD_SKILL = 1;
+  RA_RECEIVE_REWARD = 2;
+  RA_SKIP_REWARD = 3;
+  RA_SKIP_SHOP = 4;
+}
+
+enum GrassTrialShopItemType {
+  GTSIT_NONE = 0;
+  GTSIT_SKILL = 1;
+  GTSIT_FEATURE = 2;
+  GTSIT_SHRED = 3;
+}
+
+message GrassTrialShopItem {
+  uint32 item_type = 1;
+  uint32 item_id = 2;
+  uint32 price = 3;
+  bool is_purchased = 4;
+  uint32 index = 5;
+}
+
+message GrassTrialOwnedItemPrice {
+  uint32 item_type = 1;
+  uint32 item_id = 2;
+  uint32 price = 3;
+}
+
+message GrassTrialFusedSkillData {
+  uint32 base_skill_id = 1;
+  uint32 fused_power = 2;
+  uint32 fused_energy_cost = 3;
+  uint32 fusion_count = 4;
+  uint32 skill_type = 5;
+  repeated uint32 merged_skill_ids = 6;
+  uint32 slot_pos = 7;
+}
+
+message GrassTrialPet {
+  uint32 pet_gid = 1;
+  uint32 base_conf_id = 2;
+  uint32 current_hp = 3;
+  uint32 max_hp = 4;
+  uint32 level = 5;
+  uint32 energy_ceiling = 6;
+  uint32 growth = 7;
+  repeated Next.GrassTrialFusedSkillData skills = 10;
+  repeated uint32 acquired_feature_ids = 11;
+  repeated uint32 acquired_shard_effect_ids = 12;
+  Next.PetData pet_data = 13;
+  repeated uint32 equipped_skill_slots = 14;
+}
+
+message GrassTrialNodeRecord {
+  uint32 chapter_id = 1;
+  uint32 node_index = 2;
+  uint32 event_conf_id = 3;
+  uint32 coin_num = 4;
+  uint32 star_light_num = 5;
+}
+
+message GrassTrialNodeEvent {
+  uint32 slot_index = 1;
+  uint32 event_conf_id = 2;
+  uint32 reward_id = 3;
+  uint32 event_refresh_cost = 4;
+  uint32 reward_refresh_cost = 5;
+  repeated uint32 random_skills = 6;
+  uint32 level = 7;
+  repeated uint32 used_reward_ids = 8;
+  repeated uint32 extra_reward_ids = 9;
+}
+
+message GrassTrialNodeSelection {
+  repeated Next.GrassTrialNodeEvent node_events = 1;
+  uint32 event_refresh_count = 2;
+  uint32 reward_refresh_count = 3;
+  uint64 npc_obj_id = 4;
+  uint32 total_refresh_cost = 5;
+}
+
+message GrassTrialEventSelected {
+  uint32 event_conf_id = 1;
+  uint32 reward_id = 2;
+  bool is_waiting_recieve = 3;
+  repeated uint32 random_skills = 4;
+  uint64 npc_obj_id = 5;
+  repeated uint32 extra_reward_ids = 6;
+  repeated uint32 received_extra_reward_ids = 7;
+  repeated Next.GrassTrialShopItem shop_items = 8;
+  bool has_sold = 9;
+  repeated Next.GrassTrialOwnedItemPrice owned_item_prices = 10;
+}
+
+message GrassTrialBlessPendingStep {
+  uint32 effect = 1;
+  repeated uint32 candidate_skills = 2;
+  repeated uint32 candidate_shards = 3;
+  repeated uint32 candidate_skill_pos = 4;
+}
+
+message GrassTrialBlessEffectResult {
+  uint32 effect = 1;
+  uint32 cur_hp = 2;
+  uint32 max_hp = 3;
+  uint32 energy_ceil = 4;
+  uint32 remaining_coin = 5;
+  uint32 deleted_skill_id = 6;
+  uint32 deleted_skill_slot = 7;
+}
+
+message GrassTrialBlessOption {
+  uint32 option_conf_id = 1;
+  uint32 pre_deleted_skill_id = 2;
+  uint32 pre_deleted_skill_slot = 3;
+  bool is_infeasible = 4;
+}
+
+message GrassTrialBlessSelection {
+  uint32 event_conf_id = 1;
+  repeated Next.GrassTrialBlessOption options = 2;
+}
+
+message GrassTrialBlessContext {
+  uint32 event_conf_id = 1;
+  uint32 option_conf_id = 2;
+  uint32 effect_cursor = 3;
+  repeated uint32 pending_candidate_skills = 4;
+  repeated uint32 pending_candidate_shards = 5;
+  repeated Next.GrassTrialBlessOption options = 6;
+}
+
+message GrassTrialChallengeData {
+  uint32 state = 1;
+  uint32 trial_conf_id = 2;
+  uint32 current_chapter_id = 3;
+  uint32 current_node_index = 4;
+  Next.GrassTrialPet trial_pet_data = 5;
+  repeated uint32 initial_skill_ids = 6;
+  uint32 remaining_coin = 7;
+  repeated uint32 active_trial_effect_ids = 8;
+  repeated Next.GrassTrialNodeRecord completed_nodes = 9;
+  repeated uint32 chapter_event_pool = 10;
+  Next.GrassTrialNodeSelection current_selection = 11;
+  uint64 challenge_start_time = 12;
+  uint32 accumulated_score = 13;
+  repeated uint32 discovered_monster_ids = 14;
+  uint32 fusion_type = 15;
+  Next.GrassTrialEventSelected event_selected = 16;
+  uint32 first_dungeon_id = 17;
+  uint32 leaved_dungeon_id = 18;
+  uint32 skill_fuse_max_time = 19;
+  uint64 challenge_settle_time = 20;
+  bool is_victory = 21;
+  uint32 enemy_energy_ceiling_add = 22;
+  bool in_battle_pause = 23;
+  Next.GrassTrialBlessContext bless_ctx = 24;
+  repeated uint32 enemy_type_energy_ceiling_add = 25;
+  uint32 slot_id = 26;
+  uint64 challenge_id = 27;
+  uint32 accumulated_play_seconds = 28;
+  uint64 current_segment_start_time = 29;
+  bool is_gm_boss_battle = 30;
+  repeated uint32 effective_chapter_ids = 31;
+  repeated uint32 newly_unlocked_log_ids = 32;
+  repeated uint32 initial_feature_ids = 33;
+}
+
+message GrassTrialReviewRecord {
+  uint64 settle_timestamp = 1;
+  uint32 petbase_conf_id = 2;
+  uint32 pet_level = 3;
+  uint32 pet_growth = 4;
+  uint32 trial_conf_id = 5;
+  bool is_victory = 6;
+  uint32 challenge_duration = 7;
+  repeated Next.GrassTrialNodeRecord node_records = 8;
+  repeated Next.GrassTrialFusedSkillData review_skills = 9;
+  repeated uint32 review_feature_ids = 10;
+  repeated uint32 review_shard_ids = 11;
+  bool is_first_victory = 12;
+  uint32 slot_id = 13;
+  uint32 mutation_type = 14;
+  Next.GlassInfo glass_info = 15;
+  bool carry_fant_skill = 16;
+  repeated uint32 boos_reward_ids = 17;
+  repeated uint32 unlock_trial_ids = 18;
+  repeated uint32 unlock_log_ids = 19;
+}
+
+message GrassTrialLogStageReward {
+  uint32 seen_pet_num = 1;
+  Next.RewardState stage_reward = 2;
+}
+
+message GrassTrialLogSceneRecord {
+  uint32 log_conf_id = 1;
+  repeated uint32 chapter_id = 2;
+  repeated uint32 discovered_petbase_ids = 3;
+  Next.RewardState final_reward = 4;
+  bool is_unlocked = 5;
+  uint32 total_petbase_count = 6;
+  repeated Next.GrassTrialLogStageReward stage_rewards = 7;
+}
+
+message GrassTrialSlotReward {
+  uint32 trial_conf_id = 1;
+  Next.RewardState reward_state = 2;
+  bool is_cleared = 3;
+}
+
+message GrassTrialSlotProgress {
+  uint32 slot_id = 1;
+  uint32 slot_type = 2;
+  uint32 slot_evolution_id = 3;
+  repeated Next.GrassTrialSlotReward rewards = 4;
+  uint32 dam_type = 5;
+}
+
+message GrassTrialProgressData {
+  repeated uint32 cleared_trial_ids = 1;
+  repeated Next.GrassTrialSlotProgress handbook_slots = 2;
+  repeated Next.GrassTrialReviewRecord review_records = 3;
+  repeated Next.GrassTrialLogSceneRecord log_records = 4;
+  bool weekly_entry_unlocked = 5;
+  uint32 challenge_inc_id = 6;
+  Next.RewardState progress_final_reward = 7;
+}
+
+message GrassTrialData {
+  Next.GrassTrialChallengeData challenge_data = 1;
+  Next.GrassTrialProgressData progress_data = 2;
+}
+
+message BadgeTrialData {
+  Next.GrassTrialData grass_trial_data = 1;
+}
+
+message GrassTrialMedalStat {
+  uint32 evolution_group_id = 1;
+  uint32 medal_ratio = 2;
+}

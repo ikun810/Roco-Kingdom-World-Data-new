@@ -1,0 +1,19 @@
+{
+  "Name": "BATTLE_PASS_TASK_MODULE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "moduel_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    }
+  ]
+}

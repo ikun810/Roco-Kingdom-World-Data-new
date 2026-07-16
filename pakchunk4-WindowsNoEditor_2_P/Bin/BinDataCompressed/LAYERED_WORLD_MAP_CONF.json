@@ -1,0 +1,394 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "map_layer_group": 1,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 130169,
+      "scene_res_id": 10003
+    },
+    "2": {
+      "id": 2,
+      "area_func_id": 700534,
+      "map_resource": "A2_08_Assets_Humanities_06_LM",
+      "map_layer_group": 1,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "下水管道口",
+      "camera_center": [
+        563650,
+        691212,
+        2000
+      ],
+      "Ortho_width": 12600,
+      "belong_camp": 130169,
+      "scene_res_id": 10003
+    },
+    "3": {
+      "id": 3,
+      "map_layer_group": 2,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 130174,
+      "scene_res_id": 10003
+    },
+    "4": {
+      "id": 4,
+      "area_func_id": 700540,
+      "map_resource": "Cave_A2_02_01_CaveTunnel_Cave_A2_02_01_01",
+      "map_layer_group": 2,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "信仰者村落一层",
+      "camera_center": [
+        521400,
+        633758,
+        4335
+      ],
+      "Ortho_width": 23000,
+      "belong_camp": 130174,
+      "scene_res_id": 10003
+    },
+    "5": {
+      "id": 5,
+      "area_func_id": 700541,
+      "map_resource": "Cave_A2_02_01_CaveTunnel_Cave_A2_02_01_02",
+      "map_layer_group": 2,
+      "map_sort_order": 3,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "信仰者村落二层",
+      "camera_center": [
+        521400,
+        633758,
+        4335
+      ],
+      "Ortho_width": 23000,
+      "belong_camp": 130174,
+      "scene_res_id": 10003
+    },
+    "6": {
+      "id": 6,
+      "map_layer_group": 3,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 130172,
+      "scene_res_id": 10003
+    },
+    "7": {
+      "id": 7,
+      "area_func_id": 700542,
+      "map_resource": "Cave_A2_02_02_CaveTunnel_Cave_A2_02_02_01",
+      "map_layer_group": 3,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "拾荒者港口一层",
+      "camera_center": [
+        525559,
+        656800,
+        4335
+      ],
+      "Ortho_width": 21000,
+      "belong_camp": 130172,
+      "scene_res_id": 10003
+    },
+    "8": {
+      "id": 8,
+      "area_func_id": 700543,
+      "map_resource": "Cave_A2_02_02_CaveTunnel_Cave_A2_02_02_02",
+      "map_layer_group": 3,
+      "map_sort_order": 3,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "拾荒者港口二层",
+      "camera_center": [
+        525559,
+        656800,
+        4335
+      ],
+      "Ortho_width": 21000,
+      "belong_camp": 130172,
+      "scene_res_id": 10003
+    },
+    "9": {
+      "id": 9,
+      "map_layer_group": 4,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 130171,
+      "scene_res_id": 10003
+    },
+    "10": {
+      "id": 10,
+      "area_func_id": 700544,
+      "map_resource": "Cave_A2_07_02_CaveTunnel_Cave_A2_07_02_01",
+      "map_layer_group": 4,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "二叠山丘一层",
+      "camera_center": [
+        553395,
+        640777,
+        4187
+      ],
+      "Ortho_width": 20000,
+      "belong_camp": 130171,
+      "scene_res_id": 10003
+    },
+    "11": {
+      "id": 11,
+      "map_layer_group": 5,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 130175,
+      "scene_res_id": 10003
+    },
+    "12": {
+      "id": 12,
+      "area_func_id": 700546,
+      "map_resource": "Cave_A2_07_01_CaveTunnel_Cave_A2_07_01_01",
+      "map_layer_group": 5,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "月兔暗港",
+      "camera_center": [
+        595000,
+        652054,
+        1000
+      ],
+      "Ortho_width": 40000,
+      "belong_camp": 130175,
+      "scene_res_id": 10003
+    },
+    "13": {
+      "id": 13,
+      "area_func_id": 790002,
+      "map_resource": "home_dixiashi_fu1",
+      "map_layer_group": 6,
+      "map_sort_order": 3,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "地下室",
+      "camera_center": [
+        248,
+        0,
+        0
+      ],
+      "Ortho_width": 12000,
+      "map_layer_unlock_type": 1,
+      "para": [
+        4
+      ]
+    },
+    "14": {
+      "id": 14,
+      "map_layer_group": 6,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_jiayuan2_png.img_jiayuan2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_jiayuan1_png.img_jiayuan1_png'",
+      "display_name": "一楼"
+    },
+    "15": {
+      "id": 15,
+      "area_func_id": 790003,
+      "map_resource": "home_erlou_L5",
+      "map_layer_group": 6,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "二楼",
+      "camera_center": [
+        248,
+        0,
+        0
+      ],
+      "Ortho_width": 12000,
+      "map_layer_unlock_type": 1,
+      "para": [
+        5
+      ]
+    },
+    "16": {
+      "id": 16,
+      "map_layer_group": 7,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 5400468,
+      "scene_res_id": 10003
+    },
+    "17": {
+      "id": 17,
+      "area_func_id": 700557,
+      "map_resource": "A2_2_Assets_Cave_01_01_01_LM",
+      "map_layer_group": 7,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "火巨人洞窟第一层",
+      "camera_center": [
+        565784,
+        570715,
+        8450
+      ],
+      "Ortho_width": 35000,
+      "belong_camp": 5400468,
+      "scene_res_id": 10003
+    },
+    "18": {
+      "id": 18,
+      "area_func_id": 700566,
+      "map_resource": "A2_2_Assets_Cave_01_01_03_LM",
+      "map_layer_group": 7,
+      "map_sort_order": 3,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "火巨人洞窟第二层",
+      "camera_center": [
+        565784,
+        570715,
+        8450
+      ],
+      "Ortho_width": 35000,
+      "belong_camp": 5400468,
+      "scene_res_id": 10003
+    },
+    "19": {
+      "id": 19,
+      "area_func_id": 700567,
+      "map_resource": "A2_2_Assets_Cave_01_01_04_LM",
+      "map_layer_group": 7,
+      "map_sort_order": 4,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "火巨人洞窟第三层",
+      "camera_center": [
+        565784,
+        570715,
+        8450
+      ],
+      "Ortho_width": 35000,
+      "belong_camp": 5400468,
+      "scene_res_id": 10003
+    },
+    "20": {
+      "id": 20,
+      "map_layer_group": 8,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "21": {
+      "id": 21,
+      "area_func_id": 700560,
+      "map_resource": "A2_2_Assets_Cave_01_02_02_LM",
+      "map_layer_group": 8,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "森巨人洞窟第一层",
+      "camera_center": [
+        571309,
+        556102,
+        11574
+      ],
+      "Ortho_width": 20000,
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "22": {
+      "id": 22,
+      "area_func_id": 700565,
+      "map_resource": "A2_2_Assets_Cave_01_02_03_LM",
+      "map_layer_group": 8,
+      "map_sort_order": 3,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "森巨人洞窟第二层",
+      "camera_center": [
+        571309,
+        556102,
+        11574
+      ],
+      "Ortho_width": 20000,
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "23": {
+      "id": 23,
+      "map_layer_group": 9,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "24": {
+      "id": 24,
+      "area_func_id": 700558,
+      "map_resource": "A2_2_Assets_Cave_01_04_02_LM",
+      "map_layer_group": 9,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "雪巨人洞窟",
+      "camera_center": [
+        560757,
+        550560,
+        3790
+      ],
+      "Ortho_width": 20000,
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "25": {
+      "id": 25,
+      "map_layer_group": 10,
+      "map_sort_order": 1,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao2_png.img_dibiao2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dibiao1_png.img_dibiao1_png'",
+      "display_name": "卡洛西亚大陆",
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    },
+    "26": {
+      "id": 26,
+      "area_func_id": 700556,
+      "map_resource": "A2_2_Assets_Cave_01_03_01_LM",
+      "map_layer_group": 10,
+      "map_sort_order": 2,
+      "map_layer_icon_select": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai2_png.img_dikuai2_png'",
+      "map_layer_icon_unselected": "PaperSprite'/Game/NewRoco/Modules/System/BigMap/Raw/Atlas/BigMap/Frames/img_dikuai1_png.img_dikuai1_png'",
+      "display_name": "光王祭坛",
+      "camera_center": [
+        556846,
+        552416,
+        5072
+      ],
+      "Ortho_width": 40000,
+      "belong_camp": 5400467,
+      "scene_res_id": 10003
+    }
+  }
+}

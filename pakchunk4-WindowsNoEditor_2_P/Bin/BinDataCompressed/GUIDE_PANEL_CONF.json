@@ -1,0 +1,126 @@
+{
+  "RocoDataRows": {
+    "1001": {
+      "id": 1001,
+      "panel_name": "UMG_MainMap"
+    },
+    "1002": {
+      "id": 1002,
+      "panel_name": "UMG_DialogueCommon"
+    },
+    "1008": {
+      "id": 1008,
+      "panel_name": "UMG_MapRightPanel"
+    },
+    "10001": {
+      "id": 10001,
+      "panel_name": "UMG_SystemSettingMain"
+    },
+    "10002": {
+      "id": 10002,
+      "panel_name": "UMG_LobbyMainInner"
+    },
+    "10003": {
+      "id": 10003,
+      "panel_name": "UMG_PetInfoMain"
+    },
+    "10004": {
+      "id": 10004,
+      "panel_name": "UMG_Handbook1"
+    },
+    "10005": {
+      "id": 10005,
+      "panel_name": "UMG_Handbook"
+    },
+    "10006": {
+      "id": 10006,
+      "panel_name": "UMG_Handbook_Subject"
+    },
+    "10007": {
+      "id": 10007,
+      "panel_name": "UMG_ReceiveAward_PopUp"
+    },
+    "10008": {
+      "id": 10008,
+      "panel_name": "UMG_Pass_PetDetail"
+    },
+    "10009": {
+      "id": 10009,
+      "panel_name": "UMG_PetRightPanel"
+    },
+    "10010": {
+      "id": 10010,
+      "panel_name": "UMG_PetRateTip"
+    },
+    "10011": {
+      "id": 10011,
+      "panel_name": "UMG_PetDetailedInfo"
+    },
+    "10012": {
+      "id": 10012,
+      "panel_name": "UMG_Common_NounInterpretationTips"
+    },
+    "10013": {
+      "id": 10013,
+      "panel_name": "UMG_Tips1"
+    },
+    "10014": {
+      "id": 10014,
+      "panel_name": "UMG_Bag"
+    },
+    "10100": {
+      "id": 10100,
+      "panel_name": "UMG_RolePlayMainPanel"
+    },
+    "10301": {
+      "id": 10301,
+      "panel_name": "UMG_PetPortableBag"
+    },
+    "10302": {
+      "id": 10302,
+      "panel_name": "UMG_PetRightPanel"
+    },
+    "10303": {
+      "id": 10303,
+      "panel_name": "UMG_PetWarehouseOrganization"
+    },
+    "10401": {
+      "id": 10401,
+      "panel_name": "UMG_MagicManual_Main"
+    },
+    "10501": {
+      "id": 10501,
+      "panel_name": "UMG_SimpleUseList",
+      "panel_custom_type": "5"
+    },
+    "10502": {
+      "id": 10502,
+      "panel_name": "UMG_SimpleUseList",
+      "panel_custom_type": "1"
+    },
+    "10601": {
+      "id": 10601,
+      "panel_name": "UMG_LevelMain"
+    },
+    "500101": {
+      "id": 500101,
+      "panel_name": "UMG_FurnitureAtlasPanel"
+    },
+    "500201": {
+      "id": 500201,
+      "panel_name": "UMG_HomeMain_New"
+    },
+    "500301": {
+      "id": 500301,
+      "panel_name": "UMG_Cooking_Equip"
+    },
+    "501101": {
+      "id": 501101,
+      "panel_name": "UMG_AlchemyPanel"
+    },
+    "600001": {
+      "id": 600001,
+      "panel_name": "UMG_Activity_ElfAdventure"
+    }
+  }
+}

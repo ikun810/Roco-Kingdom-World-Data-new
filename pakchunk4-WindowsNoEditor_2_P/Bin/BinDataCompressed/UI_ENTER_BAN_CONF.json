@@ -1,0 +1,620 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "function_entrance": 1,
+      "function_Ban_Type": 4,
+      "is_hide_entrance": true,
+      "change_reason": [
+        2,
+        22,
+        27,
+        28,
+        29,
+        21
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9996"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ],
+      "auto_perform": true,
+      "func_name": "「精灵」",
+      "img_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/CompassIcon/img_jingling.img_jingling'"
+    },
+    "2": {
+      "id": 2,
+      "function_entrance": 2,
+      "function_Ban_Type": 5,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "星盘没有回应你的意志，等级达到{0}级时再来试试吧。"
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "function_entrance": 3,
+      "function_Ban_Type": 6,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9990"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ],
+      "auto_perform": true,
+      "func_name": "「地图」",
+      "img_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/CompassIcon/img_ditu.img_ditu'"
+    },
+    "4": {
+      "id": 4,
+      "function_entrance": 4,
+      "function_Ban_Type": 7,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "星盘没有回应你的意志，等级达到{0}级时再来试试吧。"
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "function_entrance": 5,
+      "function_Ban_Type": 8,
+      "is_hide_entrance": true,
+      "change_reason": [
+        7,
+        6
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9991"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ],
+      "auto_perform": true,
+      "func_name": "「图鉴」",
+      "img_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/CompassIcon/img_tujian.img_tujian'"
+    },
+    "6": {
+      "id": 6,
+      "function_entrance": 6,
+      "function_Ban_Type": 9,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "12"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ],
+      "func_name": "「对战」",
+      "img_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/CompassIcon/img_pvp.img_pvp'"
+    },
+    "7": {
+      "id": 7,
+      "function_entrance": 7,
+      "function_Ban_Type": 29,
+      "is_hide_entrance": true,
+      "change_reason": [
+        12,
+        13,
+        14
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9989"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "function_entrance": 8,
+      "function_Ban_Type": 30,
+      "is_hide_entrance": true,
+      "change_reason": [
+        19,
+        18,
+        33
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "8004"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "function_entrance": 9,
+      "function_Ban_Type": 32,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "function_entrance": 10,
+      "is_hide_entrance": true,
+      "change_reason": [
+        10
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9925"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "function_entrance": 11,
+      "function_Ban_Type": 90,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9988"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "function_entrance": 12,
+      "is_hide_entrance": true,
+      "change_reason": [
+        8,
+        9
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9988"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "13": {
+      "id": 13,
+      "function_entrance": 13,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "14": {
+      "id": 14,
+      "function_entrance": 14,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9888"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "16": {
+      "id": 16,
+      "function_entrance": 16,
+      "function_Ban_Type": 72,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9700"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "id": 18,
+      "function_entrance": 18,
+      "function_Ban_Type": 31
+    },
+    "19": {
+      "id": 19,
+      "function_entrance": 19,
+      "function_Ban_Type": 38,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9981"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "20": {
+      "id": 20,
+      "function_entrance": 20,
+      "function_Ban_Type": 55,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "8601"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "function_entrance": 21,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9887"
+          ]
+        }
+      ]
+    },
+    "22": {
+      "id": 22,
+      "function_entrance": 22,
+      "function_Ban_Type": 57,
+      "is_hide_entrance": true,
+      "change_reason": [
+        59
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "2110"
+          ]
+        }
+      ]
+    },
+    "24": {
+      "id": 24,
+      "function_entrance": 24,
+      "change_reason": [
+        102,
+        103
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9883"
+          ],
+          "ban_text": "图鉴尚未解锁"
+        }
+      ]
+    },
+    "25": {
+      "id": 25,
+      "function_entrance": 25,
+      "change_reason": [
+        104,
+        105
+      ],
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9884"
+          ],
+          "ban_text": "图鉴尚未解锁"
+        }
+      ]
+    },
+    "39": {
+      "id": 39,
+      "function_entrance": 39,
+      "function_Ban_Type": 64,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "留影机尚未解锁。"
+        }
+      ]
+    },
+    "40": {
+      "id": 40,
+      "function_entrance": 40,
+      "function_Ban_Type": 91,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9889"
+          ],
+          "ban_text": "皮卡商店尚未营业"
+        }
+      ]
+    },
+    "41": {
+      "id": 41,
+      "function_entrance": 41,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9990"
+          ]
+        }
+      ]
+    },
+    "42": {
+      "id": 42,
+      "function_entrance": 42,
+      "function_Ban_Type": 69,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9900"
+          ],
+          "ban_text": "便捷换装功能尚未解锁"
+        }
+      ],
+      "auto_perform": true,
+      "func_name": "「便捷换装」",
+      "img_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/CompassIcon/img_ConvenientCostumeChange.img_ConvenientCostumeChange'"
+    },
+    "54": {
+      "id": 54,
+      "function_entrance": 54,
+      "function_Ban_Type": 71,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9950"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "56": {
+      "id": 56,
+      "function_entrance": 56,
+      "function_Ban_Type": 73,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "功能尚未解锁"
+        }
+      ]
+    },
+    "77": {
+      "id": 77,
+      "function_entrance": 77,
+      "function_Ban_Type": 95,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "1"
+          ],
+          "ban_text": "功能尚未解锁"
+        }
+      ]
+    },
+    "78": {
+      "id": 78,
+      "function_entrance": 78,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9926"
+          ],
+          "ban_text": "好友功能尚未解锁"
+        }
+      ]
+    },
+    "79": {
+      "id": 79,
+      "function_entrance": 79,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "54000001"
+          ]
+        }
+      ]
+    },
+    "84": {
+      "id": 84,
+      "function_entrance": 84,
+      "function_Ban_Type": 124,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9900"
+          ],
+          "ban_text": "便捷换装功能尚未解锁"
+        }
+      ]
+    },
+    "86": {
+      "id": 86,
+      "function_entrance": 86,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9933"
+          ],
+          "ban_text": "图鉴尚未解锁"
+        }
+      ]
+    },
+    "87": {
+      "id": 87,
+      "function_entrance": 87,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9934"
+          ],
+          "ban_text": "图鉴尚未解锁"
+        }
+      ]
+    },
+    "90": {
+      "id": 90,
+      "function_entrance": 90,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9935"
+          ],
+          "ban_text": "图鉴尚未解锁"
+        }
+      ]
+    },
+    "1020000": {
+      "id": 1020000,
+      "function_entrance": 1020000,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9904"
+          ]
+        }
+      ]
+    },
+    "8030000": {
+      "id": 8030000,
+      "function_entrance": 8030000,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 3,
+          "unlock_param": [
+            "2"
+          ],
+          "ban_text": "达到30级，晋升为精灵研究员后再来试试吧。"
+        }
+      ]
+    },
+    "11060000": {
+      "id": 11060000,
+      "function_entrance": 11060000,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 1,
+          "unlock_param": [
+            "20"
+          ],
+          "ban_text": "星盘没有回应你的意志，等待星盘闪耀的时候再来试试吧。"
+        }
+      ]
+    },
+    "43011000": {
+      "id": 43011000,
+      "function_entrance": 43011000,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9903"
+          ],
+          "ban_text": "功能尚未解锁"
+        }
+      ]
+    },
+    "80000001": {
+      "id": 80000001,
+      "function_entrance": 80000001,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9921"
+          ],
+          "ban_text": "功能尚未解锁"
+        }
+      ]
+    },
+    "90000001": {
+      "id": 90000001,
+      "function_entrance": 90000001,
+      "is_hide_entrance": true,
+      "unlock_cond_list": [
+        {
+          "unlock_type": 2,
+          "unlock_param": [
+            "9988"
+          ],
+          "ban_text": "功能尚未解锁"
+        }
+      ]
+    }
+  }
+}

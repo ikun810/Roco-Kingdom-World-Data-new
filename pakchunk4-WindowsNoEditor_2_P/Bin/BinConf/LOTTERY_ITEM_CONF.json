@@ -1,0 +1,102 @@
+{
+  "Name": "LOTTERY_ITEM_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "shop_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "goods_name",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "enable",
+      "Type": "EBool",
+      "Offset": 12,
+      "Size": 1
+    },
+    {
+      "Name": "position",
+      "Type": "EInt32",
+      "Offset": 13,
+      "Size": 4
+    },
+    {
+      "Name": "icon_size",
+      "Type": "EInt32",
+      "Offset": 17,
+      "Size": 4
+    },
+    {
+      "Name": "show_position",
+      "Type": "EInt32",
+      "Offset": 21,
+      "Size": 4
+    },
+    {
+      "Name": "gender",
+      "Type": "EInt32",
+      "Offset": 25,
+      "Size": 4
+    },
+    {
+      "Name": "Type",
+      "Type": "EInt32",
+      "Offset": 29,
+      "Size": 4
+    },
+    {
+      "Name": "item_id",
+      "Type": "EUint32",
+      "Offset": 33,
+      "Size": 4
+    },
+    {
+      "Name": "item_num",
+      "Type": "EInt32",
+      "Offset": 37,
+      "Size": 4
+    },
+    {
+      "Name": "goods_list",
+      "Type": "EUint32",
+      "Offset": 41,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "gift_list",
+      "Type": "EUint32",
+      "Offset": 45,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "weight",
+      "Type": "EInt32",
+      "Offset": 49,
+      "Size": 4
+    },
+    {
+      "Name": "great_reward",
+      "Type": "EBool",
+      "Offset": 53,
+      "Size": 1
+    }
+  ]
+}

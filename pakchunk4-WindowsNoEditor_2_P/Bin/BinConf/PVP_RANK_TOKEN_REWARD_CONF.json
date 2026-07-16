@@ -1,0 +1,57 @@
+{
+  "Name": "PVP_RANK_TOKEN_REWARD_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "rank1",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "rank2",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "award_list",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "PVP_RANK_TOKEN_REWARD_CONF.award_list",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "time1",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "time2",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "num",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

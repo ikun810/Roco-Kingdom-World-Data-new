@@ -1,0 +1,28 @@
+{
+  "Name": "BALL_SPECIAL_CONFIG",
+  "Type": "EStruct",
+  "UniqueKey": "key",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "key",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "parameter_1",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    }
+  ]
+}

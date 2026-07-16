@@ -27,6 +27,7 @@ import "com_task.proto";
 import "com_badge_trial.proto";
 import "com_actor.proto";
 import "com_scene.proto";
+import "com_player_social_info.proto";
 import "com_relation.proto";
 import "xls_enum.proto";
 import "space_data.proto";
@@ -670,6 +671,14 @@ message ZonePetEvoluteRsp {
   Next.RetInfo ret_info = 1;
 }
 
+message ZonePetPauseEvoluteReq {
+  uint32 pet_gid = 1;
+}
+
+message ZonePetPauseEvoluteRsp {
+  Next.RetInfo ret_info = 1;
+}
+
 message ZonePetEquipSkillReq {
   repeated Next.PetSkillEquipInfo equip_info = 1;
   uint32 gid = 2;
@@ -1007,11 +1016,14 @@ message ZoneConfirmReviveRsp {
 
 message ZonePetFreeReq {
   repeated uint32 pet_gid = 1;
+  bool need_backtrack = 2;
 }
 
 message ZonePetFreeRsp {
   Next.RetInfo ret_info = 1;
   repeated uint32 pet_gid = 2;
+  bool need_backtrack = 3;
+  uint32 backtrack_usage_count = 4;
 }
 
 message ZoneSceneEndChapterReq {
@@ -1520,6 +1532,36 @@ message ZoneGetFriendExtInfoListRsp {
   repeated Next.FriendRoleExtInfo ext_info_list = 2;
 }
 
+message ZoneBatchGetOthersSocialExtDataReq {
+  repeated uint32 uin_list = 1;
+  repeated uint32 ext_data_types = 2;
+}
+
+message PlayerSocialExtData_Profile {
+  bytes name = 1;
+  uint32 card_icon_selected = 2;
+}
+
+message PlayerSocialExtData_RecentInfo {
+  bool online = 1;
+  uint32 last_logout_time = 2;
+  Next.PlayerBattleBriefInfo battle_brief_info = 3;
+  Next.FriendPositionInfo pos_info = 4;
+  Next.FriendVisitInfo visit_info = 5;
+}
+
+message PlayerSocialExtData {
+  uint32 uin = 1;
+  int32 search_ret = 2;
+  Next.PlayerSocialExtData_Profile profile = 3;
+  Next.PlayerSocialExtData_RecentInfo recent_info = 4;
+}
+
+message ZoneBatchGetOthersSocialExtDataRsp {
+  Next.RetInfo ret_info = 1;
+  repeated Next.PlayerSocialExtData ext_datas = 2;
+}
+
 message ZoneFriendSearchPlayerReq {
   int32 uin = 1;
 }
@@ -1531,6 +1573,7 @@ message ZoneFriendSearchPlayerRsp {
   bool is_black_role = 4;
   Next.BanInfo ban_info = 5;
   bool can_be_add_friend = 6;
+  bool is_black_me = 7;
 }
 
 message ZoneFriendBatchSearchPlayerReq {
@@ -5141,6 +5184,7 @@ message ZoneBacktrackPetRsp {
   uint32 pet_gid = 3;
   repeated Next.ZoneBacktrackPetRsp.RewardItem reward_list = 4;
   Next.PetBacktrackShowInfo show_info = 5;
+  uint32 backtrack_usage_count = 6;
 }
 
 message ZoneQueryBacktrackPetRewardReq {
@@ -5156,6 +5200,7 @@ message ZoneQueryBacktrackPetRewardRsp {
   repeated uint32 pet_gid = 1;
   repeated Next.ZoneQueryBacktrackPetRewardRsp.RewardItem reward_list = 2;
   Next.RetInfo ret_info = 3;
+  uint32 backtrack_usage_count = 4;
 }
 
 message ZoneSecondaryPasswordGetInfoReq {
@@ -6055,4 +6100,12 @@ message ZoneDistributeBillNotify {
   Next.RetInfo ret_info = 1;
   uint32 goods_id = 2;
   uint32 create_time = 3;
+}
+
+message ZoneTerritoryTrialHistoryReq {
+}
+
+message ZoneTerritoryTrialHistoryRsp {
+  Next.RetInfo ret_info = 1;
+  repeated Next.TerritoryTrialHistoryItem history_list = 2;
 }

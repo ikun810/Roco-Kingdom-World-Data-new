@@ -36,6 +36,15 @@ message PlayerSettings_PersonalizedRecommendations {
   bool friend_pr = 1;
 }
 
+message PlayerSettings_PlayerCustomAnim {
+  int32 custom_anim_type = 1;
+  int32 selected_index = 2;
+}
+
+message PlayerSettings_PlayerCustomAnims {
+  repeated Next.PlayerSettings_PlayerCustomAnim custom_anim_list = 1;
+}
+
 message PlayerSettings {
   Next.ObserveBattle observe_battle = 1;
   Next.PlayerSettings_Friendship friendship = 2;
@@ -44,4 +53,5 @@ message PlayerSettings {
   Next.PlayerSettings_UserSubscribe user_subsribe = 5;
   Next.PlayerSettings_Pvp pvp = 6;
   Next.PlayerSettings_PersonalizedRecommendations recommendations = 7;
+  Next.PlayerSettings_PlayerCustomAnims custom_anims = 8;
 }

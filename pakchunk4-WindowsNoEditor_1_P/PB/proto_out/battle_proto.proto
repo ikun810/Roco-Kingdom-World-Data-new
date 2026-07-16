@@ -265,6 +265,8 @@ message PvpRankSettleInfo {
   int32 new_pvp_rank_master_score = 6;
   int32 win_streak_addtional_rank_star = 7;
   int32 random_pet_addtional_rank_star = 8;
+  int32 activity_addtional_rank_star = 9;
+  uint32 activity_remain_use_count = 10;
 }
 
 message ZoneBattleForceFinishNotify {

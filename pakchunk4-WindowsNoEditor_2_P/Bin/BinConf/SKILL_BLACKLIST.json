@@ -1,0 +1,37 @@
+{
+  "Name": "SKILL_BLACKLIST",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "is_block",
+      "Type": "EBool",
+      "Offset": 4,
+      "Size": 1
+    },
+    {
+      "Name": "trans_skill",
+      "Type": "EUint32",
+      "Offset": 5,
+      "Size": 4
+    },
+    {
+      "Name": "price",
+      "Type": "EUint32",
+      "Offset": 9,
+      "Size": 4
+    },
+    {
+      "Name": "block_skill",
+      "Type": "EBool",
+      "Offset": 13,
+      "Size": 1
+    }
+  ]
+}

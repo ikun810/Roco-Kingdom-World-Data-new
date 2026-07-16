@@ -1,0 +1,13 @@
+{
+  "Name": "WATER_MARK_LOCALIZATION_CONF",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "msg",
+      "Type": "EString",
+      "Offset": 0,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

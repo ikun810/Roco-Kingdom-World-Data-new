@@ -1,0 +1,62 @@
+{
+  "Name": "GLOBAL_CONSUME_ITEM_CONF",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "is_enable",
+      "Type": "EBool",
+      "Offset": 4,
+      "Size": 1
+    },
+    {
+      "Name": "option",
+      "Type": "EStruct",
+      "Offset": 5,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 1,
+      "Struct": {
+        "Name": "GLOBAL_CONSUME_ITEM_CONF.option",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "consume_item",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "consume_value",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "offer_target",
+            "Type": "EInt32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "open_type",
+      "Type": "EInt32",
+      "Offset": 9,
+      "Size": 4
+    },
+    {
+      "Name": "param",
+      "Type": "EInt32",
+      "Offset": 13,
+      "Size": 4
+    }
+  ]
+}

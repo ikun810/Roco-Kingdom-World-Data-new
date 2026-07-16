@@ -17,6 +17,7 @@ import "home_data.proto";
 import "world_combat.proto";
 import "com_player_data.proto";
 import "com_action.proto";
+import "com_player_settings.proto";
 
 enum SpaceAct_SetNpcPosReason {
   SNPR_NONE = 0;
@@ -249,6 +250,7 @@ message SpaceActionType {
     OptionBlackOrWhiteListUinsInfoChg = 512;
     CameraSkinChange = 513;
     NpcMutationInfoChange = 515;
+    PlayerCustomAnimChange = 610;
   }
 }
 
@@ -1246,6 +1248,7 @@ message SpaceActionCollection {
   Next.SpaceAct_NpcMutationInfoChange npc_mutation_info_change = 515;
   Next.SpaceAct_RoleplayHoldInfoChgNtf roleplay_hold_info_chg_ntf = 601;
   Next.SpaceAct_OptionBlackOrWhiteListUinsChgNtf option_b_or_w_list_uins_chg_ntf = 602;
+  Next.SpaceAct_PlayerCustomAnimChange player_custom_anim_change = 610;
 }
 
 message SpaceActionTag_Battle {
@@ -1885,4 +1888,9 @@ message SpaceAct_NpcMutationInfoChange {
   uint64 npc_obj_id = 1;
   int32 mutation_type = 2;
   Next.GlassInfo glass_info = 3;
+}
+
+message SpaceAct_PlayerCustomAnimChange {
+  uint64 actor_id = 1;
+  Next.PlayerSettings_PlayerCustomAnims custom_anims = 2;
 }

@@ -1,0 +1,48 @@
+{
+  "Name": "BATTLE_PASS_RETURN_SHOP_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "shop_name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "return_time",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "return_des",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "collect_des",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "side_ui_res",
+      "Type": "EString",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

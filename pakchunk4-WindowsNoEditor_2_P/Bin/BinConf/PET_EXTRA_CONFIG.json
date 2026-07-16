@@ -1,0 +1,67 @@
+{
+  "Name": "PET_EXTRA_CONFIG",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "evo_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "type",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "trial_struct",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "PET_EXTRA_CONFIG.trial_struct",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "trial_id",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "chapter_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          },
+          {
+            "Name": "coin_multiplier",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          },
+          {
+            "Name": "extra_rule",
+            "Type": "EUint32",
+            "Offset": 12,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    }
+  ]
+}

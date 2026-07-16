@@ -1,0 +1,56 @@
+{
+  "Name": "BALL_PERFROMANCE",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "key",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "low_count",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "low_lod",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "mid_count",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "mid_lod",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "high_count",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "high_lod",
+      "Type": "EUint32",
+      "Offset": 28,
+      "Size": 4
+    }
+  ]
+}

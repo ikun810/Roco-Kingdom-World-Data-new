@@ -1,0 +1,61 @@
+{
+  "Name": "STOCK_SHOP_RANK_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "rank",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "base_id",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "require_bagitem_num",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "purchase_time_max",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "upgrade_reward_type",
+      "Type": "EInt32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "upgrade_reward_id",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "is_initial",
+      "Type": "EBool",
+      "Offset": 28,
+      "Size": 1
+    },
+    {
+      "Name": "query_unlock_goods_num",
+      "Type": "EUint32",
+      "Offset": 29,
+      "Size": 4
+    }
+  ]
+}

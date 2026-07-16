@@ -1,0 +1,82 @@
+{
+  "Name": "QTE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "QTEPanelType",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "rate",
+      "Type": "EFloat",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "lifetime",
+      "Type": "EFloat",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "clickcount",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "duration",
+      "Type": "EFloat",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "start_ui_path",
+      "Type": "EString",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "end_ui_path2",
+      "Type": "EString",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "content_id",
+      "Type": "EUint32",
+      "Offset": 32,
+      "Size": 4
+    },
+    {
+      "Name": "bgm_id",
+      "Type": "EUint32",
+      "Offset": 36,
+      "Size": 4
+    },
+    {
+      "Name": "SFX_id",
+      "Type": "EUint32",
+      "Offset": 40,
+      "Size": 4
+    },
+    {
+      "Name": "BGM_state",
+      "Type": "EString",
+      "Offset": 44,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

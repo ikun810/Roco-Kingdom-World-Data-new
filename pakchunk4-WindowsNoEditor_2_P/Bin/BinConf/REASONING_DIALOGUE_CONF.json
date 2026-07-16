@@ -1,0 +1,58 @@
+{
+  "Name": "REASONING_DIALOGUE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "puzzle_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "dialogue_type",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "photo_content_id",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "dialogue_text",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "dialogue_voice",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "npc_icon",
+      "Type": "EString",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "npc_name",
+      "Type": "EString",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

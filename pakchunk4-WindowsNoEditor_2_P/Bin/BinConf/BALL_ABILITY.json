@@ -1,0 +1,26 @@
+{
+  "Name": "BALL_ABILITY",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "ball_ability",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "Name": "NRC_AI_GAMEPLAY_STATE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "native_class",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "script_path",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "val_param",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "str_param",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "sync_add",
+      "Type": "EBool",
+      "Offset": 20,
+      "Size": 1
+    },
+    {
+      "Name": "sync_remove",
+      "Type": "EBool",
+      "Offset": 21,
+      "Size": 1
+    },
+    {
+      "Name": "version_sensitive",
+      "Type": "EBool",
+      "Offset": 22,
+      "Size": 1
+    },
+    {
+      "Name": "priority",
+      "Type": "EUint32",
+      "Offset": 23,
+      "Size": 4
+    },
+    {
+      "Name": "context_states",
+      "Type": "EUint32",
+      "Offset": 27,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "provides_tags",
+      "Type": "EUint32",
+      "Offset": 31,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "cancel_state_with_tags",
+      "Type": "EUint32",
+      "Offset": 35,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "block_state_with_tags",
+      "Type": "EUint32",
+      "Offset": 39,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "required_tags_to_apply",
+      "Type": "EUint32",
+      "Offset": 43,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "excluded_tags_to_apply",
+      "Type": "EUint32",
+      "Offset": 47,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "required_tags_to_remove",
+      "Type": "EUint32",
+      "Offset": 51,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "excluded_tags_to_remove",
+      "Type": "EUint32",
+      "Offset": 55,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "immune_by_states",
+      "Type": "EUint32",
+      "Offset": 59,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "mutex_states",
+      "Type": "EUint32",
+      "Offset": 63,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "same_id_policy",
+      "Type": "EUint32",
+      "Offset": 67,
+      "Size": 4
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "Name": "FACE_PHOTO_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "is_open",
+      "Type": "EBool",
+      "Offset": 4,
+      "Size": 1
+    },
+    {
+      "Name": "remark",
+      "Type": "EString",
+      "Offset": 5,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "go_desc",
+      "Type": "EString",
+      "Offset": 9,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "frequence_type",
+      "Type": "EInt32",
+      "Offset": 13,
+      "Size": 4
+    },
+    {
+      "Name": "required_group",
+      "Type": "EStruct",
+      "Offset": 17,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "FACE_PHOTO_CONF.required_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "required_type",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "required_param",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    },
+    {
+      "Name": "go_interface",
+      "Type": "EUint32",
+      "Offset": 21,
+      "Size": 4
+    },
+    {
+      "Name": "order",
+      "Type": "EUint32",
+      "Offset": 25,
+      "Size": 4
+    },
+    {
+      "Name": "image_path",
+      "Type": "EString",
+      "Offset": 29,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "appear_time",
+      "Type": "EString",
+      "Offset": 33,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "disappear_time",
+      "Type": "EString",
+      "Offset": 37,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "daily_clear_time",
+      "Type": "EString",
+      "Offset": 41,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

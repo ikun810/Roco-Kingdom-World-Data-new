@@ -1,0 +1,53 @@
+{
+  "Name": "PET_LORDEVO_REWARD_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "editor_name1",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "editor_name2",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "reward_group",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "PET_LORDEVO_REWARD_CONF.reward_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "level",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "reward",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

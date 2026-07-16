@@ -198,6 +198,12 @@ message PlayerActivityInfo_ActivityTerritoryTrialData {
   repeated Next.PlayerActivityInfo_ChallengeReward rewards = 3;
 }
 
+message TerritoryTrialHistoryItem {
+  uint32 activity_conf_id = 1;
+  uint32 base_id = 2;
+  bool has_token = 3;
+}
+
 message PlayerActivityInfo_ActivityTreasureHuntData_TreasureData {
   uint32 activity_sub_id = 1;
   Next.PlayerActivityInfo.ActivityRewardState reward_state = 2;
@@ -369,6 +375,13 @@ message PlayerActivityInfo_ActivityRecallData {
   uint32 begin_taskid = 8;
 }
 
+message PlayerActivityInfo_SeasonSprintData {
+  uint32 today_remain_star_count = 1;
+  uint32 total_ball_consume_count = 2;
+  uint32 ball_reward_count = 3;
+  bool is_ball_received = 4;
+}
+
 message SeasonPreHeat_Section {
   int32 idx = 1;
   int32 statue = 2;
@@ -506,6 +519,7 @@ message PlayerActivityInfo_ActivityData {
   Next.PlayerActivityInfo_ActivityRecallData recall_data = 48;
   Next.PlayerActivityInfo_ActivityBaseMixData base_mix_data = 50;
   Next.PlayerActivityInfo_PreDownloadData pre_download_data = 51;
+  Next.PlayerActivityInfo_SeasonSprintData season_sprint_data = 60;
 }
 
 message PlayerActivityInfo {

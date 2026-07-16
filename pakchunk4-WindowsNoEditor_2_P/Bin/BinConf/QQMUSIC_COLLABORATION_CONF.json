@@ -1,0 +1,234 @@
+{
+  "Name": "QQMUSIC_COLLABORATION_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "sorting",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "redirect_sub",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "activity_area",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "button_hide",
+      "Type": "EBool",
+      "Offset": 16,
+      "Size": 1
+    },
+    {
+      "Name": "redirect_top2",
+      "Type": "EString",
+      "Offset": 17,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "musical_note_group",
+      "Type": "EStruct",
+      "Offset": 21,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 9,
+      "Struct": {
+        "Name": "QQMUSIC_COLLABORATION_CONF.musical_note_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "musical_note",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "npc_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "music_png",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "musicfail_png",
+            "Type": "EString",
+            "Offset": 12,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "musical_note_all",
+      "Type": "EUint32",
+      "Offset": 25,
+      "Size": 4
+    },
+    {
+      "Name": "button_group",
+      "Type": "EStruct",
+      "Offset": 29,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 1,
+      "Struct": {
+        "Name": "QQMUSIC_COLLABORATION_CONF.button_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "button_display_time",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "time_tex1",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "button_hide_time",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "time_tex2",
+            "Type": "EString",
+            "Offset": 12,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "redirect_top1",
+      "Type": "EUint32",
+      "Offset": 33,
+      "Size": 4
+    },
+    {
+      "Name": "goods_type1",
+      "Type": "EInt32",
+      "Offset": 37,
+      "Size": 4
+    },
+    {
+      "Name": "goods_id1",
+      "Type": "EUint32",
+      "Offset": 41,
+      "Size": 4
+    },
+    {
+      "Name": "punishment_time",
+      "Type": "EUint32",
+      "Offset": 45,
+      "Size": 4
+    },
+    {
+      "Name": "goods_type2",
+      "Type": "EInt32",
+      "Offset": 49,
+      "Size": 4
+    },
+    {
+      "Name": "goods_id2",
+      "Type": "EUint32",
+      "Offset": 53,
+      "Size": 4
+    },
+    {
+      "Name": "goods_num",
+      "Type": "EUint32",
+      "Offset": 57,
+      "Size": 4
+    },
+    {
+      "Name": "num_daily_max",
+      "Type": "EUint32",
+      "Offset": 61,
+      "Size": 4
+    },
+    {
+      "Name": "num_total_max",
+      "Type": "EUint32",
+      "Offset": 65,
+      "Size": 4
+    },
+    {
+      "Name": "sheetmusic_group",
+      "Type": "EStruct",
+      "Offset": 69,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 14,
+      "Struct": {
+        "Name": "QQMUSIC_COLLABORATION_CONF.sheetmusic_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "sheetmusic_name",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "sheetmusic_order",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "sheetmusic_reward",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          },
+          {
+            "Name": "SoundId",
+            "Type": "EString",
+            "Offset": 12,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "sheetmusic_png",
+            "Type": "EString",
+            "Offset": 16,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    }
+  ]
+}

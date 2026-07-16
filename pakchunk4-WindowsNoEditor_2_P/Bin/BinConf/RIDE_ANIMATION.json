@@ -1,0 +1,83 @@
+{
+  "Name": "RIDE_ANIMATION",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "anim_name",
+      "Type": "EString",
+      "Offset": 0,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_1",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_2",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_3",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_4",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_5",
+      "Type": "EString",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_6",
+      "Type": "EString",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_7",
+      "Type": "EString",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_8",
+      "Type": "EString",
+      "Offset": 32,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_9",
+      "Type": "EString",
+      "Offset": 36,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "param_10",
+      "Type": "EString",
+      "Offset": 40,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

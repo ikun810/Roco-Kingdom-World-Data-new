@@ -1,0 +1,162 @@
+{
+  "RocoDataRows": {
+    "3900001": {
+      "id": 3900001,
+      "pre_unlock_task": [
+        70015001,
+        70015002,
+        70015003
+      ],
+      "option_txt": "",
+      "final_task_id": 70015005,
+      "reward_id": 200000152,
+      "final_task_title": "",
+      "final_task_text": "",
+      "newspaper_subtitle": "独家消息流出",
+      "newspaper_subheading": "近期重磅！！！",
+      "newspaper_title": "",
+      "newspaper_txt_title_1": "神秘马戏团5月21号再现江湖",
+      "newspaper_txt_1": "",
+      "newspaper_txt_title_2": "神秘洛克高价“雇佣”童工潜入马戏团！",
+      "newspaper_txt_2": "",
+      "newspaper_txt_title_3": "累了倦了？来“神神秘秘马戏团”",
+      "newspaper_txt_3": "",
+      "newspaper_txt_title_4": "独轮彩带精灵？真相终于曝光，原是市场调研！",
+      "newspaper_txt_4": "",
+      "newspaper_txt_title_5": "新型独轮车",
+      "txt_max_num_characters": [
+        174,
+        154,
+        30,
+        22,
+        5
+      ],
+      "reward_group": [
+        {
+          "unlock_time": "2026-05-04 04:00:00",
+          "manuscript_task_id": 70016002,
+          "option_id": 2010,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-05-05 04:00:00",
+          "manuscript_task_id": 70017002,
+          "option_id": 2011,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-05-06 04:00:00",
+          "manuscript_task_id": 70018002,
+          "option_id": 2012,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-05-07 04:00:00",
+          "manuscript_task_id": 70019002,
+          "option_id": 2013,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-05-08 04:00:00",
+          "manuscript_task_id": 70020003,
+          "option_id": 2014,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        }
+      ],
+      "manuscript_umg": "/Game/NewRoco/Modules/System/Activity/Res/UMG_Activity_SeasonPreheating_RecordBook"
+    },
+    "3900002": {
+      "id": 3900002,
+      "pre_unlock_task": [
+        70032001,
+        70032002,
+        70032003
+      ],
+      "option_txt": "",
+      "final_task_id": 70032007,
+      "reward_id": 200000212,
+      "final_task_title": "",
+      "final_task_text": "",
+      "newspaper_subtitle": "智慧出版社",
+      "newspaper_subheading": "即将盛大开业！",
+      "newspaper_title": "",
+      "newspaper_txt_title_1": "智慧出版社即将正式开业！",
+      "newspaper_txt_1": "",
+      "newspaper_txt_title_2": "寻找那一抹幸运：神秘四叶草传说",
+      "newspaper_txt_2": "",
+      "newspaper_txt_title_3": "「探险家训练营」· 夏令营招生中！",
+      "newspaper_txt_3": "",
+      "newspaper_txt_title_4": "别说你没见过世面——室内小火车奇观",
+      "newspaper_txt_4": "",
+      "txt_max_num_characters": [
+        160,
+        200,
+        43,
+        39
+      ],
+      "reward_group": [
+        {
+          "unlock_time": "2026-06-29 04:00:00",
+          "manuscript_task_id": 70032005,
+          "option_id": 2015,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-06-30 04:00:00",
+          "manuscript_task_id": 70033002,
+          "option_id": 2016,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-07-01 04:00:00",
+          "manuscript_task_id": 70034002,
+          "option_id": 2017,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-07-02 04:00:00",
+          "manuscript_task_id": 70034004,
+          "option_id": 2018,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        },
+        {
+          "unlock_time": "2026-07-03 04:00:00",
+          "manuscript_task_id": 70034005,
+          "option_id": 2019,
+          "manuscript_text_1": "",
+          "manuscript_text_2": "",
+          "manuscript_text_3": "",
+          "manuscript_text_5": ""
+        }
+      ],
+      "manuscript_umg": "/Game/NewRoco/Modules/System/Activity/Res/UMG_Activity_S3SeasonPreheating_RecordBook"
+    }
+  }
+}

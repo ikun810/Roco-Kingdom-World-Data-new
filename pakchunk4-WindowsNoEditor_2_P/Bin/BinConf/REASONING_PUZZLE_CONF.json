@@ -1,0 +1,67 @@
+{
+  "Name": "REASONING_PUZZLE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "puzzle_name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "slide_conf_id",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "slot_done",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 8,
+      "Struct": {
+        "Name": "REASONING_PUZZLE_CONF.slot_done",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "photo_content_id",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "initial_state",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "initial_res",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "hint_text",
+            "Type": "EString",
+            "Offset": 12,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    }
+  ]
+}

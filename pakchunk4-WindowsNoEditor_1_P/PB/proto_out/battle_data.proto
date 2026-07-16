@@ -11,6 +11,8 @@ import "xls_enum.proto";
 import "com_misc.proto";
 import "com_battle_enum.proto";
 import "com_season.proto";
+import "com_player_settings.proto";
+import "com_account.proto";
 
 enum BATTLEFIELD_STATE {
   BATTLEFIELD_STATE_NULL = 0;
@@ -598,6 +600,11 @@ message PetSkillRoundData {
     FLAG_REMOVED_IN_BUFF_146 = 131072;
     FLAG_OBTAINED_BY_BUFF_155 = 262144;
   }
+  enum SkillChangeStatus {
+    SKILL_CHANGE_STATUS_NONE = 0;
+    SKILL_CHANGE_STATUS_ORIGIN = 1;
+    SKILL_CHANGE_STATUS_CLONE = 2;
+  }
   uint32 id = 1;
   Next.SkillState state = 2;
   uint32 type = 3;
@@ -664,6 +671,7 @@ message PetSkillRoundData {
   repeated int32 cost_energy_buff_factor_list = 65;
   int32 cd_outfield_round = 66;
   int32 season_id = 68;
+  Next.PetSkillRoundData.SkillChangeStatus skill_change_status = 70;
 }
 
 message BattleMonsterEscapeInfo {
@@ -883,6 +891,8 @@ message BattleRoleBaseInfo {
   repeated Next.Inner_FriendTypeInfo fri_type_list = 45;
   uint64 role_avatar_id = 46;
   bool free_catch = 47;
+  Next.PlayerSettings_PlayerCustomAnims custom_anims = 49;
+  repeated Next.PlayerNpcRefreshBanInfo npc_refresh_ban_infos = 50;
 }
 
 message BattleItemInfo {
@@ -1733,6 +1743,10 @@ message BattleRoleMagicOpReq {
   uint32 boss_petbase_id = 5;
 }
 
+message BattleEvolutionReq {
+  bool pause_evolute = 1;
+}
+
 message BattleRoundFlowReq {
   uint32 req_type = 1;
   Next.BattleCastSkillReq cast_skill = 2;
@@ -1742,6 +1756,7 @@ message BattleRoundFlowReq {
   Next.BattleIdleReq idle = 6;
   Next.BattleSkillStateReq skill_state = 7;
   Next.BattleRoleMagicOpReq magic_op = 8;
+  Next.BattleEvolutionReq evolution = 9;
 }
 
 message BattlePetInfo {

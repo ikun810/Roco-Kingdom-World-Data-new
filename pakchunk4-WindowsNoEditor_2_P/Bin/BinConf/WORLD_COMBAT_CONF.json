@@ -1,0 +1,130 @@
+{
+  "Name": "WORLD_COMBAT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "npc_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "refresh_content_id",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "scene_id",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "whether_display",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "world_boss_refer",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "background_color",
+      "Type": "EInt32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "whether_nightmare",
+      "Type": "EBool",
+      "Offset": 28,
+      "Size": 1
+    },
+    {
+      "Name": "trophy_id",
+      "Type": "EUint32",
+      "Offset": 29,
+      "Size": 4
+    },
+    {
+      "Name": "sequence_id",
+      "Type": "EUint32",
+      "Offset": 33,
+      "Size": 4
+    },
+    {
+      "Name": "unlock_task_id",
+      "Type": "EUint32",
+      "Offset": 37,
+      "Size": 4
+    },
+    {
+      "Name": "task_name",
+      "Type": "ELocalizedString",
+      "Offset": 41,
+      "Size": 4
+    },
+    {
+      "Name": "living_area_name",
+      "Type": "ELocalizedString",
+      "Offset": 45,
+      "Size": 4
+    },
+    {
+      "Name": "area_func",
+      "Type": "EUint32",
+      "Offset": 49,
+      "Size": 4
+    },
+    {
+      "Name": "block_id",
+      "Type": "EUint32",
+      "Offset": 53,
+      "Size": 4
+    },
+    {
+      "Name": "finish_type",
+      "Type": "EInt32",
+      "Offset": 57,
+      "Size": 4
+    },
+    {
+      "Name": "bgm_world_combat_state",
+      "Type": "EString",
+      "Offset": 61,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "preloading_npc",
+      "Type": "EUint32",
+      "Offset": 65,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "teleport_skill",
+      "Type": "EUint32",
+      "Offset": 69,
+      "Size": 4
+    },
+    {
+      "Name": "hit_anim_alpha",
+      "Type": "EInt32",
+      "Offset": 73,
+      "Size": 4
+    }
+  ]
+}

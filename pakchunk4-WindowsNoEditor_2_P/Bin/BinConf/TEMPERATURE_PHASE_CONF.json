@@ -1,0 +1,51 @@
+{
+  "Name": "TEMPERATURE_PHASE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "temp_threshold",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "temp_pre_hurt_accumulate_speed",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "temp_hurt_accumulate_speed",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "pre_hurt_abnormal_status_id",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "hurt_abnormal_status_id",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "temp_pre_hurt_recovery_speed",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4
+    }
+  ]
+}

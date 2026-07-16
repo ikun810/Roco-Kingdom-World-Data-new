@@ -1,0 +1,126 @@
+{
+  "Name": "AMYCRYSTAL_VISUAL_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "stage_name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "amystage_upgrade_show",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "amystage_npc",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "unlock_level",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "item_id",
+      "Type": "EInt32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "spawn_Interval_hour",
+      "Type": "EInt32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "spawn_count",
+      "Type": "EInt32",
+      "Offset": 28,
+      "Size": 4
+    },
+    {
+      "Name": "max_accumulate_number",
+      "Type": "EInt32",
+      "Offset": 32,
+      "Size": 4
+    },
+    {
+      "Name": "effect_display",
+      "Type": "EString",
+      "Offset": 36,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "amy_stage_icon_path",
+      "Type": "EString",
+      "Offset": 40,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "option",
+      "Type": "EStruct",
+      "Offset": 44,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 1,
+      "Struct": {
+        "Name": "AMYCRYSTAL_VISUAL_CONF.option",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "amy_stage_show_display1",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "amy_stage_show_display2",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "amy_stage_show_display3",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "amy_stage_bgpic_path",
+      "Type": "EString",
+      "Offset": 48,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "reward_detail_display",
+      "Type": "EString",
+      "Offset": 52,
+      "Size": 4,
+      "CompressedSize": 4
+    }
+  ]
+}

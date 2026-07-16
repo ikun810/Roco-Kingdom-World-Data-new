@@ -23920,7 +23920,7 @@
       "id": 3199,
       "editor_name": [
         "小皮球",
-        "跳跃精灵-亲近类"
+        "星隐闪现-亲近类"
       ],
       "fsm_struct_id": 179,
       "visual_id": 3199,
@@ -23950,33 +23950,45 @@
         },
         {
           "state_id": 183,
-          "behavior_id": 2301337
+          "behavior_id": 2301337,
+          "cond_ids": [
+            0,
+            23030,
+            38111
+          ]
         },
         {
           "state_id": 184,
           "behavior_id": 2301545,
           "cond_ids": [
-            0,
-            53
+            38111
           ]
         },
         {
           "state_id": 185,
           "behavior_id": 2301546,
           "cond_ids": [
-            53
+            5,
+            0,
+            38109
           ]
         },
         {
           "state_id": 186,
-          "behavior_id": 2301547
+          "behavior_id": 2301547,
+          "cond_ids": [
+            0,
+            5,
+            0,
+            38111
+          ]
         },
         {
           "state_id": 187,
           "behavior_id": 2301560,
           "cond_ids": [
-            0,
-            5
+            38102,
+            1
           ]
         },
         {
@@ -23990,7 +24002,7 @@
         {
           "state_id": 180,
           "cond_ids": [
-            0,
+            5,
             30062
           ]
         },
@@ -24004,14 +24016,14 @@
         },
         {
           "state_id": 75,
-          "behavior_id": 3006922,
+          "behavior_id": 2302772,
           "cond_ids": [
             1
           ]
         },
         {
           "state_id": 76,
-          "behavior_id": 3008085,
+          "behavior_id": 2303415,
           "cond_ids": [
             5
           ]
@@ -69676,6 +69688,11 @@
       "visual_id": 5198,
       "audio_id": 5198,
       "mod_id": 5198,
+      "cone_ids": [
+        1,
+        2,
+        3
+      ],
       "bb_input": 5198,
       "behavior_group": [
         {
@@ -69684,14 +69701,18 @@
         },
         {
           "state_id": 55,
-          "behavior_id": 3002824
+          "behavior_id": 3002824,
+          "cond_ids": [
+            38111
+          ]
         },
         {
           "state_id": 62,
           "behavior_id": 3002825,
           "cond_ids": [
-            0,
-            30053
+            5,
+            38109,
+            13
           ]
         },
         {
@@ -69714,12 +69735,21 @@
           "state_id": 73,
           "behavior_id": 3002830,
           "cond_ids": [
-            38109
+            38102
           ]
         },
         {
           "state_id": 74,
           "behavior_id": 3002831
+        },
+        {
+          "state_id": 121,
+          "behavior_id": 2306962,
+          "cond_ids": [
+            1,
+            13,
+            38111
+          ]
         }
       ]
     },
@@ -69733,43 +69763,68 @@
       "visual_id": 5199,
       "audio_id": 5199,
       "mod_id": 5199,
+      "cone_ids": [
+        1,
+        2,
+        3
+      ],
       "bb_input": 5199,
       "behavior_group": [
         {
           "state_id": 37,
-          "behavior_id": 3002832
+          "behavior_id": 2309014
         },
         {
           "state_id": 55,
-          "behavior_id": 3002833
+          "behavior_id": 2309015,
+          "cond_ids": [
+            38111
+          ]
         },
         {
           "state_id": 62,
-          "behavior_id": 3002834
+          "behavior_id": 2309016,
+          "cond_ids": [
+            5,
+            38109,
+            13
+          ]
         },
         {
           "state_id": 69,
-          "behavior_id": 3002835
+          "behavior_id": 2309017
         },
         {
           "state_id": 70,
-          "behavior_id": 3002836
+          "behavior_id": 2309018
         },
         {
           "state_id": 71,
-          "behavior_id": 3002837
+          "behavior_id": 2309019
         },
         {
           "state_id": 72,
-          "behavior_id": 3002838
+          "behavior_id": 2309020
         },
         {
           "state_id": 73,
-          "behavior_id": 3002839
+          "behavior_id": 2309021,
+          "cond_ids": [
+            38102
+          ]
         },
         {
           "state_id": 74,
-          "behavior_id": 3002840
+          "behavior_id": 2309022
+        },
+        {
+          "state_id": 121,
+          "behavior_id": 2309023,
+          "cond_ids": [
+            1,
+            13,
+            38111
+          ]
         }
       ]
     },

@@ -1,0 +1,82 @@
+{
+  "Name": "SEASON_BONUSCATCH_STORY_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "text",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "initial_bubble_dialogue_npc_id",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "initial_bubble_dialogue_id",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "initial_backdrop_id",
+      "Type": "EUint32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "option",
+      "Type": "EStruct",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 4,
+      "Struct": {
+        "Name": "SEASON_BONUSCATCH_STORY_CONF.option",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "bubble_dialogue_npc_id",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "delete_npc_group_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "add_npc_group_id",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          },
+          {
+            "Name": "bubble_dialogue_id",
+            "Type": "EUint32",
+            "Offset": 12,
+            "Size": 4
+          },
+          {
+            "Name": "backdrop_id",
+            "Type": "EUint32",
+            "Offset": 16,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

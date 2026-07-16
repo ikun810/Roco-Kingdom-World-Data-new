@@ -60195,15 +60195,34 @@
     },
     "2301337": {
       "id": 2301337,
-      "editor_name": "跳跃归位",
+      "editor_name": "归位",
       "begin_end_behavior_info": [
-        {},
-        {}
+        {
+          "behavior_id": 3000,
+          "behavior_editor_name": "【清理】群落事件全部清理"
+        },
+        {
+          "behavior_id": 3002,
+          "behavior_editor_name": "【清理】移除逻辑状态"
+        }
       ],
       "behavior_info": [
         {
-          "behavior_id": 63,
-          "editor_name": "使用跳跃动作精灵的返回",
+          "behavior_id": 3800250,
+          "editor_name": "【粉粉星】星隐重置",
+          "cond_type": [
+            14
+          ],
+          "cond_param": [
+            1,
+            1801,
+            1
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 7,
+          "editor_name": "返回#精灵返回初始位置附近",
           "cond_type": [
             1
           ],
@@ -64059,23 +64078,46 @@
       ],
       "behavior_info": [
         {
-          "behavior_id": 65,
-          "editor_name": "无法直接到达则跳跃的巡逻",
+          "behavior_id": 2,
+          "editor_name": "巡逻#在划定寻路区域内随机游走，可附加不得远离出生点一定距离的约束。",
+          "cond_type": [
+            1
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 4,
+          "editor_name": "睡觉",
+          "cond_type": [
+            3
+          ],
+          "cond_param": [
+            11,
+            16
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 3,
+          "editor_name": "放松#精灵原地表演的行为，播放Happy、Relax等动作，可独立配置概率",
+          "cond_type": [
+            1
+          ],
           "exec_count": 1
         }
       ]
     },
     "2301546": {
       "id": 2301546,
-      "editor_name": "示好",
+      "editor_name": "星隐",
       "begin_end_behavior_info": [
         {},
         {}
       ],
       "behavior_info": [
         {
-          "behavior_id": 8,
-          "editor_name": "示好#精灵转向玩家并播放开心动作",
+          "behavior_id": 3800241,
+          "editor_name": "【粉粉星】星隐",
           "cond_type": [
             1
           ],
@@ -64085,15 +64127,15 @@
     },
     "2301547": {
       "id": 2301547,
-      "editor_name": "跟随玩家或者跳向玩家",
+      "editor_name": "亲近",
       "begin_end_behavior_info": [
         {},
         {}
       ],
       "behavior_info": [
         {
-          "behavior_id": 61,
-          "editor_name": "跳向玩家亲近",
+          "behavior_id": 3800015,
+          "editor_name": "【粉粉星】专属超亲近",
           "cond_type": [
             1
           ],
@@ -64323,20 +64365,15 @@
     },
     "2301560": {
       "id": 2301560,
-      "editor_name": "受惊跳跃逃跑",
+      "editor_name": "闪现",
       "begin_end_behavior_info": [
         {},
         {}
       ],
       "behavior_info": [
         {
-          "behavior_id": 38,
-          "editor_name": "惊讶感叹UI",
-          "exec_count": 1
-        },
-        {
-          "behavior_id": 64,
-          "editor_name": "使用跳跃动作精灵的逃跑",
+          "behavior_id": 3800242,
+          "editor_name": "【粉粉星】闪现",
           "cond_type": [
             1
           ],
@@ -64606,6 +64643,9 @@
         {
           "behavior_id": 51,
           "editor_name": "趔趄",
+          "cond_type": [
+            1
+          ],
           "exec_count": 1
         }
       ]
@@ -64619,8 +64659,11 @@
       ],
       "behavior_info": [
         {
-          "behavior_id": 64,
-          "editor_name": "使用跳跃动作精灵的逃跑",
+          "behavior_id": 28,
+          "editor_name": "简单逃跑",
+          "cond_type": [
+            1
+          ],
           "exec_count": 1
         }
       ]
@@ -64634,8 +64677,24 @@
       ],
       "behavior_info": [
         {
-          "behavior_id": 65,
-          "editor_name": "无法直接到达则跳跃的巡逻",
+          "behavior_id": 2,
+          "editor_name": "巡逻#在划定寻路区域内随机游走，可附加不得远离出生点一定距离的约束。",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 4,
+          "editor_name": "睡觉",
+          "cond_type": [
+            2
+          ],
+          "cond_param": [
+            60
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 3,
+          "editor_name": "放松#精灵原地表演的行为，播放Happy、Relax等动作",
           "exec_count": 1
         }
       ]
@@ -86051,11 +86110,15 @@
     },
     "2302772": {
       "id": 2302772,
-      "editor_name": "击晕行为组",
+      "editor_name": "Unk",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
       "behavior_info": [
         {
-          "behavior_id": 12,
-          "editor_name": "通用晕眩#精灵受到重创而短暂瘫痪",
+          "behavior_id": 3000291,
+          "editor_name": "【变身】变身结束吓跑精灵",
           "exec_count": 1
         }
       ]
@@ -94410,11 +94473,15 @@
     },
     "2303415": {
       "id": 2303415,
-      "editor_name": "趔趄",
+      "editor_name": "Unk",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
       "behavior_info": [
         {
-          "behavior_id": 51,
-          "editor_name": "趔趄",
+          "behavior_id": 50026,
+          "editor_name": "【时装】呼唤音乐会",
           "exec_count": 1
         }
       ]
@@ -103501,11 +103568,11 @@
     },
     "2304059": {
       "id": 2304059,
-      "editor_name": "驱散行为组",
+      "editor_name": "击晕行为组",
       "behavior_info": [
         {
-          "behavior_id": 23,
-          "editor_name": "驱散#精灵远离战场或枯枝等事发中心",
+          "behavior_id": 3800248,
+          "editor_name": "【粉粉星】差分式眩晕",
           "exec_count": 1
         }
       ]
@@ -130177,7 +130244,10 @@
       "id": 2305873,
       "editor_name": "归位",
       "begin_end_behavior_info": [
-        {},
+        {
+          "behavior_id": 3010,
+          "behavior_editor_name": "【清理】隐身清理"
+        },
         {
           "behavior_id": 3000,
           "behavior_editor_name": "【清理】群落事件全部清理"
@@ -135873,7 +135943,10 @@
       "id": 2306222,
       "editor_name": "归位",
       "begin_end_behavior_info": [
-        {},
+        {
+          "behavior_id": 3010,
+          "behavior_editor_name": "【清理】隐身清理"
+        },
         {
           "behavior_id": 3000,
           "behavior_editor_name": "【清理】群落事件全部清理"
@@ -142912,16 +142985,11 @@
     },
     "2306676": {
       "id": 2306676,
-      "editor_name": "新的覆写行为组",
+      "editor_name": "驱散行为组",
       "behavior_info": [
         {
-          "behavior_id": 78,
-          "editor_name": "被系别球捕捉后眩晕",
-          "exec_count": 1
-        },
-        {
-          "behavior_id": 79,
-          "editor_name": "被系别球捕捉后虚弱",
+          "behavior_id": 23,
+          "editor_name": "驱散#精灵远离战场或枯枝等事发中心",
           "exec_count": 1
         }
       ]
@@ -143943,16 +144011,21 @@
     },
     "2306739": {
       "id": 2306739,
-      "editor_name": "新的覆写行为组",
+      "editor_name": "咕噜球模式",
       "behavior_info": [
         {
-          "behavior_id": 78,
-          "editor_name": "被系别球捕捉后眩晕",
+          "behavior_id": 3800250,
+          "editor_name": "【粉粉星】星隐重置",
           "exec_count": 1
         },
         {
-          "behavior_id": 79,
-          "editor_name": "被系别球捕捉后虚弱",
+          "behavior_id": 3800098,
+          "editor_name": "【通用】无参简单逃跑",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 8008,
+          "editor_name": "【不接触进战】惊讶感叹UI",
           "exec_count": 1
         }
       ]
@@ -147370,33 +147443,47 @@
     },
     "2306962": {
       "id": 2306962,
-      "editor_name": "新的覆写行为组",
+      "editor_name": "Unk",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
       "behavior_info": [
         {
-          "behavior_id": 94,
-          "editor_name": "【小型鸟类】在玩家头顶绕飞",
+          "behavior_id": 3800015,
+          "editor_name": "【粉粉星】专属超亲近",
           "exec_count": 1
         }
       ]
     },
     "2306963": {
       "id": 2306963,
-      "editor_name": "新的覆写行为组",
+      "editor_name": "咕噜球模式",
       "behavior_info": [
         {
-          "behavior_id": 94,
-          "editor_name": "【小型鸟类】在玩家头顶绕飞",
+          "behavior_id": 3800250,
+          "editor_name": "【粉粉星】星隐重置",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 3800098,
+          "editor_name": "【通用】无参简单逃跑",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 8008,
+          "editor_name": "【不接触进战】惊讶感叹UI",
           "exec_count": 1
         }
       ]
     },
     "2306964": {
       "id": 2306964,
-      "editor_name": "新的覆写行为组",
+      "editor_name": "趔趄",
       "behavior_info": [
         {
-          "behavior_id": 94,
-          "editor_name": "【小型鸟类】在玩家头顶绕飞",
+          "behavior_id": 3800255,
+          "editor_name": "【粉粉星】趔趄动作组",
           "exec_count": 1
         }
       ]
@@ -147406,8 +147493,13 @@
       "editor_name": "新的覆写行为组",
       "behavior_info": [
         {
-          "behavior_id": 94,
-          "editor_name": "【小型鸟类】在玩家头顶绕飞",
+          "behavior_id": 78,
+          "editor_name": "被系别球捕捉后眩晕",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 79,
+          "editor_name": "被系别球捕捉后虚弱",
           "exec_count": 1
         }
       ]
@@ -147417,8 +147509,13 @@
       "editor_name": "新的覆写行为组",
       "behavior_info": [
         {
-          "behavior_id": 94,
-          "editor_name": "【小型鸟类】在玩家头顶绕飞",
+          "behavior_id": 78,
+          "editor_name": "被系别球捕捉后眩晕",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 79,
+          "editor_name": "被系别球捕捉后虚弱",
           "exec_count": 1
         }
       ]
@@ -159366,7 +159463,10 @@
       "id": 2307648,
       "editor_name": "通用跟随移动",
       "begin_end_behavior_info": [
-        {},
+        {
+          "behavior_id": 3010,
+          "behavior_editor_name": "【清理】隐身清理"
+        },
         {}
       ],
       "behavior_info": [
@@ -159576,7 +159676,10 @@
       "id": 2307657,
       "editor_name": "通用跟随移动",
       "begin_end_behavior_info": [
-        {},
+        {
+          "behavior_id": 3010,
+          "behavior_editor_name": "【清理】隐身清理"
+        },
         {}
       ],
       "behavior_info": [
@@ -183208,6 +183311,231 @@
         {
           "behavior_id": 12,
           "editor_name": "通用晕眩#精灵受到重创而短暂瘫痪",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309014": {
+      "id": 2309014,
+      "editor_name": "初始化",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 9000,
+          "editor_name": "【跟随】跟随初始化",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309015": {
+      "id": 2309015,
+      "editor_name": "通用跟随移动",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 3800250,
+          "editor_name": "【粉粉星】星隐重置",
+          "cond_type": [
+            14
+          ],
+          "cond_param": [
+            1,
+            1801,
+            1
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 9006,
+          "editor_name": "【跟随】通用跟随移动步行",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309016": {
+      "id": 2309016,
+      "editor_name": "通用安静表演",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 3800241,
+          "editor_name": "【粉粉星】星隐",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309017": {
+      "id": 2309017,
+      "editor_name": "亲昵接近",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 3800241,
+          "editor_name": "【粉粉星】星隐",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 9003,
+          "editor_name": "【跟随】触发亲昵靠近",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309018": {
+      "id": 2309018,
+      "editor_name": "寻找宝箱",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 9005,
+          "editor_name": "【跟随】触发亲昵寻找宝箱",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309019": {
+      "id": 2309019,
+      "editor_name": "亲昵静态",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 9004,
+          "editor_name": "【跟随】触发亲昵静态表演",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309020": {
+      "id": 2309020,
+      "editor_name": "备用状态1",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 9015,
+          "editor_name": "【跟随】手持拍照",
+          "cond_type": [
+            15
+          ],
+          "cond_param": [
+            1,
+            37,
+            0
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 9016,
+          "editor_name": "【跟随】支架拍照-相机",
+          "cond_type": [
+            15
+          ],
+          "cond_param": [
+            1,
+            38,
+            0
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 9017,
+          "editor_name": "【跟随】支架拍照-大世界",
+          "cond_type": [
+            15
+          ],
+          "cond_param": [
+            1,
+            39,
+            0
+          ],
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 9018,
+          "editor_name": "【跟随】自拍拍照",
+          "cond_type": [
+            15
+          ],
+          "cond_param": [
+            1,
+            40,
+            0
+          ],
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309021": {
+      "id": 2309021,
+      "editor_name": "备用状态2",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 3800242,
+          "editor_name": "【粉粉星】闪现",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309022": {
+      "id": 2309022,
+      "editor_name": "备用"
+    },
+    "2309023": {
+      "id": 2309023,
+      "editor_name": "Unk",
+      "begin_end_behavior_info": [
+        {},
+        {}
+      ],
+      "behavior_info": [
+        {
+          "behavior_id": 3800015,
+          "editor_name": "【粉粉星】专属超亲近",
+          "exec_count": 1
+        }
+      ]
+    },
+    "2309024": {
+      "id": 2309024,
+      "editor_name": "咕噜球模式",
+      "behavior_info": [
+        {
+          "behavior_id": 3800250,
+          "editor_name": "【粉粉星】星隐重置",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 3800098,
+          "editor_name": "【通用】无参简单逃跑",
+          "exec_count": 1
+        },
+        {
+          "behavior_id": 8008,
+          "editor_name": "【不接触进战】惊讶感叹UI",
           "exec_count": 1
         }
       ]
@@ -275345,8 +275673,8 @@
       ],
       "behavior_info": [
         {
-          "behavior_id": 9007,
-          "editor_name": "【跟随】通用静态表演步行",
+          "behavior_id": 3800241,
+          "editor_name": "【粉粉星】星隐",
           "exec_count": 1
         }
       ]
@@ -275359,6 +275687,11 @@
         {}
       ],
       "behavior_info": [
+        {
+          "behavior_id": 3800241,
+          "editor_name": "【粉粉星】星隐",
+          "exec_count": 1
+        },
         {
           "behavior_id": 9003,
           "editor_name": "【跟随】触发亲昵靠近",
@@ -275463,185 +275796,18 @@
       "editor_name": "备用状态2",
       "begin_end_behavior_info": [
         {},
-        {
-          "behavior_id": 3800242,
-          "behavior_editor_name": "【粉粉星】闪现"
-        }
+        {}
       ],
       "behavior_info": [
         {
-          "behavior_id": 3800241,
-          "editor_name": "【粉粉星】星隐",
+          "behavior_id": 3800242,
+          "editor_name": "【粉粉星】闪现",
           "exec_count": 1
         }
       ]
     },
     "3002831": {
       "id": 3002831,
-      "editor_name": "备用"
-    },
-    "3002832": {
-      "id": 3002832,
-      "editor_name": "初始化",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9000,
-          "editor_name": "【跟随】跟随初始化",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002833": {
-      "id": 3002833,
-      "editor_name": "通用跟随移动",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9006,
-          "editor_name": "【跟随】通用跟随移动步行",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002834": {
-      "id": 3002834,
-      "editor_name": "通用安静表演",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9007,
-          "editor_name": "【跟随】通用静态表演步行",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002835": {
-      "id": 3002835,
-      "editor_name": "亲昵接近",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9003,
-          "editor_name": "【跟随】触发亲昵靠近",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002836": {
-      "id": 3002836,
-      "editor_name": "寻找宝箱",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9005,
-          "editor_name": "【跟随】触发亲昵寻找宝箱",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002837": {
-      "id": 3002837,
-      "editor_name": "亲昵静态",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9004,
-          "editor_name": "【跟随】触发亲昵静态表演",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002838": {
-      "id": 3002838,
-      "editor_name": "备用状态1",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 9015,
-          "editor_name": "【跟随】手持拍照",
-          "cond_type": [
-            15
-          ],
-          "cond_param": [
-            1,
-            37,
-            0
-          ],
-          "exec_count": 1
-        },
-        {
-          "behavior_id": 9016,
-          "editor_name": "【跟随】支架拍照-相机",
-          "cond_type": [
-            15
-          ],
-          "cond_param": [
-            1,
-            38,
-            0
-          ],
-          "exec_count": 1
-        },
-        {
-          "behavior_id": 9017,
-          "editor_name": "【跟随】支架拍照-大世界",
-          "cond_type": [
-            15
-          ],
-          "cond_param": [
-            1,
-            39,
-            0
-          ],
-          "exec_count": 1
-        },
-        {
-          "behavior_id": 9018,
-          "editor_name": "【跟随】自拍拍照",
-          "cond_type": [
-            15
-          ],
-          "cond_param": [
-            1,
-            40,
-            0
-          ],
-          "exec_count": 1
-        }
-      ]
-    },
-    "3002839": {
-      "id": 3002839,
-      "editor_name": "备用状态2",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ]
-    },
-    "3002840": {
-      "id": 3002840,
       "editor_name": "备用"
     },
     "3002841": {
@@ -308413,8 +308579,8 @@
       ],
       "behavior_info": [
         {
-          "behavior_id": 9008,
-          "editor_name": "【跟随】通用跟随移动飞行",
+          "behavior_id": 9006,
+          "editor_name": "【跟随】通用跟随移动步行",
           "exec_count": 1
         }
       ]
@@ -349523,21 +349689,6 @@
         }
       ]
     },
-    "3006922": {
-      "id": 3006922,
-      "editor_name": "Unk",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 3000291,
-          "editor_name": "【变身】变身结束吓跑精灵",
-          "exec_count": 1
-        }
-      ]
-    },
     "3006923": {
       "id": 3006923,
       "editor_name": "Unk",
@@ -359652,21 +359803,6 @@
     },
     "3008084": {
       "id": 3008084,
-      "editor_name": "Unk",
-      "begin_end_behavior_info": [
-        {},
-        {}
-      ],
-      "behavior_info": [
-        {
-          "behavior_id": 50026,
-          "editor_name": "【时装】呼唤音乐会",
-          "exec_count": 1
-        }
-      ]
-    },
-    "3008085": {
-      "id": 3008085,
       "editor_name": "Unk",
       "begin_end_behavior_info": [
         {},

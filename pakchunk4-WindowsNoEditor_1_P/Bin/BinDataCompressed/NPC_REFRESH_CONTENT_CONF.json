@@ -58175,7 +58175,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115449": {
       "id": 115449,
@@ -58231,7 +58231,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115450": {
       "id": 115450,
@@ -58287,7 +58287,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115451": {
       "id": 115451,
@@ -58343,7 +58343,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115452": {
       "id": 115452,
@@ -58399,7 +58399,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115453": {
       "id": 115453,
@@ -58455,7 +58455,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115454": {
       "id": 115454,
@@ -58511,7 +58511,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115455": {
       "id": 115455,
@@ -58567,7 +58567,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115456": {
       "id": 115456,
@@ -58623,7 +58623,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115457": {
       "id": 115457,
@@ -58679,7 +58679,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115458": {
       "id": 115458,
@@ -58735,7 +58735,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115459": {
       "id": 115459,
@@ -58791,7 +58791,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115460": {
       "id": 115460,
@@ -58847,7 +58847,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115461": {
       "id": 115461,
@@ -58903,7 +58903,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115462": {
       "id": 115462,
@@ -58959,7 +58959,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115463": {
       "id": 115463,
@@ -59015,7 +59015,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115464": {
       "id": 115464,
@@ -59071,7 +59071,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115465": {
       "id": 115465,
@@ -59127,7 +59127,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115466": {
       "id": 115466,
@@ -59183,7 +59183,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115467": {
       "id": 115467,
@@ -59239,7 +59239,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115468": {
       "id": 115468,
@@ -61077,7 +61077,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115502": {
       "id": 115502,
@@ -61133,7 +61133,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115503": {
       "id": 115503,
@@ -61189,7 +61189,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115504": {
       "id": 115504,
@@ -61245,7 +61245,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115505": {
       "id": 115505,
@@ -61301,7 +61301,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115506": {
       "id": 115506,
@@ -61357,7 +61357,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115507": {
       "id": 115507,
@@ -61413,7 +61413,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115508": {
       "id": 115508,
@@ -61469,7 +61469,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115509": {
       "id": 115509,
@@ -61525,7 +61525,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115510": {
       "id": 115510,
@@ -61581,7 +61581,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115511": {
       "id": 115511,
@@ -61637,7 +61637,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115512": {
       "id": 115512,
@@ -61693,7 +61693,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115513": {
       "id": 115513,
@@ -61749,7 +61749,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115514": {
       "id": 115514,
@@ -61805,7 +61805,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115515": {
       "id": 115515,
@@ -61861,7 +61861,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115516": {
       "id": 115516,
@@ -61917,7 +61917,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115517": {
       "id": 115517,
@@ -61973,7 +61973,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739782145
+      "is_bonus_shining": true
     },
     "115518": {
       "id": 115518,
@@ -82451,7 +82451,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739776001
+      "is_bonus_shining": true
     },
     "115921": {
       "id": 115921,
@@ -82502,7 +82502,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1739776001
+      "is_bonus_shining": true
     },
     "115922": {
       "id": 115922,
@@ -82847,7 +82847,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116001": {
       "id": 116001,
@@ -85297,7 +85297,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116449": {
       "id": 116449,
@@ -85347,7 +85347,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116450": {
       "id": 116450,
@@ -85397,7 +85397,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116451": {
       "id": 116451,
@@ -85439,7 +85439,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116452": {
       "id": 116452,
@@ -85489,7 +85489,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116453": {
       "id": 116453,
@@ -85539,7 +85539,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116454": {
       "id": 116454,
@@ -85589,7 +85589,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116455": {
       "id": 116455,
@@ -85639,7 +85639,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116456": {
       "id": 116456,
@@ -85689,7 +85689,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116457": {
       "id": 116457,
@@ -85739,7 +85739,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116458": {
       "id": 116458,
@@ -85789,7 +85789,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116459": {
       "id": 116459,
@@ -85839,7 +85839,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116460": {
       "id": 116460,
@@ -85889,7 +85889,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116461": {
       "id": 116461,
@@ -85939,7 +85939,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116462": {
       "id": 116462,
@@ -85989,7 +85989,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116463": {
       "id": 116463,
@@ -86039,7 +86039,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116464": {
       "id": 116464,
@@ -86089,7 +86089,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116465": {
       "id": 116465,
@@ -86139,7 +86139,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116466": {
       "id": 116466,
@@ -86189,7 +86189,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116467": {
       "id": 116467,
@@ -86239,7 +86239,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116468": {
       "id": 116468,
@@ -87617,7 +87617,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116502": {
       "id": 116502,
@@ -87659,7 +87659,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116503": {
       "id": 116503,
@@ -87701,7 +87701,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116504": {
       "id": 116504,
@@ -87743,7 +87743,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116505": {
       "id": 116505,
@@ -87785,7 +87785,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116506": {
       "id": 116506,
@@ -87827,7 +87827,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116507": {
       "id": 116507,
@@ -87869,7 +87869,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116508": {
       "id": 116508,
@@ -87911,7 +87911,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116509": {
       "id": 116509,
@@ -87953,7 +87953,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116510": {
       "id": 116510,
@@ -87995,7 +87995,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116511": {
       "id": 116511,
@@ -88037,7 +88037,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116512": {
       "id": 116512,
@@ -88079,7 +88079,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116513": {
       "id": 116513,
@@ -88121,7 +88121,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116514": {
       "id": 116514,
@@ -88163,7 +88163,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116515": {
       "id": 116515,
@@ -88205,7 +88205,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116516": {
       "id": 116516,
@@ -88247,7 +88247,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116517": {
       "id": 116517,
@@ -88289,7 +88289,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116518": {
       "id": 116518,
@@ -104290,7 +104290,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116921": {
       "id": 116921,
@@ -104331,7 +104331,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1731387393
+      "is_bonus_shining": true
     },
     "116922": {
       "id": 116922,
@@ -104612,7 +104612,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/NPC/Pet/G6_NPC_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "117001": {
       "id": 117001,
@@ -117796,7 +117796,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119502": {
       "id": 119502,
@@ -117832,7 +117832,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119503": {
       "id": 119503,
@@ -117868,7 +117868,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119504": {
       "id": 119504,
@@ -117904,7 +117904,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119505": {
       "id": 119505,
@@ -117940,7 +117940,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119506": {
       "id": 119506,
@@ -117976,7 +117976,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119507": {
       "id": 119507,
@@ -118012,7 +118012,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119508": {
       "id": 119508,
@@ -118048,7 +118048,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119509": {
       "id": 119509,
@@ -118084,7 +118084,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_XCDD",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119510": {
       "id": 119510,
@@ -118120,7 +118120,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119511": {
       "id": 119511,
@@ -118156,7 +118156,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119512": {
       "id": 119512,
@@ -118192,7 +118192,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119513": {
       "id": 119513,
@@ -118228,7 +118228,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119514": {
       "id": 119514,
@@ -118264,7 +118264,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_YHT",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119515": {
       "id": 119515,
@@ -118300,7 +118300,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119516": {
       "id": 119516,
@@ -118336,7 +118336,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119517": {
       "id": 119517,
@@ -118372,7 +118372,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119518": {
       "id": 119518,
@@ -118408,7 +118408,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PLDD",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119519": {
       "id": 119519,
@@ -118444,7 +118444,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119520": {
       "id": 119520,
@@ -118480,7 +118480,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1689436161
+      "is_bonus_shining": true
     },
     "119521": {
       "id": 119521,
@@ -118516,7 +118516,7 @@
         100
       ],
       "emerge_skill": "/Game/ArtRes/Effects/G6Skill/S2/G6_JXHZ_PetAppear",
-      "custom_mutation_type": 1681053697
+      "is_bonus_shining": true
     },
     "120001": {
       "id": 120001,
@@ -138544,6 +138544,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "140081": {
@@ -138580,6 +138583,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "140143": {
@@ -141115,7 +141121,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140277": {
       "id": 140277,
@@ -141529,7 +141536,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140295": {
       "id": 140295,
@@ -141947,7 +141955,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140313": {
       "id": 140313,
@@ -142523,7 +142532,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140427": {
       "id": 140427,
@@ -142937,7 +142947,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140445": {
       "id": 140445,
@@ -143351,7 +143362,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140463": {
       "id": 140463,
@@ -143765,7 +143777,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140481": {
       "id": 140481,
@@ -144179,7 +144192,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140499": {
       "id": 140499,
@@ -144593,7 +144607,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140517": {
       "id": 140517,
@@ -145007,7 +145022,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140535": {
       "id": 140535,
@@ -145436,7 +145452,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "140553": {
       "id": 140553,
@@ -145882,7 +145899,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "140609": {
       "id": 140609,
@@ -145910,7 +145927,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "140622": {
       "id": 140622,
@@ -240688,7 +240705,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652002": {
       "id": 652002,
@@ -241097,7 +241115,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652019": {
       "id": 652019,
@@ -241552,7 +241571,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652038": {
       "id": 652038,
@@ -241984,7 +242004,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652056": {
       "id": 652056,
@@ -242416,7 +242437,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652074": {
       "id": 652074,
@@ -242848,7 +242870,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652092": {
       "id": 652092,
@@ -243280,7 +243303,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652110": {
       "id": 652110,
@@ -243712,7 +243736,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652128": {
       "id": 652128,
@@ -244144,7 +244169,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652146": {
       "id": 652146,
@@ -244576,7 +244602,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652164": {
       "id": 652164,
@@ -245008,7 +245035,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652182": {
       "id": 652182,
@@ -245440,7 +245468,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652200": {
       "id": 652200,
@@ -245872,7 +245901,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652218": {
       "id": 652218,
@@ -246304,7 +246334,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652236": {
       "id": 652236,
@@ -246736,7 +246767,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652254": {
       "id": 652254,
@@ -247168,7 +247200,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652272": {
       "id": 652272,
@@ -247600,7 +247633,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652290": {
       "id": 652290,
@@ -248032,7 +248066,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652308": {
       "id": 652308,
@@ -248464,7 +248499,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652326": {
       "id": 652326,
@@ -248896,7 +248932,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652344": {
       "id": 652344,
@@ -249328,7 +249365,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652362": {
       "id": 652362,
@@ -249760,7 +249798,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652380": {
       "id": 652380,
@@ -250192,7 +250231,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652398": {
       "id": 652398,
@@ -250624,7 +250664,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652416": {
       "id": 652416,
@@ -251056,7 +251097,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652434": {
       "id": 652434,
@@ -251488,7 +251530,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652452": {
       "id": 652452,
@@ -251920,7 +251963,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652470": {
       "id": 652470,
@@ -252352,7 +252396,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652488": {
       "id": 652488,
@@ -252784,7 +252829,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652506": {
       "id": 652506,
@@ -253216,7 +253262,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652524": {
       "id": 652524,
@@ -253648,7 +253695,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652542": {
       "id": 652542,
@@ -254080,7 +254128,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652560": {
       "id": 652560,
@@ -254512,7 +254561,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652578": {
       "id": 652578,
@@ -254944,7 +254994,8 @@
         0,
         100
       ],
-      "team_battle_not_delete": true
+      "team_battle_not_delete": true,
+      "force_show_falconmap": true
     },
     "652596": {
       "id": 652596,
@@ -335361,6 +335412,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1001994": {
@@ -335585,6 +335639,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1002001": {
@@ -335613,6 +335670,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1002002": {
@@ -335641,6 +335701,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1002003": {
@@ -335669,6 +335732,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1002004": {
@@ -335697,6 +335763,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1002005": {
@@ -337095,6 +337164,8 @@
         "tyrionwang",
         "地编自动生成"
       ],
+      "version": 2026052501,
+      "refresh_update_type": 1,
       "refresh_type": 1,
       "refresh_param": 101035897,
       "refresh_rule": 2,
@@ -379823,6 +379894,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "1600079": {
@@ -387141,7 +387215,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "1600485": {
       "id": 1600485,
@@ -439639,7 +439713,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "2201585": {
       "id": 2201585,
@@ -441264,7 +441338,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "2201656": {
       "id": 2201656,
@@ -441293,7 +441367,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "2201657": {
       "id": 2201657,
@@ -441324,7 +441398,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "2201658": {
       "id": 2201658,
@@ -442028,7 +442102,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "2201700": {
       "id": 2201700,
@@ -442311,7 +442385,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "2201713": {
       "id": 2201713,
@@ -442363,15 +442437,12 @@
       ],
       "pet_habitat_group": 1956,
       "show_habitat": true,
-      "model_scale": 768,
+      "model_scale": 140,
       "voice_percent": [
-        17905,
-        17901,
-        17906,
-        17382,
-        17424
+        0,
+        100
       ],
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "2201716": {
       "id": 2201716,
@@ -446643,6 +446714,8 @@
         "siegfriedxu",
         "地编自动生成"
       ],
+      "version": 2026062201,
+      "refresh_update_type": 2,
       "refresh_type": 1,
       "refresh_param": 221031037,
       "refresh_rule": 5,
@@ -446654,7 +446727,12 @@
         220340,
         220341,
         220343,
-        220355
+        220355,
+        2201976,
+        2201977,
+        2201978,
+        2201979,
+        2201980
       ],
       "lock_on_ground": 1,
       "model_scale": 100,
@@ -446742,6 +446820,125 @@
       ],
       "lock_on_ground": -1,
       "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "2201970": {
+      "id": 2201970,
+      "editor_name": [
+        "可可果广场的彩蛋npc",
+        "yunlinfeng",
+        "预热活动npc"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 261038070,
+      "refresh_rule": 5,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 47208,
+      "npc_option_type": 1,
+      "npc_option_ids": [
+        2201981
+      ],
+      "lock_on_ground": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "2201971": {
+      "id": 2201971,
+      "editor_name": [
+        "医院门口_萌萌",
+        "siegfriedxu",
+        "预热活动npc"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 261038066,
+      "refresh_rule": 5,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 220213,
+      "npc_option_type": 1,
+      "npc_option_ids": [
+        2201970,
+        2201971
+      ],
+      "lock_on_ground": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "2201972": {
+      "id": 2201972,
+      "editor_name": [
+        "魔力之源广场_王国居民男",
+        "siegfriedxu",
+        "预热活动npc"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 261038067,
+      "refresh_rule": 5,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 220214,
+      "npc_option_type": 1,
+      "npc_option_ids": [
+        2201972,
+        2201973
+      ],
+      "lock_on_ground": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "2201973": {
+      "id": 2201973,
+      "editor_name": [
+        "下沉区_王国居民女",
+        "siegfriedxu",
+        "预热活动npc"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 261038068,
+      "refresh_rule": 5,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 220215,
+      "npc_option_type": 1,
+      "npc_option_ids": [
+        2201974,
+        2201975
+      ],
+      "lock_on_ground": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "2201974": {
+      "id": 2201974,
+      "editor_name": [
+        "下沉区_王国居民女旁边的乖乖鹄",
+        "yunlinfeng",
+        "预热活动npc"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 261038069,
+      "refresh_rule": 5,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 590088,
+      "lock_on_ground": 1,
       "model_scale": 100,
       "voice_percent": [
         0,
@@ -465548,7 +465745,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "2400175": {
       "id": 2400175,
@@ -465739,7 +465936,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "2400181": {
       "id": 2400181,
@@ -466114,7 +466311,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "2400501": {
       "id": 2400501,
@@ -595500,17 +595697,6 @@
         1
       ],
       "lock_on_ground": 1,
-      "glass_limit_type": 1,
-      "chaos_limit_type": 1,
-      "chaos_prob": [
-        1,
-        0,
-        2,
-        3500,
-        3,
-        0
-      ],
-      "glass_prob": 90,
       "nature_rand": [
         30
       ],
@@ -595556,17 +595742,6 @@
         1
       ],
       "lock_on_ground": 1,
-      "glass_limit_type": 1,
-      "chaos_limit_type": 1,
-      "chaos_prob": [
-        1,
-        0,
-        2,
-        3500,
-        3,
-        0
-      ],
-      "glass_prob": 90,
       "nature_rand": [
         30
       ],
@@ -595612,17 +595787,6 @@
         1
       ],
       "lock_on_ground": 1,
-      "glass_limit_type": 1,
-      "chaos_limit_type": 1,
-      "chaos_prob": [
-        1,
-        0,
-        2,
-        3500,
-        3,
-        0
-      ],
-      "glass_prob": 90,
       "nature_rand": [
         30
       ],
@@ -595668,17 +595832,6 @@
         1
       ],
       "lock_on_ground": 1,
-      "glass_limit_type": 1,
-      "chaos_limit_type": 1,
-      "chaos_prob": [
-        1,
-        0,
-        2,
-        3500,
-        3,
-        0
-      ],
-      "glass_prob": 90,
       "nature_rand": [
         30
       ],
@@ -599233,17 +599386,6 @@
         1
       ],
       "lock_on_ground": 1,
-      "glass_limit_type": 1,
-      "chaos_limit_type": 1,
-      "chaos_prob": [
-        1,
-        0,
-        2,
-        3500,
-        3,
-        0
-      ],
-      "glass_prob": 90,
       "nature_rand": [
         30
       ],
@@ -611822,7 +611964,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -611884,7 +612025,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -611946,7 +612086,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612008,7 +612147,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612070,7 +612208,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612132,7 +612269,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612194,7 +612330,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612556,7 +612691,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612618,7 +612752,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612680,7 +612813,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612742,7 +612874,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612804,7 +612935,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 130173,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -612866,7 +612996,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -612946,7 +613075,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613026,7 +613154,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613106,7 +613233,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613186,7 +613312,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613266,7 +613391,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613346,7 +613470,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613427,7 +613550,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613508,7 +613630,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613589,7 +613710,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613670,7 +613790,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613751,7 +613870,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613832,7 +613950,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613912,7 +614029,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -613992,7 +614108,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -614072,7 +614187,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -614152,7 +614266,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -614232,7 +614345,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {
@@ -614299,6 +614411,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614374,6 +614495,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614449,6 +614579,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614524,6 +614663,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614599,6 +614747,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614674,6 +614831,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614749,6 +614915,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614824,6 +614999,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614899,6 +615083,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -614974,6 +615167,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615049,6 +615251,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615124,6 +615335,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615199,6 +615419,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615274,6 +615503,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615349,6 +615587,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615424,6 +615671,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615499,6 +615755,15 @@
       ],
       "lock_on_ground": 1,
       "glass_limit_type": 1,
+      "chaos_limit_type": 1,
+      "chaos_prob": [
+        1,
+        0,
+        2,
+        3500,
+        3,
+        0
+      ],
       "glass_prob": 90,
       "nature_rand": [
         30
@@ -615587,7 +615852,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615651,7 +615915,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615715,7 +615978,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615779,7 +616041,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615843,7 +616104,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615907,7 +616167,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -615971,7 +616230,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616097,7 +616355,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616409,7 +616666,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140146,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616473,7 +616729,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616537,7 +616792,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616601,7 +616855,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616665,7 +616918,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -616729,7 +616981,6 @@
       "nature_rand": [
         30
       ],
-      "belong_camp": 140150,
       "worldnature_prob_direction": 1,
       "ai_group_param": [
         {},
@@ -640168,10 +640419,10 @@
         "大型眠枭庇护所",
         "A2_23"
       ],
+      "disable": true,
       "overlap_processing_type": 3,
       "refresh_type": 4,
       "refresh_param": 108005134,
-      "refresh_rule": 2,
       "max_num": 1,
       "storage_num": 1,
       "npc_id": 56004,
@@ -765063,7 +765314,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700180": {
       "id": 3700180,
@@ -765956,7 +766207,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700233": {
       "id": 3700233,
@@ -765983,7 +766234,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700234": {
       "id": 3700234,
@@ -766010,7 +766261,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700235": {
       "id": 3700235,
@@ -766037,7 +766288,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700236": {
       "id": 3700236,
@@ -767022,7 +767273,7 @@
         100
       ],
       "Light_BP": "Blueprint'/Game/NewRoco/Modules/Core/NPC/Component/SpotLights/BP_NPC_SpotLight_001.BP_NPC_SpotLight_001'",
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3700299": {
       "id": 3700299,
@@ -767086,7 +767337,7 @@
         100
       ],
       "Light_BP": "Blueprint'/Game/NewRoco/Modules/Core/NPC/Component/SpotLights/BP_NPC_SpotLight_001.BP_NPC_SpotLight_001'",
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3700301": {
       "id": 3700301,
@@ -767150,7 +767401,7 @@
         100
       ],
       "Light_BP": "Blueprint'/Game/NewRoco/Modules/Core/NPC/Component/SpotLights/BP_NPC_SpotLight_001.BP_NPC_SpotLight_001'",
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3700303": {
       "id": 3700303,
@@ -769053,7 +769304,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700437": {
       "id": 3700437,
@@ -769081,7 +769332,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700438": {
       "id": 3700438,
@@ -769109,7 +769360,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700439": {
       "id": 3700439,
@@ -769137,7 +769388,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700440": {
       "id": 3700440,
@@ -769165,7 +769416,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700441": {
       "id": 3700441,
@@ -769193,7 +769444,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700442": {
       "id": 3700442,
@@ -769221,7 +769472,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700443": {
       "id": 3700443,
@@ -769249,7 +769500,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700444": {
       "id": 3700444,
@@ -769277,7 +769528,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3700445": {
       "id": 3700445,
@@ -772941,7 +773192,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900177": {
       "id": 3900177,
@@ -772959,7 +773210,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900178": {
       "id": 3900178,
@@ -773089,7 +773340,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900190": {
       "id": 3900190,
@@ -773139,7 +773390,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900193": {
       "id": 3900193,
@@ -773157,7 +773408,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900194": {
       "id": 3900194,
@@ -773207,7 +773458,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900197": {
       "id": 3900197,
@@ -773225,7 +773476,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900198": {
       "id": 3900198,
@@ -773355,7 +773606,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3900206": {
       "id": 3900206,
@@ -773373,7 +773624,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3900207": {
       "id": 3900207,
@@ -773391,7 +773642,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3900208": {
       "id": 3900208,
@@ -773409,7 +773660,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "3900209": {
       "id": 3900209,
@@ -773555,7 +773806,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900218": {
       "id": 3900218,
@@ -773621,7 +773872,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900222": {
       "id": 3900222,
@@ -773655,7 +773906,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900224": {
       "id": 3900224,
@@ -773881,7 +774132,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900238": {
       "id": 3900238,
@@ -773995,7 +774246,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900245": {
       "id": 3900245,
@@ -774013,7 +774264,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900246": {
       "id": 3900246,
@@ -774031,7 +774282,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900247": {
       "id": 3900247,
@@ -774049,7 +774300,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900250": {
       "id": 3900250,
@@ -774195,7 +774446,7 @@
       "lock_on_ground": -1,
       "ai_perform_group": 10045,
       "model_scale": 100,
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "3900259": {
       "id": 3900259,
@@ -776521,7 +776772,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "4000131": {
       "id": 4000131,
@@ -781741,7 +781992,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4000374": {
       "id": 4000374,
@@ -781773,7 +782024,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "4000375": {
       "id": 4000375,
@@ -783205,20 +783456,21 @@
       "refresh_param": 405040039,
       "refresh_rule": 5,
       "ClientHidden": true,
-      "max_num": 256,
-      "storage_num": 10862592,
-      "npc_id": 256,
-      "npc_level_script": 763648,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 42432,
+      "npc_level_script": 1,
       "level_param": [
-        17656,
-        17378,
-        17385
+        1,
+        1,
+        1,
+        1
       ],
-      "lock_on_ground": 256,
-      "worldnature_prob_direction": 2571520,
-      "ai_perform_group": 25600,
-      "model_scale": 256,
-      "is_bonus_shining": false
+      "lock_on_ground": 1,
+      "worldnature_prob_direction": 1,
+      "ai_perform_group": 10045,
+      "model_scale": 100,
+      "custom_mutation_type": 1
     },
     "4000461": {
       "id": 4000461,
@@ -787921,7 +788173,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300095": {
       "id": 4300095,
@@ -787946,7 +788198,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300096": {
       "id": 4300096,
@@ -787971,7 +788223,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300097": {
       "id": 4300097,
@@ -787996,7 +788248,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300100": {
       "id": 4300100,
@@ -788197,7 +788449,7 @@
         100
       ],
       "not_destroy_by_1vn": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4300108": {
       "id": 4300108,
@@ -788350,7 +788602,7 @@
         100
       ],
       "not_destroy_by_1vn": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4300119": {
       "id": 4300119,
@@ -791918,7 +792170,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300320": {
       "id": 4300320,
@@ -791946,7 +792198,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300323": {
       "id": 4300323,
@@ -795911,7 +796163,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300627": {
       "id": 4300627,
@@ -799504,7 +799756,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300797": {
       "id": 4300797,
@@ -799528,7 +799780,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300798": {
       "id": 4300798,
@@ -799552,7 +799804,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "4300799": {
       "id": 4300799,
@@ -819006,7 +819258,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "4500722": {
       "id": 4500722,
@@ -827079,7 +827331,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "4900067": {
       "id": 4900067,
@@ -827975,7 +828227,7 @@
         100
       ],
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900109": {
       "id": 4900109,
@@ -828021,7 +828273,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900111": {
       "id": 4900111,
@@ -828067,7 +828319,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900113": {
       "id": 4900113,
@@ -828113,7 +828365,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900117": {
       "id": 4900117,
@@ -828159,7 +828411,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900119": {
       "id": 4900119,
@@ -828205,7 +828457,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900121": {
       "id": 4900121,
@@ -828251,7 +828503,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900123": {
       "id": 4900123,
@@ -828297,7 +828549,7 @@
       "ai_perform_group": 10045,
       "model_scale": 100,
       "is_can_exhausted": true,
-      "is_bonus_shining": false
+      "custom_mutation_type": 2
     },
     "4900125": {
       "id": 4900125,
@@ -840473,7 +840725,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "5200209": {
       "id": 5200209,
@@ -840554,7 +840806,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "5200212": {
       "id": 5200212,
@@ -840709,7 +840961,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "5200218": {
       "id": 5200218,
@@ -842905,7 +843157,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 1
     },
     "5209013": {
       "id": 5209013,
@@ -842927,7 +843179,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5209020": {
       "id": 5209020,
@@ -850325,6 +850577,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400302": {
@@ -850353,6 +850608,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400303": {
@@ -850381,6 +850639,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400304": {
@@ -850409,6 +850670,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400305": {
@@ -850437,6 +850701,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400306": {
@@ -850465,6 +850732,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400307": {
@@ -850493,6 +850763,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400308": {
@@ -850521,6 +850794,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400309": {
@@ -850549,6 +850825,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400310": {
@@ -850685,6 +850964,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400315": {
@@ -850713,6 +850995,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400316": {
@@ -850769,6 +851054,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400318": {
@@ -850797,6 +851085,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400319": {
@@ -850825,6 +851116,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400320": {
@@ -850853,6 +851147,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400321": {
@@ -850881,6 +851178,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400322": {
@@ -850909,6 +851209,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400323": {
@@ -850937,6 +851240,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400324": {
@@ -850965,6 +851271,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400325": {
@@ -851021,6 +851330,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400327": {
@@ -851049,6 +851361,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400328": {
@@ -851077,6 +851392,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400329": {
@@ -851105,6 +851423,9 @@
       "voice_percent": [
         0,
         100
+      ],
+      "display_require_storyflag": [
+        54000001
       ]
     },
     "5400330": {
@@ -882337,7 +882658,7 @@
     "5501955": {
       "id": 5501955,
       "editor_name": [
-        "自动翻滚的鼓",
+        "静态的鼓",
         "kluiyao",
         "地编自动生成"
       ],
@@ -882346,7 +882667,7 @@
       "refresh_rule": 2,
       "max_num": 1,
       "storage_num": 1,
-      "npc_id": 550043,
+      "npc_id": 550115,
       "lock_on_ground": -1,
       "model_scale": 100
     },
@@ -882369,7 +882690,7 @@
     "5501957": {
       "id": 5501957,
       "editor_name": [
-        "自动翻滚的鼓",
+        "静态的鼓",
         "kluiyao",
         "地编自动生成"
       ],
@@ -882378,7 +882699,7 @@
       "refresh_rule": 2,
       "max_num": 1,
       "storage_num": 1,
-      "npc_id": 550043,
+      "npc_id": 550115,
       "lock_on_ground": -1,
       "model_scale": 100
     },
@@ -882936,6 +883257,529 @@
       "npc_id": 550051,
       "lock_on_ground": -1,
       "model_scale": 50
+    },
+    "5502452": {
+      "id": 5502452,
+      "editor_name": [
+        "走钢丝场景-碰撞体补丁",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060019,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550108,
+      "lock_on_ground": -1,
+      "model_scale": 100
+    },
+    "5503047": {
+      "id": 5503047,
+      "editor_name": [
+        "S2赛季副本通用临时骑乘徽章",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060020,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550046,
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503048": {
+      "id": 5503048,
+      "editor_name": [
+        "S2赛季副本通用临时骑乘徽章",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060021,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550046,
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503049": {
+      "id": 5503049,
+      "editor_name": [
+        "S2赛季副本通用临时骑乘徽章",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060022,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550046,
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503050": {
+      "id": 5503050,
+      "editor_name": [
+        "走钢丝-STG5开启",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060023,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550031,
+      "npc_option_type": 2,
+      "npc_option_ids": [
+        550000238
+      ],
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503051": {
+      "id": 5503051,
+      "editor_name": [
+        "走钢丝-STG6开启",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060024,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550031,
+      "npc_option_type": 2,
+      "npc_option_ids": [
+        550000239
+      ],
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503052": {
+      "id": 5503052,
+      "editor_name": [
+        "走钢丝-STG7开启",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060025,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 550031,
+      "npc_option_type": 2,
+      "npc_option_ids": [
+        550000240
+      ],
+      "lock_on_ground": -1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503053": {
+      "id": 5503053,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "disable": true,
+      "refresh_type": 1,
+      "refresh_param": 555060026,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503054": {
+      "id": 5503054,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "disable": true,
+      "refresh_type": 1,
+      "refresh_param": 555060027,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503055": {
+      "id": 5503055,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060028,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503056": {
+      "id": 5503056,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060029,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503057": {
+      "id": 5503057,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060030,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503058": {
+      "id": 5503058,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "disable": true,
+      "refresh_type": 1,
+      "refresh_param": 555060031,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503059": {
+      "id": 5503059,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060032,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503060": {
+      "id": 5503060,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060033,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503061": {
+      "id": 5503061,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060034,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503066": {
+      "id": 5503066,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060039,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503067": {
+      "id": 5503067,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060040,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
+    },
+    "5503068": {
+      "id": 5503068,
+      "editor_name": [
+        "可可果",
+        "kluiyao",
+        "地编自动生成"
+      ],
+      "refresh_type": 1,
+      "refresh_param": 555060041,
+      "refresh_rule": 2,
+      "max_num": 1,
+      "storage_num": 1,
+      "npc_id": 50020,
+      "npc_level_script": 1,
+      "level_param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lock_on_ground": -1,
+      "init_status": [
+        1005
+      ],
+      "worldnature_prob_direction": 1,
+      "model_scale": 100,
+      "voice_percent": [
+        0,
+        100
+      ]
     },
     "5600001": {
       "id": 5600001,
@@ -889157,7 +890001,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600318": {
       "id": 5600318,
@@ -889181,7 +890025,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600319": {
       "id": 5600319,
@@ -889205,7 +890049,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600320": {
       "id": 5600320,
@@ -889331,7 +890175,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600326": {
       "id": 5600326,
@@ -889361,7 +890205,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600327": {
       "id": 5600327,
@@ -889391,7 +890235,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600328": {
       "id": 5600328,
@@ -889421,7 +890265,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600329": {
       "id": 5600329,
@@ -889451,7 +890295,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600330": {
       "id": 5600330,
@@ -889481,7 +890325,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5600331": {
       "id": 5600331,
@@ -905693,7 +906537,7 @@
         0,
         100
       ],
-      "is_bonus_shining": true
+      "custom_mutation_type": 2
     },
     "5900136": {
       "id": 5900136,
@@ -949966,7 +950810,8 @@
       "voice_percent": [
         0,
         100
-      ]
+      ],
+      "force_show_falconmap": true
     },
     "6700613": {
       "id": 6700613,

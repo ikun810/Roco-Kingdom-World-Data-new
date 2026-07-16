@@ -1,0 +1,1156 @@
+{
+  "RocoDataRows": {
+    "100": {
+      "id": 100,
+      "evo_id": 94,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "101": {
+      "id": 101,
+      "evo_id": 19,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "102": {
+      "id": 102,
+      "evo_id": 113,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "103": {
+      "id": 103,
+      "evo_id": 114,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "104": {
+      "id": 104,
+      "evo_id": 112,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "105": {
+      "id": 105,
+      "evo_id": 14,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "106": {
+      "id": 106,
+      "evo_id": 61,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "107": {
+      "id": 107,
+      "evo_id": 62,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "108": {
+      "id": 108,
+      "evo_id": 132,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "109": {
+      "id": 109,
+      "evo_id": 219,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "110": {
+      "id": 110,
+      "evo_id": 22,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "111": {
+      "id": 111,
+      "evo_id": 183,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "112": {
+      "id": 112,
+      "evo_id": 43,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "113": {
+      "id": 113,
+      "evo_id": 98,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "114": {
+      "id": 114,
+      "evo_id": 46,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "115": {
+      "id": 115,
+      "evo_id": 47,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "116": {
+      "id": 116,
+      "evo_id": 48,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "117": {
+      "id": 117,
+      "evo_id": 221,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "118": {
+      "id": 118,
+      "evo_id": 222,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "119": {
+      "id": 119,
+      "evo_id": 125,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "120": {
+      "id": 120,
+      "evo_id": 96,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "121": {
+      "id": 121,
+      "evo_id": 139,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "122": {
+      "id": 122,
+      "evo_id": 26,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "123": {
+      "id": 123,
+      "evo_id": 8,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "124": {
+      "id": 124,
+      "evo_id": 37,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "125": {
+      "id": 125,
+      "evo_id": 39,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "126": {
+      "id": 126,
+      "evo_id": 29,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "127": {
+      "id": 127,
+      "evo_id": 73,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "128": {
+      "id": 128,
+      "evo_id": 75,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "129": {
+      "id": 129,
+      "evo_id": 128,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "130": {
+      "id": 130,
+      "evo_id": 79,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "131": {
+      "id": 131,
+      "evo_id": 180,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "132": {
+      "id": 132,
+      "evo_id": 80,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "133": {
+      "id": 133,
+      "evo_id": 104,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "134": {
+      "id": 134,
+      "evo_id": 83,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "135": {
+      "id": 135,
+      "evo_id": 226,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "136": {
+      "id": 136,
+      "evo_id": 230,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "137": {
+      "id": 137,
+      "evo_id": 240,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "138": {
+      "id": 138,
+      "evo_id": 85,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "139": {
+      "id": 139,
+      "evo_id": 286,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "140": {
+      "id": 140,
+      "evo_id": 296,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "141": {
+      "id": 141,
+      "evo_id": 310,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 30000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 30000
+        }
+      ]
+    },
+    "142": {
+      "id": 142,
+      "evo_id": 320,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "143": {
+      "id": 143,
+      "evo_id": 13,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "144": {
+      "id": 144,
+      "evo_id": 173,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "145": {
+      "id": 145,
+      "evo_id": 65,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "201": {
+      "id": 201,
+      "type": 2,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "202": {
+      "id": 202,
+      "type": 3,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "203": {
+      "id": 203,
+      "type": 4,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "204": {
+      "id": 204,
+      "type": 5,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "205": {
+      "id": 205,
+      "type": 6,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "206": {
+      "id": 206,
+      "type": 8,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 20000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 20000
+        }
+      ]
+    },
+    "207": {
+      "id": 207,
+      "type": 9,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "208": {
+      "id": 208,
+      "type": 10,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "209": {
+      "id": 209,
+      "type": 11,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "210": {
+      "id": 210,
+      "type": 12,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "211": {
+      "id": 211,
+      "type": 13,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "212": {
+      "id": 212,
+      "type": 14,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "213": {
+      "id": 213,
+      "type": 15,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "214": {
+      "id": 214,
+      "type": 16,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "215": {
+      "id": 215,
+      "type": 17,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "216": {
+      "id": 216,
+      "type": 18,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "217": {
+      "id": 217,
+      "type": 19,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    },
+    "218": {
+      "id": 218,
+      "type": 20,
+      "trial_struct": [
+        {
+          "trial_id": 10000,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10001,
+          "coin_multiplier": 10000
+        },
+        {
+          "trial_id": 10002,
+          "coin_multiplier": 10000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Name": "SET_ROLE_ANIMATION_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "type_name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "player_animation_customize_type",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "tips_male",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "tips_female",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "animation_list",
+      "Type": "EStruct",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "SET_ROLE_ANIMATION_CONF.animation_list",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "animation",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "name",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    }
+  ]
+}

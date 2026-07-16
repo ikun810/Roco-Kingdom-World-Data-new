@@ -1,0 +1,2119 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "refresh_content_id": 30300501,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "refresh_content_id": 2301029,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "refresh_content_id": 1200805,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "refresh_content_id": 1200806,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "refresh_content_id": 1200807,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_4",
+            "locator_5",
+            "locator_6"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "refresh_content_id": 1200808,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "refresh_content_id": 1200809,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "refresh_content_id": 30300501,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_5",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_3",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "refresh_content_id": 1200819,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_5",
+            "locator_6",
+            "locator_7"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_3",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "refresh_content_id": 1200820,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "refresh_content_id": 1200860,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "refresh_content_id": 1200861,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "13": {
+      "id": 13,
+      "refresh_content_id": 1000730,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "14": {
+      "id": 14,
+      "refresh_content_id": 1000733,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "id": 15,
+      "refresh_content_id": 1000734,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "16": {
+      "id": 16,
+      "refresh_content_id": 1000729,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "17": {
+      "id": 17,
+      "refresh_content_id": 1001080,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "id": 18,
+      "refresh_content_id": 1001081,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "id": 19,
+      "refresh_content_id": 1001082,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "20": {
+      "id": 20,
+      "refresh_content_id": 1001083,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "refresh_content_id": 1001084,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "22": {
+      "id": 22,
+      "refresh_content_id": 1001085,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "id": 23,
+      "refresh_content_id": 1001086,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "24": {
+      "id": 24,
+      "refresh_content_id": 1001087,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "25": {
+      "id": 25,
+      "refresh_content_id": 1001088,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "26": {
+      "id": 26,
+      "refresh_content_id": 1001089,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "27": {
+      "id": 27,
+      "refresh_content_id": 1001584,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "28": {
+      "id": 28,
+      "refresh_content_id": 1001585,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "29": {
+      "id": 29,
+      "refresh_content_id": 1001593,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "30": {
+      "id": 30,
+      "refresh_content_id": 1001594,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "31": {
+      "id": 31,
+      "refresh_content_id": 1001600,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "32": {
+      "id": 32,
+      "refresh_content_id": 1001601,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "33": {
+      "id": 33,
+      "refresh_content_id": 1001612,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "34": {
+      "id": 34,
+      "refresh_content_id": 1001613,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "35": {
+      "id": 35,
+      "refresh_content_id": 1001614,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "36": {
+      "id": 36,
+      "refresh_content_id": 1001623,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "37": {
+      "id": 37,
+      "refresh_content_id": 1001624,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "38": {
+      "id": 38,
+      "refresh_content_id": 1001625,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "39": {
+      "id": 39,
+      "refresh_content_id": 1001634,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "40": {
+      "id": 40,
+      "refresh_content_id": 1001635,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "41": {
+      "id": 41,
+      "refresh_content_id": 1001636,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "42": {
+      "id": 42,
+      "refresh_content_id": 1001645,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "43": {
+      "id": 43,
+      "refresh_content_id": 1001646,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "44": {
+      "id": 44,
+      "refresh_content_id": 1001647,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "45": {
+      "id": 45,
+      "refresh_content_id": 1001656,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "46": {
+      "id": 46,
+      "refresh_content_id": 1001657,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "47": {
+      "id": 47,
+      "refresh_content_id": 1001658,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "48": {
+      "id": 48,
+      "refresh_content_id": 1001667,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "49": {
+      "id": 49,
+      "refresh_content_id": 1001668,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "50": {
+      "id": 50,
+      "refresh_content_id": 1001669,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "51": {
+      "id": 51,
+      "refresh_content_id": 1001686,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "52": {
+      "id": 52,
+      "refresh_content_id": 2400540,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "53": {
+      "id": 53,
+      "refresh_content_id": 2400563,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "54": {
+      "id": 54,
+      "refresh_content_id": 2400564,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "55": {
+      "id": 55,
+      "refresh_content_id": 2400565,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_4",
+            "locator_5"
+          ]
+        }
+      ]
+    },
+    "56": {
+      "id": 56,
+      "refresh_content_id": 4300072,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "57": {
+      "id": 57,
+      "refresh_content_id": 1200811,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "58": {
+      "id": 58,
+      "refresh_content_id": 31000051,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_4",
+            "locator_5"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_4",
+            "locator_5",
+            "locator_6"
+          ]
+        }
+      ]
+    },
+    "59": {
+      "id": 59,
+      "refresh_content_id": 31000052,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "60": {
+      "id": 60,
+      "refresh_content_id": 31000053,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "61": {
+      "id": 61,
+      "refresh_content_id": 2400570,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "62": {
+      "id": 62,
+      "refresh_content_id": 2400571,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "63": {
+      "id": 63,
+      "refresh_content_id": 2400572,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "64": {
+      "id": 64,
+      "refresh_content_id": 2400573,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "65": {
+      "id": 65,
+      "refresh_content_id": 1002628,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "66": {
+      "id": 66,
+      "refresh_content_id": 1002627,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "67": {
+      "id": 67,
+      "refresh_content_id": 1002626,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_3",
+            "locator_4"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2",
+            "locator_3",
+            "locator_4"
+          ]
+        }
+      ]
+    },
+    "68": {
+      "id": 68,
+      "refresh_content_id": 1002655,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "69": {
+      "id": 69,
+      "refresh_content_id": 1002656,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "70": {
+      "id": 70,
+      "refresh_content_id": 1002657,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1",
+            "locator_2",
+            "locator_3"
+          ]
+        }
+      ]
+    },
+    "71": {
+      "id": 71,
+      "refresh_content_id": 1002672,
+      "option": [
+        {
+          "weakness_point": [
+            "locator_1"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_2"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_3"
+          ]
+        },
+        {
+          "weakness_point": [
+            "locator_4"
+          ]
+        }
+      ],
+      "buff_random_range": [
+        5
+      ]
+    }
+  }
+}

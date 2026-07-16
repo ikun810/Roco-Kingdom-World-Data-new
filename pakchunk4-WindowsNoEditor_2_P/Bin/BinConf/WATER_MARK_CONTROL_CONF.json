@@ -1,0 +1,18 @@
+{
+  "Name": "WATER_MARK_CONTROL_CONF",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "world_id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "close_watermark",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    }
+  ]
+}

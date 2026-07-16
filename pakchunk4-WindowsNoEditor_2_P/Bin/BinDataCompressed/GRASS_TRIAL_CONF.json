@@ -1,0 +1,107 @@
+{
+  "RocoDataRows": {
+    "10000": {
+      "id": 10000,
+      "name": "草系徽章试炼",
+      "level": 60,
+      "coin": 10,
+      "rule": [
+        1001,
+        1008,
+        1017,
+        1003,
+        1004,
+        1000
+      ],
+      "reward": [
+        86000010
+      ],
+      "chapter": [
+        1000,
+        1001,
+        1002
+      ],
+      "fusion_type": [
+        3
+      ],
+      "battle_skill_num": 6,
+      "reward_show": [
+        {
+          "item_type": 2,
+          "item_id": 1
+        }
+      ]
+    },
+    "10001": {
+      "id": 10001,
+      "name": "草系徽章试炼·进阶1",
+      "level": 60,
+      "coin": 10,
+      "rule": [
+        1001,
+        1008,
+        1017,
+        1009,
+        1003,
+        1005
+      ],
+      "reward": [
+        86000011
+      ],
+      "unlock_id": [
+        10000
+      ],
+      "chapter": [
+        2000,
+        2001,
+        2002
+      ],
+      "fusion_type": [
+        3
+      ],
+      "battle_skill_num": 6,
+      "reward_show": [
+        {
+          "item_type": 2,
+          "item_id": 1
+        }
+      ]
+    },
+    "10002": {
+      "id": 10002,
+      "name": "草系徽章试炼·进阶2",
+      "level": 60,
+      "coin": 10,
+      "rule": [
+        1001,
+        1008,
+        1017,
+        1010,
+        1003
+      ],
+      "reward": [
+        86000012
+      ],
+      "unlock_id": [
+        10000,
+        10001
+      ],
+      "chapter": [
+        3000,
+        3001,
+        3002
+      ],
+      "fusion_type": [
+        3
+      ],
+      "battle_skill_num": 6,
+      "param": 8000,
+      "reward_show": [
+        {
+          "item_type": 2,
+          "item_id": 1
+        }
+      ]
+    }
+  }
+}

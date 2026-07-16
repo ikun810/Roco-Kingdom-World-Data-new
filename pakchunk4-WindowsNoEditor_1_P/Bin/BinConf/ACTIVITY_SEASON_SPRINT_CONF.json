@@ -1,0 +1,137 @@
+{
+  "Name": "ACTIVITY_SEASON_SPRINT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "phase1_title",
+      "Type": "ELocalizedString",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "season_id",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "sprint_end_time",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "receive_start_time",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "pvp_season_id",
+      "Type": "EUint32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "daily_extra_star_count",
+      "Type": "EUint32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "extra_star_below_master",
+      "Type": "EUint32",
+      "Offset": 28,
+      "Size": 4
+    },
+    {
+      "Name": "pvp_module_desc",
+      "Type": "ELocalizedString",
+      "Offset": 32,
+      "Size": 4
+    },
+    {
+      "Name": "pvp_progress_desc",
+      "Type": "ELocalizedString",
+      "Offset": 36,
+      "Size": 4
+    },
+    {
+      "Name": "pvp_sprint_effect_star_text",
+      "Type": "ELocalizedString",
+      "Offset": 40,
+      "Size": 4
+    },
+    {
+      "Name": "pvp_sprint_remaining_text",
+      "Type": "ELocalizedString",
+      "Offset": 44,
+      "Size": 4
+    },
+    {
+      "Name": "catch_module_desc",
+      "Type": "ELocalizedString",
+      "Offset": 48,
+      "Size": 4
+    },
+    {
+      "Name": "season_pet_progress_desc",
+      "Type": "ELocalizedString",
+      "Offset": 52,
+      "Size": 4
+    },
+    {
+      "Name": "buff_detail_txt",
+      "Type": "EUint32",
+      "Offset": 56,
+      "Size": 4
+    },
+    {
+      "Name": "consume_ball_types",
+      "Type": "EUint32",
+      "Offset": 60,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "consume_return_times",
+      "Type": "EUint32",
+      "Offset": 64,
+      "Size": 4
+    },
+    {
+      "Name": "total_return_limit",
+      "Type": "EUint32",
+      "Offset": 68,
+      "Size": 4
+    },
+    {
+      "Name": "return_ball_goods_id",
+      "Type": "EUint32",
+      "Offset": 72,
+      "Size": 4
+    },
+    {
+      "Name": "phase2_claim_card_topic",
+      "Type": "ELocalizedString",
+      "Offset": 76,
+      "Size": 4
+    },
+    {
+      "Name": "phase2_claim_card_desc",
+      "Type": "ELocalizedString",
+      "Offset": 80,
+      "Size": 4
+    }
+  ]
+}

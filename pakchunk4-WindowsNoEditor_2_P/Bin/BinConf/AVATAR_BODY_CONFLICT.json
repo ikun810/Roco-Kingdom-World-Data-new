@@ -1,0 +1,35 @@
+{
+  "Name": "AVATAR_BODY_CONFLICT",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "key",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "conflict_bodies",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "cache_bodies",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    }
+  ]
+}

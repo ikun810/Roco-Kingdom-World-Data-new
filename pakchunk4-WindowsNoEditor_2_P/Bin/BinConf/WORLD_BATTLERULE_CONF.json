@@ -1,0 +1,53 @@
+{
+  "Name": "WORLD_BATTLERULE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "playerpos_battlefield_cond1",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "pbc1_params",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "playerpos_battlefield_cond2",
+      "Type": "EInt32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "pbc2_params",
+      "Type": "EString",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "battlerule_priority",
+      "Type": "EInt32",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "battle_rule_id",
+      "Type": "EInt32",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    }
+  ]
+}

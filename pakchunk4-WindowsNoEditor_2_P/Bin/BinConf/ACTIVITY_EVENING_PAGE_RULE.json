@@ -1,0 +1,51 @@
+{
+  "Name": "ACTIVITY_EVENING_PAGE_RULE",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "open_time",
+      "Type": "EUint64",
+      "Offset": 4,
+      "Size": 8
+    },
+    {
+      "Name": "close_time",
+      "Type": "EUint64",
+      "Offset": 12,
+      "Size": 8
+    },
+    {
+      "Name": "page_name",
+      "Type": "ELocalizedString",
+      "Offset": 20,
+      "Size": 4
+    },
+    {
+      "Name": "prompt_text",
+      "Type": "EString",
+      "Offset": 24,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "image_path",
+      "Type": "EString",
+      "Offset": 28,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "if_need_marquee",
+      "Type": "EBool",
+      "Offset": 32,
+      "Size": 1
+    }
+  ]
+}

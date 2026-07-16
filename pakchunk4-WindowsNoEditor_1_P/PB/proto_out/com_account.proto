@@ -191,6 +191,7 @@ enum FlowReason {
   FLOW_REASON_ACTIVITY_CO_CREATION = 144;
   FLOW_REASON_ACTIVITY_CONDITION_GROUP = 145;
   FLOW_REASON_PET_UNLOCK_BOX = 146;
+  FLOW_REASON_PET_PAUSE_EVOLUTE = 147;
   FLOW_REASON_HOME_NAME = 195;
   FLOW_REASON_HOME_NORMAL = 196;
   FLOW_REASON_HOME_EXP = 197;
@@ -273,6 +274,7 @@ enum PlayerBanType {
   PBT_BPReceiving = 18;
   PBT_FunctionEntrance = 19;
   PBT_PhotoContest = 20;
+  PBT_Visit_And_DoubleTogether = 21;
   PBT_FeedVideoCreate = 44;
   PBT_FeedVideoComment = 45;
 }
@@ -354,6 +356,7 @@ message DeviceInfo {
 message PlayerNpcRefreshBanInfo {
   uint64 ban_time = 1;
   uint32 ban_probability = 2;
+  int32 ban_type = 3;
 }
 
 message PlayerBanItem {
@@ -371,6 +374,7 @@ message PlayerBanInfo {
   repeated Next.PlayerBanItem ban_items = 1;
   Next.PlayerNpcRefreshBanInfo npc_refresh_ban_info = 2;
   repeated Next.PlayerFuncBanItem func_ban_items = 3;
+  repeated Next.PlayerNpcRefreshBanInfo npc_refresh_ban_infos = 4;
 }
 
 message WebGamePlayerInfo {

@@ -1,0 +1,35 @@
+{
+  "Name": "NRC_AI_SEAT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "seat",
+      "Type": "EStruct",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 6,
+      "Struct": {
+        "Name": "NRC_AI_SEAT_CONF.seat",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "seat_xyz",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    }
+  ]
+}

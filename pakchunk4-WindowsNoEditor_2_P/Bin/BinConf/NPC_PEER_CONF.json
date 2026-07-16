@@ -1,0 +1,19 @@
+{
+  "Name": "NPC_PEER_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "is_plant",
+      "Type": "EBool",
+      "Offset": 4,
+      "Size": 1
+    }
+  ]
+}

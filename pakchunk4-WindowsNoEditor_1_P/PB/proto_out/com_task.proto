@@ -135,6 +135,7 @@ message TaskContentItem {
   uint32 sale_lock = 7;
   uint32 is_openorclose = 8;
   uint32 reward_cnt = 9;
+  uint32 need_recover_next_login = 10;
 }
 
 message TaskNpcOptionItem {

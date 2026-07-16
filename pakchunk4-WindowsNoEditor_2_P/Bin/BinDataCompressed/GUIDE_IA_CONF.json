@@ -1,0 +1,82 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "ia_name": "IA_OpenHandbookUI",
+      "ia_command": "HandbookModuleCmd.OpenHandbookCover"
+    },
+    "2": {
+      "id": 2,
+      "ia_name": "IA_OpenPetUI",
+      "ia_command": "PetUIModuleCmd.OpenPanelPetMain"
+    },
+    "3": {
+      "id": 3,
+      "ia_name": "IA_FurnitureHandbook",
+      "ia_command": "HomeModuleCmd.OpenFurnitureAtlasPanel"
+    },
+    "4": {
+      "id": 4,
+      "ia_name": "IA_OpenMenu",
+      "ia_command": "MainUIModuleCmd.ClickOpenPanelLobbyMainInner"
+    },
+    "5": {
+      "id": 5,
+      "ia_name": "IA_DecorateMode",
+      "ia_command": "HomeModuleCmd.OpenHomeMainPanel"
+    },
+    "6": {
+      "id": 6,
+      "ia_name": "IA_BallSelectEnd",
+      "ia_command": "MainUIModuleCmd.OpenBallUseBagPanel"
+    },
+    "7": {
+      "id": 7,
+      "ia_name": "IA_BattleBagEnd"
+    },
+    "8": {
+      "id": 8,
+      "ia_name": "IA_BattleCatchEnd"
+    },
+    "9": {
+      "id": 9,
+      "ia_name": "IA_BattleChangeEnd"
+    },
+    "10": {
+      "id": 10,
+      "ia_name": "IA_BattleSkillEnd"
+    },
+    "11": {
+      "id": 11,
+      "ia_name": "IA_BattleSelectItemEnd_1"
+    },
+    "12": {
+      "id": 12,
+      "ia_name": "IA_BattleSelectItemEnd_2"
+    },
+    "13": {
+      "id": 13,
+      "ia_name": "IA_BattleSelectItemEnd_3"
+    },
+    "14": {
+      "id": 14,
+      "ia_name": "IA_BattleSelectItemEnd_4"
+    },
+    "15": {
+      "id": 15,
+      "ia_name": "IA_BattleSelectItemEnd_5"
+    },
+    "16": {
+      "id": 16,
+      "ia_name": "IA_BattleSelectItemEnd_6"
+    },
+    "17": {
+      "id": 17,
+      "ia_name": "IA_BattleGlobalSkillEnd"
+    },
+    "18": {
+      "id": 18,
+      "ia_name": "IA_BattleSure"
+    }
+  }
+}

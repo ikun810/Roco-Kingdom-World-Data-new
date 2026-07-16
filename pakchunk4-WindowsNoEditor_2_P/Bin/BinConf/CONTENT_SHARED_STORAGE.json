@@ -1,0 +1,12 @@
+{
+  "Name": "CONTENT_SHARED_STORAGE",
+  "Type": "EStruct",
+  "Properties": [
+    {
+      "Name": "share_storage",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    }
+  ]
+}

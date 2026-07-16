@@ -1,0 +1,45 @@
+{
+  "Name": "TEMPERATURE_RIDE_EFFECT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "effects",
+      "Type": "EStruct",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "TEMPERATURE_RIDE_EFFECT_CONF.effects",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "effect",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "param1",
+            "Type": "EInt32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "priority",
+            "Type": "EUint32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

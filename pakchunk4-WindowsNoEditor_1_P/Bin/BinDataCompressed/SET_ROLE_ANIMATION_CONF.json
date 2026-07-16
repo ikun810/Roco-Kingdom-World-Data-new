@@ -1,0 +1,55 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "type_name": "炼金的完成动作",
+      "player_animation_customize_type": 1,
+      "tips_male": 600001,
+      "tips_female": 600002,
+      "animation_list": [
+        {
+          "animation": "Happy1",
+          "name": "动作1"
+        },
+        {
+          "animation": "Happy3",
+          "name": "动作2"
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "type_name": "魔法师对战的战胜动作",
+      "player_animation_customize_type": 3,
+      "tips_male": 600003,
+      "tips_female": 600004,
+      "animation_list": [
+        {
+          "animation": "Happy1",
+          "name": "动作1"
+        },
+        {
+          "animation": "Happy3",
+          "name": "动作2"
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "type_name": "精灵对决的战败动作",
+      "player_animation_customize_type": 2,
+      "tips_male": 600005,
+      "tips_female": 600006,
+      "animation_list": [
+        {
+          "animation": "PVPLose",
+          "name": "动作1"
+        },
+        {
+          "animation": "PVPLose1",
+          "name": "动作2"
+        }
+      ]
+    }
+  }
+}

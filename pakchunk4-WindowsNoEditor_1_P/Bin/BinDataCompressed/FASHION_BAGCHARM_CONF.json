@@ -1,0 +1,392 @@
+{
+  "RocoDataRows": {
+    "32400101": {
+      "id": 32400101,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32400501_male.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32400501_female.mp4",
+      "privilege_effect": 1224800257
+    },
+    "32400201": {
+      "id": 32400201,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32402401_male.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32402401_female.mp4",
+      "privilege_effect": -1392445439
+    },
+    "32400301": {
+      "id": 32400301,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/Color3/G6_Ride_HFT_FX1_Color3.G6_Ride_HFT_FX1_Color3'",
+      "charm_kind": 3,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/Color3/G6_Ride_HFT_FX2_Color3.G6_Ride_HFT_FX2_Color3'",
+      "privilege_effect": 285276161
+    },
+    "32400401": {
+      "id": 32400401,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/BaoGua/G6_BaoGua_Common.G6_BaoGua_Common'",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32402501_mid.mp4",
+      "privilege_effect": 1970337793
+    },
+    "32400501": {
+      "id": 32400501,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/G6_Ride_HFT_FX1.G6_Ride_HFT_FX1'",
+      "charm_kind": 2,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/G6_Ride_HFT_FX2.G6_Ride_HFT_FX2'",
+      "privilege_effect": 2817,
+      "charm_video_male": "256",
+      "charm_video_female": "512"
+    },
+    "32400601": {
+      "id": 32400601,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/Color2/G6_Ride_HFT_FX1_Color2.G6_Ride_HFT_FX1_Color2'",
+      "charm_kind": 3,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Fairytale/Color2/G6_Ride_HFT_FX2_Color2.G6_Ride_HFT_FX2_Color2'",
+      "privilege_effect": 1023473665
+    },
+    "32400701": {
+      "id": 32400701,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32402701_mid.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32404501_male.mp4",
+      "privilege_effect": -1593772031
+    },
+    "32400801": {
+      "id": 32400801,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32404501_female.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32404601_male.mp4",
+      "privilege_effect": 83949569
+    },
+    "32400901": {
+      "id": 32400901,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32404601_female.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32405501_male.mp4",
+      "privilege_effect": 1761671169
+    },
+    "32401001": {
+      "id": 32401001,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32405501_female.mp4",
+      "charm_kind": 3,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/G6_Ride_C_FX01.G6_Ride_C_FX01'",
+      "privilege_effect": -855574527
+    },
+    "32401101": {
+      "id": 32401101,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/G6_Ride_C_FX02.G6_Ride_C_FX02'",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32405601_mid.mp4",
+      "privilege_effect": 822147073
+    },
+    "32401201": {
+      "id": 32401201,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/Color2/G6_Ride_C_FX01_Color2.G6_Ride_C_FX01_Color2'",
+      "charm_kind": 3,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/Color2/G6_Ride_C_FX02_Color2.G6_Ride_C_FX02_Color2'",
+      "privilege_effect": -1795098623
+    },
+    "32401301": {
+      "id": 32401301,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32405701_mid.mp4",
+      "charm_kind": 3,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/Color3/G6_Ride_C_FX01_Color3.G6_Ride_C_FX01_Color3'",
+      "privilege_effect": -117377023
+    },
+    "32401401": {
+      "id": 32401401,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/Christmas/Color3/G6_Ride_C_FX02_Color3.G6_Ride_C_FX02_Color3'",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32405801_mid.mp4",
+      "privilege_effect": 2097215489
+    },
+    "32402301": {
+      "id": 32402301,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32405901_male.mp4",
+      "charm_kind": 3,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32405901_female.mp4",
+      "privilege_effect": -512690175
+    },
+    "32402401": {
+      "id": 32402401,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32407801_male.mp4",
+      "charm_kind": 2,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32407801_female.mp4",
+      "privilege_effect": 8705,
+      "charm_video_male": "768",
+      "charm_video_female": "1024"
+    },
+    "32402501": {
+      "id": 32402501,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/LianJinShuShi/G6_Ride_A_FX02.G6_Ride_A_FX02'",
+      "charm_kind": 1,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32407901_mid.mp4",
+      "privilege_effect": 769,
+      "invite_effect": "1280",
+      "accept_effect": "1536",
+      "bagcharm_effect": "1792",
+      "details_text": "9472",
+      "charm_video_male": "2048",
+      "charm_video_female": "2048"
+    },
+    "32402601": {
+      "id": 32402601,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/LianJinShuShi/Color2/G6_Ride_A_FX02_Color2.G6_Ride_A_FX02_Color2'",
+      "charm_kind": 1,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32408001_mid.mp4",
+      "privilege_effect": 257,
+      "invite_effect": "2304",
+      "accept_effect": "2560",
+      "bagcharm_effect": "1792",
+      "details_text": "10240",
+      "charm_video_male": "2816",
+      "charm_video_female": "2816"
+    },
+    "32402701": {
+      "id": 32402701,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/LianJinShuShi/Color3/G6_Ride_A_FX03_Color3.G6_Ride_A_FX03_Color3'",
+      "charm_kind": 1,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32408101_mid.mp4",
+      "privilege_effect": 513,
+      "invite_effect": "3072",
+      "accept_effect": "3328",
+      "bagcharm_effect": "1792",
+      "details_text": "11008",
+      "charm_video_male": "3584",
+      "charm_video_female": "3584"
+    },
+    "32404501": {
+      "id": 32404501,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Female/bagcharm_32408301_female.mp4",
+      "charm_kind": 2,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/G6Skill/Avatar/PrivilegePack/MengJingLiuLang/Huanyinglinggu/G6_Ride_M1_FX01.G6_Ride_M1_FX01'",
+      "privilege_effect": 11777,
+      "charm_video_male": "3840",
+      "charm_video_female": "4096"
+    },
+    "32404601": {
+      "id": 32404601,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32408401_mid.mp4",
+      "charm_kind": 2,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/G6Skill/Avatar/PrivilegePack/MengJingLiuLang/Bukugu/G6_Ride_M_FX01.G6_Ride_M_FX01'",
+      "privilege_effect": 12545,
+      "charm_video_male": "4352",
+      "charm_video_female": "4608"
+    },
+    "32405501": {
+      "id": 32405501,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32408501_mid.mp4",
+      "charm_kind": 2,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/G6Skill/Avatar/PrivilegePack/MengJingLiuLang/Liulangshu/G6_Ride_M2_FX01.G6_Ride_M2_FX01'",
+      "privilege_effect": 13313,
+      "charm_video_male": "4864",
+      "charm_video_female": "5120"
+    },
+    "32405601": {
+      "id": 32405601,
+      "editor_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Mid/bagcharm_32408601_mid.mp4",
+      "charm_kind": 1,
+      "kind_name": "https://video.nrc.qq.com/MoviesMobile/Operations/Male/bagcharm_32409601_male.mp4",
+      "privilege_effect": 1025,
+      "invite_effect": "5376",
+      "accept_effect": "5632",
+      "bagcharm_effect": "1792",
+      "details_text": "14080",
+      "charm_video_male": "5888",
+      "charm_video_female": "5888"
+    },
+    "32405701": {
+      "id": 32405701,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Haibaochuanzhang/G6_Ride_W_FX01.G6_Ride_W_FX01'",
+      "charm_kind": 1,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Haibaochuanzhang/G6_Ride_W_FX02.G6_Ride_W_FX02'",
+      "privilege_effect": 1281,
+      "invite_effect": "6144",
+      "accept_effect": "6400",
+      "bagcharm_effect": "1792",
+      "details_text": "14848",
+      "charm_video_male": "6656",
+      "charm_video_female": "6656"
+    },
+    "32405801": {
+      "id": 32405801,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Qianjikui/G6_Ride_W2_FX01.G6_Ride_W2_FX01'",
+      "charm_kind": 1,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Qianjikui/G6_Ride_W2_FX02.G6_Ride_W2_FX02'",
+      "privilege_effect": 1537,
+      "invite_effect": "6912",
+      "accept_effect": "7168",
+      "bagcharm_effect": "1792",
+      "details_text": "15616",
+      "charm_video_male": "7424",
+      "charm_video_female": "7424"
+    },
+    "32405901": {
+      "id": 32405901,
+      "editor_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Mimixiangguai/G6_Ride_W1_FX01.G6_Ride_W1_FX01'",
+      "charm_kind": 2,
+      "kind_name": "SkillBlueprint'/Game/ArtRes/Effects/Particle/Scene/Avatar/Rideable/ChenChuanXunBao/Mimixiangguai/G6_Ride_W1_FX02.G6_Ride_W1_FX02'",
+      "privilege_effect": 16385,
+      "charm_video_male": "7680",
+      "charm_video_female": "7936"
+    },
+    "32407801": {
+      "id": 32407801,
+      "editor_name": "65",
+      "charm_kind": 2,
+      "kind_name": "66",
+      "privilege_effect": 17153,
+      "charm_video_male": "8192",
+      "charm_video_female": "8448"
+    },
+    "32407901": {
+      "id": 32407901,
+      "editor_name": "68",
+      "charm_kind": 1,
+      "kind_name": "69",
+      "privilege_effect": 1793,
+      "invite_effect": "8704",
+      "accept_effect": "8960",
+      "bagcharm_effect": "1792",
+      "details_text": "17920",
+      "charm_video_male": "9216",
+      "charm_video_female": "9216"
+    },
+    "32408001": {
+      "id": 32408001,
+      "editor_name": "71",
+      "charm_kind": 1,
+      "kind_name": "72",
+      "privilege_effect": 2049,
+      "invite_effect": "9472",
+      "accept_effect": "9728",
+      "bagcharm_effect": "1792",
+      "details_text": "18688",
+      "charm_video_male": "9984",
+      "charm_video_female": "9984"
+    },
+    "32408101": {
+      "id": 32408101,
+      "editor_name": "74",
+      "charm_kind": 1,
+      "kind_name": "75",
+      "privilege_effect": 2305,
+      "invite_effect": "10240",
+      "accept_effect": "10496",
+      "bagcharm_effect": "1792",
+      "details_text": "19456",
+      "charm_video_male": "10752",
+      "charm_video_female": "10752"
+    },
+    "32408201": {
+      "id": 32408201,
+      "editor_name": "77",
+      "charm_kind": 3,
+      "kind_name": "78",
+      "privilege_effect": -311363583
+    },
+    "32408301": {
+      "id": 32408301,
+      "editor_name": "79",
+      "charm_kind": 2,
+      "kind_name": "80",
+      "privilege_effect": 20737,
+      "charm_video_male": "11008",
+      "charm_video_female": "11264"
+    },
+    "32408401": {
+      "id": 32408401,
+      "editor_name": "82",
+      "charm_kind": 1,
+      "kind_name": "83",
+      "privilege_effect": 2561,
+      "invite_effect": "11520",
+      "accept_effect": "11776",
+      "bagcharm_effect": "1792",
+      "details_text": "21504",
+      "charm_video_male": "12032",
+      "charm_video_female": "12032"
+    },
+    "32408501": {
+      "id": 32408501,
+      "editor_name": "85",
+      "charm_kind": 1,
+      "kind_name": "86",
+      "privilege_effect": 2817,
+      "invite_effect": "12288",
+      "accept_effect": "12544",
+      "bagcharm_effect": "1792",
+      "details_text": "22272",
+      "charm_video_male": "12800",
+      "charm_video_female": "12800"
+    },
+    "32408601": {
+      "id": 32408601,
+      "editor_name": "88",
+      "charm_kind": 1,
+      "kind_name": "89",
+      "privilege_effect": 3073,
+      "invite_effect": "13056",
+      "accept_effect": "13312",
+      "bagcharm_effect": "1792",
+      "details_text": "23040",
+      "charm_video_male": "13568",
+      "charm_video_female": "13568"
+    },
+    "32409601": {
+      "id": 32409601,
+      "editor_name": "91",
+      "charm_kind": 2,
+      "kind_name": "92",
+      "privilege_effect": 23809,
+      "charm_video_male": "13824",
+      "charm_video_female": "14080"
+    },
+    "32409701": {
+      "id": 32409701,
+      "editor_name": "94",
+      "charm_kind": 1,
+      "kind_name": "95",
+      "privilege_effect": 3329,
+      "invite_effect": "14336",
+      "accept_effect": "14592",
+      "bagcharm_effect": "1792",
+      "details_text": "24576",
+      "charm_video_male": "14848",
+      "charm_video_female": "14848"
+    },
+    "32409801": {
+      "id": 32409801,
+      "editor_name": "97",
+      "charm_kind": 1,
+      "kind_name": "98",
+      "privilege_effect": 3585,
+      "invite_effect": "15104",
+      "accept_effect": "15360",
+      "bagcharm_effect": "1792",
+      "details_text": "25344",
+      "charm_video_male": "15616",
+      "charm_video_female": "15616"
+    },
+    "32409901": {
+      "id": 32409901,
+      "editor_name": "100",
+      "charm_kind": 1,
+      "kind_name": "101",
+      "privilege_effect": 3841,
+      "invite_effect": "15872",
+      "accept_effect": "16128",
+      "bagcharm_effect": "1792",
+      "details_text": "26112",
+      "charm_video_male": "16384",
+      "charm_video_female": "16384"
+    },
+    "32410901": {
+      "id": 32410901,
+      "editor_name": "103",
+      "charm_kind": 3,
+      "kind_name": "104",
+      "privilege_effect": 1953785857
+    }
+  }
+}

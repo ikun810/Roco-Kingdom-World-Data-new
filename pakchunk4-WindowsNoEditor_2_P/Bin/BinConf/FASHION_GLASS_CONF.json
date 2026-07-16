@@ -1,0 +1,124 @@
+{
+  "Name": "FASHION_GLASS_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "name",
+      "Type": "ELocalizedString",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "fashion_tex_param",
+      "Type": "EStruct",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "FASHION_GLASS_CONF.fashion_tex_param",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "fashion_tex_param_name",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_tex_param_comment",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_tex_param_path",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "fashion_color_param",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 6,
+      "Struct": {
+        "Name": "FASHION_GLASS_CONF.fashion_color_param",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "fashion_color_param_name",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_color_param_comment",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_color_param_value",
+            "Type": "EFloat",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    },
+    {
+      "Name": "fashion_param",
+      "Type": "EStruct",
+      "Offset": 16,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 6,
+      "Struct": {
+        "Name": "FASHION_GLASS_CONF.fashion_param",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "fashion_param_name",
+            "Type": "EString",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_param_comment",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "fashion_param_value",
+            "Type": "EFloat",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

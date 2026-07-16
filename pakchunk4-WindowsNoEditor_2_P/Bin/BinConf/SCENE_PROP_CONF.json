@@ -1,0 +1,75 @@
+{
+  "Name": "SCENE_PROP_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EInt32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "scene_prop_type",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "seat_num",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "is_home_lie",
+      "Type": "EBool",
+      "Offset": 12,
+      "Size": 1
+    },
+    {
+      "Name": "interactive_prop_chat_message_type",
+      "Type": "EInt32",
+      "Offset": 13,
+      "Size": 4
+    },
+    {
+      "Name": "message_group",
+      "Type": "EUint32",
+      "Offset": 17,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "seat_point",
+      "Type": "EStruct",
+      "Offset": 21,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 4,
+      "Struct": {
+        "Name": "SCENE_PROP_CONF.seat_point",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "seat_point_offset",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          },
+          {
+            "Name": "seat_point_rotate",
+            "Type": "EInt32",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          }
+        ]
+      }
+    }
+  ]
+}

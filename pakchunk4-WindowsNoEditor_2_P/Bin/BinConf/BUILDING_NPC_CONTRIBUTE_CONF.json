@@ -1,0 +1,46 @@
+{
+  "Name": "BUILDING_NPC_CONTRIBUTE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "stage_contribute_param",
+      "Type": "EStruct",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 7,
+      "Struct": {
+        "Name": "BUILDING_NPC_CONTRIBUTE_CONF.stage_contribute_param",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "stage",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "svr_time",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          },
+          {
+            "Name": "value",
+            "Type": "EInt32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

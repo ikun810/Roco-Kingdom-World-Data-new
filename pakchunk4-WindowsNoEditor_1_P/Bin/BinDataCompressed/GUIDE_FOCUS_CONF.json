@@ -1,0 +1,2311 @@
+{
+  "RocoDataRows": {
+    "10001": {
+      "id": 10001,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_HandBook"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "精灵图鉴",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "10002": {
+      "id": 10002,
+      "ui_path": [
+        "UMG_Handbook1",
+        "UMG_Cover_Item_1"
+      ],
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "精灵图鉴",
+      "ignore_anims": [
+        10010201
+      ]
+    },
+    "10003": {
+      "id": 10003,
+      "ui_path": [
+        "UMG_Handbook",
+        "HandbookContent"
+      ],
+      "ui_button_name": "BtnTrophy",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵图鉴",
+      "ignore_anims": [
+        10010301
+      ]
+    },
+    "10004": {
+      "id": 10004,
+      "ui_path": [
+        "UMG_Handbook_Subject",
+        "SubjectList[1]",
+        "Btn6"
+      ],
+      "rectangle_data": [
+        40,
+        -20
+      ],
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵图鉴"
+    },
+    "10005": {
+      "id": 10005,
+      "ui_path": [
+        "UMG_Handbook",
+        "HandbookContent",
+        "ViewPet"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵种族属性",
+      "ignore_anims": [
+        10010301
+      ]
+    },
+    "10600": {
+      "id": 10600,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Throw"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "10601": {
+      "id": 10601,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Throw"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "10602": {
+      "id": 10602,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Throw",
+        "UMG_Ability_Slot_Throw"
+      ],
+      "ui_button_name": "Image_Bg_di",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "10603": {
+      "id": 10603,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Throw",
+        "UMG_Ability_Slot_Throw"
+      ],
+      "ui_button_name": "Image_Bg_di",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200101": {
+      "id": 200101,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_Pet"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200102": {
+      "id": 200102,
+      "ui_path": [
+        "UMG_PetInfoMain",
+        "petLeftPanel"
+      ],
+      "ui_button_name": "PetBagBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队",
+      "ignore_anims": [
+        20010101,
+        20010102
+      ]
+    },
+    "200103": {
+      "id": 200103,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "BattlePetList<2>"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队"
+    },
+    "200104": {
+      "id": 200104,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "BagPetList[1]"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队"
+    },
+    "200106": {
+      "id": 200106,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "BattlePetList"
+      ],
+      "rectangle_data": [
+        60,
+        90
+      ],
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队-切换队伍"
+    },
+    "200107": {
+      "id": 200107,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "EditBoxButton"
+      ],
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队"
+    },
+    "200108": {
+      "id": 200108,
+      "ui_path": [
+        "UMG_PetWarehouseOrganization",
+        "ItemList[1]",
+        "ModifyBtn"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍编队"
+    },
+    "200109": {
+      "id": 200109,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "BagPetList[1]"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍-选择仓库精灵1"
+    },
+    "200110": {
+      "id": 200110,
+      "ui_path": [
+        "UMG_PetPortableBag",
+        "BattlePetList<1>"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵队伍-长按至空队伍1号位"
+    },
+    "200202": {
+      "id": 200202,
+      "ui_path": [
+        "UMG_RolePlayMainPanel",
+        "ItemList[1]"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 10,
+      "mobile_text": "",
+      "mobile_edior_pos": 10,
+      "editor_name": "动作系统教学",
+      "ignore_anims": [
+        20020201
+      ]
+    },
+    "200301": {
+      "id": 200301,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_Compass"
+      ],
+      "ui_button_name": "NpcLayer",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 5,
+      "mobile_text": "",
+      "mobile_edior_pos": 5,
+      "editor_name": "便捷地图（指南针）",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200302": {
+      "id": 200302,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "UMG_Minimap"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 50,
+      "mobile_text": "",
+      "mobile_edior_pos": 20,
+      "editor_name": "便捷地图（小地图）",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200401": {
+      "id": 200401,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_Compassicon",
+        "Btn_MagicManua"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "魔法师手册",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200402": {
+      "id": 200402,
+      "ui_path": [
+        "UMG_MagicManual_Main",
+        "List[1]"
+      ],
+      "ui_button_name": "Bg_Special1",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "魔法师手册"
+    },
+    "200403": {
+      "id": 200403,
+      "ui_path": [
+        "UMG_MagicManual_Main",
+        "List[4]"
+      ],
+      "ui_button_name": "Bg_Special1",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "魔法师手册"
+    },
+    "200501": {
+      "id": 200501,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Throw"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "星星魔法",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200502": {
+      "id": 200502,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Throw",
+        "UMG_Ability_Slot_Throw"
+      ],
+      "ui_button_name": "Image_Bg_di",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "星星魔法-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200601": {
+      "id": 200601,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon"
+      ],
+      "ui_button_name": "ProgressBar1",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "切换地图",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200602": {
+      "id": 200602,
+      "ui_path": [
+        "UMG_LobbyMainInner",
+        "MapIcon"
+      ],
+      "ui_button_name": "IconButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 20,
+      "mobile_text": "",
+      "mobile_edior_pos": 20,
+      "editor_name": "切换地图"
+    },
+    "200603": {
+      "id": 200603,
+      "ui_path": [
+        "UMG_MainMap",
+        "ComboBox"
+      ],
+      "ui_button_name": "Btn_ComboBox",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 20,
+      "mobile_text": "",
+      "mobile_edior_pos": 20,
+      "editor_name": "切换地图"
+    },
+    "200701": {
+      "id": 200701,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "HUDMagic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "切换魔法",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200702": {
+      "id": 200702,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "HUDMagic",
+        "UMG_Magic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "切换魔法-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200703": {
+      "id": 200703,
+      "ui_path": [
+        "UMG_SimpleUseList",
+        "List<100701>"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "选中星星魔法",
+      "ignore_anims": [
+        20070201
+      ]
+    },
+    "200801": {
+      "id": 200801,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Throw"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "星星魔法",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200802": {
+      "id": 200802,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Throw",
+        "UMG_Ability_Slot_Throw"
+      ],
+      "ui_button_name": "Image_Bg_di",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "星星魔法-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200901": {
+      "id": 200901,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "EquipItem"
+      ],
+      "ui_button_name": "BallBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "切换咕噜球",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200902": {
+      "id": 200902,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "EquipItem",
+        "UMG_EquipItem"
+      ],
+      "ui_button_name": "BallBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "editor_name": "切换咕噜球PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200903": {
+      "id": 200903,
+      "ui_path": [
+        "UMG_SimpleUseList",
+        "List<100003>"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "选中高级咕噜球"
+    },
+    "200904": {
+      "id": 200904,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Throw"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "高级咕噜球简介"
+    },
+    "200905": {
+      "id": 200905,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Throw",
+        "UMG_Ability_Slot_Throw"
+      ],
+      "ui_button_name": "Image_Bg_di",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "高级咕噜球简介-PC"
+    },
+    "200907": {
+      "id": 200907,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon"
+      ],
+      "ui_button_name": "NRCImage_56",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "凝结许愿星指引1-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200908": {
+      "id": 200908,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon"
+      ],
+      "ui_button_name": "NRCImage_56",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "凝结许愿星指引1",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200909": {
+      "id": 200909,
+      "ui_path": [
+        "UMG_LobbyMainInner"
+      ],
+      "ui_button_name": "AwardBtn",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "凝结许愿星指引2"
+    },
+    "200910": {
+      "id": 200910,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_Pet"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵成长指引",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "200911": {
+      "id": 200911,
+      "ui_path": [
+        "UMG_PetInfoMain",
+        "petLeftPanel",
+        "Attribute"
+      ],
+      "ui_button_name": "ButtonSwitch",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵成长指引2",
+      "ignore_anims": [
+        20010101,
+        20010102
+      ]
+    },
+    "200912": {
+      "id": 200912,
+      "ui_path": [
+        "UMG_PetRightPanel",
+        "petBaseInfo",
+        "Btn_Details"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "rectangle_data": [
+        30,
+        35
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵成长指引3"
+    },
+    "200913": {
+      "id": 200913,
+      "ui_path": [
+        "UMG_PetRightPanel",
+        "PetGrowUp",
+        "UMG_Btn"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "rectangle_data": [
+        40,
+        10
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵成长指引4"
+    },
+    "200914": {
+      "id": 200914,
+      "ui_path": [
+        "UMG_LobbyMainInner"
+      ],
+      "ui_button_name": "NRCImage_95",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "凝结许愿星指引2"
+    },
+    "200915": {
+      "id": 200915,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "EquipItem"
+      ],
+      "ui_button_name": "BallBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "装备咕噜球PC"
+    },
+    "200920": {
+      "id": 200920,
+      "ui_path": [
+        "UMG_LobbyMainInner"
+      ],
+      "ui_button_name": "headButton",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "等级奖励领取"
+    },
+    "200921": {
+      "id": 200921,
+      "ui_path": [
+        "UMG_LevelMain",
+        "UMG_LevelInformation",
+        "GetRewardsBtn"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "rectangle_data": [
+        40,
+        10
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "等级奖励领取"
+    },
+    "201501": {
+      "id": 201501,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "HUDMagic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "切换魔法",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "201502": {
+      "id": 201502,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "HUDMagic",
+        "UMG_Magic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "切换魔法-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "201503": {
+      "id": 201503,
+      "ui_path": [
+        "UMG_SimpleUseList",
+        "List<100728>"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "选中液化魔法",
+      "ignore_anims": [
+        20070201
+      ]
+    },
+    "201601": {
+      "id": 201601,
+      "ui_path": [
+        "UMG_PetInfoMain",
+        "petLeftPanel",
+        "Attribute"
+      ],
+      "ui_button_name": "SwitchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵天分和资质-详情",
+      "ignore_anims": [
+        20010102,
+        20010103
+      ]
+    },
+    "201602": {
+      "id": 201602,
+      "ui_path": [
+        "UMG_PetRightPanel",
+        "petBaseInfo",
+        "UMG_PetRate"
+      ],
+      "ui_button_name": "Btn_Talent",
+      "rectangle_data": [
+        30,
+        78
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 20,
+      "mobile_text": "",
+      "mobile_edior_pos": 20,
+      "editor_name": "精灵天分和资质-天分标签",
+      "ignore_anims": [
+        20010102,
+        20010103
+      ]
+    },
+    "201603": {
+      "id": 201603,
+      "ui_path": [
+        "UMG_PetRightPanel",
+        "petBaseInfo",
+        "PetRadarInfo"
+      ],
+      "ui_button_name": "detailedBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵天分和资质-资质放大镜按钮",
+      "ignore_anims": [
+        20010102,
+        20010103
+      ]
+    },
+    "201604": {
+      "id": 201604,
+      "ui_path": [
+        "UMG_PetDetailedInfo",
+        "NRCGridViewBaseInfo[1]"
+      ],
+      "ui_button_name": "Btn_QuestionMark",
+      "rectangle_data": [
+        15,
+        25
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "精灵天分和资质-属性详情"
+    },
+    "201605": {
+      "id": 201605,
+      "ui_path": [
+        "UMG_PetRightPanel",
+        "petBaseInfo"
+      ],
+      "ui_button_name": "NRCButton_43",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "精灵天分和资质-天分标签",
+      "ignore_anims": [
+        20010101,
+        20010102
+      ]
+    },
+    "201802": {
+      "id": 201802,
+      "ui_path": [
+        "UMG_Handbook1",
+        "NRCImage_200"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "家园-精灵图鉴",
+      "ignore_anims": [
+        10010201
+      ]
+    },
+    "300103": {
+      "id": 300103,
+      "ui_path": [
+        "UMG_LobbyMainInner",
+        "BagIconLoader"
+      ],
+      "ui_button_name": "IconButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "剧情-翼王精元-序列2背包",
+      "ignore_anims": [
+        10010103
+      ]
+    },
+    "300104": {
+      "id": 300104,
+      "ui_path": [
+        "UMG_Bag",
+        "Tab[5]"
+      ],
+      "ui_button_name": "Bg",
+      "circle_data": "C1",
+      "ban_action": [
+        1
+      ],
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "剧情-翼王精元-序列3任务背包",
+      "ignore_anims": [
+        20020202
+      ]
+    },
+    "300105": {
+      "id": 300105,
+      "ui_path": [
+        "UMG_Bag",
+        "ItemGainWay[1]"
+      ],
+      "ui_button_name": "Btn_Skip",
+      "rectangle_data": [
+        50,
+        40
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "剧情-翼王精元-序列4任务跳转地图"
+    },
+    "500101": {
+      "id": 500101,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_FurnitureAtlas_1"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具图鉴-入口",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500102": {
+      "id": 500102,
+      "ui_path": [
+        "UMG_FurnitureAtlasPanel"
+      ],
+      "ui_button_name": "AwardBtn",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "家园-家具图鉴-领奖"
+    },
+    "500201": {
+      "id": 500201,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_Decoration_1"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-入口",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500202": {
+      "id": 500202,
+      "ui_path": [
+        "UMG_HomeMain_New",
+        "UMG_Control_Joystick",
+        "Joystick"
+      ],
+      "ui_button_name": "JoystickBg",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-滑动摇杆"
+    },
+    "500203": {
+      "id": 500203,
+      "ui_path": [
+        "UMG_HomeMain_New",
+        "TypeTabList[6]"
+      ],
+      "rectangle_data": [
+        40,
+        10
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-选择特殊"
+    },
+    "500204": {
+      "id": 500204,
+      "ui_path": [
+        "UMG_HomeMain_New",
+        "Furniture[1]"
+      ],
+      "rectangle_data": [
+        40,
+        -30
+      ],
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-选择小窝"
+    },
+    "500205": {
+      "id": 500205,
+      "ui_path": [
+        "UMG_HomeMain_New",
+        "Confirm"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-确认放置"
+    },
+    "500206": {
+      "id": 500206,
+      "ui_path": [
+        "UMG_HomeMain_New",
+        "Btn_Publish"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具摆放-发布"
+    },
+    "500301": {
+      "id": 500301,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "AbilitySlot_PetCare"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-精灵喂养-装食物",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500302": {
+      "id": 500302,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_PetCare_1",
+        "UMG_Ability_Slot_PetCare1"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-精灵喂养-装食物-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500401": {
+      "id": 500401,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "UMG_Ability_Slot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-装种子",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500402": {
+      "id": 500402,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Seed",
+        "UMG_Ability_Slot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-装种子-PC",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "500501": {
+      "id": 500501,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-浇水"
+    },
+    "500502": {
+      "id": 500502,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-浇水-PC"
+    },
+    "500503": {
+      "id": 500503,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-施肥"
+    },
+    "500504": {
+      "id": 500504,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-施肥-PC"
+    },
+    "500601": {
+      "id": 500601,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerAbilities",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-收获"
+    },
+    "500602": {
+      "id": 500602,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "AbilitySlot_Seed"
+      ],
+      "ui_button_name": "Btn_Slot",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-收获-PC"
+    },
+    "500701": {
+      "id": 500701,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_PlayerInfoHUD",
+        "HUDMagic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "切换魔法"
+    },
+    "500702": {
+      "id": 500702,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "PCKeyFoundation",
+        "HUDMagic"
+      ],
+      "ui_button_name": "MagicBtn",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "editor_name": "切换魔法-PC"
+    },
+    "501001": {
+      "id": 501001,
+      "ui_path": [
+        "UMG_LobbyMain",
+        "UMG_CompassIcon",
+        "Btn_FurnitureAtlas_1"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-家具图鉴-入口-2",
+      "ignore_anims": [
+        10010101,
+        10010102
+      ]
+    },
+    "501002": {
+      "id": 501002,
+      "ui_path": [
+        "UMG_FurnitureAtlasPanel"
+      ],
+      "ui_button_name": "AwardBtn",
+      "circle_data": "C2",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "家园-家具图鉴-领奖-2"
+    },
+    "501101": {
+      "id": 501101,
+      "ui_path": [
+        "UMG_AlchemyPanel",
+        "TabList[5]"
+      ],
+      "ui_button_name": "BgLight",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-种植园-食物制作-侧边栏"
+    },
+    "501102": {
+      "id": 501102,
+      "ui_path": [
+        "UMG_AlchemyPanel",
+        "View_List[1]"
+      ],
+      "ui_button_name": "Selected",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-种植园-食物制作-食物"
+    },
+    "501103": {
+      "id": 501103,
+      "ui_path": [
+        "UMG_AlchemyPanel",
+        "UMG_CoinButton"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "rectangle_data": [
+        45,
+        65
+      ],
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-种植园-食物制作-制作"
+    },
+    "501104": {
+      "id": 501104,
+      "ui_path": [
+        "UMG_AlchemyPanel",
+        "SliderPanel",
+        "SubtractBtn_1"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "家园-种植园-食物制作-增加数量"
+    },
+    "700001": {
+      "id": 700001,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能1",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700002": {
+      "id": 700002,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】聚能",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700003": {
+      "id": 700003,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "GlobalskillItemLoader"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "right",
+      "pc_text": "",
+      "pc_edior_pos": 40,
+      "mobile_text": "",
+      "mobile_edior_pos": 40,
+      "editor_name": "【战斗指引专用】使用技能2-强指引",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700004": {
+      "id": 700004,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader_1"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能2-弱指引",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700005": {
+      "id": 700005,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ChangePetToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】更换精灵按钮",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700006": {
+      "id": 700006,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ChangePetPanelLoader",
+        "ArcScrollView[1]",
+        "UMG_Battle_Card"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用1号位精灵",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700007": {
+      "id": 700007,
+      "ui_path": [
+        "TeamPetClickTip"
+      ],
+      "ui_button_name": "ClickBtn",
+      "circle_data": "C1",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】点击自身精灵",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700008": {
+      "id": 700008,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader_2"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能3",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700009": {
+      "id": 700009,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ChangePetToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】更换精灵按钮-弱指引",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700010": {
+      "id": 700010,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ChangePetPanelLoader",
+        "ArcScrollView[1]",
+        "UMG_Battle_Card"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用1号位精灵-弱指引",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700011": {
+      "id": 700011,
+      "ui_path": [
+        "TeamPetClickTip"
+      ],
+      "ui_button_name": "ClickBtn",
+      "circle_data": "C1",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】点击自身精灵-弱指引",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700012": {
+      "id": 700012,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能1-精灵特性用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700013": {
+      "id": 700013,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ChangePetToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】更换精灵按钮-精灵特性用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700014": {
+      "id": 700014,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ChangePetPanelLoader",
+        "ArcScrollView[1]",
+        "UMG_Battle_Card"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用1号位精灵-精灵特性用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700015": {
+      "id": 700015,
+      "ui_path": [
+        "TeamPetClickTip"
+      ],
+      "ui_button_name": "ClickBtn",
+      "circle_data": "C1",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】点击自身精灵-精灵特性用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700016": {
+      "id": 700016,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader_2"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能3-演示应对技能用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700017": {
+      "id": 700017,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ItemToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用背包 - 演示主角魔法用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700018": {
+      "id": 700018,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ItemOperationLoader",
+        "UMG_BattleItemEntry_0"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用背包1号位魔法 - 演示主角魔法用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700019": {
+      "id": 700019,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ItemToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用背包 - 演示主角魔法用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700020": {
+      "id": 700020,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ItemOperationLoader",
+        "UMG_BattleItemEntry_1"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用背包2号位道具 - 演示主角道具用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700021": {
+      "id": 700021,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "HPBar_Enemy_1_Loader"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】引导玩家点击敌方精灵头像",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700022": {
+      "id": 700022,
+      "ui_path": [
+        "TeamPetClickTip"
+      ],
+      "ui_button_name": "ClickBtn",
+      "circle_data": "C1",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】点击精灵 - 演示主角魔法用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700023": {
+      "id": 700023,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader_1"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能3-演示应对技能用",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700024": {
+      "id": 700024,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "HPBar_Teammate_Loader"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】引导玩家点击敌方精灵头像",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700025": {
+      "id": 700025,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader_2"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】引导玩家点击敌方精灵头像",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700026": {
+      "id": 700026,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "SkillPanelLoader",
+        "SkillItemLoader"
+      ],
+      "ui_button_name": "BtnSkill",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用技能1",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700027": {
+      "id": 700027,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "UMG_Battle_Operate",
+        "ChangePetToggle"
+      ],
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "up",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】更换精灵按钮",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700028": {
+      "id": 700028,
+      "ui_path": [
+        "UMG_BattleMainWindow",
+        "ChangePetPanelLoader",
+        "ArcScrollView[1]",
+        "UMG_Battle_Card"
+      ],
+      "ui_button_name": "TouchButton",
+      "circle_data": "C1",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】使用1号位精灵",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700029": {
+      "id": 700029,
+      "ui_path": [
+        "TeamPetClickTip"
+      ],
+      "ui_button_name": "ClickBtn",
+      "circle_data": "C1",
+      "rectangle_data": [
+        60,
+        60
+      ],
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 60,
+      "mobile_text": "",
+      "mobile_edior_pos": 60,
+      "editor_name": "【战斗指引专用】点击自身精灵",
+      "ignore_anims": [
+        70000001,
+        70000002
+      ]
+    },
+    "700030": {
+      "id": 700030,
+      "ui_path": [
+        "UMG_FriendTeamPanel",
+        "AICoachGvoice1"
+      ],
+      "ui_button_name": "BtnTimePet",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "AI教练"
+    },
+    "700031": {
+      "id": 700031,
+      "ui_path": [
+        "UMG_Activity_ElfAdventure"
+      ],
+      "ui_button_name": "BtnChoose",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵游玩界面"
+    },
+    "700032": {
+      "id": 700032,
+      "ui_path": [
+        "UMG_Activity_ElfAdventure",
+        "RightPanel",
+        "List[1]"
+      ],
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "down",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵游玩界面"
+    },
+    "700033": {
+      "id": 700033,
+      "ui_path": [
+        "UMG_Activity_ElfAdventure",
+        "RightPanel",
+        "Btn_Right"
+      ],
+      "ui_button_name": "btnLevelUp",
+      "rectangle_data": [
+        40,
+        -20
+      ],
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵游玩界面"
+    },
+    "700034": {
+      "id": 700034,
+      "ui_path": [
+        "UMG_Activity_ElfAdventure",
+        "RightPanel"
+      ],
+      "ui_button_name": "Button",
+      "circle_data": "C3",
+      "focus_type": 1,
+      "text_pos": "left",
+      "pc_text": "",
+      "pc_edior_pos": 30,
+      "mobile_text": "",
+      "mobile_edior_pos": 30,
+      "editor_name": "精灵游玩界面"
+    }
+  }
+}

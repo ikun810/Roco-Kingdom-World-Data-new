@@ -3,6 +3,7 @@ package Next;
 import "com_base_types.proto";
 import "xls_enum.proto";
 import "com_player_data.proto";
+import "com_player.proto";
 
 message PlayerSocialAccountInfo {
   string openid = 1;
@@ -54,6 +55,10 @@ message PlayerBattlePassSocialInfo {
   dataconfig.BattlePassGiftGrade gift_grade = 3;
 }
 
+message PlayerSocialBlackInfo {
+  repeated Next.PlayerBlackData black_list = 1;
+}
+
 message PlayerSocialAdditionalInfo {
   uint32 cli_login_channel = 1;
   Next.PlayerStartUpPrivilegeInfo start_up_privilege_info = 2;
@@ -61,6 +66,7 @@ message PlayerSocialAdditionalInfo {
   Next.PlayerDeletionInfo deletion_info = 4;
   repeated Next.PlayerTag player_tags = 5;
   Next.PlayerBattlePassSocialInfo battle_pass_info = 6;
+  Next.PlayerSocialBlackInfo black_info = 7;
 }
 
 message ZonePlayerSocialInfo {

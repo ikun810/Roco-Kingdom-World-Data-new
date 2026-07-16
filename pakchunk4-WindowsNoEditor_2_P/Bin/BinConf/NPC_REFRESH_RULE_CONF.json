@@ -1,0 +1,90 @@
+{
+  "Name": "NPC_REFRESH_RULE_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "trigger_type",
+      "Type": "EInt32",
+      "Offset": 4,
+      "Size": 4
+    },
+    {
+      "Name": "available_time_enum",
+      "Type": "EInt32",
+      "Offset": 8,
+      "Size": 4
+    },
+    {
+      "Name": "condition",
+      "Type": "EStruct",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 2,
+      "Struct": {
+        "Name": "NPC_REFRESH_RULE_CONF.condition",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "condition_type",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "condition_param",
+            "Type": "EString",
+            "Offset": 4,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name": "is_rand_result_share",
+      "Type": "EBool",
+      "Offset": 16,
+      "Size": 1
+    },
+    {
+      "Name": "contents",
+      "Type": "EStruct",
+      "Offset": 17,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 50,
+      "Struct": {
+        "Name": "NPC_REFRESH_RULE_CONF.contents",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "refresh_type",
+            "Type": "EInt32",
+            "Offset": 0,
+            "Size": 4
+          },
+          {
+            "Name": "content_id",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "prob",
+            "Type": "EInt32",
+            "Offset": 8,
+            "Size": 4
+          }
+        ]
+      }
+    }
+  ]
+}

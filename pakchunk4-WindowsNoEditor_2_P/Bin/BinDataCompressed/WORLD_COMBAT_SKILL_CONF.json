@@ -1,0 +1,1019 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_DMCF"
+    },
+    "2": {
+      "id": 2,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_ZHXF"
+    },
+    "3": {
+      "id": 3,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_FSFR"
+    },
+    "4": {
+      "id": 4,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_XFCF"
+    },
+    "5": {
+      "id": 5,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_ZD"
+    },
+    "6": {
+      "id": 6,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_BaoQi_TY"
+    },
+    "7": {
+      "id": 7,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_ZDNPC"
+    },
+    "8": {
+      "id": 8,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_XXDZ"
+    },
+    "9": {
+      "id": 9,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_SS"
+    },
+    "10": {
+      "id": 10,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_ZDNPC2"
+    },
+    "11": {
+      "id": 11,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_XX"
+    },
+    "12": {
+      "id": 12,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_FSXX"
+    },
+    "13": {
+      "id": 13,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_HX"
+    },
+    "14": {
+      "id": 14,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_HXNPC"
+    },
+    "15": {
+      "id": 15,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_EMJG"
+    },
+    "16": {
+      "id": 16,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_JGFS"
+    },
+    "17": {
+      "id": 17,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_ZSW_DJGFS"
+    },
+    "18": {
+      "id": 18,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_ZhuangJi"
+    },
+    "19": {
+      "id": 19,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_JSL_SDZJ"
+    },
+    "20": {
+      "id": 20,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_JSL_DJ"
+    },
+    "21": {
+      "id": 21,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_JSL_DJBlinkOff"
+    },
+    "22": {
+      "id": 22,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_JSL_DJBlinkOn"
+    },
+    "23": {
+      "id": 23,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QLH_ZGTM"
+    },
+    "24": {
+      "id": 24,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QLH_TMGJ"
+    },
+    "25": {
+      "id": 25,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QLH_GHNL"
+    },
+    "26": {
+      "id": 26,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QLH_TTD"
+    },
+    "27": {
+      "id": 27,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_Dive"
+    },
+    "28": {
+      "id": 28,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_DiveEnd"
+    },
+    "29": {
+      "id": 29,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_SPSJ"
+    },
+    "30": {
+      "id": 30,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_SBBZ"
+    },
+    "31": {
+      "id": 31,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_HYCF"
+    },
+    "32": {
+      "id": 32,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_ZHDH"
+    },
+    "33": {
+      "id": 33,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_HYXW"
+    },
+    "34": {
+      "id": 34,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_HYXWOn"
+    },
+    "35": {
+      "id": 35,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_ZHDHNPC"
+    },
+    "36": {
+      "id": 36,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_EMTY"
+    },
+    "37": {
+      "id": 37,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_EMZHDH"
+    },
+    "38": {
+      "id": 38,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMYSQ_jIGuang"
+    },
+    "39": {
+      "id": 39,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSQ_EMZHDHNPC"
+    },
+    "40": {
+      "id": 40,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMYSQ_jIGuangNPC"
+    },
+    "41": {
+      "id": 41,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSJX_DRXK"
+    },
+    "42": {
+      "id": 42,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSJX_XKDL"
+    },
+    "43": {
+      "id": 43,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSJX_KJJY"
+    },
+    "44": {
+      "id": 44,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSJX_SYSJ"
+    },
+    "45": {
+      "id": 45,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YSJX_JYGJ"
+    },
+    "46": {
+      "id": 46,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYWW_BQ"
+    },
+    "47": {
+      "id": 47,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYWW_BSHQ"
+    },
+    "48": {
+      "id": 48,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYWW_BFHS"
+    },
+    "49": {
+      "id": 49,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HMWS_BTYS"
+    },
+    "50": {
+      "id": 50,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HMWS_BTXS"
+    },
+    "51": {
+      "id": 51,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HMWS_XCZD"
+    },
+    "52": {
+      "id": 52,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HMWS_MR"
+    },
+    "53": {
+      "id": 53,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HMWS_MR_Hit"
+    },
+    "54": {
+      "id": 54,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EML_LHHH"
+    },
+    "55": {
+      "id": 55,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EML_XLZJ"
+    },
+    "56": {
+      "id": 56,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EML_ATX"
+    },
+    "57": {
+      "id": 57,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EML_DLCF"
+    },
+    "58": {
+      "id": 58,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EML_ATXOn"
+    },
+    "59": {
+      "id": 59,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_ZH"
+    },
+    "60": {
+      "id": 60,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_ZH_ZJF"
+    },
+    "61": {
+      "id": 61,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossKill_HKFH_ZJFCF"
+    },
+    "62": {
+      "id": 62,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_FC"
+    },
+    "63": {
+      "id": 63,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QMM_ZHQQM"
+    },
+    "64": {
+      "id": 64,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QMM_QQMZD"
+    },
+    "65": {
+      "id": 65,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QMM_QQMFS"
+    },
+    "66": {
+      "id": 66,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QMM_TSYD"
+    },
+    "67": {
+      "id": 67,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_EMQS"
+    },
+    "68": {
+      "id": 68,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_EMYY"
+    },
+    "69": {
+      "id": 69,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QJK_EMSLCF"
+    },
+    "70": {
+      "id": 70,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQJK_EMSZ"
+    },
+    "71": {
+      "id": 71,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQJK_EMSZ_NPCAttack"
+    },
+    "72": {
+      "id": 72,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QK_DPT"
+    },
+    "73": {
+      "id": 73,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QK_DYD"
+    },
+    "74": {
+      "id": 74,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QK_TZ"
+    },
+    "75": {
+      "id": 75,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQJK_EMSZ_NPC"
+    },
+    "76": {
+      "id": 76,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QK_TZNPCAttack"
+    },
+    "77": {
+      "id": 77,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QMM_QQMTY"
+    },
+    "78": {
+      "id": 78,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_Ear_BKLY_YSPZ"
+    },
+    "79": {
+      "id": 79,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_Ear_BKLY_YSPZ_Start"
+    },
+    "80": {
+      "id": 80,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_Ear_BKLY_YSPZXS"
+    },
+    "81": {
+      "id": 81,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_EMGS3"
+    },
+    "82": {
+      "id": 82,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMBKLY_EMZD"
+    },
+    "83": {
+      "id": 83,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMBKLY_EMZDNPC"
+    },
+    "84": {
+      "id": 84,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BKLY_EMGS"
+    },
+    "85": {
+      "id": 85,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXSJ"
+    },
+    "86": {
+      "id": 86,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JG2"
+    },
+    "87": {
+      "id": 87,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JG4"
+    },
+    "88": {
+      "id": 88,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JG3"
+    },
+    "89": {
+      "id": 89,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JG5"
+    },
+    "90": {
+      "id": 90,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YLYL_LM"
+    },
+    "91": {
+      "id": 91,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YLYL_LMAOE"
+    },
+    "92": {
+      "id": 92,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YLYL_LL"
+    },
+    "93": {
+      "id": 93,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YLYL_LYCF"
+    },
+    "94": {
+      "id": 94,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YLYL_ZHLM"
+    },
+    "95": {
+      "id": 95,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_HYXS"
+    },
+    "96": {
+      "id": 96,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_SYCC"
+    },
+    "97": {
+      "id": 97,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_YR"
+    },
+    "98": {
+      "id": 98,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_YR3"
+    },
+    "99": {
+      "id": 99,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXZZ"
+    },
+    "100": {
+      "id": 100,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXZZ_ZH"
+    },
+    "101": {
+      "id": 101,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_ZHGJ"
+    },
+    "102": {
+      "id": 102,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXCF"
+    },
+    "103": {
+      "id": 103,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_ZHZB"
+    },
+    "104": {
+      "id": 104,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXZB"
+    },
+    "105": {
+      "id": 105,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_BBB_EM"
+    },
+    "106": {
+      "id": 106,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_EMDGP"
+    },
+    "107": {
+      "id": 107,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_DQMM"
+    },
+    "108": {
+      "id": 108,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_ZHXB"
+    },
+    "109": {
+      "id": 109,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_CT"
+    },
+    "110": {
+      "id": 110,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_HCFQ"
+    },
+    "111": {
+      "id": 111,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_XBTZ"
+    },
+    "112": {
+      "id": 112,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_ZhuangJi"
+    },
+    "113": {
+      "id": 113,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_JG"
+    },
+    "114": {
+      "id": 114,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_ZHDH"
+    },
+    "115": {
+      "id": 115,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_DHNPC"
+    },
+    "116": {
+      "id": 116,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_3LTZ"
+    },
+    "117": {
+      "id": 117,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_BBB"
+    },
+    "118": {
+      "id": 118,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_MD"
+    },
+    "119": {
+      "id": 119,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_MDXRZ"
+    },
+    "120": {
+      "id": 120,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_BBH_HXBX"
+    },
+    "121": {
+      "id": 121,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQLH_ZGTM"
+    },
+    "122": {
+      "id": 122,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EM_EMNL"
+    },
+    "123": {
+      "id": 123,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EM_EMNLGJ"
+    },
+    "124": {
+      "id": 124,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQLH_SCTTD"
+    },
+    "125": {
+      "id": 125,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_EMCF"
+    },
+    "126": {
+      "id": 126,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_ZHEMXF"
+    },
+    "127": {
+      "id": 127,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_XFCFEM"
+    },
+    "128": {
+      "id": 128,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_LN_FCEM"
+    },
+    "129": {
+      "id": 129,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_EMZH"
+    },
+    "130": {
+      "id": 130,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_FQGJ"
+    },
+    "131": {
+      "id": 131,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_EMFC"
+    },
+    "132": {
+      "id": 132,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_HX"
+    },
+    "133": {
+      "id": 133,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_FQGJ_Plus"
+    },
+    "134": {
+      "id": 134,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_EMFC_Plus"
+    },
+    "135": {
+      "id": 135,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_SYCC_XD"
+    },
+    "136": {
+      "id": 136,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SJX_JXZZ_SFAOE"
+    },
+    "137": {
+      "id": 137,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_CX"
+    },
+    "138": {
+      "id": 138,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_XS"
+    },
+    "139": {
+      "id": 139,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_QQBX_TZ"
+    },
+    "140": {
+      "id": 140,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_EMQLH_TMGJ"
+    },
+    "141": {
+      "id": 141,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_NormalJump_BBH"
+    },
+    "142": {
+      "id": 142,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_FQGJ2"
+    },
+    "143": {
+      "id": 143,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HKFH_EMFC2"
+    },
+    "144": {
+      "id": 144,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_Shield"
+    },
+    "145": {
+      "id": 145,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_Shield_Broken"
+    },
+    "146": {
+      "id": 146,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_EMShield"
+    },
+    "147": {
+      "id": 147,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_EMShield_Broken"
+    },
+    "148": {
+      "id": 148,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_NormalJump_XYWW"
+    },
+    "149": {
+      "id": 149,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_NormalJump_SJX"
+    },
+    "150": {
+      "id": 150,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_Normal_Backing"
+    },
+    "151": {
+      "id": 151,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_Ear_BKLY_YSPZNPC"
+    },
+    "152": {
+      "id": 152,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_NormalJump_SJXBomb"
+    },
+    "153": {
+      "id": 153,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_Normal_MoveL"
+    },
+    "154": {
+      "id": 154,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_Normal_MoveR"
+    },
+    "155": {
+      "id": 155,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_Shield1"
+    },
+    "156": {
+      "id": 156,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YYS_HYXSXD"
+    },
+    "158": {
+      "id": 158,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossBattle_EMShield1"
+    },
+    "159": {
+      "id": 159,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_MLM_JZ"
+    },
+    "160": {
+      "id": 160,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_MLM_TTD"
+    },
+    "161": {
+      "id": 161,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_MLM_GNJJ"
+    },
+    "162": {
+      "id": 162,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_JZSP"
+    },
+    "163": {
+      "id": 163,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_XZSP"
+    },
+    "164": {
+      "id": 164,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_PMHYXS"
+    },
+    "165": {
+      "id": 165,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_PMHYCX"
+    },
+    "166": {
+      "id": 166,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_PMHYZD"
+    },
+    "167": {
+      "id": 167,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HS_ZXDH"
+    },
+    "168": {
+      "id": 168,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HS_ZXDHNPC"
+    },
+    "169": {
+      "id": 169,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HS_JZ"
+    },
+    "170": {
+      "id": 170,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HS_BRZZZD"
+    },
+    "171": {
+      "id": 171,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_HS_BRZZBZ"
+    },
+    "172": {
+      "id": 172,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_SL_SBZD"
+    },
+    "173": {
+      "id": 173,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_NormalJump_HS"
+    },
+    "174": {
+      "id": 174,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_FGMC_LFZC"
+    },
+    "175": {
+      "id": 175,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_FGMC_XZZC"
+    },
+    "176": {
+      "id": 176,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_FGMC_GDCZ"
+    },
+    "177": {
+      "id": 177,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YX_YLFS"
+    },
+    "178": {
+      "id": 178,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YX_YLZD"
+    },
+    "179": {
+      "id": 179,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YX_YLZDFS"
+    },
+    "180": {
+      "id": 180,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XNO_NBSJZD"
+    },
+    "181": {
+      "id": 181,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XNO_NBSJZD_KZ"
+    },
+    "182": {
+      "id": 182,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XNO_KZXZ"
+    },
+    "183": {
+      "id": 183,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XNO_NBSJNT"
+    },
+    "184": {
+      "id": 184,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YX_YS"
+    },
+    "185": {
+      "id": 185,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DJG"
+    },
+    "186": {
+      "id": 186,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DPT"
+    },
+    "187": {
+      "id": 187,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DTZ"
+    },
+    "188": {
+      "id": 188,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DQSF"
+    },
+    "189": {
+      "id": 189,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_ZHMD"
+    },
+    "190": {
+      "id": 190,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_YX_FSYS"
+    },
+    "191": {
+      "id": 191,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DWCF"
+    },
+    "192": {
+      "id": 192,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_HDZB"
+    },
+    "193": {
+      "id": 193,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DWHX"
+    },
+    "194": {
+      "id": 194,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DQSF_KZ"
+    },
+    "195": {
+      "id": 195,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_DJG_KZ"
+    },
+    "196": {
+      "id": 196,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_KZCF"
+    },
+    "197": {
+      "id": 197,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_SJYD_Start"
+    },
+    "198": {
+      "id": 198,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_BossSkill_XYDW_SJYD_End"
+    },
+    "1001": {
+      "id": 1001,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_YSQ_CZ"
+    },
+    "1002": {
+      "id": 1002,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_YSQ_JZ"
+    },
+    "1003": {
+      "id": 1003,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_BKLY_CZ"
+    },
+    "1004": {
+      "id": 1004,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_BKLY_JZ"
+    },
+    "1005": {
+      "id": 1005,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_LN_CZ"
+    },
+    "1006": {
+      "id": 1006,
+      "effective": true,
+      "skill_ref": "/Game/ArtRes/Effects/G6Skill/WorldCombat/G6_LordEvoSkill_LN_JZ"
+    }
+  }
+}

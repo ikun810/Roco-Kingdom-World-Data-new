@@ -1,0 +1,129 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "feature_adverse": [
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "feature_adverse": [
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "feature_adverse": [
+        {},
+        {},
+        {
+          "feature_adverse_conf": 1
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 1
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "feature_adverse": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "feature_adverse_conf": 2
+        }
+      ]
+    }
+  }
+}

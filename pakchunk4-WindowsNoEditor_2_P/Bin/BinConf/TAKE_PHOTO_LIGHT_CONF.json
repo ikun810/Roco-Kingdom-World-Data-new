@@ -1,0 +1,46 @@
+{
+  "Name": "TAKE_PHOTO_LIGHT_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "name",
+      "Type": "EString",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "icon_male",
+      "Type": "EString",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "icon_female",
+      "Type": "EString",
+      "Offset": 12,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "yaw",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "pitch",
+      "Type": "EInt32",
+      "Offset": 20,
+      "Size": 4
+    }
+  ]
+}

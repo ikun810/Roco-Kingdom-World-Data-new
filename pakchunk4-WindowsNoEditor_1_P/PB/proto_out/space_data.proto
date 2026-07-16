@@ -26,6 +26,7 @@ import "home_data.proto";
 import "com_player_social_info.proto";
 import "world_combat.proto";
 import "com_season.proto";
+import "com_player_settings.proto";
 
 enum AimSyncType {
   AST_INIT_AIM = 0;
@@ -241,6 +242,7 @@ message ActorInfo_NpcBase {
   string create_avatar_name = 34;
   uint32 habitat_id = 35;
   uint32 owl_sanctuary_content_cfg_id = 36;
+  int32 precious_egg_type = 38;
 }
 
 message ActorInfo_DropItem {
@@ -875,6 +877,7 @@ message ActorInfo_Avatar {
   Next.ActorInfo_RoleplayPropInfo roleplay_prop_info = 39;
   Next.ActorInfo_AvatarCamera camera_info = 40;
   Next.ActorInfo_AvatarAI avatar_ai_info = 41;
+  Next.PlayerSettings_PlayerCustomAnims custom_anims = 44;
 }
 
 message ActorInfo_StealHomeInfo {
@@ -1058,12 +1061,14 @@ message OldFlavorSceneRequiredPlayerInfo {
   int32 current_select_pet_gid = 41;
   repeated Next.SceneBasePetData big_world_pet_data = 42;
   repeated int32 main_team_gids = 43;
+  repeated Next.PlayerNpcRefreshBanInfo npc_refresh_ban_infos = 46;
 }
 
 message SceneRequiredPlayerInfo {
   repeated Next.PlayerTag player_tags = 1;
   uint32 daily_online_time = 2;
   int32 together_starlight_bonus_ratio = 3;
+  Next.PlayerSettings_PlayerCustomAnims custom_anims = 5;
 }
 
 message TransformStoryFlagData {
@@ -1142,6 +1147,7 @@ message ActorPartData_NpcBase {
   string create_avatar_name = 45;
   int32 npc_belong_owl_content_id = 46;
   uint64 refresh_batch_id = 48;
+  int32 precious_egg_type = 50;
 }
 
 message ActorPartData_AvatarBase {
@@ -1673,6 +1679,8 @@ message ActorCompData_AnimSkillPlayer {
 }
 
 message ActorCompData_Db {
+  uint64 last_writeback_timestamp = 1;
+  uint64 last_full_dirty_timestamp = 2;
 }
 
 message ContentTraceData {
@@ -1894,6 +1902,7 @@ message ActorCompData_WorldMap {
   string gamecfg_ver = 13;
   Next.LayeredWorldMapExploreInfo layered_world_map_explore_info = 14;
   repeated Next.WorldMapAutoTrackNpcInfo auto_track_npc_infos = 15;
+  repeated Next.SpecialMapNpcEntry special_npc_infos = 16;
 }
 
 message ActorCompData_PotentialEnergy {
@@ -2580,6 +2589,7 @@ message ActorCompData_NpcGuard {
   repeated int32 ban_func_list = 3;
   uint64 npc_refresh_ban_time = 4;
   uint32 npc_refresh_ban_probability = 5;
+  repeated Next.PlayerNpcRefreshBanInfo npc_refresh_ban_infos = 7;
   repeated Next.NpcGuardLimitData guard_limit_data = 6;
 }
 

@@ -1,0 +1,121 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "status_type": 1,
+      "status_priority": 300,
+      "perform_delete": true,
+      "max_duration": 5000,
+      "cooldown": 12000,
+      "class_name": "AbnormalStatus_Hypnosis"
+    },
+    "2": {
+      "id": 2,
+      "status_type": 3,
+      "status_priority": 100,
+      "perform_delete": true,
+      "max_duration": 10000,
+      "cooldown": 12000,
+      "whitelist_source_pet": [
+        3151,
+        3152,
+        3153,
+        3225,
+        3226,
+        3419,
+        3420,
+        3621,
+        3622
+      ],
+      "class_name": "AbnormalStatus_Toxicity"
+    },
+    "3": {
+      "id": 3,
+      "status_type": 3,
+      "status_priority": 100,
+      "perform_delete": true,
+      "max_duration": 10000,
+      "cooldown": 12000,
+      "whitelist_source_pet": [
+        3369,
+        3370,
+        3371,
+        3543,
+        3544
+      ],
+      "class_name": "AbnormalStatus_Illusionist"
+    },
+    "4": {
+      "id": 4,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Hot"
+    },
+    "5": {
+      "id": 5,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Cold"
+    },
+    "6": {
+      "id": 6,
+      "status_type": 4,
+      "status_priority": 199,
+      "class_name": "AbnormalStatus_EternalNight"
+    },
+    "7": {
+      "id": 7,
+      "status_type": 4,
+      "status_priority": 199,
+      "class_name": "AbnormalStatus_PumpkinLight"
+    },
+    "101": {
+      "id": 101,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Pre_Cold_Lv2"
+    },
+    "102": {
+      "id": 102,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Cold_Lv2"
+    },
+    "103": {
+      "id": 103,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Pre_Cold_Lv3"
+    },
+    "104": {
+      "id": 104,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Cold_Lv3"
+    },
+    "201": {
+      "id": 201,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Pre_Hot_Lv2"
+    },
+    "202": {
+      "id": 202,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Hot_Lv2"
+    },
+    "205": {
+      "id": 205,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Pre_Hot_Lv4"
+    },
+    "206": {
+      "id": 206,
+      "status_type": 2,
+      "status_priority": 200,
+      "class_name": "AbnormalStatus_Hot_Lv4"
+    }
+  }
+}

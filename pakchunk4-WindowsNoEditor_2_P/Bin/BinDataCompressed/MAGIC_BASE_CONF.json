@@ -1,0 +1,639 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "name": "星星魔法",
+      "magic_priority": 1,
+      "localization_id": "umg_magic_learned_1",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_005.T_UI_WZ_005'",
+      "magic_type": 1,
+      "charge_type": 1,
+      "vitality_cost_minimum": 40,
+      "vitality_cost_perscond": 100,
+      "charge_time": [
+        500,
+        800,
+        1200
+      ],
+      "charge_parameter": [
+        70,
+        3000,
+        100,
+        4000,
+        130,
+        5000,
+        160,
+        6000
+      ],
+      "maxcount": 10,
+      "sceneability": 1300060,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "星星魔法",
+      "magic_priority": 1,
+      "localization_id": "umg_magic_learned_1",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_005.T_UI_WZ_005'",
+      "magic_type": 1,
+      "charge_type": 1,
+      "vitality_cost_minimum": 40,
+      "vitality_cost_perscond": 50,
+      "charge_time": [
+        500,
+        800,
+        1200
+      ],
+      "charge_parameter": [
+        70,
+        3000,
+        100,
+        4000,
+        130,
+        5000,
+        160,
+        6000
+      ],
+      "maxcount": 10,
+      "sceneability": 1300060,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "星星魔法",
+      "magic_priority": 1,
+      "localization_id": "umg_magic_learned_1",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_005.T_UI_WZ_005'",
+      "magic_type": 1,
+      "charge_type": 1,
+      "vitality_cost_minimum": 40,
+      "vitality_cost_perscond": 50,
+      "charge_time": [
+        400,
+        600,
+        900
+      ],
+      "charge_parameter": [
+        70,
+        3000,
+        100,
+        4000,
+        130,
+        5000,
+        160,
+        6000
+      ],
+      "maxcount": 10,
+      "sceneability": 1300060,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "name": "浮风术",
+      "magic_priority": 5,
+      "localization_id": "umg_magic_learned_2",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_020.T_UI_WZ_020'",
+      "magic_type": 2,
+      "charge_type": 1,
+      "vitality_cost_minimum": 150,
+      "vitality_cost_perscond": 300,
+      "charge_time": [
+        500,
+        2000
+      ],
+      "charge_parameter": [
+        300,
+        6000,
+        1400,
+        200,
+        500,
+        20000,
+        1800,
+        400
+      ],
+      "sceneability": 1300058,
+      "effect_struct": [
+        {
+          "effect": 1,
+          "effect_params_1": [
+            30001
+          ]
+        },
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "22": {
+      "id": 22,
+      "name": "浮风术",
+      "magic_priority": 5,
+      "localization_id": "umg_magic_learned_2",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_020.T_UI_WZ_020'",
+      "magic_type": 2,
+      "charge_type": 1,
+      "vitality_cost_minimum": 150,
+      "vitality_cost_perscond": 300,
+      "charge_time": [
+        500,
+        2000
+      ],
+      "charge_parameter": [
+        300,
+        6000,
+        1400,
+        200,
+        500,
+        20000,
+        1800,
+        400
+      ],
+      "sceneability": 1300058,
+      "effect_struct": [
+        {
+          "effect": 1,
+          "effect_params_1": [
+            30012
+          ]
+        },
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "23": {
+      "id": 23,
+      "name": "浮风术",
+      "magic_priority": 5,
+      "localization_id": "umg_magic_learned_2",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_020.T_UI_WZ_020'",
+      "magic_type": 2,
+      "charge_type": 1,
+      "vitality_cost_minimum": 150,
+      "vitality_cost_perscond": 300,
+      "charge_time": [
+        500,
+        1500
+      ],
+      "charge_parameter": [
+        300,
+        6000,
+        1400,
+        200,
+        500,
+        20000,
+        1800,
+        400
+      ],
+      "sceneability": 1300058,
+      "effect_struct": [
+        {
+          "effect": 1,
+          "effect_params_1": [
+            30013
+          ]
+        },
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "31": {
+      "id": 31,
+      "name": "光系魔法",
+      "magic_priority": 7,
+      "localization_id": "umg_magic_learned_4",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_023.T_UI_WZ_023'",
+      "magic_type": 5,
+      "charge_type": 1,
+      "vitality_cost_minimum": 100,
+      "vitality_cost_perscond": 100,
+      "charge_time": [
+        500,
+        800,
+        1200
+      ],
+      "charge_parameter": [
+        200,
+        1000,
+        500,
+        400,
+        200,
+        1500,
+        400,
+        500,
+        200,
+        2000,
+        500,
+        400
+      ],
+      "maxcount": 10,
+      "sceneability": 1300100,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "32": {
+      "id": 32,
+      "name": "光系魔法",
+      "magic_priority": 7,
+      "localization_id": "umg_magic_learned_4",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_023.T_UI_WZ_023'",
+      "magic_type": 5,
+      "charge_type": 1,
+      "vitality_cost_minimum": 75,
+      "vitality_cost_perscond": 75,
+      "charge_time": [
+        500,
+        800,
+        1200
+      ],
+      "charge_parameter": [
+        250,
+        1000,
+        500,
+        500,
+        250,
+        1500,
+        500,
+        500,
+        250,
+        2000,
+        500,
+        500
+      ],
+      "maxcount": 10,
+      "sceneability": 1300100,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "33": {
+      "id": 33,
+      "name": "光系魔法",
+      "magic_priority": 7,
+      "localization_id": "umg_magic_learned_4",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_023.T_UI_WZ_023'",
+      "magic_type": 5,
+      "charge_type": 1,
+      "vitality_cost_minimum": 50,
+      "vitality_cost_perscond": 50,
+      "charge_time": [
+        500,
+        800,
+        1200
+      ],
+      "charge_parameter": [
+        300,
+        1000,
+        500,
+        400,
+        300,
+        1500,
+        500,
+        500,
+        300,
+        2000,
+        500,
+        600
+      ],
+      "maxcount": 10,
+      "sceneability": 1300100,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "98": {
+      "id": 98,
+      "name": "老配置星星魔法",
+      "magic_priority": 999,
+      "localization_id": "umg_magic_learned_1",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_005.T_UI_WZ_005'",
+      "magic_type": 1,
+      "charge_type": 1,
+      "vitality_cost_minimum": 80,
+      "vitality_cost_perscond": 215,
+      "charge_time": [
+        465,
+        534,
+        786
+      ],
+      "maxcount": 10,
+      "sceneability": 1300060,
+      "effect_struct": [
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "99": {
+      "id": 99,
+      "name": "老配置浮风术",
+      "magic_priority": 998,
+      "localization_id": "umg_magic_learned_2",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_020.T_UI_WZ_020'",
+      "magic_type": 2,
+      "charge_type": 1,
+      "vitality_cost_minimum": 650,
+      "charge_time": [
+        200,
+        1000
+      ],
+      "sceneability": 1300058,
+      "effect_struct": [
+        {
+          "effect": 1,
+          "effect_params_1": [
+            30001
+          ]
+        },
+        {
+          "effect": 2
+        }
+      ]
+    },
+    "101": {
+      "id": 101,
+      "name": "液化术",
+      "magic_priority": 6,
+      "localization_id": "umg_magic_learned_3",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_021.T_UI_WZ_021'",
+      "magic_type": 4,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100723,
+        1
+      ],
+      "sceneability": 1300090,
+      "effect_struct": [
+        {
+          "effect": 3,
+          "effect_params_1": [
+            3118
+          ]
+        }
+      ]
+    },
+    "201": {
+      "id": 201,
+      "name": "创造魔法",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/MainUI/Raw/Texture/T_UI_WZ_022.T_UI_WZ_022'",
+      "magic_type": 3,
+      "child_magic_associate": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "charge_type": 1,
+      "sceneability": 1300080,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            801195
+          ]
+        }
+      ]
+    },
+    "202": {
+      "id": 202,
+      "name": "创造传送枢纽",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-1",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/BagItem/100883.100883'",
+      "magic_type": 3,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100729,
+        1
+      ],
+      "sceneability": 1300080,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            801195
+          ],
+          "effect_params_2": [
+            101
+          ]
+        }
+      ]
+    },
+    "203": {
+      "id": 203,
+      "name": "创造魔力之源",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-2",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/100826.100826'",
+      "magic_type": 3,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100731,
+        1
+      ],
+      "sceneability": 1300080,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            801196
+          ],
+          "effect_params_2": [
+            103
+          ]
+        }
+      ]
+    },
+    "204": {
+      "id": 204,
+      "name": "创造炼金锅",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-3",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/100827.100827'",
+      "magic_type": 3,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100730,
+        1
+      ],
+      "sceneability": 1300080,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            801197
+          ],
+          "effect_params_2": [
+            102
+          ]
+        }
+      ]
+    },
+    "205": {
+      "id": 205,
+      "name": "创造星霜灯",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-4",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/101023.101023'",
+      "magic_type": 8,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100737,
+        1
+      ],
+      "sceneability": 1300080,
+      "allowed_area": [
+        700400,
+        700401,
+        700402,
+        700403,
+        700404,
+        700405,
+        700406,
+        700407
+      ],
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            1002666
+          ]
+        }
+      ]
+    },
+    "206": {
+      "id": 206,
+      "name": "创造星火灯",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-5",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/101022.101022'",
+      "magic_type": 9,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100738,
+        1
+      ],
+      "sceneability": 1300080,
+      "allowed_area": [
+        700400,
+        700401,
+        700402,
+        700403,
+        700404,
+        700405,
+        700406,
+        700407
+      ],
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            1002667
+          ]
+        }
+      ]
+    },
+    "207": {
+      "id": 207,
+      "name": "创造南瓜灯",
+      "magic_priority": 4,
+      "localization_id": "umg_magic_learned_5-6",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/101024.101024'",
+      "magic_type": 10,
+      "is_child_magic": 1,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100739,
+        1
+      ],
+      "sceneability": 1300080,
+      "allowed_area": [
+        700400,
+        700401,
+        700402,
+        700403,
+        700404,
+        700405,
+        700406,
+        700407
+      ],
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            1002668
+          ]
+        }
+      ]
+    },
+    "301": {
+      "id": 301,
+      "name": "留言魔法",
+      "magic_priority": 2,
+      "localization_id": "umg_magic_learned_6",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/7010100.7010100'",
+      "magic_type": 6,
+      "charge_type": 1,
+      "sceneability": 1300120,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            1002005
+          ]
+        }
+      ]
+    },
+    "401": {
+      "id": 401,
+      "name": "留影魔法",
+      "magic_priority": 3,
+      "localization_id": "umg_magic_learned_7",
+      "get_path": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Item190/7010110.7010110'",
+      "magic_type": 7,
+      "charge_type": 1,
+      "cost_bag_item": [
+        100736,
+        1
+      ],
+      "sceneability": 1300129,
+      "effect_struct": [
+        {
+          "effect": 5,
+          "effect_params_1": [
+            1002653
+          ]
+        }
+      ]
+    }
+  }
+}

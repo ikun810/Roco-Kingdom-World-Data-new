@@ -306,6 +306,7 @@ message PlayerSvrDataInfo {
   Next.BadgeTrialData badge_trial_data = 98;
   Next.IdipMailSerialList idip_mail_serials = 99;
   Next.OptReWardNumList opt_reward_info = 100;
+  Next.ContentOptReWardNumList content_reward_info = 101;
   uint32 flow_gid = 105;
 }
 
@@ -367,6 +368,7 @@ message PlayerPetInfo {
   Next.PlayerPetMonitorInfo monitor_info = 35;
   uint32 current_select_pet_gid = 36;
   Next.PetReportBriefInfo report_brief_info = 37;
+  Next.PetBacktrackRoundInfo backtrack_round_info = 40;
 }
 
 message PlayerCommonInfo {
@@ -594,6 +596,29 @@ message OptReWardNumInfo {
 
 message OptReWardNumList {
   repeated Next.OptReWardNumInfo items = 3;
+}
+
+message ContentOptReWardNumInfo {
+  uint32 content_id = 1;
+  uint32 num = 2;
+  uint32 reward_id = 3;
+}
+
+message ContentReWardNumInfo {
+  uint32 reward_id = 1;
+  uint32 num = 2;
+}
+
+message ContentOptReWardNumItem {
+  uint32 type_id = 1;
+  repeated Next.ContentOptReWardNumInfo items = 2;
+  repeated Next.ContentReWardNumInfo reward_items = 3;
+}
+
+message ContentOptReWardNumList {
+  repeated Next.ContentOptReWardNumItem type_items = 1;
+  uint32 week_time = 2;
+  uint32 item_num = 3;
 }
 
 message DailyGetItemLimitlist {

@@ -1,0 +1,533 @@
+{
+  "RocoDataRows": {
+    "1001": {
+      "id": 1001,
+      "desc": "",
+      "get_condition": 3,
+      "condition_data1": [
+        2
+      ],
+      "condition_data2": [
+        98,
+        100
+      ],
+      "count": 1
+    },
+    "1002": {
+      "id": 1002,
+      "desc": "",
+      "get_condition": 3,
+      "condition_data1": [
+        2
+      ],
+      "condition_data2": [
+        0,
+        2
+      ],
+      "count": 1
+    },
+    "1004": {
+      "id": 1004,
+      "desc": "",
+      "get_condition": 1,
+      "condition_data1": [
+        3004
+      ],
+      "count": 1
+    },
+    "1005": {
+      "id": 1005,
+      "desc": "",
+      "get_condition": 5,
+      "condition_data1": [
+        5
+      ],
+      "condition_data2": [
+        10
+      ],
+      "count": 1
+    },
+    "1006": {
+      "id": 1006,
+      "desc": "",
+      "get_condition": 6,
+      "condition_data1": [
+        4
+      ],
+      "condition_data2": [
+        10
+      ],
+      "condition_data3": [
+        3
+      ],
+      "count": 1
+    },
+    "1007": {
+      "id": 1007,
+      "desc": "",
+      "get_condition": 13,
+      "condition_data1": [
+        5
+      ],
+      "count": 1
+    },
+    "1008": {
+      "id": 1008,
+      "desc": "",
+      "get_condition": 10,
+      "condition_data1": [
+        25
+      ],
+      "condition_data2": [
+        99
+      ],
+      "count": 1
+    },
+    "1009": {
+      "id": 1009,
+      "desc": "",
+      "get_condition": 10,
+      "condition_data1": [
+        25
+      ],
+      "condition_data2": [
+        99
+      ],
+      "count": 1
+    },
+    "1010": {
+      "id": 1010,
+      "desc": "",
+      "get_condition": 10,
+      "condition_data1": [
+        25
+      ],
+      "condition_data2": [
+        99
+      ],
+      "count": 1
+    },
+    "1011": {
+      "id": 1011,
+      "desc": "",
+      "get_condition": 15,
+      "condition_data1": [
+        130308,
+        130309,
+        130310,
+        130311,
+        130312,
+        140143,
+        140144,
+        140145,
+        140146,
+        140147,
+        140149,
+        140150,
+        1200492
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1012": {
+      "id": 1012,
+      "desc": "",
+      "get_condition": 15,
+      "condition_data1": [
+        130155,
+        130156,
+        130157,
+        130158,
+        130159,
+        130160,
+        130161,
+        130162,
+        130163,
+        130164,
+        130165,
+        130166,
+        130167,
+        130168,
+        130169,
+        130170,
+        130171,
+        130172,
+        130173,
+        130174,
+        130175,
+        130176,
+        130177,
+        5400466,
+        5400467,
+        5400468,
+        5400469,
+        5400470,
+        5400471,
+        5400475,
+        5400476
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1025": {
+      "id": 1025,
+      "desc": "",
+      "get_condition": 3,
+      "condition_data1": [
+        3
+      ],
+      "condition_data2": [
+        0,
+        2
+      ],
+      "count": 1
+    },
+    "1026": {
+      "id": 1026,
+      "desc": "",
+      "get_condition": 3,
+      "condition_data1": [
+        3
+      ],
+      "condition_data2": [
+        98,
+        100
+      ],
+      "count": 1
+    },
+    "1027": {
+      "id": 1027,
+      "desc": "",
+      "get_condition": 14,
+      "condition_data1": [
+        1
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1028": {
+      "id": 1028,
+      "desc": "",
+      "get_condition": 14,
+      "condition_data1": [
+        2
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1029": {
+      "id": 1029,
+      "desc": "",
+      "get_condition": 14,
+      "condition_data1": [
+        3
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1030": {
+      "id": 1030,
+      "desc": "",
+      "get_condition": 14,
+      "condition_data1": [
+        4
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "1036": {
+      "id": 1036,
+      "desc": "",
+      "get_condition": 15,
+      "condition_data1": [
+        130313,
+        130317,
+        130318,
+        130319
+      ],
+      "condition_data2": [
+        80000
+      ],
+      "condition_data3": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "count": 1
+    },
+    "2001": {
+      "id": 2001,
+      "desc": "",
+      "get_condition": 16,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        8000
+      ],
+      "condition_data3": [
+        10000
+      ],
+      "count": 1
+    },
+    "2004": {
+      "id": 2004,
+      "desc": "",
+      "get_condition": 27,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        20
+      ],
+      "count": 1,
+      "count_type": 1
+    },
+    "2007": {
+      "id": 2007,
+      "desc": "",
+      "get_condition": 17,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        1
+      ],
+      "condition_data3": [
+        1
+      ],
+      "condition_data4": [
+        1
+      ],
+      "count": 1
+    },
+    "2008": {
+      "id": 2008,
+      "desc": "",
+      "get_condition": 18,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        1
+      ],
+      "condition_data3": [
+        4
+      ],
+      "count": 1
+    },
+    "2009": {
+      "id": 2009,
+      "desc": "",
+      "get_condition": 19,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        3
+      ],
+      "count": 1
+    },
+    "2010": {
+      "id": 2010,
+      "desc": "",
+      "get_condition": 20,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        3
+      ],
+      "count": 1
+    },
+    "2011": {
+      "id": 2011,
+      "desc": "",
+      "get_condition": 21,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        3
+      ],
+      "count": 1
+    },
+    "2012": {
+      "id": 2012,
+      "desc": "",
+      "get_condition": 22,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        3
+      ],
+      "count": 1
+    },
+    "2013": {
+      "id": 2013,
+      "desc": "",
+      "get_condition": 23,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        1
+      ],
+      "count": 1
+    },
+    "2014": {
+      "id": 2014,
+      "desc": "",
+      "get_condition": 24,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        1
+      ],
+      "count": 1
+    },
+    "2015": {
+      "id": 2015,
+      "desc": "",
+      "get_condition": 25,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        0
+      ],
+      "condition_data3": [
+        1000
+      ],
+      "count": 1
+    },
+    "2016": {
+      "id": 2016,
+      "desc": "",
+      "get_condition": 26,
+      "condition_data1": [
+        15,
+        17,
+        18,
+        22,
+        25
+      ],
+      "condition_data2": [
+        1
+      ],
+      "condition_data3": [
+        1
+      ],
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "Name": "ACTIVITY_STOCK_SHOP_CONF",
+  "Type": "EStruct",
+  "UniqueKey": "id",
+  "Properties": [
+    {
+      "Name": "id",
+      "Type": "EUint32",
+      "Offset": 0,
+      "Size": 4
+    },
+    {
+      "Name": "stock_shop_id",
+      "Type": "EUint32",
+      "Offset": 4,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "stock_shop_skip",
+      "Type": "EUint32",
+      "Offset": 8,
+      "Size": 4,
+      "CompressedSize": 4,
+      "DynamicArray": true
+    },
+    {
+      "Name": "npc_shop_skip",
+      "Type": "EUint32",
+      "Offset": 12,
+      "Size": 4
+    },
+    {
+      "Name": "reset_type",
+      "Type": "EInt32",
+      "Offset": 16,
+      "Size": 4
+    },
+    {
+      "Name": "reset_param1",
+      "Type": "EString",
+      "Offset": 20,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "activity_goods_type",
+      "Type": "EInt32",
+      "Offset": 24,
+      "Size": 4
+    },
+    {
+      "Name": "activity_goods_id",
+      "Type": "EUint32",
+      "Offset": 28,
+      "Size": 4
+    },
+    {
+      "Name": "initial_num",
+      "Type": "EInt32",
+      "Offset": 32,
+      "Size": 4
+    },
+    {
+      "Name": "base_num_daily",
+      "Type": "EInt32",
+      "Offset": 36,
+      "Size": 4
+    },
+    {
+      "Name": "extra_num_single_daily",
+      "Type": "EInt32",
+      "Offset": 40,
+      "Size": 4
+    },
+    {
+      "Name": "extra_time_max_daily",
+      "Type": "EInt32",
+      "Offset": 44,
+      "Size": 4
+    },
+    {
+      "Name": "extra_total_max_daily",
+      "Type": "EInt32",
+      "Offset": 48,
+      "Size": 4
+    },
+    {
+      "Name": "max_rand_price_time",
+      "Type": "EInt32",
+      "Offset": 52,
+      "Size": 4
+    },
+    {
+      "Name": "max_price_trend_show_day",
+      "Type": "EInt32",
+      "Offset": 56,
+      "Size": 4
+    },
+    {
+      "Name": "shop_exp_goods_type",
+      "Type": "EInt32",
+      "Offset": 60,
+      "Size": 4
+    },
+    {
+      "Name": "shop_exp_goods_id",
+      "Type": "EUint32",
+      "Offset": 64,
+      "Size": 4
+    },
+    {
+      "Name": "shop_icon",
+      "Type": "EString",
+      "Offset": 68,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "shop_location",
+      "Type": "ELocalizedString",
+      "Offset": 72,
+      "Size": 4
+    },
+    {
+      "Name": "checkout_icon",
+      "Type": "EString",
+      "Offset": 76,
+      "Size": 4,
+      "CompressedSize": 4
+    },
+    {
+      "Name": "warn_event_group",
+      "Type": "EStruct",
+      "Offset": 80,
+      "Size": 4,
+      "CompressedSize": 4,
+      "ArrayDim": 3,
+      "Struct": {
+        "Name": "ACTIVITY_STOCK_SHOP_CONF.warn_event_group",
+        "Type": "EStruct",
+        "Properties": [
+          {
+            "Name": "link_task",
+            "Type": "EUint32",
+            "Offset": 0,
+            "Size": 4,
+            "CompressedSize": 4,
+            "DynamicArray": true
+          },
+          {
+            "Name": "link_stock_shop",
+            "Type": "EUint32",
+            "Offset": 4,
+            "Size": 4
+          },
+          {
+            "Name": "warn_tips",
+            "Type": "EString",
+            "Offset": 8,
+            "Size": 4,
+            "CompressedSize": 4
+          }
+        ]
+      }
+    }
+  ]
+}

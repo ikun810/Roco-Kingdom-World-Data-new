@@ -1,0 +1,26 @@
+{
+  "RocoDataRows": {
+    "Unknown_0": {
+      "world_id": 137,
+      "close_watermark": 1
+    },
+    "Unknown_1": {
+      "world_id": 17
+    },
+    "Unknown_2": {
+      "world_id": 60
+    },
+    "Unknown_3": {
+      "world_id": 47
+    },
+    "Unknown_4": {
+      "world_id": 127
+    },
+    "Unknown_5": {
+      "world_id": 63
+    },
+    "Unknown_6": {
+      "world_id": 45
+    }
+  }
+}

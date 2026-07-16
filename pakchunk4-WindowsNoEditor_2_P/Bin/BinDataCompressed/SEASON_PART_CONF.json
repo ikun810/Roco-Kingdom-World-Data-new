@@ -1,0 +1,113 @@
+{
+  "RocoDataRows": {
+    "101": {
+      "id": 101,
+      "slot_position": 1,
+      "red_point_id": 397,
+      "item_id": 1001
+    },
+    "102": {
+      "id": 102,
+      "slot_position": 2,
+      "red_point_id": 428,
+      "item_id": 1002
+    },
+    "103": {
+      "id": 103
+    },
+    "104": {
+      "id": 104,
+      "slot_position": 4,
+      "item_id": 1004
+    },
+    "105": {
+      "id": 105,
+      "slot_position": 5,
+      "item_id": 1005
+    },
+    "106": {
+      "id": 106,
+      "slot_position": 6,
+      "item_id": 1006
+    },
+    "107": {
+      "id": 107,
+      "slot_position": 3,
+      "item_id": 1003
+    },
+    "201": {
+      "id": 201,
+      "slot_position": 1,
+      "red_point_id": 397,
+      "item_id": 2001
+    },
+    "202": {
+      "id": 202,
+      "slot_position": 5,
+      "red_point_id": 428,
+      "item_id": 2002
+    },
+    "203": {
+      "id": 203,
+      "red_point_id": 485,
+      "item_id": 2007
+    },
+    "204": {
+      "id": 204,
+      "slot_position": 3,
+      "item_id": 2004
+    },
+    "205": {
+      "id": 205,
+      "slot_position": 4,
+      "item_id": 2005
+    },
+    "206": {
+      "id": 206,
+      "slot_position": 6,
+      "item_id": 2006
+    },
+    "207": {
+      "id": 207,
+      "slot_position": 2,
+      "item_id": 2003
+    },
+    "301": {
+      "id": 301,
+      "slot_position": 1,
+      "red_point_id": 397,
+      "item_id": 3001
+    },
+    "302": {
+      "id": 302,
+      "slot_position": 4,
+      "red_point_id": 428,
+      "item_id": 3002
+    },
+    "303": {
+      "id": 303,
+      "red_point_id": 485,
+      "item_id": 3007
+    },
+    "304": {
+      "id": 304,
+      "slot_position": 6,
+      "item_id": 3004
+    },
+    "305": {
+      "id": 305,
+      "slot_position": 5,
+      "item_id": 3005
+    },
+    "306": {
+      "id": 306,
+      "slot_position": 3,
+      "item_id": 3006
+    },
+    "307": {
+      "id": 307,
+      "slot_position": 2,
+      "item_id": 3003
+    }
+  }
+}

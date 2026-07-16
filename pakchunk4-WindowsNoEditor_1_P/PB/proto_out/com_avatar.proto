@@ -23,6 +23,7 @@ enum RoleHpReduceReason {
 
 enum RoleHpAddReason {
   HP_ADD_REASON_FEED_FLOWER_PICKUP = 1;
+  HP_ADD_REASON_REVIVE = 2;
 }
 
 message VisibleAvatarInfo {

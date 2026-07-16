@@ -1,0 +1,8010 @@
+{
+  "RocoDataRows": {
+    "1": {
+      "id": 1,
+      "name": "魔法学院校服",
+      "gender": 1,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "suits_icon": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001.suits1_001'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_001_pose.suits1_001_pose'",
+      "suit_grade": 2,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 3,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        1537
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001.suits1_001'",
+      "gender": 1,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        21100201,
+        21200201,
+        21300101,
+        22200101,
+        2070020101
+      ],
+      "suits_icon": [
+        21100201,
+        21200201,
+        21300101,
+        22200101,
+        2070020101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_001.suits2_001'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_pose.suits2_001_pose'",
+      "suit_grade": 5,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 6,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        1537
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": [
+        21100201,
+        21200201,
+        21300101,
+        22200101,
+        2070020101
+      ],
+      "gender": 11,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700101,
+        10800101,
+        10900101,
+        11000101,
+        11100101,
+        11200101,
+        11300101
+      ],
+      "suits_icon": [
+        10700101,
+        10800101,
+        10900101,
+        11000101,
+        11100101,
+        11200101,
+        11300101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_01.suits1_002_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_01_pose.suits1_002_01_pose'",
+      "suit_grade": 8,
+      "fashion_bond_band": 9,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        4097
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_pose.suits2_001_pose'",
+      "gender": 17,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700102,
+        10800102,
+        10999902,
+        11000102,
+        11100102,
+        11200102,
+        11300102
+      ],
+      "suits_icon": [
+        10700102,
+        10800102,
+        10999902,
+        11000102,
+        11100102,
+        11200102,
+        11300102
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_02.suits1_002_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_02_pose.suits1_002_02_pose'",
+      "suit_grade": 11,
+      "fashion_bond_band": 12,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": [
+        10700101,
+        10800101,
+        10900101,
+        11000101,
+        11100101,
+        11200101,
+        11300101
+      ],
+      "gender": 22,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700103,
+        10800103,
+        10900103,
+        11000103,
+        11100103,
+        11200103,
+        11300103
+      ],
+      "suits_icon": [
+        10700103,
+        10800103,
+        10900103,
+        11000103,
+        11100103,
+        11200103,
+        11300103
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_03.suits1_002_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_03_pose.suits1_002_03_pose'",
+      "suit_grade": 14,
+      "fashion_bond_band": 15,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "1006",
+      "gender": 28,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700104,
+        10800104,
+        10999904,
+        11000104,
+        11100104,
+        11200104,
+        11300104
+      ],
+      "suits_icon": [
+        10700104,
+        10800104,
+        10999904,
+        11000104,
+        11100104,
+        11200104,
+        11300104
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_04.suits1_002_04'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_04_pose.suits1_002_04_pose'",
+      "suit_grade": 17,
+      "fashion_bond_band": 18,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": [
+        10700102,
+        10800102,
+        10999902,
+        11000102,
+        11100102,
+        11200102,
+        11300102
+      ],
+      "gender": 33,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700105,
+        10800105,
+        10900105,
+        11000105,
+        11100105,
+        11200105,
+        11300105
+      ],
+      "suits_icon": [
+        10700105,
+        10800105,
+        10900105,
+        11000105,
+        11100105,
+        11200105,
+        11300105
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_05.suits1_002_05'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_05_pose.suits1_002_05_pose'",
+      "suit_grade": 20,
+      "fashion_bond_band": 21,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "曲奇的追忆",
+      "gender": 38,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700106,
+        10800106,
+        10999906,
+        11000106,
+        11100106,
+        11200106,
+        11300106
+      ],
+      "suits_icon": [
+        10700106,
+        10800106,
+        10999906,
+        11000106,
+        11100106,
+        11200106,
+        11300106
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_06.suits1_002_06'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_06_pose.suits1_002_06_pose'",
+      "suit_grade": 23,
+      "fashion_bond_band": 24,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_03.suits1_002_03'",
+      "gender": 11,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700101,
+        20800101,
+        20900101,
+        21000101,
+        21100101,
+        21200101,
+        22100101
+      ],
+      "suits_icon": [
+        20700101,
+        20800101,
+        20900101,
+        21000101,
+        21100101,
+        21200101,
+        22100101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_01.suits2_002_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_01_pose.suits2_002_01_pose'",
+      "suit_grade": 26,
+      "fashion_bond_band": 27,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        4097
+      ]
+    },
+    "10": {
+      "id": 10,
+      "name": "海盐的追忆",
+      "gender": 47,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700102,
+        20800102,
+        20999902,
+        21000102,
+        21100102,
+        21200102,
+        22100102
+      ],
+      "suits_icon": [
+        20700102,
+        20800102,
+        20999902,
+        21000102,
+        21100102,
+        21200102,
+        22100102
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_02.suits2_002_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_02_pose.suits2_002_02_pose'",
+      "suit_grade": 29,
+      "fashion_bond_band": 30,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "11": {
+      "id": 11,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_002_04.suits1_002_04'",
+      "gender": 52,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700103,
+        20800103,
+        20999903,
+        21000103,
+        21100103,
+        21200103,
+        22100103
+      ],
+      "suits_icon": [
+        20700103,
+        20800103,
+        20999903,
+        21000103,
+        21100103,
+        21200103,
+        22100103
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_03.suits2_002_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_03_pose.suits2_002_03_pose'",
+      "suit_grade": 32,
+      "fashion_bond_band": 33,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "12": {
+      "id": 12,
+      "name": [
+        10700105,
+        10800105,
+        10900105,
+        11000105,
+        11100105,
+        11200105,
+        11300105
+      ],
+      "gender": 57,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700104,
+        20800104,
+        20900104,
+        21000104,
+        21100104,
+        21200104,
+        22100104
+      ],
+      "suits_icon": [
+        20700104,
+        20800104,
+        20900104,
+        21000104,
+        21100104,
+        21200104,
+        22100104
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_04.suits2_002_04'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_04_pose.suits2_002_04_pose'",
+      "suit_grade": 35,
+      "fashion_bond_band": 36,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "13": {
+      "id": 13,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_002_05_pose.suits1_002_05_pose'",
+      "gender": 62,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700105,
+        20800105,
+        20999905,
+        21000105,
+        21100105,
+        21200105,
+        22100105
+      ],
+      "suits_icon": [
+        20700105,
+        20800105,
+        20999905,
+        21000105,
+        21100105,
+        21200105,
+        22100105
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_05.suits2_002_05'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_05_pose.suits2_002_05_pose'",
+      "suit_grade": 38,
+      "fashion_bond_band": 39,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "14": {
+      "id": 14,
+      "name": [
+        10700106,
+        10800106,
+        10999906,
+        11000106,
+        11100106,
+        11200106,
+        11300106
+      ],
+      "gender": 67,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700106,
+        20800106,
+        20900106,
+        21000106,
+        21100106,
+        21200106,
+        22100106
+      ],
+      "suits_icon": [
+        20700106,
+        20800106,
+        20900106,
+        21000106,
+        21100106,
+        21200106,
+        22100106
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_06.suits2_002_06'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_06_pose.suits2_002_06_pose'",
+      "suit_grade": 41,
+      "fashion_bond_band": 42,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "15": {
+      "id": 15,
+      "name": [
+        20700101,
+        20800101,
+        20900101,
+        21000101,
+        21100101,
+        21200101,
+        22100101
+      ],
+      "gender": 72,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700301,
+        10800201,
+        10900301,
+        11000201,
+        11100401,
+        11200301,
+        12100101
+      ],
+      "suits_icon": [
+        10700301,
+        10800201,
+        10900301,
+        11000201,
+        11100401,
+        11200301,
+        12100101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_003.suits1_003'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_003_pose.suits1_003_pose'",
+      "suit_grade": 44,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 45,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "16": {
+      "id": 16,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_01_pose.suits2_002_01_pose'",
+      "gender": 72,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700301,
+        20800201,
+        20900301,
+        21000201,
+        21100401,
+        21200301,
+        22100201
+      ],
+      "suits_icon": [
+        20700301,
+        20800201,
+        20900301,
+        21000201,
+        21100401,
+        21200301,
+        22100201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_003.suits2_003'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_003_pose.suits2_003_pose'",
+      "suit_grade": 47,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 48,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "17": {
+      "id": 17,
+      "name": [
+        20700102,
+        20800102,
+        20999902,
+        21000102,
+        21100102,
+        21200102,
+        22100102
+      ],
+      "gender": 81,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700401,
+        10900401,
+        11100501,
+        11200401,
+        11300301
+      ],
+      "suits_icon": [
+        10700401,
+        10900401,
+        11100501,
+        11200401,
+        11300301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_004.suits1_004'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_004_pose.suits1_004_pose'",
+      "suit_grade": 50,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 51,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "18": {
+      "id": 18,
+      "name": "晴空的追忆",
+      "gender": 81,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700401,
+        20900401,
+        21100501,
+        21200401,
+        21300201
+      ],
+      "suits_icon": [
+        20700401,
+        20900401,
+        21100501,
+        21200401,
+        21300201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_004.suits2_004'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_004_pose.suits2_004_pose'",
+      "suit_grade": 53,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 54,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "35": {
+      "id": 35,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_03.suits2_002_03'",
+      "gender": 90,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070080101,
+        10800401,
+        11000501,
+        11100801,
+        11200801,
+        11300601
+      ],
+      "suits_icon": [
+        1070080101,
+        10800401,
+        11000501,
+        11100801,
+        11200801,
+        11300601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_008_01.suits1_008_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_008_01_pose.suits1_008_01_pose'",
+      "suit_grade": 56,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 57,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "36": {
+      "id": 36,
+      "name": [
+        20700104,
+        20800104,
+        20900104,
+        21000104,
+        21100104,
+        21200104,
+        22100104
+      ],
+      "gender": 96,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070080201,
+        10800402,
+        11000502,
+        11100802,
+        11200802,
+        11300602
+      ],
+      "suits_icon": [
+        1070080201,
+        10800402,
+        11000502,
+        11100802,
+        11200802,
+        11300602
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_008_02.suits1_008_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_008_02_pose.suits1_008_02_pose'",
+      "suit_grade": 59,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 60,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "37": {
+      "id": 37,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_002_04_pose.suits2_002_04_pose'",
+      "gender": 101,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070080301,
+        10800403,
+        11000503,
+        11100803,
+        11200803,
+        11300603
+      ],
+      "suits_icon": [
+        1070080301,
+        10800403,
+        11000503,
+        11100803,
+        11200803,
+        11300603
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_008_03.suits1_008_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_008_03_pose.suits1_008_03_pose'",
+      "suit_grade": 62,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 63,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "38": {
+      "id": 38,
+      "name": [
+        20700105,
+        20800105,
+        20999905,
+        21000105,
+        21100105,
+        21200105,
+        22100105
+      ],
+      "gender": 90,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070080101,
+        20800401,
+        21000501,
+        21100801,
+        21200801,
+        21300401
+      ],
+      "suits_icon": [
+        2070080101,
+        20800401,
+        21000501,
+        21100801,
+        21200801,
+        21300401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_008_01.suits2_008_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_008_01_pose.suits2_008_01_pose'",
+      "suit_grade": 65,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 66,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "39": {
+      "id": 39,
+      "name": "正红的追忆",
+      "gender": 96,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070080201,
+        20800402,
+        21000502,
+        21100802,
+        21200802,
+        21300402
+      ],
+      "suits_icon": [
+        2070080201,
+        20800402,
+        21000502,
+        21100802,
+        21200802,
+        21300402
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_008_02.suits2_008_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_008_02_pose.suits2_008_02_pose'",
+      "suit_grade": 68,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 69,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "40": {
+      "id": 40,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_002_06.suits2_002_06'",
+      "gender": 101,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070080301,
+        20800403,
+        21000503,
+        21100803,
+        21200803,
+        21300403
+      ],
+      "suits_icon": [
+        2070080301,
+        20800403,
+        21000503,
+        21100803,
+        21200803,
+        21300403
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_008_03.suits2_008_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_008_03_pose.suits2_008_03_pose'",
+      "suit_grade": 71,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 72,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "41": {
+      "id": 41,
+      "name": [
+        10700301,
+        10800201,
+        10900301,
+        11000201,
+        11100401,
+        11200301,
+        12100101
+      ],
+      "gender": 118,
+      "suits_original_id": 1,
+      "item_id": [
+        10101
+      ],
+      "effect_item_id": [
+        1070190101,
+        10801901,
+        11001901,
+        11101901,
+        11201901,
+        11301901
+      ],
+      "suits_icon": [
+        1070190101,
+        10801901,
+        11001901,
+        11101901,
+        11201901,
+        11301901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_019.suits1_019'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_019_pose.suits1_019_pose'",
+      "suit_grade": 74,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3194,
+        3443,
+        3193,
+        3442
+      ],
+      "display_suit": true,
+      "bond_id": 2080374784,
+      "perform_id": 1761607680,
+      "suit_effect_tips": [
+        285213863
+      ],
+      "acquire_struct": [
+        2097152039
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "42": {
+      "id": 42,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_003.suits1_003'",
+      "gender": 118,
+      "suits_original_id": 2,
+      "item_id": [
+        10102
+      ],
+      "effect_item_id": [
+        2070190101,
+        20801901,
+        21001901,
+        21101901,
+        21201901,
+        21301901
+      ],
+      "suits_icon": [
+        2070190101,
+        20801901,
+        21001901,
+        21101901,
+        21201901,
+        21301901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_019.suits2_019'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_019_pose.suits2_019_pose'",
+      "suit_grade": 76,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3194,
+        3443,
+        3193,
+        3442
+      ],
+      "display_suit": true,
+      "bond_id": 2080374784,
+      "perform_id": 1761607680,
+      "suit_effect_tips": [
+        285213863
+      ],
+      "acquire_struct": [
+        -2080374745
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "43": {
+      "id": 43,
+      "name": [
+        20700301,
+        20800201,
+        20900301,
+        21000201,
+        21100401,
+        21200301,
+        22100201
+      ],
+      "gender": 134,
+      "suits_original_id": 1,
+      "item_id": [
+        10101
+      ],
+      "effect_item_id": [
+        1070200101,
+        10802001,
+        11002001,
+        11102001,
+        11202001,
+        11302001
+      ],
+      "suits_icon": [
+        1070200101,
+        10802001,
+        11002001,
+        11102001,
+        11202001,
+        11302001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_020.suits1_020'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_020_pose.suits1_020_pose'",
+      "suit_grade": 78,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3092,
+        3091,
+        3090
+      ],
+      "display_suit": true,
+      "bond_id": 2348810240,
+      "perform_id": 1778384896,
+      "suit_effect_tips": [
+        301991079
+      ],
+      "acquire_struct": [
+        -1929379801
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "44": {
+      "id": 44,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_003.suits2_003'",
+      "gender": 134,
+      "suits_original_id": 2,
+      "item_id": [
+        10102
+      ],
+      "effect_item_id": [
+        2070200101,
+        20802001,
+        21002001,
+        21102001,
+        21202001,
+        21302001
+      ],
+      "suits_icon": [
+        2070200101,
+        20802001,
+        21002001,
+        21102001,
+        21202001,
+        21302001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_020.suits2_020'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_020_pose.suits2_020_pose'",
+      "suit_grade": 80,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3092,
+        3091,
+        3090
+      ],
+      "display_suit": true,
+      "bond_id": 2348810240,
+      "perform_id": 1778384896,
+      "suit_effect_tips": [
+        301991079
+      ],
+      "acquire_struct": [
+        -1828716505
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "45": {
+      "id": 45,
+      "name": "唱诗班礼赞",
+      "gender": 149,
+      "suits_original_id": 1,
+      "item_id": [
+        10101
+      ],
+      "effect_item_id": [
+        1070210101,
+        10802101,
+        11002101,
+        11102101,
+        11202101,
+        11302101
+      ],
+      "suits_icon": [
+        1070210101,
+        10802101,
+        11002101,
+        11102101,
+        11202101,
+        11302101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_021.suits1_021'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_021_pose.suits1_021_pose'",
+      "suit_grade": 82,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3469,
+        3468,
+        3467,
+        3129,
+        3128,
+        3127
+      ],
+      "display_suit": true,
+      "bond_id": 2600468480,
+      "perform_id": 1795162112,
+      "suit_effect_tips": [
+        318768295
+      ],
+      "acquire_struct": [
+        -1677721561
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "46": {
+      "id": 46,
+      "name": [
+        10700401,
+        10900401,
+        11100501,
+        11200401,
+        11300301
+      ],
+      "gender": 149,
+      "suits_original_id": 2,
+      "item_id": [
+        10102
+      ],
+      "effect_item_id": [
+        2070210101,
+        20802101,
+        21002101,
+        21102101,
+        21202101,
+        21302101
+      ],
+      "suits_icon": [
+        2070210101,
+        20802101,
+        21002101,
+        21102101,
+        21202101,
+        21302101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_021.suits2_021'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_021_pose.suits2_021_pose'",
+      "suit_grade": 84,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3469,
+        3468,
+        3467,
+        3129,
+        3128,
+        3127
+      ],
+      "display_suit": true,
+      "bond_id": 2600468480,
+      "perform_id": 1795162112,
+      "suit_effect_tips": [
+        318768295
+      ],
+      "acquire_struct": [
+        -1577058265
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "47": {
+      "id": 47,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_004_pose.suits1_004_pose'",
+      "gender": 164,
+      "suits_original_id": 1,
+      "item_id": [
+        10201
+      ],
+      "effect_item_id": [
+        1070180101,
+        10801801,
+        11001801,
+        11101801,
+        11201801,
+        11301801
+      ],
+      "suits_icon": [
+        1070180101,
+        10801801,
+        11001801,
+        11101801,
+        11201801,
+        11301801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_018.suits1_018'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_018_pose.suits1_018_pose'",
+      "suit_grade": 86,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3071,
+        3070,
+        13000160,
+        4078,
+        5018
+      ],
+      "display_suit": true,
+      "bond_id": 2852126720,
+      "perform_id": 1811939328,
+      "suit_effect_tips": [
+        335545511
+      ],
+      "acquire_struct": [
+        -1426063321
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "48": {
+      "id": 48,
+      "name": [
+        20700401,
+        20900401,
+        21100501,
+        21200401,
+        21300201
+      ],
+      "gender": 164,
+      "suits_original_id": 2,
+      "item_id": [
+        10202
+      ],
+      "effect_item_id": [
+        2070180101,
+        20801801,
+        21001801,
+        21101801,
+        21201801,
+        21301801
+      ],
+      "suits_icon": [
+        2070180101,
+        20801801,
+        21001801,
+        21101801,
+        21201801,
+        21301801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_018.suits2_018'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_018_pose.suits2_018_pose'",
+      "suit_grade": 88,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3071,
+        3070,
+        13000160,
+        4078,
+        5018
+      ],
+      "display_suit": true,
+      "bond_id": 2852126720,
+      "perform_id": 1811939328,
+      "suit_effect_tips": [
+        335545511
+      ],
+      "acquire_struct": [
+        -1325400025
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "49": {
+      "id": 49,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_004_pose.suits2_004_pose'",
+      "gender": 179,
+      "suits_original_id": 1,
+      "item_id": [
+        10201
+      ],
+      "effect_item_id": [
+        1070220101,
+        10802201,
+        11002201,
+        11102201,
+        11202201,
+        11302201
+      ],
+      "suits_icon": [
+        1070220101,
+        10802201,
+        11002201,
+        11102201,
+        11202201,
+        11302201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_022.suits1_022'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_022_pose.suits1_022_pose'",
+      "suit_grade": 90,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3037,
+        3285,
+        3286,
+        3287,
+        3028,
+        3282,
+        3283,
+        3284,
+        3279,
+        3280,
+        3281,
+        3533,
+        13000155,
+        4074,
+        5014,
+        5030,
+        5031,
+        5032
+      ],
+      "display_suit": true,
+      "bond_id": 3103784960,
+      "perform_id": 1828716544,
+      "suit_effect_tips": [
+        352322727
+      ],
+      "acquire_struct": [
+        -1174405081
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "50": {
+      "id": 50,
+      "name": [
+        1070080101,
+        10800401,
+        11000501,
+        11100801,
+        11200801,
+        11300601
+      ],
+      "gender": 179,
+      "suits_original_id": 2,
+      "item_id": [
+        10202
+      ],
+      "effect_item_id": [
+        2070220101,
+        20802201,
+        21002201,
+        21102201,
+        21202201,
+        21302201
+      ],
+      "suits_icon": [
+        2070220101,
+        20802201,
+        21002201,
+        21102201,
+        21202201,
+        21302201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_022.suits2_022'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_022_pose.suits2_022_pose'",
+      "suit_grade": 92,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3037,
+        3285,
+        3286,
+        3287,
+        3028,
+        3282,
+        3283,
+        3284,
+        3279,
+        3280,
+        3281,
+        3533,
+        13000155,
+        4074,
+        5014,
+        5030,
+        5031,
+        5032
+      ],
+      "display_suit": true,
+      "bond_id": 3103784960,
+      "perform_id": 1828716544,
+      "suit_effect_tips": [
+        352322727
+      ],
+      "acquire_struct": [
+        -1073741785
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "51": {
+      "id": 51,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_008_01.suits1_008_01'",
+      "gender": 194,
+      "suits_original_id": 1,
+      "item_id": [
+        10201
+      ],
+      "effect_item_id": [
+        1070230101,
+        10802301,
+        11002301,
+        11102301,
+        11202301,
+        11302301
+      ],
+      "suits_icon": [
+        1070230101,
+        10802301,
+        11002301,
+        11102301,
+        11202301,
+        11302301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_023.suits1_023'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_023_pose.suits1_023_pose'",
+      "suit_grade": 94,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3420,
+        3419
+      ],
+      "display_suit": true,
+      "bond_id": 3355443200,
+      "perform_id": 1845493760,
+      "suit_effect_tips": [
+        369099943
+      ],
+      "acquire_struct": [
+        -922746841
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "52": {
+      "id": 52,
+      "name": "1008",
+      "gender": 194,
+      "suits_original_id": 2,
+      "item_id": [
+        10202
+      ],
+      "effect_item_id": [
+        2070230101,
+        20802301,
+        21002301,
+        21102301,
+        21202301,
+        21302301
+      ],
+      "suits_icon": [
+        2070230101,
+        20802301,
+        21002301,
+        21102301,
+        21202301,
+        21302301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_023.suits2_023'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_023_pose.suits2_023_pose'",
+      "suit_grade": 96,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3420,
+        3419
+      ],
+      "display_suit": true,
+      "bond_id": 3355443200,
+      "perform_id": 1845493760,
+      "suit_effect_tips": [
+        369099943
+      ],
+      "acquire_struct": [
+        -822083545
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "53": {
+      "id": 53,
+      "name": [
+        1070080201,
+        10800402,
+        11000502,
+        11100802,
+        11200802,
+        11300602
+      ],
+      "gender": 209,
+      "suits_original_id": 1,
+      "item_id": [
+        10301
+      ],
+      "effect_item_id": [
+        1070240101,
+        10802401,
+        11002401,
+        11102401,
+        11202401,
+        11302401
+      ],
+      "suits_icon": [
+        1070240101,
+        10802401,
+        11002401,
+        11102401,
+        11202401,
+        11302401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_024.suits1_024'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_024_pose.suits1_024_pose'",
+      "suit_grade": 98,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3346,
+        3345,
+        3344
+      ],
+      "display_suit": true,
+      "bond_id": 3607101440,
+      "perform_id": 1862270976,
+      "suit_effect_tips": [
+        385877159
+      ],
+      "acquire_struct": [
+        -671088601
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "54": {
+      "id": 54,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_008_02.suits1_008_02'",
+      "gender": 209,
+      "suits_original_id": 2,
+      "item_id": [
+        10302
+      ],
+      "effect_item_id": [
+        2070240101,
+        20802401,
+        21002401,
+        21102401,
+        21202401,
+        21302401
+      ],
+      "suits_icon": [
+        2070240101,
+        20802401,
+        21002401,
+        21102401,
+        21202401,
+        21302401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_024.suits2_024'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_024_pose.suits2_024_pose'",
+      "suit_grade": 100,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3346,
+        3345,
+        3344
+      ],
+      "display_suit": true,
+      "bond_id": 3607101440,
+      "perform_id": 1862270976,
+      "suit_effect_tips": [
+        385877159
+      ],
+      "acquire_struct": [
+        -570425305
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "55": {
+      "id": 55,
+      "name": "宁静星愿",
+      "gender": 224,
+      "suits_original_id": 1,
+      "item_id": [
+        10301
+      ],
+      "effect_item_id": [
+        1070250101,
+        10802501,
+        11002501,
+        11102501,
+        11202501,
+        11302501
+      ],
+      "suits_icon": [
+        1070250101,
+        10802501,
+        11002501,
+        11102501,
+        11202501,
+        11302501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_025.suits1_025'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_025_pose.suits1_025_pose'",
+      "suit_grade": 102,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3157,
+        3059,
+        3058,
+        13000157,
+        4021,
+        5015
+      ],
+      "display_suit": true,
+      "bond_id": 3858759680,
+      "perform_id": 1879048192,
+      "suit_effect_tips": [
+        402654375
+      ],
+      "acquire_struct": [
+        -419430361
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "56": {
+      "id": 56,
+      "name": [
+        1070080301,
+        10800403,
+        11000503,
+        11100803,
+        11200803,
+        11300603
+      ],
+      "gender": 224,
+      "suits_original_id": 2,
+      "item_id": [
+        10302
+      ],
+      "effect_item_id": [
+        2070250101,
+        20802501,
+        21002501,
+        21102501,
+        21202501,
+        21302501
+      ],
+      "suits_icon": [
+        2070250101,
+        20802501,
+        21002501,
+        21102501,
+        21202501,
+        21302501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_025.suits2_025'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_025_pose.suits2_025_pose'",
+      "suit_grade": 104,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3157,
+        3059,
+        3058,
+        13000157,
+        4021,
+        5015
+      ],
+      "display_suit": true,
+      "bond_id": 3858759680,
+      "perform_id": 1879048192,
+      "suit_effect_tips": [
+        402654375
+      ],
+      "acquire_struct": [
+        -318767065
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "57": {
+      "id": 57,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_008_03_pose.suits1_008_03_pose'",
+      "gender": 239,
+      "suits_original_id": 1,
+      "item_id": [
+        10301
+      ],
+      "effect_item_id": [
+        1070260101,
+        10802601,
+        11002601,
+        11102601,
+        11202601,
+        11302601
+      ],
+      "suits_icon": [
+        1070260101,
+        10802601,
+        11002601,
+        11102601,
+        11202601,
+        11302601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_026.suits1_026'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_026_pose.suits1_026_pose'",
+      "suit_grade": 106,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3114,
+        3113,
+        3112
+      ],
+      "display_suit": true,
+      "bond_id": 4110417920,
+      "perform_id": 1895825408,
+      "suit_effect_tips": [
+        419431591
+      ],
+      "acquire_struct": [
+        -167772121
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "58": {
+      "id": 58,
+      "name": [
+        2070080101,
+        20800401,
+        21000501,
+        21100801,
+        21200801,
+        21300401
+      ],
+      "gender": 239,
+      "suits_original_id": 2,
+      "item_id": [
+        10302
+      ],
+      "effect_item_id": [
+        2070260101,
+        20802601,
+        21002601,
+        21102601,
+        21202601,
+        21302601
+      ],
+      "suits_icon": [
+        2070260101,
+        20802601,
+        21002601,
+        21102601,
+        21202601,
+        21302601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_026.suits2_026'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_026_pose.suits2_026_pose'",
+      "suit_grade": 108,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3114,
+        3113,
+        3112
+      ],
+      "display_suit": true,
+      "bond_id": 4110417920,
+      "perform_id": 1895825408,
+      "suit_effect_tips": [
+        419431591
+      ],
+      "acquire_struct": [
+        -67108825
+      ],
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "59": {
+      "id": 59,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_008_01_pose.suits2_008_01_pose'",
+      "gender": 254,
+      "suits_original_id": 1,
+      "item_id": [
+        10401
+      ],
+      "effect_item_id": [
+        1070270101,
+        10802701,
+        11002701,
+        11102701,
+        11202701,
+        11302701
+      ],
+      "suits_icon": [
+        1070270101,
+        10802701,
+        11002701,
+        11102701,
+        11202701,
+        11302701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_027.suits1_027'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_027_pose.suits1_027_pose'",
+      "suit_grade": 110,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3126,
+        3458,
+        3459,
+        3460,
+        3461,
+        3462,
+        3463,
+        3464,
+        3465,
+        3125,
+        3478,
+        3479,
+        3124
+      ],
+      "fashion_bond_band": 111,
+      "display_suit": true,
+      "bond_id": 67108864,
+      "perform_id": 2046820353,
+      "suit_effect_tips": [
+        486540455
+      ],
+      "acquire_struct": [
+        83886119
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "60": {
+      "id": 60,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_008_02.suits2_008_02'",
+      "gender": 254,
+      "suits_original_id": 2,
+      "item_id": [
+        10402
+      ],
+      "effect_item_id": [
+        2070270101,
+        20802701,
+        21002701,
+        21102701,
+        21202701,
+        21302701
+      ],
+      "suits_icon": [
+        2070270101,
+        20802701,
+        21002701,
+        21102701,
+        21202701,
+        21302701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_027.suits2_027'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_027_pose.suits2_027_pose'",
+      "suit_grade": 113,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3126,
+        3458,
+        3459,
+        3460,
+        3461,
+        3462,
+        3463,
+        3464,
+        3465,
+        3125,
+        3478,
+        3479,
+        3124
+      ],
+      "fashion_bond_band": 114,
+      "display_suit": true,
+      "bond_id": 67108864,
+      "perform_id": 2046820353,
+      "suit_effect_tips": [
+        486540455
+      ],
+      "acquire_struct": [
+        184549415
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "61": {
+      "id": 61,
+      "name": [
+        2070080301,
+        20800403,
+        21000503,
+        21100803,
+        21200803,
+        21300403
+      ],
+      "gender": 269,
+      "suits_original_id": 1,
+      "item_id": [
+        10401
+      ],
+      "effect_item_id": [
+        1070280101,
+        10802801,
+        11002801,
+        11102801,
+        11202801,
+        11302801
+      ],
+      "suits_icon": [
+        1070280101,
+        10802801,
+        11002801,
+        11102801,
+        11202801,
+        11302801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_028.suits1_028'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_028_pose.suits1_028_pose'",
+      "suit_grade": 116,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3263,
+        3262
+      ],
+      "fashion_bond_band": 117,
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2063597569,
+      "suit_effect_tips": [
+        503317671
+      ],
+      "acquire_struct": [
+        335544359
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "62": {
+      "id": 62,
+      "name": "星光狮印象",
+      "gender": 269,
+      "suits_original_id": 2,
+      "item_id": [
+        10402
+      ],
+      "effect_item_id": [
+        2070280101,
+        20802801,
+        21002801,
+        21102801,
+        21202801,
+        21302801
+      ],
+      "suits_icon": [
+        2070280101,
+        20802801,
+        21002801,
+        21102801,
+        21202801,
+        21302801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_028.suits2_028'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_028_pose.suits2_028_pose'",
+      "suit_grade": 119,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3263,
+        3262
+      ],
+      "fashion_bond_band": 120,
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2063597569,
+      "suit_effect_tips": [
+        503317671
+      ],
+      "acquire_struct": [
+        436207655
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "63": {
+      "id": 63,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_019.suits1_019'",
+      "gender": 284,
+      "suits_original_id": 1,
+      "item_id": [
+        10401
+      ],
+      "effect_item_id": [
+        1070290101,
+        10802901,
+        11002901,
+        11102901,
+        11202901,
+        11302901
+      ],
+      "suits_icon": [
+        1070290101,
+        10802901,
+        11002901,
+        11102901,
+        11202901,
+        11302901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_029.suits1_029'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_029_pose.suits1_029_pose'",
+      "suit_grade": 122,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3027,
+        3034
+      ],
+      "fashion_bond_band": 123,
+      "display_suit": true,
+      "bond_id": 570425344,
+      "perform_id": 2080374785,
+      "suit_effect_tips": [
+        520094887
+      ],
+      "acquire_struct": [
+        587202599
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "64": {
+      "id": 64,
+      "name": [
+        1
+      ],
+      "gender": 284,
+      "suits_original_id": 2,
+      "item_id": [
+        10402
+      ],
+      "effect_item_id": [
+        2070290101,
+        20802901,
+        21002901,
+        21102901,
+        21202901,
+        21302901
+      ],
+      "suits_icon": [
+        2070290101,
+        20802901,
+        21002901,
+        21102901,
+        21202901,
+        21302901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_029.suits2_029'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_029_pose.suits2_029_pose'",
+      "suit_grade": 125,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3027,
+        3034
+      ],
+      "fashion_bond_band": 126,
+      "display_suit": true,
+      "bond_id": 570425344,
+      "perform_id": 2080374785,
+      "suit_effect_tips": [
+        520094887
+      ],
+      "acquire_struct": [
+        687865895
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "65": {
+      "id": 65,
+      "name": [
+        1012,
+        1013,
+        1014,
+        1015
+      ],
+      "gender": 299,
+      "suits_original_id": 1,
+      "item_id": [
+        10401
+      ],
+      "effect_item_id": [
+        1070300101,
+        10803001,
+        11003001,
+        11103001,
+        11203001,
+        11303001
+      ],
+      "suits_icon": [
+        1070300101,
+        10803001,
+        11003001,
+        11103001,
+        11203001,
+        11303001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_030.suits1_030'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_030_pose.suits1_030_pose'",
+      "suit_grade": 128,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3335,
+        3334,
+        3333
+      ],
+      "fashion_bond_band": 129,
+      "display_suit": true,
+      "bond_id": 822083584,
+      "perform_id": 2097152001,
+      "suit_effect_tips": [
+        536872103
+      ],
+      "acquire_struct": [
+        838860839
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "66": {
+      "id": 66,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_019.suits2_019'",
+      "gender": 299,
+      "suits_original_id": 2,
+      "item_id": [
+        10402
+      ],
+      "effect_item_id": [
+        2070300101,
+        20803001,
+        21003001,
+        21103001,
+        21203001,
+        21303001
+      ],
+      "suits_icon": [
+        2070300101,
+        20803001,
+        21003001,
+        21103001,
+        21203001,
+        21303001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_030.suits2_030'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_030_pose.suits2_030_pose'",
+      "suit_grade": 131,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3335,
+        3334,
+        3333
+      ],
+      "fashion_bond_band": 132,
+      "display_suit": true,
+      "bond_id": 822083584,
+      "perform_id": 2097152001,
+      "suit_effect_tips": [
+        536872103
+      ],
+      "acquire_struct": [
+        939524135
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "67": {
+      "id": 67,
+      "name": [
+        1018,
+        1019,
+        1014,
+        1015
+      ],
+      "gender": 314,
+      "suits_original_id": 1,
+      "item_id": [
+        10501
+      ],
+      "effect_item_id": [
+        1070350101,
+        12103501,
+        10803501,
+        11203501,
+        11003501,
+        11103501
+      ],
+      "suits_icon": [
+        1070350101,
+        12103501,
+        10803501,
+        11203501,
+        11003501,
+        11103501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_035.suits1_035'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_035_pose.suits1_035_pose'",
+      "suit_grade": 134,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3141,
+        8006,
+        3140,
+        3139
+      ],
+      "display_suit": true,
+      "bond_id": 1073741824,
+      "perform_id": 1996488705,
+      "suit_effect_tips": [
+        436208807
+      ],
+      "acquire_struct": [
+        1090519079
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "68": {
+      "id": 68,
+      "name": [
+        1070200101,
+        10802001,
+        11002001,
+        11102001,
+        11202001,
+        11302001
+      ],
+      "gender": 314,
+      "suits_original_id": 2,
+      "item_id": [
+        10502
+      ],
+      "effect_item_id": [
+        2070350101,
+        22103501,
+        20803501,
+        21203501,
+        21003501,
+        21103501
+      ],
+      "suits_icon": [
+        2070350101,
+        22103501,
+        20803501,
+        21203501,
+        21003501,
+        21103501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_035.suits2_035'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_035_pose.suits2_035_pose'",
+      "suit_grade": 136,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3141,
+        8006,
+        3140,
+        3139
+      ],
+      "display_suit": true,
+      "bond_id": 1073741824,
+      "perform_id": 1996488705,
+      "suit_effect_tips": [
+        436208807
+      ],
+      "acquire_struct": [
+        1207959591
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "69": {
+      "id": 69,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_020.suits1_020'",
+      "gender": 330,
+      "suits_original_id": 1,
+      "item_id": [
+        10501
+      ],
+      "effect_item_id": [
+        1070360101,
+        12103601,
+        10803601,
+        11203601,
+        11003601,
+        11103601
+      ],
+      "suits_icon": [
+        1070360101,
+        12103601,
+        10803601,
+        11203601,
+        11003601,
+        11103601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_036.suits1_036'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_036_pose.suits1_036_pose'",
+      "suit_grade": 138,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3350,
+        3082,
+        3081
+      ],
+      "display_suit": true,
+      "bond_id": 1342177280,
+      "perform_id": 2013265921,
+      "suit_effect_tips": [
+        452986023
+      ],
+      "acquire_struct": [
+        1358954535
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "70": {
+      "id": 70,
+      "name": [
+        3092,
+        3091,
+        3090
+      ],
+      "gender": 330,
+      "suits_original_id": 2,
+      "item_id": [
+        10502
+      ],
+      "effect_item_id": [
+        2070360101,
+        22103601,
+        20803601,
+        21203601,
+        21003601,
+        21103601
+      ],
+      "suits_icon": [
+        2070360101,
+        22103601,
+        20803601,
+        21203601,
+        21003601,
+        21103601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_036.suits2_036'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_036_pose.suits2_036_pose'",
+      "suit_grade": 140,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3350,
+        3082,
+        3081
+      ],
+      "display_suit": true,
+      "bond_id": 1342177280,
+      "perform_id": 2013265921,
+      "suit_effect_tips": [
+        452986023
+      ],
+      "acquire_struct": [
+        1459617831
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "71": {
+      "id": 71,
+      "name": [
+        1020,
+        1021
+      ],
+      "gender": 345,
+      "suits_original_id": 1,
+      "item_id": [
+        10501
+      ],
+      "effect_item_id": [
+        1070370101,
+        12103701,
+        10803701,
+        11203701,
+        11003701,
+        11103701
+      ],
+      "suits_icon": [
+        1070370101,
+        12103701,
+        10803701,
+        11203701,
+        11003701,
+        11103701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_037.suits1_037'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_037_pose.suits1_037_pose'",
+      "suit_grade": 142,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3063,
+        3062
+      ],
+      "display_suit": true,
+      "bond_id": 1593835520,
+      "perform_id": 2030043137,
+      "suit_effect_tips": [
+        469763239
+      ],
+      "acquire_struct": [
+        1610612775
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "72": {
+      "id": 72,
+      "name": [
+        2070200101,
+        20802001,
+        21002001,
+        21102001,
+        21202001,
+        21302001
+      ],
+      "gender": 345,
+      "suits_original_id": 2,
+      "item_id": [
+        10502
+      ],
+      "effect_item_id": [
+        2070370101,
+        22103701,
+        20803701,
+        21203701,
+        21003701,
+        21103701
+      ],
+      "suits_icon": [
+        2070370101,
+        22103701,
+        20803701,
+        21203701,
+        21003701,
+        21103701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_037.suits2_037'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_037_pose.suits2_037_pose'",
+      "suit_grade": 144,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3063,
+        3062
+      ],
+      "display_suit": true,
+      "bond_id": 1593835520,
+      "perform_id": 2030043137,
+      "suit_effect_tips": [
+        469763239
+      ],
+      "acquire_struct": [
+        1711276071
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "73": {
+      "id": 73,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_020.suits2_020'",
+      "gender": 360,
+      "suits_original_id": 1,
+      "item_id": [
+        10601
+      ],
+      "effect_item_id": [
+        10703101,
+        10903101,
+        11303101,
+        10803101,
+        11203101,
+        11003101,
+        11103101
+      ],
+      "suits_icon": [
+        10703101,
+        10903101,
+        11303101,
+        10803101,
+        11203101,
+        11003101,
+        11103101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_031.suits1_031'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_031_pose.suits1_031_pose'",
+      "suit_grade": 146,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3035,
+        8003,
+        3026,
+        8002
+      ],
+      "fashion_bond_band": 147,
+      "display_suit": true,
+      "bond_id": 1845493760,
+      "perform_id": 2130706433,
+      "suit_effect_tips": [
+        553649319
+      ],
+      "acquire_struct": [
+        1862271015
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "74": {
+      "id": 74,
+      "name": [
+        1028,
+        1029,
+        1024,
+        1025
+      ],
+      "gender": 360,
+      "suits_original_id": 2,
+      "item_id": [
+        10602
+      ],
+      "effect_item_id": [
+        20703101,
+        20903101,
+        21303101,
+        20803101,
+        21203101,
+        21003101,
+        21103101
+      ],
+      "suits_icon": [
+        20703101,
+        20903101,
+        21303101,
+        20803101,
+        21203101,
+        21003101,
+        21103101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_031.suits2_031'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_031_pose.suits2_031_pose'",
+      "suit_grade": 149,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3035,
+        8003,
+        3026,
+        8002
+      ],
+      "fashion_bond_band": 150,
+      "display_suit": true,
+      "bond_id": 1845493760,
+      "perform_id": 2130706433,
+      "suit_effect_tips": [
+        553649319
+      ],
+      "acquire_struct": [
+        1962934311
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "75": {
+      "id": 75,
+      "name": [
+        1070210101,
+        10802101,
+        11002101,
+        11102101,
+        11202101,
+        11302101
+      ],
+      "gender": 375,
+      "suits_original_id": 1,
+      "item_id": [
+        10601
+      ],
+      "effect_item_id": [
+        10703201,
+        10903201,
+        11303201,
+        10803201,
+        11203201,
+        11003201,
+        11103201
+      ],
+      "suits_icon": [
+        10703201,
+        10903201,
+        11303201,
+        10803201,
+        11203201,
+        11003201,
+        11103201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_032.suits1_032'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_032_pose.suits1_032_pose'",
+      "suit_grade": 152,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3031,
+        3030,
+        3029,
+        13000153,
+        4022,
+        5005
+      ],
+      "fashion_bond_band": 153,
+      "display_suit": true,
+      "bond_id": 2097152000,
+      "perform_id": 2147483649,
+      "suit_effect_tips": [
+        570426535
+      ],
+      "acquire_struct": [
+        2113929255
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "76": {
+      "id": 76,
+      "name": [
+        3469,
+        3468,
+        3467,
+        3129,
+        3128,
+        3127
+      ],
+      "gender": 375,
+      "suits_original_id": 2,
+      "item_id": [
+        10602
+      ],
+      "effect_item_id": [
+        20703201,
+        20903201,
+        21303201,
+        20803201,
+        21203201,
+        21003201,
+        21103201
+      ],
+      "suits_icon": [
+        20703201,
+        20903201,
+        21303201,
+        20803201,
+        21203201,
+        21003201,
+        21103201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_032.suits2_032'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_032_pose.suits2_032_pose'",
+      "suit_grade": 155,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3031,
+        3030,
+        3029,
+        13000153,
+        4022,
+        5005
+      ],
+      "fashion_bond_band": 156,
+      "display_suit": true,
+      "bond_id": 2097152000,
+      "perform_id": 2147483649,
+      "suit_effect_tips": [
+        570426535
+      ],
+      "acquire_struct": [
+        -2080374745
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "77": {
+      "id": 77,
+      "name": [
+        1032,
+        1033,
+        1034,
+        1035
+      ],
+      "gender": 390,
+      "suits_original_id": 1,
+      "item_id": [
+        10601
+      ],
+      "effect_item_id": [
+        10703301,
+        10903301,
+        11303301,
+        10803301,
+        11203301,
+        11003301,
+        11103301
+      ],
+      "suits_icon": [
+        10703301,
+        10903301,
+        11303301,
+        10803301,
+        11203301,
+        11003301,
+        11103301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_033.suits1_033'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_033_pose.suits1_033_pose'",
+      "suit_grade": 158,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3252,
+        3251,
+        3250,
+        5054,
+        13000170
+      ],
+      "fashion_bond_band": 159,
+      "display_suit": true,
+      "bond_id": 2348810240,
+      "perform_id": 2164260865,
+      "suit_effect_tips": [
+        587203751
+      ],
+      "acquire_struct": [
+        -1929379801
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "78": {
+      "id": 78,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_021.suits2_021'",
+      "gender": 390,
+      "suits_original_id": 2,
+      "item_id": [
+        10602
+      ],
+      "effect_item_id": [
+        20703301,
+        20903301,
+        21303301,
+        20803301,
+        21203301,
+        21003301,
+        21103301
+      ],
+      "suits_icon": [
+        20703301,
+        20903301,
+        21303301,
+        20803301,
+        21203301,
+        21003301,
+        21103301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_033.suits2_033'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_033_pose.suits2_033_pose'",
+      "suit_grade": 161,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3252,
+        3251,
+        3250,
+        5054,
+        13000170
+      ],
+      "fashion_bond_band": 162,
+      "display_suit": true,
+      "bond_id": 2348810240,
+      "perform_id": 2164260865,
+      "suit_effect_tips": [
+        587203751
+      ],
+      "acquire_struct": [
+        -1828716505
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "79": {
+      "id": 79,
+      "name": [
+        1038,
+        1039,
+        1034,
+        1035
+      ],
+      "gender": 405,
+      "suits_original_id": 1,
+      "item_id": [
+        10601
+      ],
+      "effect_item_id": [
+        10703401,
+        10903401,
+        11303401,
+        10803401,
+        11203401,
+        11003401,
+        11103401
+      ],
+      "suits_icon": [
+        10703401,
+        10903401,
+        11303401,
+        10803401,
+        11203401,
+        11003401,
+        11103401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_034.suits1_034'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_034_pose.suits1_034_pose'",
+      "suit_grade": 164,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3278,
+        3277,
+        3276
+      ],
+      "fashion_bond_band": 165,
+      "display_suit": true,
+      "bond_id": 2600468480,
+      "perform_id": 2181038081,
+      "suit_effect_tips": [
+        603980967
+      ],
+      "acquire_struct": [
+        -1677721561
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "80": {
+      "id": 80,
+      "name": [
+        1070180101,
+        10801801,
+        11001801,
+        11101801,
+        11201801,
+        11301801
+      ],
+      "gender": 405,
+      "suits_original_id": 2,
+      "item_id": [
+        10602
+      ],
+      "effect_item_id": [
+        20703401,
+        20903401,
+        21303401,
+        20803401,
+        21203401,
+        21003401,
+        21103401
+      ],
+      "suits_icon": [
+        20703401,
+        20903401,
+        21303401,
+        20803401,
+        21203401,
+        21003401,
+        21103401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_034.suits2_034'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_034_pose.suits2_034_pose'",
+      "suit_grade": 167,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3278,
+        3277,
+        3276
+      ],
+      "fashion_bond_band": 168,
+      "display_suit": true,
+      "bond_id": 2600468480,
+      "perform_id": 2181038081,
+      "suit_effect_tips": [
+        603980967
+      ],
+      "acquire_struct": [
+        -1577058265
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "81": {
+      "id": 81,
+      "name": [
+        3071,
+        3070,
+        13000160,
+        4078,
+        5018
+      ],
+      "gender": 420,
+      "suits_original_id": 1,
+      "item_id": [
+        10701
+      ],
+      "effect_item_id": [
+        1070410101,
+        11204101,
+        11304101,
+        11004101,
+        11104101,
+        10804101
+      ],
+      "suits_icon": [
+        1070410101,
+        11204101,
+        11304101,
+        11004101,
+        11104101,
+        10804101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_041.suits1_041'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_041_pose.suits1_041_pose'",
+      "suit_grade": 170,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3439,
+        3441,
+        3438,
+        3440
+      ],
+      "fashion_bond_band": 171,
+      "display_suit": true,
+      "bond_id": 2852126720,
+      "perform_id": 2248146945,
+      "suit_effect_tips": [
+        620758183
+      ],
+      "acquire_struct": [
+        -1426063321
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "82": {
+      "id": 82,
+      "name": [
+        1042,
+        1043,
+        1044,
+        1045
+      ],
+      "gender": 420,
+      "suits_original_id": 2,
+      "item_id": [
+        10702
+      ],
+      "effect_item_id": [
+        2070410101,
+        21204101,
+        21304101,
+        21004101,
+        21104101,
+        20804101
+      ],
+      "suits_icon": [
+        2070410101,
+        21204101,
+        21304101,
+        21004101,
+        21104101,
+        20804101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_041.suits2_041'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_041_pose.suits2_041_pose'",
+      "suit_grade": 173,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3439,
+        3441,
+        3438,
+        3440
+      ],
+      "fashion_bond_band": 174,
+      "display_suit": true,
+      "bond_id": 2852126720,
+      "perform_id": 2248146945,
+      "suit_effect_tips": [
+        620758183
+      ],
+      "acquire_struct": [
+        -1325400025
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "83": {
+      "id": 83,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_018.suits2_018'",
+      "gender": 435,
+      "suits_original_id": 1,
+      "item_id": [
+        10701
+      ],
+      "effect_item_id": [
+        1070420101,
+        11204201,
+        11304201,
+        11004201,
+        11104201,
+        10804201
+      ],
+      "suits_icon": [
+        1070420101,
+        11204201,
+        11304201,
+        11004201,
+        11104201,
+        10804201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_042.suits1_042'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_042_pose.suits1_042_pose'",
+      "suit_grade": 176,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3192,
+        3191,
+        3190
+      ],
+      "fashion_bond_band": 177,
+      "display_suit": true,
+      "bond_id": 3103784960,
+      "perform_id": 2264924161,
+      "suit_effect_tips": [
+        637535399
+      ],
+      "acquire_struct": [
+        -1174405081
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "84": {
+      "id": 84,
+      "name": [
+        1048,
+        1049,
+        1044,
+        1045
+      ],
+      "gender": 435,
+      "suits_original_id": 2,
+      "item_id": [
+        10702
+      ],
+      "effect_item_id": [
+        2070420101,
+        21204201,
+        21304201,
+        21004201,
+        21104201,
+        20804201
+      ],
+      "suits_icon": [
+        2070420101,
+        21204201,
+        21304201,
+        21004201,
+        21104201,
+        20804201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_042.suits2_042'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_042_pose.suits2_042_pose'",
+      "suit_grade": 179,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3192,
+        3191,
+        3190
+      ],
+      "fashion_bond_band": 180,
+      "display_suit": true,
+      "bond_id": 3103784960,
+      "perform_id": 2264924161,
+      "suit_effect_tips": [
+        637535399
+      ],
+      "acquire_struct": [
+        -1073741785
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "85": {
+      "id": 85,
+      "name": [
+        1070220101,
+        10802201,
+        11002201,
+        11102201,
+        11202201,
+        11302201
+      ],
+      "gender": 450,
+      "suits_original_id": 1,
+      "item_id": [
+        10701
+      ],
+      "effect_item_id": [
+        1070430101,
+        11204301,
+        11304301,
+        11004301,
+        11104301,
+        10804301
+      ],
+      "suits_icon": [
+        1070430101,
+        11204301,
+        11304301,
+        11004301,
+        11104301,
+        10804301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_043.suits1_043'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_043_pose.suits1_043_pose'",
+      "suit_grade": 182,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3123,
+        3122,
+        3121,
+        4085,
+        4098,
+        4099,
+        5013
+      ],
+      "fashion_bond_band": 183,
+      "display_suit": true,
+      "bond_id": 3355443200,
+      "perform_id": 2281701377,
+      "suit_effect_tips": [
+        654312615
+      ],
+      "acquire_struct": [
+        -922746841
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "86": {
+      "id": 86,
+      "name": [
+        3037,
+        3285,
+        3286,
+        3287,
+        3028,
+        3282,
+        3283,
+        3284,
+        3279,
+        3280,
+        3281,
+        3533,
+        13000155,
+        4074,
+        5014,
+        5030,
+        5031,
+        5032
+      ],
+      "gender": 450,
+      "suits_original_id": 2,
+      "item_id": [
+        10702
+      ],
+      "effect_item_id": [
+        2070430101,
+        21204301,
+        21304301,
+        21004301,
+        21104301,
+        20804301
+      ],
+      "suits_icon": [
+        2070430101,
+        21204301,
+        21304301,
+        21004301,
+        21104301,
+        20804301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_043.suits2_043'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_043_pose.suits2_043_pose'",
+      "suit_grade": 185,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3123,
+        3122,
+        3121,
+        4085,
+        4098,
+        4099,
+        5013
+      ],
+      "fashion_bond_band": 186,
+      "display_suit": true,
+      "bond_id": 3355443200,
+      "perform_id": 2281701377,
+      "suit_effect_tips": [
+        654312615
+      ],
+      "acquire_struct": [
+        -822083545
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "87": {
+      "id": 87,
+      "name": [
+        1052,
+        1053,
+        1054,
+        1055
+      ],
+      "gender": 465,
+      "suits_original_id": 1,
+      "item_id": [
+        10701
+      ],
+      "effect_item_id": [
+        1070440101,
+        11204401,
+        11304401,
+        11004401,
+        11104401,
+        10804401
+      ],
+      "suits_icon": [
+        1070440101,
+        11204401,
+        11304401,
+        11004401,
+        11104401,
+        10804401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_044.suits1_044'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_044_pose.suits1_044_pose'",
+      "suit_grade": 188,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3405,
+        3482,
+        3060,
+        3061,
+        3481
+      ],
+      "fashion_bond_band": 189,
+      "display_suit": true,
+      "bond_id": 3607101440,
+      "perform_id": 2298478593,
+      "suit_effect_tips": [
+        671089831
+      ],
+      "acquire_struct": [
+        -671088601
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "88": {
+      "id": 88,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_022.suits2_022'",
+      "gender": 465,
+      "suits_original_id": 2,
+      "item_id": [
+        10702
+      ],
+      "effect_item_id": [
+        2070440101,
+        21204401,
+        21304401,
+        21004401,
+        21104401,
+        20804401
+      ],
+      "suits_icon": [
+        2070440101,
+        21204401,
+        21304401,
+        21004401,
+        21104401,
+        20804401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_044.suits2_044'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_044_pose.suits2_044_pose'",
+      "suit_grade": 191,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3405,
+        3482,
+        3060,
+        3061,
+        3481
+      ],
+      "fashion_bond_band": 192,
+      "display_suit": true,
+      "bond_id": 3607101440,
+      "perform_id": 2298478593,
+      "suit_effect_tips": [
+        671089831
+      ],
+      "acquire_struct": [
+        -570425305
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "89": {
+      "id": 89,
+      "name": [
+        1058,
+        1059,
+        1054,
+        1055
+      ],
+      "gender": 480,
+      "suits_original_id": 1,
+      "item_id": [
+        10801
+      ],
+      "effect_item_id": [
+        1070520101,
+        11205201,
+        10805201,
+        11005201,
+        11105201,
+        11305201
+      ],
+      "suits_icon": [
+        1070520101,
+        11205201,
+        10805201,
+        11005201,
+        11105201,
+        11305201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_052.suits1_052'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_052_pose.suits1_052_pose'",
+      "suit_grade": 194,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3359,
+        3358,
+        3357,
+        4088,
+        5020
+      ],
+      "display_suit": true,
+      "bond_id": 3858759680,
+      "perform_id": 2197815297,
+      "suit_effect_tips": [
+        687867047
+      ],
+      "acquire_struct": [
+        -419430361
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "90": {
+      "id": 90,
+      "name": [
+        1070230101,
+        10802301,
+        11002301,
+        11102301,
+        11202301,
+        11302301
+      ],
+      "gender": 480,
+      "suits_original_id": 2,
+      "item_id": [
+        10802
+      ],
+      "effect_item_id": [
+        2070520101,
+        21205201,
+        20805201,
+        21005201,
+        21105201,
+        22105201
+      ],
+      "suits_icon": [
+        2070520101,
+        21205201,
+        20805201,
+        21005201,
+        21105201,
+        22105201
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_052.suits2_052'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_052_pose.suits2_052_pose'",
+      "suit_grade": 196,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3359,
+        3358,
+        3357,
+        4088,
+        5020
+      ],
+      "display_suit": true,
+      "bond_id": 3858759680,
+      "perform_id": 2197815297,
+      "suit_effect_tips": [
+        687867047
+      ],
+      "acquire_struct": [
+        -318767065
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "91": {
+      "id": 91,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_023.suits1_023'",
+      "gender": 495,
+      "suits_original_id": 1,
+      "item_id": [
+        10801
+      ],
+      "effect_item_id": [
+        1070530101,
+        11205301,
+        10805301,
+        11005301,
+        11105301,
+        12105301
+      ],
+      "suits_icon": [
+        1070530101,
+        11205301,
+        10805301,
+        11005301,
+        11105301,
+        12105301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_053.suits1_053'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_053_pose.suits1_053_pose'",
+      "suit_grade": 198,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3528,
+        3118
+      ],
+      "display_suit": true,
+      "bond_id": 4110417920,
+      "perform_id": 2214592513,
+      "suit_effect_tips": [
+        704644263
+      ],
+      "acquire_struct": [
+        -167772121
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "92": {
+      "id": 92,
+      "name": [
+        3420,
+        3419
+      ],
+      "gender": 495,
+      "suits_original_id": 2,
+      "item_id": [
+        10802
+      ],
+      "effect_item_id": [
+        2070530101,
+        21205301,
+        20805301,
+        21005301,
+        21105301,
+        22105301
+      ],
+      "suits_icon": [
+        2070530101,
+        21205301,
+        20805301,
+        21005301,
+        21105301,
+        22105301
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_053.suits2_053'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_053_pose.suits2_053_pose'",
+      "suit_grade": 200,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3528,
+        3118
+      ],
+      "display_suit": true,
+      "bond_id": 4110417920,
+      "perform_id": 2214592513,
+      "suit_effect_tips": [
+        704644263
+      ],
+      "acquire_struct": [
+        -67108825
+      ],
+      "lv_up_closet": [
+        16777217
+      ]
+    },
+    "93": {
+      "id": 93,
+      "name": [
+        1060,
+        1061
+      ],
+      "gender": 510,
+      "suits_original_id": 1,
+      "item_id": [
+        10801
+      ],
+      "effect_item_id": [
+        1070540101,
+        11205401,
+        10805401,
+        11005401,
+        11105401,
+        12105401
+      ],
+      "suits_icon": [
+        1070540101,
+        11205401,
+        10805401,
+        11005401,
+        11105401,
+        12105401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_054.suits1_054'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_054_pose.suits1_054_pose'",
+      "suit_grade": 202,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3019,
+        3303,
+        3304,
+        3305,
+        3018,
+        3300,
+        3301,
+        3302,
+        3017,
+        3297,
+        3298,
+        3299,
+        13000161,
+        4019,
+        5004,
+        5033,
+        5034,
+        5035
+      ],
+      "display_suit": true,
+      "bond_id": 67108864,
+      "perform_id": 2231369730,
+      "suit_effect_tips": [
+        721421479
+      ],
+      "acquire_struct": [
+        83886119
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "94": {
+      "id": 94,
+      "name": [
+        2070230101,
+        20802301,
+        21002301,
+        21102301,
+        21202301,
+        21302301
+      ],
+      "gender": 510,
+      "suits_original_id": 2,
+      "item_id": [
+        10802
+      ],
+      "effect_item_id": [
+        2070540101,
+        21205401,
+        20805401,
+        21005401,
+        21105401,
+        22105401
+      ],
+      "suits_icon": [
+        2070540101,
+        21205401,
+        20805401,
+        21005401,
+        21105401,
+        22105401
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_054.suits2_054'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_054_pose.suits2_054_pose'",
+      "suit_grade": 204,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3019,
+        3303,
+        3304,
+        3305,
+        3018,
+        3300,
+        3301,
+        3302,
+        3017,
+        3297,
+        3298,
+        3299,
+        13000161,
+        4019,
+        5004,
+        5033,
+        5034,
+        5035
+      ],
+      "display_suit": true,
+      "bond_id": 67108864,
+      "perform_id": 2231369730,
+      "suit_effect_tips": [
+        721421479
+      ],
+      "acquire_struct": [
+        184549415
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "95": {
+      "id": 95,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_023.suits2_023'",
+      "gender": 525,
+      "suits_original_id": 1,
+      "item_id": [
+        10901
+      ],
+      "effect_item_id": [
+        1070380101,
+        11203801,
+        11303801,
+        10803801,
+        11003801,
+        11103801
+      ],
+      "suits_icon": [
+        1070380101,
+        11203801,
+        11303801,
+        10803801,
+        11003801,
+        11103801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_038.suits1_038'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_038_pose.suits1_038_pose'",
+      "suit_grade": 206,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3368,
+        3367
+      ],
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2315255810,
+      "suit_effect_tips": [
+        738198695
+      ],
+      "acquire_struct": [
+        335544359
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "96": {
+      "id": 96,
+      "name": [
+        1066,
+        1067
+      ],
+      "gender": 525,
+      "suits_original_id": 2,
+      "item_id": [
+        10902
+      ],
+      "effect_item_id": [
+        2070380101,
+        21203801,
+        21303801,
+        20803801,
+        21003801,
+        21103801
+      ],
+      "suits_icon": [
+        2070380101,
+        21203801,
+        21303801,
+        20803801,
+        21003801,
+        21103801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_038.suits2_038'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_038_pose.suits2_038_pose'",
+      "suit_grade": 208,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3368,
+        3367
+      ],
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2315255810,
+      "suit_effect_tips": [
+        738198695
+      ],
+      "acquire_struct": [
+        436207655
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "97": {
+      "id": 97,
+      "name": "翠顶夫人印象",
+      "gender": 540,
+      "suits_original_id": 1,
+      "item_id": [
+        10901
+      ],
+      "effect_item_id": [
+        1070390101,
+        11203901,
+        11303901,
+        10803901,
+        11003901,
+        11103901
+      ],
+      "suits_icon": [
+        1070390101,
+        11203901,
+        11303901,
+        10803901,
+        11003901,
+        11103901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_039.suits1_039'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_039_pose.suits1_039_pose'",
+      "suit_grade": 210,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3120,
+        3119,
+        4094
+      ],
+      "display_suit": true,
+      "bond_id": 570425344,
+      "perform_id": 2332033026,
+      "suit_effect_tips": [
+        754975911
+      ],
+      "acquire_struct": [
+        587202599
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "98": {
+      "id": 98,
+      "name": [
+        1070240101,
+        10802401,
+        11002401,
+        11102401,
+        11202401,
+        11302401
+      ],
+      "gender": 540,
+      "suits_original_id": 2,
+      "item_id": [
+        10902
+      ],
+      "effect_item_id": [
+        2070390101,
+        21203901,
+        21303901,
+        20803901,
+        21003901,
+        21103901
+      ],
+      "suits_icon": [
+        2070390101,
+        21203901,
+        21303901,
+        20803901,
+        21003901,
+        21103901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_039.suits2_039'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_039_pose.suits2_039_pose'",
+      "suit_grade": 212,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3120,
+        3119,
+        4094
+      ],
+      "display_suit": true,
+      "bond_id": 570425344,
+      "perform_id": 2332033026,
+      "suit_effect_tips": [
+        754975911
+      ],
+      "acquire_struct": [
+        687865895
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "99": {
+      "id": 99,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_024_pose.suits1_024_pose'",
+      "gender": 555,
+      "suits_original_id": 1,
+      "item_id": [
+        10901
+      ],
+      "effect_item_id": [
+        1070400101,
+        11204001,
+        11304001,
+        10804001,
+        11004001,
+        11104001
+      ],
+      "suits_icon": [
+        1070400101,
+        11204001,
+        11304001,
+        10804001,
+        11004001,
+        11104001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_040.suits1_040'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_040_pose.suits1_040_pose'",
+      "suit_grade": 214,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3380,
+        3378,
+        3379
+      ],
+      "display_suit": true,
+      "bond_id": 822083584,
+      "perform_id": 2348810242,
+      "suit_effect_tips": [
+        771753127
+      ],
+      "acquire_struct": [
+        838860839
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "100": {
+      "id": 100,
+      "name": [
+        7
+      ],
+      "gender": 555,
+      "suits_original_id": 2,
+      "item_id": [
+        10902
+      ],
+      "effect_item_id": [
+        2070400101,
+        21204001,
+        21304001,
+        20804001,
+        21004001,
+        21104001
+      ],
+      "suits_icon": [
+        2070400101,
+        21204001,
+        21304001,
+        20804001,
+        21004001,
+        21104001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_040.suits2_040'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_040_pose.suits2_040_pose'",
+      "suit_grade": 216,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3380,
+        3378,
+        3379
+      ],
+      "display_suit": true,
+      "bond_id": 822083584,
+      "perform_id": 2348810242,
+      "suit_effect_tips": [
+        771753127
+      ],
+      "acquire_struct": [
+        939524135
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "101": {
+      "id": 101,
+      "name": [
+        1072,
+        1073,
+        1074,
+        1075
+      ],
+      "gender": 570,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070020201,
+        11100202,
+        11200202,
+        11300202
+      ],
+      "suits_icon": [
+        1070020201,
+        11100202,
+        11200202,
+        11300202
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001_02.suits1_001_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_001_02_pose.suits1_001_02_pose'",
+      "suit_grade": 218,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 219,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "102": {
+      "id": 102,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_024.suits2_024'",
+      "gender": 570,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070020201,
+        21100202,
+        21200202,
+        21300102
+      ],
+      "suits_icon": [
+        2070020201,
+        21100202,
+        21200202,
+        21300102
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_001_02.suits2_001_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_02_pose.suits2_001_02_pose'",
+      "suit_grade": 221,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 222,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "103": {
+      "id": 103,
+      "name": [
+        1078,
+        1079,
+        1074,
+        1075
+      ],
+      "gender": 580,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070020301,
+        11100203,
+        11200203,
+        11300203
+      ],
+      "suits_icon": [
+        1070020301,
+        11100203,
+        11200203,
+        11300203
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001_03.suits1_001_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_001_03_pose.suits1_001_03_pose'",
+      "suit_grade": 224,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 225,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "104": {
+      "id": 104,
+      "name": [
+        1070250101,
+        10802501,
+        11002501,
+        11102501,
+        11202501,
+        11302501
+      ],
+      "gender": 580,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070020301,
+        21100203,
+        21200203,
+        21300103
+      ],
+      "suits_icon": [
+        2070020301,
+        21100203,
+        21200203,
+        21300103
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_001_03.suits2_001_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_03_pose.suits2_001_03_pose'",
+      "suit_grade": 227,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 228,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "105": {
+      "id": 105,
+      "name": [
+        3157,
+        3059,
+        3058,
+        13000157,
+        4021,
+        5015
+      ],
+      "gender": 589,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070020401,
+        11100204,
+        11200204,
+        11300204
+      ],
+      "suits_icon": [
+        1070020401,
+        11100204,
+        11200204,
+        11300204
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001_04.suits1_001_04'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_001_04_pose.suits1_001_04_pose'",
+      "suit_grade": 230,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 231,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "106": {
+      "id": 106,
+      "name": [
+        1082,
+        1083,
+        1084,
+        1085
+      ],
+      "gender": 589,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070020401,
+        21100204,
+        21200204,
+        21300104
+      ],
+      "suits_icon": [
+        2070020401,
+        21100204,
+        21200204,
+        21300104
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_001_04.suits2_001_04'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_04_pose.suits2_001_04_pose'",
+      "suit_grade": 233,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 234,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "107": {
+      "id": 107,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_025.suits2_025'",
+      "gender": 598,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        1070020501,
+        11100205,
+        11200205,
+        11300205
+      ],
+      "suits_icon": [
+        1070020501,
+        11100205,
+        11200205,
+        11300205
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_001_05.suits1_001_05'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_001_05_pose.suits1_001_05_pose'",
+      "suit_grade": 236,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 237,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "108": {
+      "id": 108,
+      "name": [
+        1088,
+        1089,
+        1084,
+        1085
+      ],
+      "gender": 598,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        2070020501,
+        21100205,
+        21200205,
+        21300105
+      ],
+      "suits_icon": [
+        2070020501,
+        21100205,
+        21200205,
+        21300105
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_001_05.suits2_001_05'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_001_05_pose.suits2_001_05_pose'",
+      "suit_grade": 239,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "fashion_bond_band": 240,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        147201
+      ]
+    },
+    "119": {
+      "id": 119,
+      "name": [
+        1070260101,
+        10802601,
+        11002601,
+        11102601,
+        11202601,
+        11302601
+      ],
+      "gender": 607,
+      "suits_original_id": 1,
+      "color_suits_launch": 75,
+      "season_id": 1,
+      "effect_item_id": [
+        10703202,
+        10903202,
+        11303202,
+        10803202,
+        11203202,
+        11003202,
+        11103202
+      ],
+      "suits_icon": [
+        10703202,
+        10903202,
+        11303202,
+        10803202,
+        11203202,
+        11003202,
+        11103202
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_032_02.suits1_032_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_032_02_pose.suits1_032_02_pose'",
+      "suit_grade": 242,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3031,
+        3030,
+        3029,
+        13000153,
+        4022,
+        5005
+      ],
+      "fashion_bond_band": 243,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 381,
+      "perform_id": 305024,
+      "suit_effect_tips": [
+        10018
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            3684,
+            3683
+          ],
+          "behavior_id": 1440
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "120": {
+      "id": 120,
+      "name": [
+        3114,
+        3113,
+        3112
+      ],
+      "gender": 607,
+      "suits_original_id": 2,
+      "color_suits_launch": 76,
+      "season_id": 1,
+      "effect_item_id": [
+        20703202,
+        20903202,
+        21303202,
+        20803202,
+        21203202,
+        21003202,
+        21103202
+      ],
+      "suits_icon": [
+        20703202,
+        20903202,
+        21303202,
+        20803202,
+        21203202,
+        21003202,
+        21103202
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_032_02.suits2_032_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_032_02_pose.suits2_032_02_pose'",
+      "suit_grade": 245,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3031,
+        3030,
+        3029,
+        13000153,
+        4022,
+        5005
+      ],
+      "fashion_bond_band": 246,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 381,
+      "perform_id": 305024,
+      "suit_effect_tips": [
+        10018
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            1312
+          ],
+          "behavior_id": 1441
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "121": {
+      "id": 121,
+      "name": [
+        1092,
+        1093,
+        1094,
+        1095
+      ],
+      "gender": 619,
+      "suits_original_id": 1,
+      "color_suits_launch": 85,
+      "season_id": 1,
+      "effect_item_id": [
+        1070430201,
+        11204302,
+        11304302,
+        11004302,
+        11104302,
+        10804302
+      ],
+      "suits_icon": [
+        1070430201,
+        11204302,
+        11304302,
+        11004302,
+        11104302,
+        10804302
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_043_02.suits1_043_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_043_02_pose.suits1_043_02_pose'",
+      "suit_grade": 248,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3123,
+        3122,
+        3121,
+        4085,
+        4098,
+        4099,
+        5013
+      ],
+      "fashion_bond_band": 249,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 456,
+      "perform_id": 305032,
+      "suit_effect_tips": [
+        10023
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            1313,
+            1314
+          ],
+          "behavior_id": 1450
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "122": {
+      "id": 122,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_026.suits2_026'",
+      "gender": 619,
+      "suits_original_id": 2,
+      "color_suits_launch": 86,
+      "season_id": 1,
+      "effect_item_id": [
+        2070430201,
+        21204302,
+        21304302,
+        21004302,
+        21104302,
+        20804302
+      ],
+      "suits_icon": [
+        2070430201,
+        21204302,
+        21304302,
+        21004302,
+        21104302,
+        20804302
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_043_02.suits2_043_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_043_02_pose.suits2_043_02_pose'",
+      "suit_grade": 251,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3123,
+        3122,
+        3121,
+        4085,
+        4098,
+        4099,
+        5013
+      ],
+      "fashion_bond_band": 252,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 456,
+      "perform_id": 305032,
+      "suit_effect_tips": [
+        10023
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            20705501,
+            20905501,
+            21205501,
+            20805501,
+            21005501,
+            21105501,
+            22105501
+          ],
+          "behavior_id": 1451
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "123": {
+      "id": 123,
+      "name": [
+        1098,
+        1099,
+        1094,
+        1095
+      ],
+      "gender": 630,
+      "suits_original_id": 1,
+      "color_suits_launch": 61,
+      "season_id": 1,
+      "effect_item_id": [
+        1070280201,
+        10802802,
+        11002802,
+        11102802,
+        11202802,
+        11302802
+      ],
+      "suits_icon": [
+        1070280201,
+        10802802,
+        11002802,
+        11102802,
+        11202802,
+        11302802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_028_02.suits1_028_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_028_02_pose.suits1_028_02_pose'",
+      "suit_grade": 254,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3263,
+        3262
+      ],
+      "fashion_bond_band": 255,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 275,
+      "perform_id": 305019,
+      "suit_effect_tips": [
+        10014
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            20705501,
+            20905501,
+            21205501,
+            20805501,
+            21005501,
+            21105501,
+            22105501
+          ],
+          "behavior_id": 1420
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "124": {
+      "id": 124,
+      "name": [
+        1070270101,
+        10802701,
+        11002701,
+        11102701,
+        11202701,
+        11302701
+      ],
+      "gender": 630,
+      "suits_original_id": 2,
+      "color_suits_launch": 62,
+      "season_id": 1,
+      "effect_item_id": [
+        2070280201,
+        20802802,
+        21002802,
+        21102802,
+        21202802,
+        21302802
+      ],
+      "suits_icon": [
+        2070280201,
+        20802802,
+        21002802,
+        21102802,
+        21202802,
+        21302802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_028_02.suits2_028_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_028_02_pose.suits2_028_02_pose'",
+      "suit_grade": 257,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3263,
+        3262
+      ],
+      "fashion_bond_band": 258,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 275,
+      "perform_id": 305019,
+      "suit_effect_tips": [
+        10014
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_055.suits2_055'",
+          "behavior_id": 1421
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "125": {
+      "id": 125,
+      "name": [
+        3126,
+        3458,
+        3459,
+        3460,
+        3461,
+        3462,
+        3463,
+        3464,
+        3465,
+        3125,
+        3478,
+        3479,
+        3124
+      ],
+      "gender": 641,
+      "suits_original_id": 1,
+      "color_suits_launch": 69,
+      "season_id": 1,
+      "effect_item_id": [
+        1070360201,
+        12103602,
+        10803602,
+        11203602,
+        11003602,
+        11103602
+      ],
+      "suits_icon": [
+        1070360201,
+        12103602,
+        10803602,
+        11203602,
+        11003602,
+        11103602
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_036_02.suits1_036_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_036_02_pose.suits1_036_02_pose'",
+      "suit_grade": 260,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3350,
+        3082,
+        3081
+      ],
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 336,
+      "perform_id": 305016,
+      "suit_effect_tips": [
+        10011
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_055_pose.suits2_055_pose'",
+          "behavior_id": 1430
+        },
+        {
+          "acquire_way_text": [
+            1315
+          ],
+          "behavior_id": 1431
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "126": {
+      "id": 126,
+      "name": [
+        1100
+      ],
+      "gender": 641,
+      "suits_original_id": 2,
+      "color_suits_launch": 70,
+      "season_id": 1,
+      "effect_item_id": [
+        2070360201,
+        22103602,
+        20803602,
+        21203602,
+        21003602,
+        21103602
+      ],
+      "suits_icon": [
+        2070360201,
+        22103602,
+        20803602,
+        21203602,
+        21003602,
+        21103602
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_036_02.suits2_036_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_036_02_pose.suits2_036_02_pose'",
+      "suit_grade": 262,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3350,
+        3082,
+        3081
+      ],
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "bond_id": 336,
+      "perform_id": 305016,
+      "suit_effect_tips": [
+        10011
+      ],
+      "acquire_struct": [
+        {
+          "acquire_way_text": [
+            1316,
+            1314
+          ],
+          "behavior_id": 1432
+        },
+        {
+          "acquire_way_text": "巨鼓象印象",
+          "behavior_id": 1433
+        }
+      ],
+      "lv_up_closet": [
+        156929
+      ]
+    },
+    "127": {
+      "id": 127,
+      "name": [
+        2070270101,
+        20802701,
+        21002701,
+        21102701,
+        21202701,
+        21302701
+      ],
+      "gender": 652,
+      "suits_original_id": 1,
+      "item_id": [
+        11001
+      ],
+      "effect_item_id": [
+        10704501,
+        10904501,
+        11204501,
+        11304501,
+        10804501,
+        11004501,
+        11104501
+      ],
+      "suits_icon": [
+        10704501,
+        10904501,
+        11204501,
+        11304501,
+        10804501,
+        11004501,
+        11104501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_045.suits1_045'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_045_pose.suits1_045_pose'",
+      "suit_grade": 264,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3530,
+        3529
+      ],
+      "fashion_bond_band": 265,
+      "display_suit": true,
+      "bond_id": 2449473536,
+      "perform_id": 2365587458,
+      "suit_effect_tips": [
+        788530343
+      ],
+      "acquire_struct": [
+        -1828716505
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "128": {
+      "id": 128,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_027_pose.suits2_027_pose'",
+      "gender": 652,
+      "suits_original_id": 2,
+      "item_id": [
+        11002
+      ],
+      "effect_item_id": [
+        20704501,
+        20904501,
+        21204501,
+        21304501,
+        20804501,
+        21004501,
+        21104501
+      ],
+      "suits_icon": [
+        20704501,
+        20904501,
+        21204501,
+        21304501,
+        20804501,
+        21004501,
+        21104501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_045.suits2_045'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_045_pose.suits2_045_pose'",
+      "suit_grade": 267,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3530,
+        3529
+      ],
+      "fashion_bond_band": 268,
+      "display_suit": true,
+      "bond_id": 2449473536,
+      "perform_id": 2365587458,
+      "suit_effect_tips": [
+        788530343
+      ],
+      "acquire_struct": [
+        -1728053209
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "129": {
+      "id": 129,
+      "name": "獠牙猪印象",
+      "gender": 667,
+      "suits_original_id": 1,
+      "item_id": [
+        11001
+      ],
+      "effect_item_id": [
+        10704601,
+        10904601,
+        11204601,
+        12104601,
+        10804601,
+        11004601,
+        11104601
+      ],
+      "suits_icon": [
+        10704601,
+        10904601,
+        11204601,
+        12104601,
+        10804601,
+        11004601,
+        11104601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_046.suits1_046'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_046_pose.suits1_046_pose'",
+      "suit_grade": 270,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3100,
+        3099,
+        3098
+      ],
+      "fashion_bond_band": 271,
+      "display_suit": true,
+      "bond_id": 2701131776,
+      "perform_id": 2382364674,
+      "suit_effect_tips": [
+        805307559
+      ],
+      "acquire_struct": [
+        -1577058265
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "130": {
+      "id": 130,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_028.suits1_028'",
+      "gender": 667,
+      "suits_original_id": 2,
+      "item_id": [
+        11002
+      ],
+      "effect_item_id": [
+        20704601,
+        20904601,
+        21204601,
+        22104601,
+        20804601,
+        21004601,
+        21104601
+      ],
+      "suits_icon": [
+        20704601,
+        20904601,
+        21204601,
+        22104601,
+        20804601,
+        21004601,
+        21104601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_046.suits2_046'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_046_pose.suits2_046_pose'",
+      "suit_grade": 273,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3100,
+        3099,
+        3098
+      ],
+      "fashion_bond_band": 274,
+      "display_suit": true,
+      "bond_id": 2701131776,
+      "perform_id": 2382364674,
+      "suit_effect_tips": [
+        805307559
+      ],
+      "acquire_struct": [
+        -1476394969
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "131": {
+      "id": 131,
+      "name": [
+        11
+      ],
+      "gender": 682,
+      "suits_original_id": 1,
+      "item_id": [
+        11001
+      ],
+      "effect_item_id": [
+        10704701,
+        10904701,
+        11204701,
+        12104701,
+        10804701,
+        11004701,
+        11104701
+      ],
+      "suits_icon": [
+        10704701,
+        10904701,
+        11204701,
+        12104701,
+        10804701,
+        11004701,
+        11104701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_047.suits1_047'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_047_pose.suits1_047_pose'",
+      "suit_grade": 276,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3042,
+        3041,
+        3040,
+        3296,
+        3293,
+        3290,
+        3295,
+        3292,
+        3289,
+        3294,
+        3291,
+        3288
+      ],
+      "fashion_bond_band": 277,
+      "display_suit": true,
+      "bond_id": 2952790016,
+      "perform_id": 2399141890,
+      "suit_effect_tips": [
+        822084775
+      ],
+      "acquire_struct": [
+        -1325400025
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "132": {
+      "id": 132,
+      "name": [
+        2070280101,
+        20802801,
+        21002801,
+        21102801,
+        21202801,
+        21302801
+      ],
+      "gender": 682,
+      "suits_original_id": 2,
+      "item_id": [
+        11002
+      ],
+      "effect_item_id": [
+        20704701,
+        20904701,
+        21204701,
+        22104701,
+        20804701,
+        21004701,
+        21104701
+      ],
+      "suits_icon": [
+        20704701,
+        20904701,
+        21204701,
+        22104701,
+        20804701,
+        21004701,
+        21104701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_047.suits2_047'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_047_pose.suits2_047_pose'",
+      "suit_grade": 279,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3042,
+        3041,
+        3040,
+        3296,
+        3293,
+        3290,
+        3295,
+        3292,
+        3289,
+        3294,
+        3291,
+        3288
+      ],
+      "fashion_bond_band": 280,
+      "display_suit": true,
+      "bond_id": 2952790016,
+      "perform_id": 2399141890,
+      "suit_effect_tips": [
+        822084775
+      ],
+      "acquire_struct": [
+        -1224736729
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "133": {
+      "id": 133,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_028_pose.suits2_028_pose'",
+      "gender": 697,
+      "suits_original_id": 1,
+      "item_id": [
+        11001
+      ],
+      "effect_item_id": [
+        10704801,
+        10904801,
+        11204801,
+        11304801,
+        10804801,
+        11004801,
+        11104801
+      ],
+      "suits_icon": [
+        10704801,
+        10904801,
+        11204801,
+        11304801,
+        10804801,
+        11004801,
+        11104801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_048.suits1_048'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_048_pose.suits1_048_pose'",
+      "suit_grade": 282,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": "3521",
+      "fashion_bond_band": 283,
+      "display_suit": true,
+      "bond_id": 3204448256,
+      "perform_id": 2415919106,
+      "suit_effect_tips": [
+        838861991
+      ],
+      "acquire_struct": [
+        -1073741785
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "134": {
+      "id": 134,
+      "name": "蒲公英娃娃印象",
+      "gender": 697,
+      "suits_original_id": 2,
+      "item_id": [
+        11002
+      ],
+      "effect_item_id": [
+        20704801,
+        20904801,
+        21204801,
+        21304801,
+        20804801,
+        21004801,
+        21104801
+      ],
+      "suits_icon": [
+        20704801,
+        20904801,
+        21204801,
+        21304801,
+        20804801,
+        21004801,
+        21104801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_048.suits2_048'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_048_pose.suits2_048_pose'",
+      "suit_grade": 285,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": "3521",
+      "fashion_bond_band": 286,
+      "display_suit": true,
+      "bond_id": 3204448256,
+      "perform_id": 2415919106,
+      "suit_effect_tips": [
+        838861991
+      ],
+      "acquire_struct": [
+        -973078489
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "135": {
+      "id": 135,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_029.suits1_029'",
+      "gender": 712,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700701,
+        10900701,
+        11000401,
+        11100701,
+        11200701,
+        11301001
+      ],
+      "suits_icon": [
+        10700701,
+        10900701,
+        11000401,
+        11100701,
+        11200701,
+        11301001
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_007_01.suits1_007_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_007_01_pose.suits1_007_01_pose'",
+      "suit_grade": 288,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "136": {
+      "id": 136,
+      "name": [
+        3027,
+        3034
+      ],
+      "gender": 712,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700701,
+        20900701,
+        21000401,
+        21100701,
+        21200701,
+        21300901
+      ],
+      "suits_icon": [
+        20700701,
+        20900701,
+        21000401,
+        21100701,
+        21200701,
+        21300901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_007_01.suits2_007_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_007_01_pose.suits2_007_01_pose'",
+      "suit_grade": 290,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "137": {
+      "id": 137,
+      "name": [
+        1110
+      ],
+      "gender": 722,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700702,
+        10900702,
+        11000402,
+        11100702,
+        11200702,
+        11301002
+      ],
+      "suits_icon": [
+        10700702,
+        10900702,
+        11000402,
+        11100702,
+        11200702,
+        11301002
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_007_02.suits1_007_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_007_02_pose.suits1_007_02_pose'",
+      "suit_grade": 292,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "138": {
+      "id": 138,
+      "name": [
+        2070290101,
+        20802901,
+        21002901,
+        21102901,
+        21202901,
+        21302901
+      ],
+      "gender": 722,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700702,
+        20900702,
+        21000402,
+        21100702,
+        21200702,
+        21300902
+      ],
+      "suits_icon": [
+        20700702,
+        20900702,
+        21000402,
+        21100702,
+        21200702,
+        21300902
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_007_02.suits2_007_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_007_02_pose.suits2_007_02_pose'",
+      "suit_grade": 294,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "139": {
+      "id": 139,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_029.suits2_029'",
+      "gender": 731,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10700703,
+        10900703,
+        11000403,
+        11100703,
+        11200703,
+        11301003
+      ],
+      "suits_icon": [
+        10700703,
+        10900703,
+        11000403,
+        11100703,
+        11200703,
+        11301003
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_007_03.suits1_007_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_007_03_pose.suits1_007_03_pose'",
+      "suit_grade": 296,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "140": {
+      "id": 140,
+      "name": [
+        1113
+      ],
+      "gender": 731,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20700703,
+        20900703,
+        21000403,
+        21100703,
+        21200703,
+        21300903
+      ],
+      "suits_icon": [
+        20700703,
+        20900703,
+        21000403,
+        21100703,
+        21200703,
+        21300903
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_007_03.suits2_007_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_007_03_pose.suits2_007_03_pose'",
+      "suit_grade": 298,
+      "petbase_id": [
+        3868503529,
+        2917504435,
+        2727995814,
+        3869352166
+      ],
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "141": {
+      "id": 141,
+      "name": "雪灵印象",
+      "gender": 11,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10799901,
+        10899901,
+        10999901,
+        11099901,
+        11199901,
+        11299901,
+        11399901
+      ],
+      "suits_icon": [
+        10799901,
+        10899901,
+        10999901,
+        11099901,
+        11199901,
+        11299901,
+        11399901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_999_01.suits1_999_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_999_01_pose.suits1_999_01_pose'",
+      "suit_grade": 300,
+      "fashion_bond_band": 301,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        4097
+      ]
+    },
+    "142": {
+      "id": 142,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_030.suits1_030'",
+      "gender": 11,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20799901,
+        20899901,
+        20999901,
+        21099901,
+        21199901,
+        21299901,
+        22199901
+      ],
+      "suits_icon": [
+        20799901,
+        20899901,
+        20999901,
+        21099901,
+        21199901,
+        21299901,
+        22199901
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_999_01.suits2_999_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_999_01_pose.suits2_999_01_pose'",
+      "suit_grade": 303,
+      "fashion_bond_band": 304,
+      "display_suit": true,
+      "privilege_effect": 16777216,
+      "lv_up_closet": [
+        4097
+      ]
+    },
+    "143": {
+      "id": 143,
+      "name": [
+        13
+      ],
+      "gender": 748,
+      "suits_original_id": 1,
+      "item_id": [
+        11101
+      ],
+      "effect_item_id": [
+        11106501,
+        11006501,
+        10806501,
+        1070650101,
+        11306501,
+        11206501
+      ],
+      "suits_icon": [
+        11106501,
+        11006501,
+        10806501,
+        1070650101,
+        11306501,
+        11206501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_065.suits1_065'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_065_pose.suits1_065_pose'",
+      "suit_grade": 306,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3147,
+        3146,
+        3145
+      ],
+      "display_suit": true,
+      "bond_id": 4060086272,
+      "perform_id": 2684354562,
+      "suit_effect_tips": [
+        872416423
+      ],
+      "acquire_struct": [
+        -218103769
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "144": {
+      "id": 144,
+      "name": [
+        1116,
+        1117
+      ],
+      "gender": 748,
+      "suits_original_id": 2,
+      "item_id": [
+        11102
+      ],
+      "effect_item_id": [
+        21106501,
+        21006501,
+        20806501,
+        2070650101,
+        21306501,
+        21206501
+      ],
+      "suits_icon": [
+        21106501,
+        21006501,
+        20806501,
+        2070650101,
+        21306501,
+        21206501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_065.suits2_065'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_065_pose.suits2_065_pose'",
+      "suit_grade": 308,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3147,
+        3146,
+        3145
+      ],
+      "display_suit": true,
+      "bond_id": 4060086272,
+      "perform_id": 2684354562,
+      "suit_effect_tips": [
+        872416423
+      ],
+      "acquire_struct": [
+        -117440473
+      ],
+      "lv_up_closet": [
+        16777218
+      ]
+    },
+    "145": {
+      "id": 145,
+      "name": [
+        2070300101,
+        20803001,
+        21003001,
+        21103001,
+        21203001,
+        21303001
+      ],
+      "gender": 763,
+      "suits_original_id": 1,
+      "item_id": [
+        11101
+      ],
+      "effect_item_id": [
+        11106601,
+        11006601,
+        10806601,
+        1070660101,
+        11306601,
+        11206601
+      ],
+      "suits_icon": [
+        11106601,
+        11006601,
+        10806601,
+        1070660101,
+        11306601,
+        11206601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_066.suits1_066'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_066_pose.suits1_066_pose'",
+      "suit_grade": 310,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3241,
+        3240,
+        3239
+      ],
+      "display_suit": true,
+      "bond_id": 16777216,
+      "perform_id": 2701131779,
+      "suit_effect_tips": [
+        889193639
+      ],
+      "acquire_struct": [
+        33554471
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "146": {
+      "id": 146,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_030_pose.suits2_030_pose'",
+      "gender": 763,
+      "suits_original_id": 2,
+      "item_id": [
+        11102
+      ],
+      "effect_item_id": [
+        21106601,
+        21006601,
+        20806601,
+        2070660101,
+        21306601,
+        21206601
+      ],
+      "suits_icon": [
+        21106601,
+        21006601,
+        20806601,
+        2070660101,
+        21306601,
+        21206601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_066.suits2_066'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_066_pose.suits2_066_pose'",
+      "suit_grade": 312,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3241,
+        3240,
+        3239
+      ],
+      "display_suit": true,
+      "bond_id": 16777216,
+      "perform_id": 2701131779,
+      "suit_effect_tips": [
+        889193639
+      ],
+      "acquire_struct": [
+        134217767
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "147": {
+      "id": 147,
+      "name": [
+        1119,
+        1117
+      ],
+      "gender": 778,
+      "suits_original_id": 1,
+      "item_id": [
+        11101
+      ],
+      "effect_item_id": [
+        11106701,
+        11006701,
+        10806701,
+        1070670101,
+        11306701,
+        11206701
+      ],
+      "suits_icon": [
+        11106701,
+        11006701,
+        10806701,
+        1070670101,
+        11306701,
+        11206701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_067.suits1_067'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_067_pose.suits1_067_pose'",
+      "suit_grade": 314,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3256,
+        3255
+      ],
+      "display_suit": true,
+      "bond_id": 268435456,
+      "perform_id": 2717908995,
+      "suit_effect_tips": [
+        905970855
+      ],
+      "acquire_struct": [
+        285212711
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "148": {
+      "id": 148,
+      "name": [
+        1070350101,
+        12103501,
+        10803501,
+        11203501,
+        11003501,
+        11103501
+      ],
+      "gender": 778,
+      "suits_original_id": 2,
+      "item_id": [
+        11102
+      ],
+      "effect_item_id": [
+        21106701,
+        21006701,
+        20806701,
+        2070670101,
+        21306701,
+        21206701
+      ],
+      "suits_icon": [
+        21106701,
+        21006701,
+        20806701,
+        2070670101,
+        21306701,
+        21206701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_067.suits2_067'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_067_pose.suits2_067_pose'",
+      "suit_grade": 316,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3256,
+        3255
+      ],
+      "display_suit": true,
+      "bond_id": 268435456,
+      "perform_id": 2717908995,
+      "suit_effect_tips": [
+        905970855
+      ],
+      "acquire_struct": [
+        385876007
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "149": {
+      "id": 149,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_035.suits1_035'",
+      "gender": 793,
+      "suits_original_id": 1,
+      "item_id": [
+        11201
+      ],
+      "effect_item_id": [
+        10705501,
+        10905501,
+        11205501,
+        10805501,
+        11005501,
+        11105501,
+        12105501
+      ],
+      "suits_icon": [
+        10705501,
+        10905501,
+        11205501,
+        10805501,
+        11005501,
+        11105501,
+        12105501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_055.suits1_055'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_055_pose.suits1_055_pose'",
+      "suit_grade": 318,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3684,
+        3683
+      ],
+      "fashion_bond_band": 319,
+      "display_suit": true,
+      "bond_id": 520093696,
+      "perform_id": 2483027971,
+      "suit_effect_tips": [
+        922748071
+      ],
+      "acquire_struct": [
+        536870951
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "150": {
+      "id": 150,
+      "name": [
+        14
+      ],
+      "gender": 793,
+      "suits_original_id": 2,
+      "item_id": [
+        11202
+      ],
+      "effect_item_id": [
+        20705501,
+        20905501,
+        21205501,
+        20805501,
+        21005501,
+        21105501,
+        22105501
+      ],
+      "suits_icon": [
+        20705501,
+        20905501,
+        21205501,
+        20805501,
+        21005501,
+        21105501,
+        22105501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_055.suits2_055'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_055_pose.suits2_055_pose'",
+      "suit_grade": 321,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3684,
+        3683
+      ],
+      "fashion_bond_band": 322,
+      "display_suit": true,
+      "bond_id": 520093696,
+      "perform_id": 2483027971,
+      "suit_effect_tips": [
+        922748071
+      ],
+      "acquire_struct": [
+        637534247
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "151": {
+      "id": 151,
+      "name": [
+        1123,
+        1124,
+        1125,
+        1126
+      ],
+      "gender": 808,
+      "suits_original_id": 1,
+      "item_id": [
+        11201
+      ],
+      "effect_item_id": [
+        10705601,
+        10905601,
+        11205601,
+        10805601,
+        11005601,
+        11105601,
+        11305601
+      ],
+      "suits_icon": [
+        10705601,
+        10905601,
+        11205601,
+        10805601,
+        11005601,
+        11105601,
+        11305601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_056.suits1_056'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_056_pose.suits1_056_pose'",
+      "suit_grade": 324,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3709,
+        3708
+      ],
+      "fashion_bond_band": 325,
+      "display_suit": true,
+      "bond_id": 771751936,
+      "perform_id": 2499805187,
+      "suit_effect_tips": [
+        939525287
+      ],
+      "acquire_struct": [
+        788529191
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "152": {
+      "id": 152,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_035.suits2_035'",
+      "gender": 808,
+      "suits_original_id": 2,
+      "item_id": [
+        11202
+      ],
+      "effect_item_id": [
+        20705601,
+        20905601,
+        21205601,
+        20805601,
+        21005601,
+        21105601,
+        22105601
+      ],
+      "suits_icon": [
+        20705601,
+        20905601,
+        21205601,
+        20805601,
+        21005601,
+        21105601,
+        22105601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_056.suits2_056'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_056_pose.suits2_056_pose'",
+      "suit_grade": 327,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3709,
+        3708
+      ],
+      "fashion_bond_band": 328,
+      "display_suit": true,
+      "bond_id": 771751936,
+      "perform_id": 2499805187,
+      "suit_effect_tips": [
+        939525287
+      ],
+      "acquire_struct": [
+        889192487
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "153": {
+      "id": 153,
+      "name": [
+        1129,
+        1130,
+        1125,
+        1126
+      ],
+      "gender": 823,
+      "suits_original_id": 1,
+      "item_id": [
+        11201
+      ],
+      "effect_item_id": [
+        10705701,
+        10905701,
+        11205701,
+        10805701,
+        11005701,
+        11105701,
+        12105701
+      ],
+      "suits_icon": [
+        10705701,
+        10905701,
+        11205701,
+        10805701,
+        11005701,
+        11105701,
+        12105701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_057.suits1_057'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_057_pose.suits1_057_pose'",
+      "suit_grade": 330,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3678,
+        3677
+      ],
+      "fashion_bond_band": 331,
+      "display_suit": true,
+      "bond_id": 1023410176,
+      "perform_id": 2516582403,
+      "suit_effect_tips": [
+        956302503
+      ],
+      "acquire_struct": [
+        1040187431
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "154": {
+      "id": 154,
+      "name": [
+        1070360101,
+        12103601,
+        10803601,
+        11203601,
+        11003601,
+        11103601
+      ],
+      "gender": 823,
+      "suits_original_id": 2,
+      "item_id": [
+        11202
+      ],
+      "effect_item_id": [
+        20705701,
+        20905701,
+        21205701,
+        20805701,
+        21005701,
+        21105701,
+        22105701
+      ],
+      "suits_icon": [
+        20705701,
+        20905701,
+        21205701,
+        20805701,
+        21005701,
+        21105701,
+        22105701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_057.suits2_057'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_057_pose.suits2_057_pose'",
+      "suit_grade": 333,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3678,
+        3677
+      ],
+      "fashion_bond_band": 334,
+      "display_suit": true,
+      "bond_id": 1023410176,
+      "perform_id": 2516582403,
+      "suit_effect_tips": [
+        956302503
+      ],
+      "acquire_struct": [
+        1140850727
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "155": {
+      "id": 155,
+      "name": [
+        3350,
+        3082,
+        3081
+      ],
+      "gender": 838,
+      "suits_original_id": 1,
+      "item_id": [
+        11201
+      ],
+      "effect_item_id": [
+        10705801,
+        10905801,
+        11205801,
+        10805801,
+        11005801,
+        11105801,
+        11305801
+      ],
+      "suits_icon": [
+        10705801,
+        10905801,
+        11205801,
+        10805801,
+        11005801,
+        11105801,
+        11305801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_058.suits1_058'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_058_pose.suits1_058_pose'",
+      "suit_grade": 336,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3489,
+        3488,
+        3487
+      ],
+      "fashion_bond_band": 337,
+      "display_suit": true,
+      "bond_id": 1275068416,
+      "perform_id": 2533359619,
+      "suit_effect_tips": [
+        973079719
+      ],
+      "acquire_struct": [
+        1291845671
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "156": {
+      "id": 156,
+      "name": [
+        1133,
+        1134,
+        1135,
+        1136
+      ],
+      "gender": 838,
+      "suits_original_id": 2,
+      "item_id": [
+        11202
+      ],
+      "effect_item_id": [
+        20705801,
+        20905801,
+        21205801,
+        20805801,
+        21005801,
+        21105801,
+        21305801
+      ],
+      "suits_icon": [
+        20705801,
+        20905801,
+        21205801,
+        20805801,
+        21005801,
+        21105801,
+        21305801
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_058.suits2_058'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_058_pose.suits2_058_pose'",
+      "suit_grade": 339,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3489,
+        3488,
+        3487
+      ],
+      "fashion_bond_band": 340,
+      "display_suit": true,
+      "bond_id": 1275068416,
+      "perform_id": 2533359619,
+      "suit_effect_tips": [
+        973079719
+      ],
+      "acquire_struct": [
+        1392508967
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "157": {
+      "id": 157,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_036.suits2_036'",
+      "gender": 853,
+      "suits_original_id": 1,
+      "item_id": [
+        11301
+      ],
+      "effect_item_id": [
+        1070750101,
+        11307501,
+        10807501,
+        11207501,
+        11007501,
+        11107501
+      ],
+      "suits_icon": [
+        1070750101,
+        11307501,
+        10807501,
+        11207501,
+        11007501,
+        11107501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_075.suits1_075'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_075_pose.suits1_075_pose'",
+      "suit_grade": 342,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3216,
+        3215
+      ],
+      "display_suit": true,
+      "bond_id": 1526726656,
+      "perform_id": 2432696323,
+      "suit_effect_tips": [
+        989856935
+      ],
+      "acquire_struct": [
+        1543503911
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "158": {
+      "id": 158,
+      "name": [
+        1137,
+        1138
+      ],
+      "gender": 853,
+      "suits_original_id": 2,
+      "item_id": [
+        11302
+      ],
+      "effect_item_id": [
+        2070750101,
+        21307501,
+        20807501,
+        21207501,
+        21007501,
+        21107501
+      ],
+      "suits_icon": [
+        2070750101,
+        21307501,
+        20807501,
+        21207501,
+        21007501,
+        21107501
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_075.suits2_075'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_075_pose.suits2_075_pose'",
+      "suit_grade": 344,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3216,
+        3215
+      ],
+      "display_suit": true,
+      "bond_id": 1526726656,
+      "perform_id": 2432696323,
+      "suit_effect_tips": [
+        989856935
+      ],
+      "acquire_struct": [
+        1644167207
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "159": {
+      "id": 159,
+      "name": "白金独角兽印象",
+      "gender": 868,
+      "suits_original_id": 1,
+      "item_id": [
+        11301
+      ],
+      "effect_item_id": [
+        1070760101,
+        12707601,
+        10807601,
+        11007601,
+        11107601,
+        11207601
+      ],
+      "suits_icon": [
+        1070760101,
+        12707601,
+        10807601,
+        11007601,
+        11107601,
+        11207601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_076.suits1_076'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_076_pose.suits1_076_pose'",
+      "suit_grade": 346,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3332,
+        3477,
+        3331,
+        3476,
+        3330,
+        3475,
+        4020,
+        5012,
+        5029
+      ],
+      "display_suit": true,
+      "bond_id": 1778384896,
+      "perform_id": 2449473539,
+      "suit_effect_tips": [
+        1006634151
+      ],
+      "acquire_struct": [
+        1795162151
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "160": {
+      "id": 160,
+      "name": [
+        1070370101,
+        12103701,
+        10803701,
+        11203701,
+        11003701,
+        11103701
+      ],
+      "gender": 868,
+      "suits_original_id": 2,
+      "item_id": [
+        11302
+      ],
+      "effect_item_id": [
+        2070760101,
+        22707601,
+        20807601,
+        21007601,
+        21107601,
+        21207601
+      ],
+      "suits_icon": [
+        2070760101,
+        22707601,
+        20807601,
+        21007601,
+        21107601,
+        21207601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_076.suits2_076'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_076_pose.suits2_076_pose'",
+      "suit_grade": 348,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3332,
+        3477,
+        3331,
+        3476,
+        3330,
+        3475,
+        4020,
+        5012,
+        5029
+      ],
+      "display_suit": true,
+      "bond_id": 1778384896,
+      "perform_id": 2449473539,
+      "suit_effect_tips": [
+        1006634151
+      ],
+      "acquire_struct": [
+        1895825447
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "161": {
+      "id": 161,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_037_pose.suits1_037_pose'",
+      "gender": 883,
+      "suits_original_id": 1,
+      "item_id": [
+        11301
+      ],
+      "effect_item_id": [
+        1070770101,
+        12807701,
+        10807701,
+        11007701,
+        11107701,
+        11207701
+      ],
+      "suits_icon": [
+        1070770101,
+        12807701,
+        10807701,
+        11007701,
+        11107701,
+        11207701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_077.suits1_077'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_077_pose.suits1_077_pose'",
+      "suit_grade": 350,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3619,
+        3618
+      ],
+      "display_suit": true,
+      "bond_id": 2030043136,
+      "perform_id": 2466250755,
+      "suit_effect_tips": [
+        1023411367
+      ],
+      "acquire_struct": [
+        2046820391
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "162": {
+      "id": 162,
+      "name": [
+        16
+      ],
+      "gender": 883,
+      "suits_original_id": 2,
+      "item_id": [
+        11302
+      ],
+      "effect_item_id": [
+        2070770101,
+        22807701,
+        20807701,
+        21007701,
+        21107701,
+        21207701
+      ],
+      "suits_icon": [
+        2070770101,
+        22807701,
+        20807701,
+        21007701,
+        21107701,
+        21207701
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_077.suits2_077'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_077_pose.suits2_077_pose'",
+      "suit_grade": 352,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3619,
+        3618
+      ],
+      "display_suit": true,
+      "bond_id": 2030043136,
+      "perform_id": 2466250755,
+      "suit_effect_tips": [
+        1023411367
+      ],
+      "acquire_struct": [
+        -2147483609
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "163": {
+      "id": 163,
+      "name": [
+        1143,
+        1144,
+        1145,
+        1146
+      ],
+      "gender": 898,
+      "suits_original_id": 1,
+      "color_suits_launch": 71,
+      "season_id": 2,
+      "package_id": 2,
+      "effect_item_id": [
+        1070370201,
+        12103702,
+        10803702,
+        11203702,
+        11003702,
+        11103702
+      ],
+      "suits_icon": [
+        1070370201,
+        12103702,
+        10803702,
+        11203702,
+        11003702,
+        11103702
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_037_02.suits1_037_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_037_02_pose.suits1_037_02_pose'",
+      "suit_grade": 354,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3063,
+        3062
+      ],
+      "display_suit": true,
+      "bond_id": 1593835520,
+      "perform_id": 2030043137,
+      "suit_effect_tips": [
+        469763239
+      ],
+      "acquire_struct": [
+        -2030043097
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "164": {
+      "id": 164,
+      "name": [
+        2070370101,
+        22103701,
+        20803701,
+        21203701,
+        21003701,
+        21103701
+      ],
+      "gender": 898,
+      "suits_original_id": 2,
+      "color_suits_launch": 72,
+      "season_id": 2,
+      "package_id": 2,
+      "effect_item_id": [
+        2070370201,
+        22103702,
+        20803702,
+        21203702,
+        21003702,
+        21103702
+      ],
+      "suits_icon": [
+        2070370201,
+        22103702,
+        20803702,
+        21203702,
+        21003702,
+        21103702
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_037_02.suits2_037_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_037_02_pose.suits2_037_02_pose'",
+      "suit_grade": 356,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3063,
+        3062
+      ],
+      "display_suit": true,
+      "bond_id": 1593835520,
+      "perform_id": 2030043137,
+      "suit_effect_tips": [
+        469763239
+      ],
+      "acquire_struct": [
+        -1946157017
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "165": {
+      "id": 165,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_037_pose.suits2_037_pose'",
+      "gender": 909,
+      "suits_original_id": 1,
+      "color_suits_launch": 155,
+      "season_id": 1,
+      "effect_item_id": [
+        10705802,
+        10905802,
+        11205802,
+        10805802,
+        11005802,
+        11105802,
+        11305802
+      ],
+      "suits_icon": [
+        10705802,
+        10905802,
+        11205802,
+        10805802,
+        11005802,
+        11105802,
+        11305802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_058_02.suits1_058_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_058_02_pose.suits1_058_02_pose'",
+      "suit_grade": 358,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3489,
+        3488,
+        3487
+      ],
+      "fashion_bond_band": 359,
+      "display_suit": true,
+      "bond_id": 1275068416,
+      "perform_id": 2533359619,
+      "suit_effect_tips": [
+        973079719
+      ],
+      "acquire_struct": [
+        -1845493721
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "166": {
+      "id": 166,
+      "name": "魔草巫灵印象",
+      "gender": 909,
+      "suits_original_id": 2,
+      "color_suits_launch": 156,
+      "season_id": 1,
+      "effect_item_id": [
+        20705802,
+        20905802,
+        21205802,
+        20805802,
+        21005802,
+        21105802,
+        21305802
+      ],
+      "suits_icon": [
+        20705802,
+        20905802,
+        21205802,
+        20805802,
+        21005802,
+        21105802,
+        21305802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_058_02.suits2_058_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_058_02_pose.suits2_058_02_pose'",
+      "suit_grade": 361,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3489,
+        3488,
+        3487
+      ],
+      "fashion_bond_band": 362,
+      "display_suit": true,
+      "bond_id": 1275068416,
+      "perform_id": 2533359619,
+      "suit_effect_tips": [
+        973079719
+      ],
+      "acquire_struct": [
+        -1761607641
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "167": {
+      "id": 167,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_031.suits1_031'",
+      "gender": 920,
+      "suits_original_id": 1,
+      "color_suits_launch": 153,
+      "season_id": 1,
+      "effect_item_id": [
+        10705702,
+        10905702,
+        11205702,
+        10805702,
+        11005702,
+        11105702,
+        12105702
+      ],
+      "suits_icon": [
+        10705702,
+        10905702,
+        11205702,
+        10805702,
+        11005702,
+        11105702,
+        12105702
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_057_02.suits1_057_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_057_02_pose.suits1_057_02_pose'",
+      "suit_grade": 364,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3678,
+        3677
+      ],
+      "fashion_bond_band": 365,
+      "display_suit": true,
+      "bond_id": 1023410176,
+      "perform_id": 2516582403,
+      "suit_effect_tips": [
+        956302503
+      ],
+      "acquire_struct": [
+        -1660944345
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "168": {
+      "id": 168,
+      "name": [
+        17
+      ],
+      "gender": 920,
+      "suits_original_id": 2,
+      "color_suits_launch": 154,
+      "season_id": 1,
+      "effect_item_id": [
+        20705702,
+        20905702,
+        21205702,
+        20805702,
+        21005702,
+        21105702,
+        22105702
+      ],
+      "suits_icon": [
+        20705702,
+        20905702,
+        21205702,
+        20805702,
+        21005702,
+        21105702,
+        22105702
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_057_02.suits2_057_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_057_02_pose.suits2_057_02_pose'",
+      "suit_grade": 367,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3678,
+        3677
+      ],
+      "fashion_bond_band": 368,
+      "display_suit": true,
+      "bond_id": 1023410176,
+      "perform_id": 2516582403,
+      "suit_effect_tips": [
+        956302503
+      ],
+      "acquire_struct": [
+        -1577058265
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "169": {
+      "id": 169,
+      "name": [
+        20703101,
+        20903101,
+        21303101,
+        20803101,
+        21203101,
+        21003101,
+        21103101
+      ],
+      "gender": 931,
+      "suits_original_id": 1,
+      "color_suits_launch": 149,
+      "season_id": 1,
+      "effect_item_id": [
+        10705502,
+        10905502,
+        11205502,
+        10805502,
+        11005502,
+        11105502,
+        12105502
+      ],
+      "suits_icon": [
+        10705502,
+        10905502,
+        11205502,
+        10805502,
+        11005502,
+        11105502,
+        12105502
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_055_02.suits1_055_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_055_02_pose.suits1_055_02_pose'",
+      "suit_grade": 370,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3684,
+        3683
+      ],
+      "fashion_bond_band": 371,
+      "display_suit": true,
+      "bond_id": 520093696,
+      "perform_id": 2483027971,
+      "suit_effect_tips": [
+        922748071
+      ],
+      "acquire_struct": [
+        -1476394969
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "170": {
+      "id": 170,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_031_pose.suits2_031_pose'",
+      "gender": 931,
+      "suits_original_id": 2,
+      "color_suits_launch": 150,
+      "season_id": 1,
+      "effect_item_id": [
+        20705502,
+        20905502,
+        21205502,
+        20805502,
+        21005502,
+        21105502,
+        22105502
+      ],
+      "suits_icon": [
+        20705502,
+        20905502,
+        21205502,
+        20805502,
+        21005502,
+        21105502,
+        22105502
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_055_02.suits2_055_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_055_02_pose.suits2_055_02_pose'",
+      "suit_grade": 373,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3684,
+        3683
+      ],
+      "fashion_bond_band": 374,
+      "display_suit": true,
+      "bond_id": 520093696,
+      "perform_id": 2483027971,
+      "suit_effect_tips": [
+        922748071
+      ],
+      "acquire_struct": [
+        -1392508889
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "171": {
+      "id": 171,
+      "name": "奇丽花印象",
+      "gender": 942,
+      "suits_original_id": 1,
+      "color_suits_launch": 151,
+      "season_id": 1,
+      "effect_item_id": [
+        10705602,
+        10905602,
+        11205602,
+        10805602,
+        11005602,
+        11105602,
+        11305602
+      ],
+      "suits_icon": [
+        10705602,
+        10905602,
+        11205602,
+        10805602,
+        11005602,
+        11105602,
+        11305602
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_056_02.suits1_056_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_056_02_pose.suits1_056_02_pose'",
+      "suit_grade": 376,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3709,
+        3708
+      ],
+      "fashion_bond_band": 377,
+      "display_suit": true,
+      "bond_id": 771751936,
+      "perform_id": 2499805187,
+      "suit_effect_tips": [
+        939525287
+      ],
+      "acquire_struct": [
+        -1291845593
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "172": {
+      "id": 172,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_032.suits1_032'",
+      "gender": 942,
+      "suits_original_id": 2,
+      "color_suits_launch": 152,
+      "season_id": 1,
+      "effect_item_id": [
+        20705602,
+        20905602,
+        21205602,
+        20805602,
+        21005602,
+        21105602,
+        22105602
+      ],
+      "suits_icon": [
+        20705602,
+        20905602,
+        21205602,
+        20805602,
+        21005602,
+        21105602,
+        22105602
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_056_02.suits2_056_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_056_02_pose.suits2_056_02_pose'",
+      "suit_grade": 379,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3709,
+        3708
+      ],
+      "fashion_bond_band": 380,
+      "display_suit": true,
+      "bond_id": 771751936,
+      "perform_id": 2499805187,
+      "suit_effect_tips": [
+        939525287
+      ],
+      "acquire_struct": [
+        -1207959513
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "173": {
+      "id": 173,
+      "name": [
+        18
+      ],
+      "gender": 953,
+      "suits_original_id": 1,
+      "color_suits_launch": 95,
+      "season_id": 2,
+      "package_id": 2,
+      "effect_item_id": [
+        1070380201,
+        11203802,
+        11303802,
+        10803802,
+        11003802,
+        11103802
+      ],
+      "suits_icon": [
+        1070380201,
+        11203802,
+        11303802,
+        10803802,
+        11003802,
+        11103802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_038_02.suits1_038_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_038_02_pose.suits1_038_02_pose'",
+      "suit_grade": 382,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3368,
+        3367
+      ],
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2315255810,
+      "suit_effect_tips": [
+        738198695
+      ],
+      "acquire_struct": [
+        -1107296217
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "174": {
+      "id": 174,
+      "name": [
+        1156,
+        1157
+      ],
+      "gender": 953,
+      "suits_original_id": 2,
+      "color_suits_launch": 96,
+      "season_id": 2,
+      "package_id": 2,
+      "effect_item_id": [
+        2070380201,
+        21203802,
+        21303802,
+        20803802,
+        21003802,
+        21103802
+      ],
+      "suits_icon": [
+        2070380201,
+        21203802,
+        21303802,
+        20803802,
+        21003802,
+        21103802
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_038_02.suits2_038_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_038_02_pose.suits2_038_02_pose'",
+      "suit_grade": 384,
+      "petbase_id": [
+        11100201,
+        11200201,
+        11300201,
+        12200101,
+        1070020101
+      ],
+      "flavor_text": [
+        3368,
+        3367
+      ],
+      "display_suit": true,
+      "bond_id": 318767104,
+      "perform_id": 2315255810,
+      "suit_effect_tips": [
+        738198695
+      ],
+      "acquire_struct": [
+        -1023410137
+      ],
+      "lv_up_closet": [
+        16777219
+      ]
+    },
+    "175": {
+      "id": 175,
+      "name": [
+        20703201,
+        20903201,
+        21303201,
+        20803201,
+        21203201,
+        21003201,
+        21103201
+      ],
+      "gender": 964,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        11411101,
+        10811101,
+        11111101
+      ],
+      "suits_icon": [
+        11411101,
+        10811101,
+        11111101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_111.suits1_111'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_111_pose.suits1_111_pose'",
+      "suit_grade": 386,
+      "fashion_bond_band": 387,
+      "display_suit": true,
+      "lv_up_closet": [
+        248065
+      ]
+    },
+    "176": {
+      "id": 176,
+      "name": "1158",
+      "gender": 964,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        21411101,
+        20811101,
+        21111101
+      ],
+      "suits_icon": [
+        21411101,
+        20811101,
+        21111101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_111.suits2_111'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_111_pose.suits2_111_pose'",
+      "suit_grade": 389,
+      "fashion_bond_band": 390,
+      "display_suit": true,
+      "lv_up_closet": [
+        248065
+      ]
+    },
+    "199": {
+      "id": 199,
+      "name": [
+        10703301,
+        10903301,
+        11303301,
+        10803301,
+        11203301,
+        11003301,
+        11103301
+      ],
+      "gender": 977,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10900501,
+        10700601,
+        10800301,
+        11100601,
+        11300501,
+        11200601
+      ],
+      "suits_icon": [
+        10900501,
+        10700601,
+        10800301,
+        11100601,
+        11300501,
+        11200601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_006_01.suits1_006_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_006_01_pose.suits1_006_01_pose'",
+      "suit_grade": 392,
+      "fashion_bond_band": 393,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "200": {
+      "id": 200,
+      "name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_033_pose.suits1_033_pose'",
+      "gender": 977,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20900501,
+        20700601,
+        20800301,
+        21100601,
+        21300801,
+        21200601
+      ],
+      "suits_icon": [
+        20900501,
+        20700601,
+        20800301,
+        21100601,
+        21300801,
+        21200601
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_006_01.suits2_006_01'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_006_01_pose.suits2_006_01_pose'",
+      "suit_grade": 395,
+      "fashion_bond_band": 396,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "201": {
+      "id": 201,
+      "name": "1160",
+      "gender": 987,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        10900503,
+        10700603,
+        10800303,
+        11100603,
+        11300503,
+        11200603
+      ],
+      "suits_icon": [
+        10900503,
+        10700603,
+        10800303,
+        11100603,
+        11300503,
+        11200603
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_006_03.suits1_006_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_006_03_pose.suits1_006_03_pose'",
+      "suit_grade": 398,
+      "fashion_bond_band": 399,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "202": {
+      "id": 202,
+      "name": [
+        20703301,
+        20903301,
+        21303301,
+        20803301,
+        21203301,
+        21003301,
+        21103301
+      ],
+      "gender": 987,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        20900503,
+        20700603,
+        20800303,
+        21100603,
+        21300803,
+        21200603
+      ],
+      "suits_icon": [
+        20900503,
+        20700603,
+        20800303,
+        21100603,
+        21300803,
+        21200603
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_006_03.suits2_006_03'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_006_03_pose.suits2_006_03_pose'",
+      "suit_grade": 401,
+      "fashion_bond_band": 402,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "221": {
+      "id": 221,
+      "name": "1163",
+      "gender": 996,
+      "suits_original_id": 1,
+      "effect_item_id": [
+        11411102,
+        10811102,
+        11111102
+      ],
+      "suits_icon": [
+        11411102,
+        10811102,
+        11111102
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits1_111_02.suits1_111_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits1_111_02_pose.suits1_111_02_pose'",
+      "suit_grade": 404,
+      "fashion_bond_band": 405,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    },
+    "222": {
+      "id": 222,
+      "name": [
+        10703401,
+        10903401,
+        11303401,
+        10803401,
+        11203401,
+        11003401,
+        11103401
+      ],
+      "gender": 996,
+      "suits_original_id": 2,
+      "effect_item_id": [
+        21411102,
+        20811102,
+        21111102
+      ],
+      "suits_icon": [
+        21411101,
+        20811101,
+        21111101
+      ],
+      "suits_icon_big": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/Suits/suits2_111_02.suits2_111_02'",
+      "grade_name": "Texture2D'/Game/NewRoco/Modules/System/Appearance/Raw/SuitsPose/suits2_111_02_pose.suits2_111_02_pose'",
+      "suit_grade": 407,
+      "fashion_bond_band": 408,
+      "display_suit": true,
+      "lv_up_closet": [
+        16777216
+      ]
+    }
+  }
+}
