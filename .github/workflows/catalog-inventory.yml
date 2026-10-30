@@ -5,6 +5,9 @@ on:
       - 'tools/build_catalog.py'
       - 'tests/test_build_catalog.py'
       - '.github/workflows/catalog-inventory.yml'
+      - 'tools/effective_view.py'
+      - 'tests/test_effective_view.py'
+      - 'docs/EFFECTIVE_VIEW.md'
   workflow_dispatch:
 permissions:
   contents: read
@@ -25,6 +28,15 @@ jobs:
             --output build/catalog_20260716.json \
             --summary build/catalog_summary_20260716.json --strict
           python -c 'import json; s=json.load(open("build/catalog_summary_20260716.json", encoding="utf-8")); print("Layer counts:", [(x["name"], x["data_files"]) for x in s["layers"]]); print("Catalog summary:", s["summary"])'
+      - name: Test candidate effective view logic
+        run: python -m unittest discover -s tests -p 'test_effective_view.py' -v
+      - name: Derive one effective file per table (standard Pak priority hypothesis)
+        run: |
+          python tools/effective_view.py build \
+            --catalog build/catalog_20260716.json \
+            --output build/effective_view_20260716.json \
+            --summary build/effective_summary_20260716.json
+          python -c 'import json; s=json.load(open("build/effective_summary_20260716.json", encoding="utf-8")); print("Effective candidate summary:", s["summary"]); assert s["pak_mount_order_verified"] is False; assert s["summary"]["effective_table_kinds"] == 826'
       - name: Upload content-free indexes and summary
         uses: actions/upload-artifact@v4
         with:
@@ -32,5 +44,7 @@ jobs:
           path: |
             build/catalog_20260716.json
             build/catalog_summary_20260716.json
+            build/effective_view_20260716.json
+            build/effective_summary_20260716.json
           if-no-files-found: error
           retention-days: 30
