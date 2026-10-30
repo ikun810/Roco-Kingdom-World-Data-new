@@ -13,6 +13,7 @@ on:
       - 'tests/test_dialogue_closure.py'
       - 'tests/test_source_semantics.py'
       - 'tests/test_reward_source_evidence.py'
+      - 'tests/test_content_binding_audit.py'
       - 'docs/CONTENT_SUPPLEMENT.md'
       - '.github/workflows/content-recovery.yml'
   workflow_dispatch:
