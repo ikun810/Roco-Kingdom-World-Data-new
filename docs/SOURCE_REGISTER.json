@@ -1,52 +1,31 @@
 {
-  "register_version": "1.2.0",
+  "register_version": "1.3.0",
   "observed_at": "2026-10-30",
   "primary_repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
   "active_source": {
-    "id": "roco-pak-20260716",
+    "id": "pc-1.111.0.177-229314",
     "repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
-    "upstream": "https://github.com/candyflosssss/Roco-Kingdom-World-Data",
-    "main_commit": "93e9130bc7b53d370003571fa266d1487a2a43bf",
-    "repository_declared_snapshot_date": "2026-07-16",
-    "game_build": null,
-    "season_data_observed": [
-      "S1",
-      "S2",
-      "S3"
-    ],
-    "data_layout": "separate_pak_layers",
-    "pak_layers": [
-      {
-        "name": "pakchunk4-WindowsNoEditor",
-        "data_table_count": 675,
-        "schema_count": 675
-      },
-      {
-        "name": "pakchunk4-WindowsNoEditor_0_P",
-        "data_table_count": 564,
-        "schema_count": 392
-      },
-      {
-        "name": "pakchunk4-WindowsNoEditor_1_P",
-        "data_table_count": 119,
-        "schema_count": 9
-      },
-      {
-        "name": "pakchunk4-WindowsNoEditor_2_P",
-        "data_table_count": 480,
-        "schema_count": 239
-      },
-      {
-        "name": "pakchunk4-WindowsNoEditor_3_P",
-        "data_table_count": 26,
-        "schema_count": 0
-      }
-    ],
-    "unique_table_filenames": 823,
-    "overlapping_table_filenames": 582,
-    "pak_priority": "not_verified",
-    "data_origin_permission": "review_before_redistribution",
-    "verification_note": "Repository root, main commit, each Pak directory and selected season configs observed. Not a full runtime client build attestation."
+    "archive_path": "data/current.zip",
+    "game_version": "1.111.0.177",
+    "build_number": "229314",
+    "reported_capture_date": "2026-10-30",
+    "source_kind": "user_supplied_fmodel_merged_export",
+    "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+    "archive_bytes": 32438712,
+    "archive_json_files": 2314,
+    "regular_tables": 870,
+    "regular_data_rows": 675341,
+    "schema_files": 870,
+    "localization_files": 571,
+    "row_variant_files": 3,
+    "data_layout": "single_merged_export_archive",
+    "manifest": "docs/snapshots/pc-1.111.0.177-229314.json",
+    "status": "published_full_data_archive",
+    "runtime_pak_mount_order_verified": false,
+    "per_table_schema_origin_verified": false,
+    "schema_discrepancy_warnings": 107,
+    "rights_clearance": "not_verified",
+    "note": "Complete user-provided decoded ZIP is published unchanged. This is not official client attestation; per-table Pak/schema provenance remains unverified."
   },
   "historical_references": [
     {
@@ -76,7 +55,7 @@
       "metadata_manifest": "docs/snapshots/pc-1.111.0.177-229314.json",
       "audit_report": "docs/reports/pc-1.111.0.177-ingestion-audit.md",
       "input_format": "fmodel_merged_bin_export",
-      "raw_data_published": false,
+      "raw_data_published": true,
       "all_pak_layers_source_mapping_available": false,
       "game_mount_order_verified": false,
       "source_pak_paths_reported": 381,
@@ -94,7 +73,8 @@
         "S4"
       ],
       "validation": "json_and_source_schema_structure_checked; semantic_verification_pending",
-      "status": "candidate_metadata_only"
+      "status": "published_archive_quality_noted",
+      "data_archive": "data/current.zip"
     }
   ],
   "candidate_snapshots": [
@@ -108,12 +88,60 @@
       "source_manifest": "docs/snapshots/pc-1.111.0.177-229314.json",
       "lineage_report": "docs/reports/pc-1.111.0.177-schema-lineage.md",
       "qa_report": "docs/reports/pc-1.111.0.177-release-qa.md",
-      "status": "candidate_unreleased",
-      "new_json_data_committed": false,
+      "status": "published_archive_quality_noted",
+      "new_json_data_committed": true,
       "pak_mount_order_verified": false,
       "schema_lineage_unseen_fields_tables": 33,
       "public_redistribution_rights_verified": false,
-      "note": "Private ZIP was locally verified. Public repository contains metadata only; July history unchanged."
+      "note": "Full source ZIP is available as data/current.zip; historical July layers unchanged; schema provenance remains unverified."
+    }
+  ],
+  "historical_snapshots": [
+    {
+      "id": "roco-pak-20260716",
+      "repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
+      "upstream": "https://github.com/candyflosssss/Roco-Kingdom-World-Data",
+      "main_commit": "93e9130bc7b53d370003571fa266d1487a2a43bf",
+      "repository_declared_snapshot_date": "2026-07-16",
+      "game_build": null,
+      "season_data_observed": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "data_layout": "separate_pak_layers",
+      "pak_layers": [
+        {
+          "name": "pakchunk4-WindowsNoEditor",
+          "data_table_count": 675,
+          "schema_count": 675
+        },
+        {
+          "name": "pakchunk4-WindowsNoEditor_0_P",
+          "data_table_count": 564,
+          "schema_count": 392
+        },
+        {
+          "name": "pakchunk4-WindowsNoEditor_1_P",
+          "data_table_count": 119,
+          "schema_count": 9
+        },
+        {
+          "name": "pakchunk4-WindowsNoEditor_2_P",
+          "data_table_count": 480,
+          "schema_count": 239
+        },
+        {
+          "name": "pakchunk4-WindowsNoEditor_3_P",
+          "data_table_count": 26,
+          "schema_count": 0
+        }
+      ],
+      "unique_table_filenames": 823,
+      "overlapping_table_filenames": 582,
+      "pak_priority": "not_verified",
+      "data_origin_permission": "review_before_redistribution",
+      "verification_note": "Repository root, main commit, each Pak directory and selected season configs observed. Not a full runtime client build attestation."
     }
   ]
 }

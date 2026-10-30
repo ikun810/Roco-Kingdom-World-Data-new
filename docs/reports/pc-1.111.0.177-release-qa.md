@@ -1,5 +1,7 @@
 # PC 1.111.0.177 (229314) 候选数据本地全量验收报告
 
+> **发布状态更新：** 完整数据包现已提交为 [`data/current.zip`](../../data/current.zip)，参见 [PR #10](https://github.com/ikun810/Roco-Kingdom-World-Data-new/pull/10)。下文“未向 GitHub 上传”记录的是原始 QA 执行时的状态；Schema 来源及再分发许可未经独立验证的提示仍然有效。
+
 本报告来自用户已上传的 FModel 合并导出 `Bin(1).zip`，经 `tools/release_candidate.py` 在本地逐个文件校验。**未向 GitHub 上传游戏配置正文或 Pak**。
 
 - 原始上传 ZIP SHA-256：`9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515`
