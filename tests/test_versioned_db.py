@@ -1,5 +1,6 @@
 """Synthetic fixtures only; no game assets or copied dialogue in the test suite."""
 from argparse import Namespace
+from contextlib import closing
 import json
 from pathlib import Path
 import sqlite3
@@ -52,7 +53,7 @@ class VersionedDatabaseTests(unittest.TestCase):
         diff = result["tables_changed"][0]
         self.assertEqual((diff["added"], diff["removed"], diff["modified"]), (1, 1, 1))
         self.assertEqual(diff["sample_modified"], ["1"])
-        with sqlite3.connect(self.database) as db:
+        with closing(sqlite3.connect(self.database)) as db, db:
             self.assertEqual(db.execute("SELECT COUNT(*) FROM records").fetchone()[0], 4)
 
     def test_snapshot_id_conflict_not_overwritten(self):
@@ -61,7 +62,7 @@ class VersionedDatabaseTests(unittest.TestCase):
         self.rows({"1": {"id": 1, "value": "different"}})
         with self.assertRaisesRegex(ValueError, "already used"):
             vdb.ingest(self.args())
-        with sqlite3.connect(self.database) as db:
+        with closing(sqlite3.connect(self.database)) as db, db:
             self.assertEqual(db.execute("SELECT COUNT(*) FROM snapshots").fetchone()[0], 1)
 
     def test_metadata_conflict_not_overwritten(self):
@@ -75,7 +76,7 @@ class VersionedDatabaseTests(unittest.TestCase):
         (self.data / "ZZ.json").write_text('{"RocoDataRows": []}', encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "RocoDataRows"):
             vdb.ingest(self.args())
-        with sqlite3.connect(self.database) as db:
+        with closing(sqlite3.connect(self.database)) as db, db:
             for table in ["snapshots", "records", "source_files"]:
                 self.assertEqual(db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0], 0)
 
@@ -153,7 +154,7 @@ class VersionedDatabaseTests(unittest.TestCase):
     def test_verify_database_record_hash_and_count(self):
         self.rows({"1": {"id": 1}, "2": {"id": 2}})
         vdb.ingest(self.args())
-        with sqlite3.connect(self.database) as db:
+        with closing(sqlite3.connect(self.database)) as db, db:
             db.execute("UPDATE records SET payload_json=? WHERE snapshot_id=? AND record_id=?",
                        ('{"id": 99}', "v1", "1"))
             db.execute("DELETE FROM records WHERE snapshot_id=? AND record_id=?", ("v1", "2"))
@@ -225,10 +226,24 @@ class VersionedDatabaseTests(unittest.TestCase):
             vdb.report_manifest(Namespace(database=str(self.database), snapshot_id="v1"))
         self.assertFalse(self.database.exists())
 
+    def test_database_file_can_be_deleted_after_read_and_write_operations(self):
+        """Windows needs all SQLite handles closed before removing the DB file."""
+        self.rows({"1": {"id": 1, "name": "before"}})
+        vdb.ingest(self.args("v1"))
+        self.rows({"1": {"id": 1, "name": "after"}})
+        vdb.ingest(self.args("v2"))
+        vdb.report_manifest(Namespace(database=str(self.database), snapshot_id="v2"))
+        vdb.compare(Namespace(database=str(self.database), before="v1", after="v2"))
+        result = vdb.verify(Namespace(database=str(self.database), snapshot_id="v2",
+                                      data_dir=str(self.data), schema_dir=str(self.schema)))
+        self.assertTrue(result["verified"])
+        self.database.unlink()  # On Windows this raises WinError 32 if any connection leaks.
+        self.assertFalse(self.database.exists())
+
     def test_legacy_database_requires_new_path(self):
         self.rows({"1": {"id": 1}})
         self.database.parent.mkdir(parents=True)
-        with sqlite3.connect(self.database) as db:
+        with closing(sqlite3.connect(self.database)) as db, db:
             db.execute("CREATE TABLE snapshots(snapshot_id TEXT)")
         with self.assertRaisesRegex(ValueError, "Legacy unversioned"):
             vdb.ingest(self.args())

@@ -1,5 +1,5 @@
 {
-  "patch_version": "0.4.0",
+  "patch_version": "0.4.1",
   "target_repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
   "base_commit": "93e9130bc7b53d370003571fa266d1487a2a43bf",
   "tools": {
@@ -9,8 +9,8 @@
   },
   "scope": "original code and metadata only",
   "verification": {
-    "synthetic_unittests": 42,
+    "synthetic_unittests": 43,
     "real_data_end_to_end": "not_run",
-    "github_actions_ci": "not_run"
+    "github_actions_ci": "check_pull_request_status"
   }
 }
