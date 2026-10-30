@@ -1,5 +1,5 @@
 {
-  "register_version": "1.1.0",
+  "register_version": "1.2.0",
   "observed_at": "2026-10-30",
   "primary_repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
   "active_source": {
@@ -63,6 +63,38 @@
         "2026-07-16"
       ],
       "status": "upstream"
+    }
+  ],
+  "candidate_sources": [
+    {
+      "id": "pc-1.111.0.177-229314",
+      "game_version": "1.111.0.177",
+      "build_number": "229314",
+      "reported_capture_date": "2026-10-30",
+      "user_supplied_original_archive": "Bin(1).zip",
+      "input_archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "metadata_manifest": "docs/snapshots/pc-1.111.0.177-229314.json",
+      "audit_report": "docs/reports/pc-1.111.0.177-ingestion-audit.md",
+      "input_format": "fmodel_merged_bin_export",
+      "raw_data_published": false,
+      "all_pak_layers_source_mapping_available": false,
+      "game_mount_order_verified": false,
+      "source_pak_paths_reported": 381,
+      "season_conf_origin_reported": "pakchunk4-WindowsNoEditor_3_P.pak",
+      "regular_tables": 870,
+      "regular_data_rows": 675341,
+      "schema_files": 870,
+      "localization_files": 571,
+      "row_variant_files": 3,
+      "schema_field_discrepancy_warnings": 107,
+      "known_seasons": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "validation": "json_and_source_schema_structure_checked; semantic_verification_pending",
+      "status": "candidate_metadata_only"
     }
   ]
 }

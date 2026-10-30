@@ -161,3 +161,8 @@ extracted/<本次快照日期>/
 - **谨慎发布**：公开源仓库可读取，不代表原始游戏数据、对白和客户端资源获得再分发许可。默认只发布原创工具及允许发布的技术元数据，未经确认的原始提取物保存在本地。
 
 进一步使用说明：[目录索引](docs/CATALOG.md) · [有效视图](docs/EFFECTIVE_VIEW.md) · [名称检索和版本比较](docs/EFFECTIVE_SEARCH.md) · [数据维护与可选 SQLite](docs/DATA_MAINTENANCE.md)。
+## 2026-10-30 PC 客户端候选快照（元数据）
+
+新增 PC `1.111.0.177 (229314)` FModel 合并导出**元数据清单**及解析工具：[`docs/MERGED_SNAPSHOT.md`](docs/MERGED_SNAPSHOT.md)、[`docs/snapshots/pc-1.111.0.177-229314.json`](docs/snapshots/pc-1.111.0.177-229314.json)。该合并导出含 870 张普通表、675,341 条记录、870 份 Schema、571 份本地化以及 3 份 ROW 变体；107 张表存在字段与同名 Schema 不完全一致的警告，尚待验证。
+
+**注意**：仓库原始五层 Pak 资料仍是七月历史基准；此 PR 只更新新版本的来源登记、哈希元数据、审计工具及比对报告，**没有上传新版游戏记录正文，也没有替换七月数据**。获得版权/来源许可确认前不将导出 JSON 直接发布；新版按表 Pak 来源仍待独立核实。参见 [来源登记](docs/SOURCE_REGISTER.json)。

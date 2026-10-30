@@ -11,6 +11,11 @@ on:
       - 'tools/effective_search.py'
       - 'tests/test_effective_search.py'
       - 'docs/EFFECTIVE_SEARCH.md'
+      - 'tools/merged_snapshot.py'
+      - 'tests/test_merged_snapshot.py'
+      - 'docs/MERGED_SNAPSHOT.md'
+      - 'docs/snapshots/pc-1.111.0.177-229314.json'
+      - 'docs/reports/pc-1.111.0.177-ingestion-audit.md'
   workflow_dispatch:
 permissions:
   contents: read
@@ -53,6 +58,14 @@ jobs:
             --after build/effective_view_20260716.json \
             --output build/effective_diff_selfcheck.json > /dev/null
           python -c 'import json; r=json.load(open("build/effective_diff_selfcheck.json", encoding="utf-8")); s=r["tables"]["summary"]; assert s["unchanged"] == 826 and s["modified"] == 0 and s["added"] == 0 and s["removed"] == 0; print("Incremental diff self-check:", s)'
+      - name: Compare historical July candidate with current client merged export metadata
+        run: |
+          python tools/merged_snapshot.py compare \
+            --new-manifest docs/snapshots/pc-1.111.0.177-229314.json \
+            --old-view build/effective_view_20260716.json \
+            --old-root . \
+            --output build/20260716_to_229314_delta.json
+          python -c 'import json; d=json.load(open("build/20260716_to_229314_delta.json", encoding="utf-8")); s=d["summary"]; assert s["prior_table_count"] == 826 and s["new_table_count"] == 870; print("Real snapshot comparison:", s)'
       - name: Upload content-free indexes and summary
         uses: actions/upload-artifact@v4
         with:
@@ -63,5 +76,6 @@ jobs:
             build/effective_view_20260716.json
             build/effective_summary_20260716.json
             build/effective_diff_selfcheck.json
+            build/20260716_to_229314_delta.json
           if-no-files-found: error
           retention-days: 30
