@@ -96,5 +96,24 @@
       "validation": "json_and_source_schema_structure_checked; semantic_verification_pending",
       "status": "candidate_metadata_only"
     }
+  ],
+  "candidate_snapshots": [
+    {
+      "id": "pc-1.111.0.177-229314",
+      "game_version": "1.111.0.177",
+      "game_build": "229314",
+      "capture_date": "2026-10-30",
+      "source_kind": "user_supplied_fmodel_merged_export",
+      "source_zip_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "source_manifest": "docs/snapshots/pc-1.111.0.177-229314.json",
+      "lineage_report": "docs/reports/pc-1.111.0.177-schema-lineage.md",
+      "qa_report": "docs/reports/pc-1.111.0.177-release-qa.md",
+      "status": "candidate_unreleased",
+      "new_json_data_committed": false,
+      "pak_mount_order_verified": false,
+      "schema_lineage_unseen_fields_tables": 33,
+      "public_redistribution_rights_verified": false,
+      "note": "Private ZIP was locally verified. Public repository contains metadata only; July history unchanged."
+    }
   ]
 }
