@@ -46,7 +46,7 @@ class EffectiveViewTests(unittest.TestCase):
         loc_base.write_text(json.dumps({"LocalizationStrings": {"1": "hello"}}))
         loc_patch = self.root / self.patch0 / "Bin" / "BinLocalize" / "zh_CN" / "PET_CONF.json"
         loc_patch.parent.mkdir(parents=True)
-        loc_patch.write_text(json.dumps({"LocalizationStrings": {"1": "你好"}}, ensure_ascii=False))
+        loc_patch.write_text(json.dumps({"LocalizationStrings": {"1": "你好"}}, ensure_ascii=False), encoding="utf-8")
 
     def test_standard_priority_order(self):
         self.assertEqual(effective_view.standard_order([
