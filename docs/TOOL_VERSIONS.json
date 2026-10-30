@@ -1,16 +1,19 @@
 {
-  "patch_version": "0.4.1",
+  "patch_version": "0.5.0",
   "target_repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
   "base_commit": "93e9130bc7b53d370003571fa266d1487a2a43bf",
   "tools": {
     "versioned_db.py": "0.2.0",
     "pak_layers.py": "0.1.0",
-    "roco_lookup.py": "0.1.0"
+    "roco_lookup.py": "0.1.0",
+    "build_catalog.py": "1.0",
+    "effective_view.py": "1.0",
+    "effective_search.py": "0.1.0"
   },
-  "scope": "original code and metadata only",
+  "scope": "original code and metadata only; raw game configuration is not committed by this update",
   "verification": {
-    "synthetic_unittests": 43,
-    "real_data_end_to_end": "not_run",
-    "github_actions_ci": "check_pull_request_status"
+    "synthetic_unittests": 84,
+    "real_data_end_to_end": "existing catalog validated; name search and self-diff verified by CI",
+    "github_actions_ci": "check PR workflow before merge"
   }
 }

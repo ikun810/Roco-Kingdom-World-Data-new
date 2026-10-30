@@ -8,6 +8,9 @@ on:
       - 'tools/effective_view.py'
       - 'tests/test_effective_view.py'
       - 'docs/EFFECTIVE_VIEW.md'
+      - 'tools/effective_search.py'
+      - 'tests/test_effective_search.py'
+      - 'docs/EFFECTIVE_SEARCH.md'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,6 +40,19 @@ jobs:
             --output build/effective_view_20260716.json \
             --summary build/effective_summary_20260716.json
           python -c 'import json; s=json.load(open("build/effective_summary_20260716.json", encoding="utf-8")); print("Effective candidate summary:", s["summary"]); assert s["pak_mount_order_verified"] is False; assert s["summary"]["effective_table_kinds"] == 826'
+      - name: Search real selected S3 season name without publishing raw results
+        run: |
+          python tools/effective_search.py search \
+            --root . --view build/effective_view_20260716.json \
+            --domain season --query 铅字幻梦 --limit 5 > build/season_search_local_only.json
+          python -c 'import json; r=json.load(open("build/season_search_local_only.json", encoding="utf-8")); assert r["total_matches"] >= 1; print("Season name search count:", r["total_matches"])'
+      - name: Check incremental diff is empty for identical snapshots
+        run: |
+          python tools/effective_search.py compare \
+            --before build/effective_view_20260716.json \
+            --after build/effective_view_20260716.json \
+            --output build/effective_diff_selfcheck.json > /dev/null
+          python -c 'import json; r=json.load(open("build/effective_diff_selfcheck.json", encoding="utf-8")); s=r["tables"]["summary"]; assert s["unchanged"] == 826 and s["modified"] == 0 and s["added"] == 0 and s["removed"] == 0; print("Incremental diff self-check:", s)'
       - name: Upload content-free indexes and summary
         uses: actions/upload-artifact@v4
         with:
@@ -46,5 +62,6 @@ jobs:
             build/catalog_summary_20260716.json
             build/effective_view_20260716.json
             build/effective_summary_20260716.json
+            build/effective_diff_selfcheck.json
           if-no-files-found: error
           retention-days: 30
