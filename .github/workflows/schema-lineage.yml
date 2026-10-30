@@ -1,0 +1,39 @@
+name: Audit October 2026 merged-export schema lineage
+on:
+  pull_request:
+    paths:
+      - 'tools/schema_lineage.py'
+      - 'tests/test_schema_lineage.py'
+      - 'docs/SCHEMA_LINEAGE.md'
+      - 'docs/snapshots/pc-1.111.0.177-229314.json'
+      - '.github/workflows/schema-lineage.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run schema lineage synthetic tests
+        run: python -m unittest discover -s tests -p 'test_schema_lineage.py' -v
+      - name: Audit actual 2026-07 historical schemas against 1.111.0.177 metadata
+        run: |
+          python tools/schema_lineage.py \
+            --manifest docs/snapshots/pc-1.111.0.177-229314.json \
+            --history-root . \
+            --output build/schema_lineage_229314.json \
+            --summary build/schema_lineage_summary_229314.json
+          python -c 'import json; r=json.load(open("build/schema_lineage_summary_229314.json", encoding="utf-8")); s=r["summary"]; assert s["warning_files"] == 107; assert s["ordinary_warning_files"] == 106; assert s["row_variant_warning_files"] == 1; assert s["all_exported_table_entries"] == 873; print("Schema lineage:", s)'
+      - name: Upload metadata-only lineage diagnostics
+        uses: actions/upload-artifact@v4
+        with:
+          name: roco-229314-schema-lineage
+          path: |
+            build/schema_lineage_229314.json
+            build/schema_lineage_summary_229314.json
+          if-no-files-found: error
+          retention-days: 30
