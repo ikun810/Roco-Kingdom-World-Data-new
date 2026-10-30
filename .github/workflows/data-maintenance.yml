@@ -1,0 +1,23 @@
+name: Offline data maintenance tests
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unittest:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Syntax and tests (synthetic fixtures only)
+        run: |
+          python -m py_compile tools/versioned_db.py tools/pak_layers.py tools/roco_lookup.py
+          python -m unittest discover -s tests -v

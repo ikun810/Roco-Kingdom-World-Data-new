@@ -1,0 +1,68 @@
+{
+  "register_version": "1.1.0",
+  "observed_at": "2026-10-30",
+  "primary_repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
+  "active_source": {
+    "id": "roco-pak-20260716",
+    "repository": "https://github.com/ikun810/Roco-Kingdom-World-Data-new",
+    "upstream": "https://github.com/candyflosssss/Roco-Kingdom-World-Data",
+    "main_commit": "93e9130bc7b53d370003571fa266d1487a2a43bf",
+    "repository_declared_snapshot_date": "2026-07-16",
+    "game_build": null,
+    "season_data_observed": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "data_layout": "separate_pak_layers",
+    "pak_layers": [
+      {
+        "name": "pakchunk4-WindowsNoEditor",
+        "data_table_count": 675,
+        "schema_count": 675
+      },
+      {
+        "name": "pakchunk4-WindowsNoEditor_0_P",
+        "data_table_count": 564,
+        "schema_count": 392
+      },
+      {
+        "name": "pakchunk4-WindowsNoEditor_1_P",
+        "data_table_count": 119,
+        "schema_count": 9
+      },
+      {
+        "name": "pakchunk4-WindowsNoEditor_2_P",
+        "data_table_count": 480,
+        "schema_count": 239
+      },
+      {
+        "name": "pakchunk4-WindowsNoEditor_3_P",
+        "data_table_count": 26,
+        "schema_count": 0
+      }
+    ],
+    "unique_table_filenames": 823,
+    "overlapping_table_filenames": 582,
+    "pak_priority": "not_verified",
+    "data_origin_permission": "review_before_redistribution",
+    "verification_note": "Repository root, main commit, each Pak directory and selected season configs observed. Not a full runtime client build attestation."
+  },
+  "historical_references": [
+    {
+      "repository": "https://github.com/ikun810/Roco-Kingdom-World-Data",
+      "commit": "d118fca39420d0dd4dac95444d6aab4313475565",
+      "observed_date": "2026-04-13",
+      "status": "reference_only"
+    },
+    {
+      "repository": "https://github.com/candyflosssss/Roco-Kingdom-World-Data",
+      "declared_tags": [
+        "2026-05-21",
+        "2026-05-24",
+        "2026-07-16"
+      ],
+      "status": "upstream"
+    }
+  ]
+}
