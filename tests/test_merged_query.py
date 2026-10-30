@@ -52,7 +52,7 @@ class MergedQueryTests(unittest.TestCase):
             res = mq.get_record(self.doc,self.entries,src,'SEASON_CONF','4')
         self.assertEqual(res['record']['s_title_subtitle'],'月涌狂想')
         self.assertFalse(res['pak_mount_order_verified'])
-        self.assertEqual(res['release_status'],'local_candidate_not_public_release')
+        self.assertEqual(res['release_status'],'published_archive_schema_origin_unverified')
 
     def test_search_by_curated_season_name(self):
         with mq.open_source(self.source,self.doc) as src:
