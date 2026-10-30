@@ -1,0 +1,23 @@
+Repository: https://github.com/ikun810/Roco-Kingdom-World-Data-new
+Source snapshot: 2026-07-16, base commit 93e9130bc7b53d370003571fa266d1487a2a43bf
+Proposed branch: maintenance/data-tooling-r04-20261030
+
+This is a source-only maintenance change. It ADDS original tooling, tests, and metadata.
+It does not change README.md, _summary.json, or any pakchunk* source data.
+
+After checking out the branch (or merging its PR):
+
+  python -m unittest discover -s tests -v
+  python tools/pak_layers.py analyze --root . --output ../roco-maintenance-output/pak_inventory_20260716.json
+  python tools/roco_lookup.py --root . layers
+  python tools/roco_lookup.py --root . trace --table SEASON_CONF --id 3
+
+Optional candidate staging and versioned SQLite operations are documented in
+MAINTENANCE.md and docs/DATA_MAINTENANCE.md.
+
+Tests use synthetic fixtures. Complete offline scanning of the actual 2026-07-16
+repository and runtime Pak precedence verification are separate activities;
+no actual mount precedence is asserted by these tools.
+
+Permission note: public visibility of a third-party repository does not itself
+confirm authorization to redistribute original game configuration or dialogue.
