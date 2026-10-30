@@ -1,1 +1,5 @@
 _logs/*.tmp
+build/
+__pycache__/
+tools/__pycache__/
+tests/__pycache__/
