@@ -1,4 +1,4 @@
-name: Validate candidate release metadata
+name: Verify current data archive
 on:
   pull_request:
     paths:
@@ -12,6 +12,8 @@ on:
       - 'docs/reports/pc-1.111.0.177-release-qa.md'
       - '.github/workflows/release-candidate.yml'
       - 'docs/snapshots/pc-1.111.0.177-229314.json'
+      - 'docs/SOURCE_REGISTER.json'
+      - 'data/current.zip'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,15 +39,21 @@ jobs:
           --history-root .
           --output build/schema_lineage_229314.json
           --summary build/schema_lineage_summary_229314.json
-      - name: Validate published QA metadata (cannot recheck private source ZIP)
+      - name: Validate historical QA metadata
         run: >-
           python tools/release_candidate.py
           --manifest docs/snapshots/pc-1.111.0.177-229314.json
           --lineage build/schema_lineage_229314.json
           --report docs/reports/pc-1.111.0.177-release-qa.json
           --check-published-report
-      - name: Check the registered October tables can be listed without game payload
+      - name: Verify current archive tables
         run: >-
-          python tools/merged_query.py
-          --manifest docs/snapshots/pc-1.111.0.177-229314.json
+          python tools/query.py
           tables --filter SEASON
+      - name: Re-audit complete published ZIP against snapshot and Schema lineage
+        run: >-
+          python tools/release_candidate.py
+          --source data/current.zip
+          --manifest docs/snapshots/pc-1.111.0.177-229314.json
+          --lineage build/schema_lineage_229314.json
+          --report build/current_verified_qa.json
