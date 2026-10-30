@@ -1,0 +1,48 @@
+name: Assemble full data archive
+on:
+  push:
+    branches:
+      - release/current-data
+    paths:
+      - 'data/_transfer/**'
+      - 'tools/assemble_current.py'
+      - '.github/workflows/assemble-current.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: github.ref == 'refs/heads/release/current-data'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reassemble verified archive
+        run: |
+          python tools/assemble_current.py \
+            --parts data/_transfer --output data/current.zip \
+            --sha256 9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515 \
+            --size 32438712 --files 2314 --count 33
+      - name: Verify archive against registered snapshot and schema lineage
+        run: |
+          mkdir -p build
+          python tools/schema_lineage.py \
+            --manifest docs/snapshots/pc-1.111.0.177-229314.json \
+            --history-root . --output build/schema_lineage.json --summary build/schema_lineage_summary.json
+          python tools/release_candidate.py \
+            --source data/current.zip \
+            --manifest docs/snapshots/pc-1.111.0.177-229314.json \
+            --lineage build/schema_lineage.json \
+            --report build/verified_release.json
+          python tools/query.py tables --filter SEASON > build/query_check.json
+          python -c 'import json; p="build/query_check.json"; j=json.load(open(p,encoding="utf-8")); assert j'
+      - name: Publish single archive instead of transport parts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/current.zip
+          git rm -r data/_transfer
+          git commit -m 'Publish full current decoded data archive'
+          git push origin HEAD:release/current-data

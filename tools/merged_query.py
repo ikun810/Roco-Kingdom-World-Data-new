@@ -107,7 +107,7 @@ def notice(doc: dict) -> dict:
         'input_kind': doc.get('source_kind'),
         'pak_mount_order_verified': False,
         'per_table_schema_origin_verified': False,
-        'release_status': 'local_candidate_not_public_release',
+        'release_status': 'published_archive_schema_origin_unverified',
     }
 
 
