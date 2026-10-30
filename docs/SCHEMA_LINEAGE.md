@@ -42,3 +42,7 @@ GitHub Actions 的 `Audit October 2026 merged-export schema lineage` 工作流�
 前置实查发现：七月 `_2_P` Schema 已包含 `SEASON_CONF` 的 5 个异常字段和 `ACTIVITY_CONF` 的 5 个异常字段；`PETBASE_CONF` 的 9 个异常字段中有 7 个已出现在七月 `_2_P`。这证明至少部分警告并非首次发现的新字段。完整统计以工作流产物为准。
 
 优先根据诊断结果检查 `SEASON_CONF`、`PETBASE_CONF`、`ACTIVITY_CONF`、`NPC_CONF`、`WORLD_MAP_CONF`。必要时由用户从 FModel 对这些**少量**关键表另行导出来源 Pak 的 `.non`/`.bytes`，无需重新上传整个游戏客户端或 381 个 Pak。未经游戏数据再分发许可，不将完整游戏原文提交到公开仓库。
+
+## 已完成的实际扫描结果
+
+2026-10-30 GitHub Actions [运行 41069687803](https://github.com/ikun810/Roco-Kingdom-World-Data-new/actions/runs/41069687803) 已成功扫描 1,315 份历史 Schema，并检查 107 张异常表。**97 张异常表的导出 Schema 与七月基础层完全相同；73 张至少有一份历史 Schema 包含全部已观察字段；33 张出现七月历史从未声明过的字段**。完整统计、重点表和待核对清单见 [实跑报告](reports/pc-1.111.0.177-schema-lineage.md)。
