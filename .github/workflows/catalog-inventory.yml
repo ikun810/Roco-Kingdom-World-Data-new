@@ -1,0 +1,36 @@
+name: Build July 2026 data catalog
+on:
+  pull_request:
+    paths:
+      - 'tools/build_catalog.py'
+      - 'tests/test_build_catalog.py'
+      - '.github/workflows/catalog-inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test catalog generator
+        run: python -m unittest discover -s tests -p 'test_build_catalog.py' -v
+      - name: Scan actual decoded configuration files in all Pak layers
+        run: |
+          python tools/build_catalog.py --root . --snapshot 2026-07-16 \
+            --source-commit 93e9130bc7b53d370003571fa266d1487a2a43bf \
+            --output build/catalog_20260716.json \
+            --summary build/catalog_summary_20260716.json --strict
+          python -c 'import json; s=json.load(open("build/catalog_summary_20260716.json", encoding="utf-8")); print("Layer counts:", [(x["name"], x["data_files"]) for x in s["layers"]]); print("Catalog summary:", s["summary"])'
+      - name: Upload content-free indexes and summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: roco-20260716-catalog
+          path: |
+            build/catalog_20260716.json
+            build/catalog_summary_20260716.json
+          if-no-files-found: error
+          retention-days: 30
