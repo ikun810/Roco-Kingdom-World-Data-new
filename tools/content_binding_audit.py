@@ -33,6 +33,57 @@ def without_text(value):
     return value
 
 
+def reward_limit_alias_audit(current, historical):
+    """Compare decoded field-presence sets and payload groups on shared IDs only."""
+    common = current.keys() & historical.keys()
+    limit_present = {key for key in common if "ObtainLimit" in historical[key]}
+    payload_present = {key for key in common if "RewardItem" in current[key]}
+    grouped = {}
+    for key in sorted(limit_present):
+        limit_key = json.dumps(historical[key]["ObtainLimit"], sort_keys=True)
+        group = grouped.setdefault(limit_key, {"row_ids": [], "payloads": {}})
+        group["row_ids"].append(key)
+        payload = {"field_present": "RewardItem" in current[key]}
+        if payload["field_present"]:
+            payload["payload"] = current[key]["RewardItem"]
+        # Presence is part of the key: absent and explicitly null remain distinct.
+        payload_key = json.dumps(payload, sort_keys=True)
+        if payload_key not in group["payloads"]:
+            group["payloads"][payload_key] = {
+                **json.loads(payload_key), "count": 0, "example_row_id": key,
+            }
+        group["payloads"][payload_key]["count"] += 1
+
+    groups = []
+    for limit_key, group in sorted(grouped.items()):
+        groups.append({
+            "historical_obtain_limit": json.loads(limit_key),
+            "row_count": len(group["row_ids"]),
+            "row_ids": group["row_ids"],
+            "current_payload_unique_count": len(group["payloads"]),
+            "current_payload_distribution": [
+                variant for _, variant in sorted(group["payloads"].items())
+            ],
+        })
+    return {
+        "status": "not_binary_verified",
+        "scope": "common_record_ids",
+        "common_id_count": len(common),
+        "historical_limit_present_count": len(limit_present),
+        "current_payload_present_count": len(payload_present),
+        "presence_sets_equal": limit_present == payload_present,
+        "historical_limit_without_current_payload_ids": sorted(limit_present - payload_present),
+        "current_payload_without_historical_limit_ids": sorted(payload_present - limit_present),
+        "limit_groups": groups,
+        "multiple_payload_limit_group_count": sum(
+            group["current_payload_unique_count"] > 1 for group in groups),
+        "claim_limit": (
+            "Decoded JSON correlation only; no raw binary, schema selection, or runtime "
+            "reward value is verified. This audit does not resolve or promote conflicts."
+        ),
+    }
+
+
 def audit(root, supplement_path=None):
     supplement_path = supplement_path or root / "data/supplements/referenced_content.json"
     supplement = json.loads(supplement_path.read_text(encoding="utf-8"))
@@ -72,11 +123,14 @@ def audit(root, supplement_path=None):
             for name, source in history.items():
                 rows = source["rows"]
                 common = current.keys() & rows.keys()
-                table_report["history_comparisons"].append({
+                comparison = {
                     "path": name, "blob_sha": source["blob_sha"], "row_count": len(rows),
                     "common_id_count": len(common), "identical_id_set": current.keys() == rows.keys(),
                     "identical_row_count": sum(current[key] == rows[key] for key in common),
-                })
+                }
+                if table == "REWARD_CONF":
+                    comparison["reward_limit_alias_audit"] = reward_limit_alias_audit(current, rows)
+                table_report["history_comparisons"].append(comparison)
             if table == "REWARD_CONF":
                 payloads = Counter(json.dumps(row.get("RewardItem"), sort_keys=True) for row in current.values())
                 table_report["reward_payload_counts"] = [
