@@ -19,5 +19,5 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Syntax and tests (synthetic fixtures only)
         run: |
-          python -m py_compile tools/versioned_db.py tools/pak_layers.py tools/roco_lookup.py tools/build_catalog.py tools/effective_view.py tools/effective_search.py tools/merged_snapshot.py tools/schema_lineage.py tools/release_candidate.py tools/merged_query.py
+          python -m py_compile tools/versioned_db.py tools/pak_layers.py tools/roco_lookup.py tools/build_catalog.py tools/effective_view.py tools/effective_search.py tools/merged_snapshot.py tools/schema_lineage.py tools/release_candidate.py tools/merged_query.py tools/content_supplement.py
           python -m unittest discover -s tests -v

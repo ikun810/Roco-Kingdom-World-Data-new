@@ -1,0 +1,27 @@
+name: Check referenced content recovery
+on:
+  pull_request:
+    paths:
+      - 'data/supplements/referenced_content.json'
+      - 'tools/content_supplement.py'
+      - 'tests/test_content_supplement.py'
+      - 'docs/CONTENT_SUPPLEMENT.md'
+      - '.github/workflows/content-recovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recovery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthetic tests
+        run: python -m unittest discover -s tests -p 'test_content_supplement.py' -v
+      - name: Check real historical source and current ZIP
+        run: |
+          python tools/content_supplement.py verify
+          python tools/content_supplement.py export --output build/referenced_content_resolved.json
+          python -c 'import json; x=json.load(open("build/referenced_content_resolved.json", encoding="utf-8")); s=x["summary"]; print(s); assert s["resolved_count"]==206 and s["review_count"]==41 and s["unresolved_count"]==1 and s["historical_fallback"]==132 and s["backfilled_fields"]==74'
