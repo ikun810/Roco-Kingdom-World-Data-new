@@ -20,6 +20,20 @@ def sha256_file(path):
 def git_blob_sha(data):
     return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
+def write_output_json(destination, output, history_root, inputs=()):
+    """Write a derived artifact while protecting original data and named inputs."""
+    destination, root = Path(destination), Path(history_root).resolve()
+    if destination.is_symlink():
+        raise ValueError("Output must not overwrite a source through a symlink")
+    target = destination.resolve()
+    if target in [Path(p).resolve() for p in inputs]:
+        raise ValueError("Output must not overwrite source input")
+    protected = [root / "data", *root.glob("pakchunk*")]
+    if any(target.is_relative_to(p.resolve()) for p in protected):
+        raise ValueError("Output must be outside source data directories")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
 def resolve(archive, supplement, history_root):
     if supplement.get("format") != "roco_referenced_content_supplement_v1":
         raise ValueError("Unknown supplement version")
@@ -112,16 +126,7 @@ def main(argv=None):
             supplement = json.load(f)
         output = resolve(args.archive, supplement, args.history_root)
         if args.command == "export":
-            destination = args.output.resolve()
-            root = args.history_root.resolve()
-            if destination == args.archive.resolve() or destination == args.supplement.resolve():
-                raise ValueError("Output must not overwrite source")
-            if any(destination.is_relative_to((root / p).resolve()) for p in ("data", "pakchunk4-WindowsNoEditor",
-                 "pakchunk4-WindowsNoEditor_0_P", "pakchunk4-WindowsNoEditor_1_P",
-                 "pakchunk4-WindowsNoEditor_2_P", "pakchunk4-WindowsNoEditor_3_P")):
-                raise ValueError("Output must be outside source data directories")
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            destination.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            write_output_json(args.output, output, args.history_root, [args.archive, args.supplement])
         if args.command == "get":
             table = args.table.removesuffix(".json")
             out = next((r for group in ("resolved_records","review_candidates","unresolved")

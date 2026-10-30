@@ -1,0 +1,2012 @@
+{
+  "format": "roco_enum_numeric_coverage_investigation_v1",
+  "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+  "source": {
+    "archive": "data/current.zip",
+    "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+    "member": "BinDataCompressed/TASK_CONF.json",
+    "member_sha256": "369049d06735de3517f31d370fbbe9bcca588449c0e992604bd55d188fa7eaa9"
+  },
+  "schema_source": {
+    "member": "BinConf/TASK_CONF.json",
+    "member_sha256": "ef60b75b6e7e91da0d04ed8ec545015ac70b4a7d777cb9db170d074127d14a05"
+  },
+  "limits": [
+    "Candidate field-to-enum mappings are inferences, separate from verified symbol definitions.",
+    "Coverage does not prove operand ordering or executable semantics.",
+    "Omitted type keys are kept separate from explicit zero and null. No default is assigned."
+  ],
+  "checks": [
+    {
+      "field": "TASK_CONF.accept_condition[].type",
+      "candidate_enum": "TaskAcceptConditionType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 950,
+      "omitted_type_slots": 0,
+      "invalid_type_slots": 0,
+      "observed_values": [
+        {
+          "value": 1,
+          "symbol_in_historical_enum": "TACT_LEVEL",
+          "count": 53
+        },
+        {
+          "value": 2,
+          "symbol_in_historical_enum": "TACT_TASK",
+          "count": 588
+        },
+        {
+          "value": 3,
+          "symbol_in_historical_enum": "TACT_ITEM",
+          "count": 9
+        },
+        {
+          "value": 4,
+          "symbol_in_historical_enum": "TACT_DIALOGUE",
+          "count": 143
+        },
+        {
+          "value": 5,
+          "symbol_in_historical_enum": "TACT_TIME",
+          "count": 157
+        }
+      ],
+      "unknown_values": [],
+      "unknown_source_rows": [],
+      "omitted_source_rows": [],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/20/Struct/Properties/1",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 4,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    },
+    {
+      "field": "TASK_CONF.task_condition[].type",
+      "candidate_enum": "TaskKeyType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 5811,
+      "omitted_type_slots": 28,
+      "invalid_type_slots": 0,
+      "observed_values": [
+        {
+          "value": 2,
+          "symbol_in_historical_enum": "TKT_CATCH_MONSTER_ID",
+          "count": 12
+        },
+        {
+          "value": 3,
+          "symbol_in_historical_enum": "TKT_CATCH_PET_DICT",
+          "count": 148
+        },
+        {
+          "value": 4,
+          "symbol_in_historical_enum": "TKT_BAT_MONSTER",
+          "count": 1
+        },
+        {
+          "value": 5,
+          "symbol_in_historical_enum": "TKT_BAT_CONF_WIN",
+          "count": 98
+        },
+        {
+          "value": 7,
+          "symbol_in_historical_enum": "TKT_BAT_CONF",
+          "count": 6
+        },
+        {
+          "value": 8,
+          "symbol_in_historical_enum": "TKT_CATCH_SPEC_PET_SET",
+          "count": 139
+        },
+        {
+          "value": 9,
+          "symbol_in_historical_enum": "TKT_CATCH_PET_WEIGHT",
+          "count": 9
+        },
+        {
+          "value": 10,
+          "symbol_in_historical_enum": "TKT_CATCH_PET_HEIGHT",
+          "count": 12
+        },
+        {
+          "value": 11,
+          "symbol_in_historical_enum": "TKT_BAT_USE_SPEC_PET",
+          "count": 9
+        },
+        {
+          "value": 12,
+          "symbol_in_historical_enum": "TKT_BAT_USE_SPEC_SKILL",
+          "count": 3
+        },
+        {
+          "value": 13,
+          "symbol_in_historical_enum": "TKT_BAT_USE_SPEC_EFFECT",
+          "count": 1
+        },
+        {
+          "value": 14,
+          "symbol_in_historical_enum": "TKT_BAT_WITH_SPEC_MONSTER",
+          "count": 3
+        },
+        {
+          "value": 15,
+          "symbol_in_historical_enum": "TKT_SKILL_EFFECT",
+          "count": 1
+        },
+        {
+          "value": 16,
+          "symbol_in_historical_enum": "TKT_BALL_CATCH",
+          "count": 25
+        },
+        {
+          "value": 17,
+          "symbol_in_historical_enum": "TKT_CATCH_OR_WIN",
+          "count": 5
+        },
+        {
+          "value": 18,
+          "symbol_in_historical_enum": "TKT_BAT_BLOOD_BATTLE",
+          "count": 27
+        },
+        {
+          "value": 19,
+          "symbol_in_historical_enum": "TKT_BAT_CONF_BYTYPE",
+          "count": 75
+        },
+        {
+          "value": 20,
+          "symbol_in_historical_enum": "TKT_TEAM_CATCH",
+          "count": 5
+        },
+        {
+          "value": 21,
+          "symbol_in_historical_enum": "TKT_BAT_CONF_WIN_SPEC",
+          "count": 13
+        },
+        {
+          "value": 22,
+          "symbol_in_historical_enum": "TKT_CATCH_CHAIN",
+          "count": 37
+        },
+        {
+          "value": 23,
+          "symbol_in_historical_enum": "TKT_CATCH_PET_BLOOD",
+          "count": 22
+        },
+        {
+          "value": 24,
+          "symbol_in_historical_enum": "TKT_SELF_OR_TEAM_CATCH",
+          "count": 37
+        },
+        {
+          "value": 25,
+          "symbol_in_historical_enum": "TKT_PVP_COMBAT_MAGIC",
+          "count": 6
+        },
+        {
+          "value": 202,
+          "symbol_in_historical_enum": "TKT_CHECK_VITEM",
+          "count": 184
+        },
+        {
+          "value": 203,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_LEVEL",
+          "count": 116
+        },
+        {
+          "value": 204,
+          "symbol_in_historical_enum": "TKT_CHECK_BASE_PET_NUM",
+          "count": 55
+        },
+        {
+          "value": 206,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_ID",
+          "count": 26
+        },
+        {
+          "value": 207,
+          "symbol_in_historical_enum": "TKT_CHECK_TASK_DONE",
+          "count": 588
+        },
+        {
+          "value": 208,
+          "symbol_in_historical_enum": "TKT_CHECK_TELEPORT_STATE",
+          "count": 34
+        },
+        {
+          "value": 209,
+          "symbol_in_historical_enum": "TKT_CHECK_BAG_ITEM",
+          "count": 69
+        },
+        {
+          "value": 210,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_FORMATION",
+          "count": 5
+        },
+        {
+          "value": 211,
+          "symbol_in_historical_enum": "TKT_CHECK_HANDBOOK_COLLECT_PETNUM",
+          "count": 17
+        },
+        {
+          "value": 212,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_PROGRESS",
+          "count": 41
+        },
+        {
+          "value": 213,
+          "symbol_in_historical_enum": "TKT_CHECK_MAGICIAN_STAR",
+          "count": 20
+        },
+        {
+          "value": 214,
+          "symbol_in_historical_enum": "TKT_CHECK_FINISH_DUNGEON",
+          "count": 2
+        },
+        {
+          "value": 215,
+          "symbol_in_historical_enum": "TKT_CHECK_HANDBOOK_LESSON",
+          "count": 2
+        },
+        {
+          "value": 217,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_TOPIC_ALL_COMPLETE_NUM",
+          "count": 2
+        },
+        {
+          "value": 218,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_EFFORT_LEVEL",
+          "count": 3
+        },
+        {
+          "value": 219,
+          "symbol_in_historical_enum": "TKT_CHECK_SCENE",
+          "count": 17
+        },
+        {
+          "value": 221,
+          "symbol_in_historical_enum": "TKT_CHECK_HANDBOOK_NODE_FINNUM",
+          "count": 2
+        },
+        {
+          "value": 222,
+          "symbol_in_historical_enum": "TKT_CHECK_ADVENTURE_CHAPTER",
+          "count": 1
+        },
+        {
+          "value": 223,
+          "symbol_in_historical_enum": "TKT_CHECK_CROP_FRUIT",
+          "count": 19
+        },
+        {
+          "value": 224,
+          "symbol_in_historical_enum": "TKT_CHECK_BAGITEMTYPE",
+          "count": 2
+        },
+        {
+          "value": 225,
+          "symbol_in_historical_enum": "TKT_CHECK_PVP_RANK",
+          "count": 4
+        },
+        {
+          "value": 226,
+          "symbol_in_historical_enum": "TKT_CHECK_HANDBOOK_NODE_AWARD",
+          "count": 1
+        },
+        {
+          "value": 227,
+          "symbol_in_historical_enum": "TKT_CHECK_FASHION",
+          "count": 10
+        },
+        {
+          "value": 228,
+          "symbol_in_historical_enum": "TKT_CHECK_PLANT_EQUIPED_SEED",
+          "count": 3
+        },
+        {
+          "value": 230,
+          "symbol_in_historical_enum": "TKT_CHECK_FRIEND_NUM",
+          "count": 4
+        },
+        {
+          "value": 231,
+          "symbol_in_historical_enum": "TKT_CHECK_APPLAUSE_LEVEL",
+          "count": 1
+        },
+        {
+          "value": 232,
+          "symbol_in_historical_enum": "TKT_CHECK_HOME_COMFORT",
+          "count": 5
+        },
+        {
+          "value": 233,
+          "symbol_in_historical_enum": "TKT_CHECK_ADVENTURE_CORE_DONE",
+          "count": 16
+        },
+        {
+          "value": 234,
+          "symbol_in_historical_enum": "TKT_CHECK_RELATIONTREE_COUNT",
+          "count": 4
+        },
+        {
+          "value": 235,
+          "symbol_in_historical_enum": "TKT_CHECK_RP_BEHAVIOR",
+          "count": 2
+        },
+        {
+          "value": 236,
+          "symbol_in_historical_enum": "TKT_CHECK_HAD_BAGITEM",
+          "count": 21
+        },
+        {
+          "value": 239,
+          "symbol_in_historical_enum": "TKT_CHECK_SCENE_RES",
+          "count": 25
+        },
+        {
+          "value": 240,
+          "symbol_in_historical_enum": "TKT_CHECK_TASK_DAY_PASS",
+          "count": 10
+        },
+        {
+          "value": 241,
+          "symbol_in_historical_enum": "TKT_CHECK_BOX_EMPTY",
+          "count": 4
+        },
+        {
+          "value": 242,
+          "symbol_in_historical_enum": "TKT_CHECK_VERSION_NUMBER",
+          "count": 7
+        },
+        {
+          "value": 244,
+          "symbol_in_historical_enum": "TKT_CHECK_FASHION_TAB",
+          "count": 2
+        },
+        {
+          "value": 245,
+          "symbol_in_historical_enum": "TKT_CHECK_PET_LORDEVO",
+          "count": 1
+        },
+        {
+          "value": 246,
+          "symbol_in_historical_enum": null,
+          "count": 1
+        },
+        {
+          "value": 249,
+          "symbol_in_historical_enum": null,
+          "count": 1
+        },
+        {
+          "value": 303,
+          "symbol_in_historical_enum": "TKT_BUY_ID_GOODS",
+          "count": 24
+        },
+        {
+          "value": 306,
+          "symbol_in_historical_enum": "TKT_PLAY_END",
+          "count": 3
+        },
+        {
+          "value": 307,
+          "symbol_in_historical_enum": "TKT_STATE_DIALOGUE",
+          "count": 53
+        },
+        {
+          "value": 308,
+          "symbol_in_historical_enum": "TKT_STATE_OPTION",
+          "count": 2502
+        },
+        {
+          "value": 309,
+          "symbol_in_historical_enum": "TKT_TIME_PASS",
+          "count": 61
+        },
+        {
+          "value": 310,
+          "symbol_in_historical_enum": "TKT_DAY_PASS",
+          "count": 31
+        },
+        {
+          "value": 311,
+          "symbol_in_historical_enum": "TKT_ITEM_CRAFT",
+          "count": 20
+        },
+        {
+          "value": 312,
+          "symbol_in_historical_enum": "TKT_STATE_OPTION_PLAYER",
+          "count": 3
+        },
+        {
+          "value": 314,
+          "symbol_in_historical_enum": "TKT_PET_INTERACTION",
+          "count": 1
+        },
+        {
+          "value": 315,
+          "symbol_in_historical_enum": "TKT_ADD_VITEM",
+          "count": 20
+        },
+        {
+          "value": 316,
+          "symbol_in_historical_enum": "TKT_CONSUME_VITEM",
+          "count": 76
+        },
+        {
+          "value": 318,
+          "symbol_in_historical_enum": "TKT_PET_EVOLVE",
+          "count": 9
+        },
+        {
+          "value": 319,
+          "symbol_in_historical_enum": "TKT_CONSUME_BAGITEM_TYPE",
+          "count": 8
+        },
+        {
+          "value": 320,
+          "symbol_in_historical_enum": "TKT_THROW",
+          "count": 1
+        },
+        {
+          "value": 323,
+          "symbol_in_historical_enum": "TKT_TRAVEL_PET_TIME",
+          "count": 5
+        },
+        {
+          "value": 324,
+          "symbol_in_historical_enum": "TKT_HATCH_EGG_TIME",
+          "count": 11
+        },
+        {
+          "value": 326,
+          "symbol_in_historical_enum": "TKT_WORLDCOMBAT_WIN",
+          "count": 59
+        },
+        {
+          "value": 327,
+          "symbol_in_historical_enum": "TKT_CLIENT_TRIGGER",
+          "count": 93
+        },
+        {
+          "value": 328,
+          "symbol_in_historical_enum": "TKT_USE_PET_PERCEPTION",
+          "count": 3
+        },
+        {
+          "value": 329,
+          "symbol_in_historical_enum": "TKT_STATE_MINIGAME",
+          "count": 9
+        },
+        {
+          "value": 330,
+          "symbol_in_historical_enum": "TKT_VISIT_TIME",
+          "count": 3
+        },
+        {
+          "value": 332,
+          "symbol_in_historical_enum": "TKT_UPGRADE_ROLE_TIME",
+          "count": 5
+        },
+        {
+          "value": 334,
+          "symbol_in_historical_enum": "TKT_ADD_TALENT_PET",
+          "count": 1
+        },
+        {
+          "value": 335,
+          "symbol_in_historical_enum": "TKT_AREA_TRIG_TIME",
+          "count": 4
+        },
+        {
+          "value": 336,
+          "symbol_in_historical_enum": "TKT_PET_PARAM",
+          "count": 80
+        },
+        {
+          "value": 337,
+          "symbol_in_historical_enum": "TKT_TOTAL_CONSUMPTION",
+          "count": 8
+        },
+        {
+          "value": 338,
+          "symbol_in_historical_enum": "TKT_CONSUME_BAGITEM",
+          "count": 9
+        },
+        {
+          "value": 339,
+          "symbol_in_historical_enum": "TKT_ADD_NPC_CHALLENGE_STAR",
+          "count": 2
+        },
+        {
+          "value": 340,
+          "symbol_in_historical_enum": "TKT_ADD_BOSS_CHALLENGE_STAR",
+          "count": 2
+        },
+        {
+          "value": 341,
+          "symbol_in_historical_enum": "TKT_PVP_COMBAT",
+          "count": 27
+        },
+        {
+          "value": 342,
+          "symbol_in_historical_enum": "TKT_PET_RELASE",
+          "count": 2
+        },
+        {
+          "value": 344,
+          "symbol_in_historical_enum": "TKT_PVP_WEEKLY",
+          "count": 1
+        },
+        {
+          "value": 346,
+          "symbol_in_historical_enum": "TKT_WISDOMTREE",
+          "count": 4
+        },
+        {
+          "value": 347,
+          "symbol_in_historical_enum": "TKT_OWL_SANCTUARY_FRUIT_PUT_TIME",
+          "count": 2
+        },
+        {
+          "value": 348,
+          "symbol_in_historical_enum": "TKT_OWL_SANCTUARY_LEVEL_UP_TIME",
+          "count": 3
+        },
+        {
+          "value": 349,
+          "symbol_in_historical_enum": "TKT_ADD_BAGITEM",
+          "count": 12
+        },
+        {
+          "value": 350,
+          "symbol_in_historical_enum": "TKT_REACH_POINT",
+          "count": 126
+        },
+        {
+          "value": 351,
+          "symbol_in_historical_enum": "TKT_CLIENT_CINEMA_FINISHED",
+          "count": 154
+        },
+        {
+          "value": 352,
+          "symbol_in_historical_enum": "TKT_SHARE_TIME",
+          "count": 3
+        },
+        {
+          "value": 354,
+          "symbol_in_historical_enum": "TKT_PLANT_IN_LAND",
+          "count": 3
+        },
+        {
+          "value": 355,
+          "symbol_in_historical_enum": "TKT_HOME_SET_PET",
+          "count": 1
+        },
+        {
+          "value": 356,
+          "symbol_in_historical_enum": "TKT_HOME_SET_FURNITURE",
+          "count": 2
+        },
+        {
+          "value": 357,
+          "symbol_in_historical_enum": "TKT_HOME_FURNITURE_HANDBOOK_REWARD",
+          "count": 5
+        },
+        {
+          "value": 358,
+          "symbol_in_historical_enum": "TKT_COMPASS_CONVERSE",
+          "count": 11
+        },
+        {
+          "value": 359,
+          "symbol_in_historical_enum": "TKT_ADD_PET_GLASS",
+          "count": 10
+        },
+        {
+          "value": 360,
+          "symbol_in_historical_enum": "TKT_STATE_INTERACT_INVITETYPE",
+          "count": 5
+        },
+        {
+          "value": 361,
+          "symbol_in_historical_enum": "TKT_STATE_CHANGE_TOD",
+          "count": 9
+        },
+        {
+          "value": 362,
+          "symbol_in_historical_enum": "TKT_STATE_NPC_COMB",
+          "count": 9
+        },
+        {
+          "value": 363,
+          "symbol_in_historical_enum": "TKT_FRIEND_GIVE_PET",
+          "count": 6
+        },
+        {
+          "value": 364,
+          "symbol_in_historical_enum": "TKT_FRIEND_GIVE_PETEGG",
+          "count": 5
+        },
+        {
+          "value": 365,
+          "symbol_in_historical_enum": "TKT_CAMERA",
+          "count": 45
+        },
+        {
+          "value": 367,
+          "symbol_in_historical_enum": "TKT_MINI_PACKAGE_DONE",
+          "count": 2
+        },
+        {
+          "value": 368,
+          "symbol_in_historical_enum": "TKT_PET_BOND",
+          "count": 3
+        },
+        {
+          "value": 369,
+          "symbol_in_historical_enum": "TKT_ADD_PET_SEPC",
+          "count": 81
+        },
+        {
+          "value": 370,
+          "symbol_in_historical_enum": "TKT_GOT_SPECIFIC_PET",
+          "count": 17
+        },
+        {
+          "value": 371,
+          "symbol_in_historical_enum": "TKT_TOTAL_POPULARITY_VALUE",
+          "count": 5
+        },
+        {
+          "value": 372,
+          "symbol_in_historical_enum": "TKT_DAILY_ONLINE_TIME",
+          "count": 1
+        },
+        {
+          "value": 373,
+          "symbol_in_historical_enum": "TKT_PLAY_DISPLAY_ONYL",
+          "count": 34
+        },
+        {
+          "value": 374,
+          "symbol_in_historical_enum": "TKT_PET_CHANGE_TALENT",
+          "count": 1
+        },
+        {
+          "value": 375,
+          "symbol_in_historical_enum": "TKT_PET_PERFORMANCE",
+          "count": 1
+        },
+        {
+          "value": 376,
+          "symbol_in_historical_enum": "TKT_CARD_CHANGE",
+          "count": 1
+        },
+        {
+          "value": 379,
+          "symbol_in_historical_enum": "TKT_TEAM_SHARE",
+          "count": 1
+        },
+        {
+          "value": 380,
+          "symbol_in_historical_enum": "TKT_GIVE_MEDAL",
+          "count": 3
+        },
+        {
+          "value": 381,
+          "symbol_in_historical_enum": "TKT_CHANGE_PET_NAME",
+          "count": 2
+        },
+        {
+          "value": 382,
+          "symbol_in_historical_enum": "TKT_PVP_WATCH",
+          "count": 7
+        },
+        {
+          "value": 383,
+          "symbol_in_historical_enum": "TKT_PHOTO_SHARE",
+          "count": 10
+        },
+        {
+          "value": 385,
+          "symbol_in_historical_enum": "TKT_RECALL_SUB_ACTIVITY_CTRL",
+          "count": 7
+        },
+        {
+          "value": 386,
+          "symbol_in_historical_enum": "TKT_STATE_PATH_FINISH",
+          "count": 2
+        },
+        {
+          "value": 387,
+          "symbol_in_historical_enum": "TKT_GRASS_TRIAL_SETTLE",
+          "count": 3
+        },
+        {
+          "value": 388,
+          "symbol_in_historical_enum": "TKT_GRASS_TRIAL_PREPARE_HAS_STORYFLAG",
+          "count": 1
+        },
+        {
+          "value": 389,
+          "symbol_in_historical_enum": "TKT_BUILDING_NPC_LEVEL",
+          "count": 5
+        },
+        {
+          "value": 390,
+          "symbol_in_historical_enum": null,
+          "count": 14
+        },
+        {
+          "value": 391,
+          "symbol_in_historical_enum": null,
+          "count": 3
+        },
+        {
+          "value": 392,
+          "symbol_in_historical_enum": null,
+          "count": 5
+        },
+        {
+          "value": 393,
+          "symbol_in_historical_enum": null,
+          "count": 1
+        },
+        {
+          "value": 395,
+          "symbol_in_historical_enum": null,
+          "count": 1
+        }
+      ],
+      "unknown_values": [
+        246,
+        249,
+        390,
+        391,
+        392,
+        393,
+        395
+      ],
+      "unknown_source_rows": [
+        {
+          "task_id": 100400,
+          "index": 0,
+          "pointer": "/RocoDataRows/100400/task_condition/0",
+          "condition": {
+            "text": "与莱恩对话",
+            "type": 392,
+            "data1": [
+              20003
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 100401,
+          "index": 0,
+          "pointer": "/RocoDataRows/100401/task_condition/0",
+          "condition": {
+            "text": "去艾莉学姐那边看看",
+            "type": 392,
+            "data1": [
+              20004
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 100402,
+          "index": 0,
+          "pointer": "/RocoDataRows/100402/task_condition/0",
+          "condition": {
+            "text": "去其他摊位看看",
+            "type": 392,
+            "data1": [
+              20005
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 100403,
+          "index": 0,
+          "pointer": "/RocoDataRows/100403/task_condition/0",
+          "condition": {
+            "text": "与莱恩对话",
+            "type": 392,
+            "data1": [
+              20002
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 1150001,
+          "index": 0,
+          "pointer": "/RocoDataRows/1150001/task_condition/0",
+          "condition": {
+            "text": "唤醒<a id=\"洛克里安\">2046</>的4个<a id=\"魔力之源\">2001</>",
+            "type": 246,
+            "data1": [
+              8,
+              13,
+              25,
+              38,
+              44,
+              58,
+              61,
+              62,
+              63,
+              85,
+              2002,
+              28,
+              102,
+              123,
+              126,
+              148
+            ],
+            "data2": [
+              1
+            ],
+            "count": 16
+          }
+        },
+        {
+          "task_id": 90001032,
+          "index": 0,
+          "pointer": "/RocoDataRows/90001032/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 392,
+            "data1": [
+              20005
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 110000450,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000450/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 100
+          }
+        },
+        {
+          "task_id": 110000451,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000451/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 200
+          }
+        },
+        {
+          "task_id": 110000452,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000452/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 500
+          }
+        },
+        {
+          "task_id": 110000453,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000453/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 1000
+          }
+        },
+        {
+          "task_id": 110000454,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000454/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 1500
+          }
+        },
+        {
+          "task_id": 110000455,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000455/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 2000
+          }
+        },
+        {
+          "task_id": 110000456,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000456/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 3000
+          }
+        },
+        {
+          "task_id": 110000457,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000457/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 4000
+          }
+        },
+        {
+          "task_id": 110000458,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000458/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 5000
+          }
+        },
+        {
+          "task_id": 110000459,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000459/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 6000
+          }
+        },
+        {
+          "task_id": 110000460,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000460/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 7000
+          }
+        },
+        {
+          "task_id": 110000461,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000461/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 8000
+          }
+        },
+        {
+          "task_id": 110000462,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000462/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 9000
+          }
+        },
+        {
+          "task_id": 110000463,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000463/task_condition/0",
+          "condition": {
+            "type": 390,
+            "data1": [
+              6500001
+            ],
+            "data2": [
+              320076
+            ],
+            "count": 10000
+          }
+        },
+        {
+          "task_id": 110000551,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000551/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 391,
+            "data1": [
+              3002,
+              3005,
+              3033,
+              5010
+            ],
+            "data2": [
+              5
+            ],
+            "count": 5
+          }
+        },
+        {
+          "task_id": 110000556,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000556/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 391,
+            "data1": [
+              3003,
+              3006,
+              3032,
+              5017
+            ],
+            "data2": [
+              5
+            ],
+            "count": 5
+          }
+        },
+        {
+          "task_id": 110000561,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000561/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 391,
+            "data1": [
+              3001,
+              3007,
+              3025,
+              5003,
+              5061
+            ],
+            "data2": [
+              5
+            ],
+            "count": 5
+          }
+        },
+        {
+          "task_id": 110000714,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000714/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 393,
+            "data2": [
+              1039
+            ],
+            "count": 1
+          }
+        },
+        {
+          "task_id": 110000743,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000743/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 395,
+            "count": 1
+          }
+        },
+        {
+          "task_id": 110000827,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000827/task_condition/0",
+          "condition": {
+            "text": "",
+            "type": 249,
+            "data1": [
+              101,
+              103,
+              105,
+              107
+            ],
+            "data2": [
+              102,
+              104,
+              106,
+              108
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "omitted_source_rows": [
+        {
+          "task_id": 100000,
+          "index": 0,
+          "pointer": "/RocoDataRows/100000/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 100592,
+          "index": 0,
+          "pointer": "/RocoDataRows/100592/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 1603001,
+          "index": 0,
+          "pointer": "/RocoDataRows/1603001/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 1604001,
+          "index": 0,
+          "pointer": "/RocoDataRows/1604001/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020001,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020001/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020002,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020002/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020101,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020101/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020201,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020201/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020301,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020301/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020401,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020401/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 6020402,
+          "index": 0,
+          "pointer": "/RocoDataRows/6020402/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 60109001,
+          "index": 0,
+          "pointer": "/RocoDataRows/60109001/task_condition/0",
+          "condition": {}
+        },
+        {
+          "task_id": 67000001,
+          "index": 0,
+          "pointer": "/RocoDataRows/67000001/task_condition/0",
+          "condition": {
+            "text": ""
+          }
+        },
+        {
+          "task_id": 67000004,
+          "index": 0,
+          "pointer": "/RocoDataRows/67000004/task_condition/0",
+          "condition": {
+            "text": ""
+          }
+        },
+        {
+          "task_id": 70013002,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013002/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013003,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013003/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013004,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013004/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013005,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013005/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013006,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013006/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013007,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013007/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70013008,
+          "index": 0,
+          "pointer": "/RocoDataRows/70013008/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70028004,
+          "index": 0,
+          "pointer": "/RocoDataRows/70028004/task_condition/0",
+          "condition": {
+            "count": 1
+          }
+        },
+        {
+          "task_id": 70028011,
+          "index": 0,
+          "pointer": "/RocoDataRows/70028011/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 70030025,
+          "index": 0,
+          "pointer": "/RocoDataRows/70030025/task_condition/0",
+          "condition": {
+            "text": "查看神秘空间的情况"
+          }
+        },
+        {
+          "task_id": 98000008,
+          "index": 0,
+          "pointer": "/RocoDataRows/98000008/task_condition/0",
+          "condition": {
+            "text": "",
+            "count": 1
+          }
+        },
+        {
+          "task_id": 98000022,
+          "index": 0,
+          "pointer": "/RocoDataRows/98000022/task_condition/0",
+          "condition": {
+            "count": 1
+          }
+        },
+        {
+          "task_id": 110000153,
+          "index": 1,
+          "pointer": "/RocoDataRows/110000153/task_condition/1",
+          "condition": {}
+        },
+        {
+          "task_id": 110000527,
+          "index": 0,
+          "pointer": "/RocoDataRows/110000527/task_condition/0",
+          "condition": {
+            "text": "",
+            "count": 1
+          }
+        }
+      ],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/29/Struct/Properties/3",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 12,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    },
+    {
+      "field": "TASK_CONF.accept_action[].type",
+      "candidate_enum": "TaskStateChangeActionType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 5109,
+      "omitted_type_slots": 17,
+      "invalid_type_slots": 0,
+      "observed_values": [
+        {
+          "value": 8,
+          "symbol_in_historical_enum": "TSCAT_OPEN_NPC_CONTENT",
+          "count": 1639
+        },
+        {
+          "value": 9,
+          "symbol_in_historical_enum": "TSCAT_CLOSE_NPC_CONTENT",
+          "count": 126
+        },
+        {
+          "value": 10,
+          "symbol_in_historical_enum": "TSCAT_ADD_OPTION_TO_NPC",
+          "count": 12
+        },
+        {
+          "value": 12,
+          "symbol_in_historical_enum": "TSCAT_ADD_STORY_FLAG",
+          "count": 111
+        },
+        {
+          "value": 13,
+          "symbol_in_historical_enum": "TSCAT_DELETE_STORY_FLAG",
+          "count": 40
+        },
+        {
+          "value": 14,
+          "symbol_in_historical_enum": "TSCAT_ADD_SEQUENCE",
+          "count": 116
+        },
+        {
+          "value": 15,
+          "symbol_in_historical_enum": "TSCAT_GIVE_UP_TASK",
+          "count": 1
+        },
+        {
+          "value": 18,
+          "symbol_in_historical_enum": "TSCAT_ADD_TASK",
+          "count": 58
+        },
+        {
+          "value": 19,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_WEATHER",
+          "count": 28
+        },
+        {
+          "value": 20,
+          "symbol_in_historical_enum": "TSCAT_END_WEATHER",
+          "count": 9
+        },
+        {
+          "value": 21,
+          "symbol_in_historical_enum": "TSCAT_SALS_NPC_OPEN",
+          "count": 2
+        },
+        {
+          "value": 22,
+          "symbol_in_historical_enum": "TSCAT_SALS_NPC_CLOSE",
+          "count": 5
+        },
+        {
+          "value": 23,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_ORIGINAL_ACTION",
+          "count": 3
+        },
+        {
+          "value": 24,
+          "symbol_in_historical_enum": "TSCAT_UNLOCK_NEW_WORLDMAP",
+          "count": 2
+        },
+        {
+          "value": 25,
+          "symbol_in_historical_enum": "TSCAT_PC_TRANSFORM_TO_PET",
+          "count": 8
+        },
+        {
+          "value": 26,
+          "symbol_in_historical_enum": "TSCAT_PC_TRANSFORM_CANCEL",
+          "count": 4
+        },
+        {
+          "value": 27,
+          "symbol_in_historical_enum": "TSCAT_PC_TRANSFORM_TO_MODEL",
+          "count": 2
+        },
+        {
+          "value": 28,
+          "symbol_in_historical_enum": "TSCAT_ADD_STATE",
+          "count": 2
+        },
+        {
+          "value": 30,
+          "symbol_in_historical_enum": "TSCAT_OPEN_AREA_TRIG",
+          "count": 2
+        },
+        {
+          "value": 33,
+          "symbol_in_historical_enum": "TSCAT_TASK_SUMMARY",
+          "count": 2
+        },
+        {
+          "value": 34,
+          "symbol_in_historical_enum": "TSCAT_GP_CONTEST_FINISHED",
+          "count": 1
+        },
+        {
+          "value": 36,
+          "symbol_in_historical_enum": "TSCAT_HIDE_CONTENT_STATIC",
+          "count": 52
+        },
+        {
+          "value": 37,
+          "symbol_in_historical_enum": "TSCAT_SHOW_CONTENT_STATIC",
+          "count": 14
+        },
+        {
+          "value": 42,
+          "symbol_in_historical_enum": "TSCAT_ADD_MP4",
+          "count": 38
+        },
+        {
+          "value": 43,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_DUNGEON_STAGE",
+          "count": 1
+        },
+        {
+          "value": 44,
+          "symbol_in_historical_enum": "TSCAT_ENTER_DUNGEON",
+          "count": 18
+        },
+        {
+          "value": 45,
+          "symbol_in_historical_enum": "TSCAT_ROLE_TELEPORT",
+          "count": 83
+        },
+        {
+          "value": 46,
+          "symbol_in_historical_enum": "TSCAT_LEAVE_DUNGEON",
+          "count": 2
+        },
+        {
+          "value": 51,
+          "symbol_in_historical_enum": "TSCAT_GO_CMD",
+          "count": 1
+        },
+        {
+          "value": 52,
+          "symbol_in_historical_enum": "TSCAT_OPEN_CONTENT_OPT",
+          "count": 2571
+        },
+        {
+          "value": 53,
+          "symbol_in_historical_enum": "TSCAT_CLOSE_CONTENT_OPT",
+          "count": 138
+        },
+        {
+          "value": 54,
+          "symbol_in_historical_enum": "TSCAT_SLIDE",
+          "count": 1
+        }
+      ],
+      "unknown_values": [],
+      "unknown_source_rows": [],
+      "omitted_source_rows": [
+        {
+          "task_id": 100005,
+          "index": 2,
+          "pointer": "/RocoDataRows/100005/accept_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 100597,
+          "index": 2,
+          "pointer": "/RocoDataRows/100597/accept_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 1101120,
+          "index": 3,
+          "pointer": "/RocoDataRows/1101120/accept_action/3",
+          "condition": {}
+        },
+        {
+          "task_id": 1130016,
+          "index": 2,
+          "pointer": "/RocoDataRows/1130016/accept_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 1130020,
+          "index": 2,
+          "pointer": "/RocoDataRows/1130020/accept_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 1130020,
+          "index": 3,
+          "pointer": "/RocoDataRows/1130020/accept_action/3",
+          "condition": {}
+        },
+        {
+          "task_id": 1130020,
+          "index": 4,
+          "pointer": "/RocoDataRows/1130020/accept_action/4",
+          "condition": {}
+        },
+        {
+          "task_id": 1130020,
+          "index": 5,
+          "pointer": "/RocoDataRows/1130020/accept_action/5",
+          "condition": {}
+        },
+        {
+          "task_id": 1130020,
+          "index": 6,
+          "pointer": "/RocoDataRows/1130020/accept_action/6",
+          "condition": {}
+        },
+        {
+          "task_id": 1130096,
+          "index": 5,
+          "pointer": "/RocoDataRows/1130096/accept_action/5",
+          "condition": {}
+        },
+        {
+          "task_id": 1130096,
+          "index": 6,
+          "pointer": "/RocoDataRows/1130096/accept_action/6",
+          "condition": {}
+        },
+        {
+          "task_id": 1130096,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130096/accept_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130097,
+          "index": 5,
+          "pointer": "/RocoDataRows/1130097/accept_action/5",
+          "condition": {}
+        },
+        {
+          "task_id": 1130097,
+          "index": 6,
+          "pointer": "/RocoDataRows/1130097/accept_action/6",
+          "condition": {}
+        },
+        {
+          "task_id": 1130097,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130097/accept_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 52002114,
+          "index": 3,
+          "pointer": "/RocoDataRows/52002114/accept_action/3",
+          "condition": {
+            "text": "     "
+          }
+        },
+        {
+          "task_id": 59000430,
+          "index": 1,
+          "pointer": "/RocoDataRows/59000430/accept_action/1",
+          "condition": {}
+        }
+      ],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/40/Struct/Properties/0",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 0,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    },
+    {
+      "field": "TASK_CONF.finish_action[].type",
+      "candidate_enum": "TaskStateChangeActionType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 5116,
+      "omitted_type_slots": 12,
+      "invalid_type_slots": 0,
+      "observed_values": [
+        {
+          "value": 8,
+          "symbol_in_historical_enum": "TSCAT_OPEN_NPC_CONTENT",
+          "count": 325
+        },
+        {
+          "value": 9,
+          "symbol_in_historical_enum": "TSCAT_CLOSE_NPC_CONTENT",
+          "count": 1746
+        },
+        {
+          "value": 10,
+          "symbol_in_historical_enum": "TSCAT_ADD_OPTION_TO_NPC",
+          "count": 16
+        },
+        {
+          "value": 11,
+          "symbol_in_historical_enum": "TSCAT_DELETE_OPTION_IN_NPC",
+          "count": 14
+        },
+        {
+          "value": 12,
+          "symbol_in_historical_enum": "TSCAT_ADD_STORY_FLAG",
+          "count": 142
+        },
+        {
+          "value": 13,
+          "symbol_in_historical_enum": "TSCAT_DELETE_STORY_FLAG",
+          "count": 85
+        },
+        {
+          "value": 15,
+          "symbol_in_historical_enum": "TSCAT_GIVE_UP_TASK",
+          "count": 22
+        },
+        {
+          "value": 19,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_WEATHER",
+          "count": 2
+        },
+        {
+          "value": 20,
+          "symbol_in_historical_enum": "TSCAT_END_WEATHER",
+          "count": 10
+        },
+        {
+          "value": 21,
+          "symbol_in_historical_enum": "TSCAT_SALS_NPC_OPEN",
+          "count": 5
+        },
+        {
+          "value": 22,
+          "symbol_in_historical_enum": "TSCAT_SALS_NPC_CLOSE",
+          "count": 3
+        },
+        {
+          "value": 23,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_ORIGINAL_ACTION",
+          "count": 10
+        },
+        {
+          "value": 24,
+          "symbol_in_historical_enum": "TSCAT_UNLOCK_NEW_WORLDMAP",
+          "count": 12
+        },
+        {
+          "value": 25,
+          "symbol_in_historical_enum": "TSCAT_PC_TRANSFORM_TO_PET",
+          "count": 1
+        },
+        {
+          "value": 26,
+          "symbol_in_historical_enum": "TSCAT_PC_TRANSFORM_CANCEL",
+          "count": 7
+        },
+        {
+          "value": 28,
+          "symbol_in_historical_enum": "TSCAT_ADD_STATE",
+          "count": 1
+        },
+        {
+          "value": 29,
+          "symbol_in_historical_enum": "TSCAT_DELETE_STATE",
+          "count": 3
+        },
+        {
+          "value": 32,
+          "symbol_in_historical_enum": "TSCAT_DEDUCT_GP",
+          "count": 1
+        },
+        {
+          "value": 33,
+          "symbol_in_historical_enum": "TSCAT_TASK_SUMMARY",
+          "count": 8
+        },
+        {
+          "value": 34,
+          "symbol_in_historical_enum": "TSCAT_GP_CONTEST_FINISHED",
+          "count": 2
+        },
+        {
+          "value": 35,
+          "symbol_in_historical_enum": "TSCAT_GP_CONTEST_UPDATE",
+          "count": 4
+        },
+        {
+          "value": 36,
+          "symbol_in_historical_enum": "TSCAT_HIDE_CONTENT_STATIC",
+          "count": 19
+        },
+        {
+          "value": 37,
+          "symbol_in_historical_enum": "TSCAT_SHOW_CONTENT_STATIC",
+          "count": 42
+        },
+        {
+          "value": 38,
+          "symbol_in_historical_enum": "TSCAT_DISABLE_RELEASE_PET",
+          "count": 1
+        },
+        {
+          "value": 39,
+          "symbol_in_historical_enum": "TSCAT_ENABLE_RELEASE_PET",
+          "count": 1
+        },
+        {
+          "value": 43,
+          "symbol_in_historical_enum": "TSCAT_CHANGE_DUNGEON_STAGE",
+          "count": 3
+        },
+        {
+          "value": 50,
+          "symbol_in_historical_enum": "TSCAT_RECYCLE_TASKBAGITEM",
+          "count": 77
+        },
+        {
+          "value": 51,
+          "symbol_in_historical_enum": "TSCAT_GO_CMD",
+          "count": 17
+        },
+        {
+          "value": 52,
+          "symbol_in_historical_enum": "TSCAT_OPEN_CONTENT_OPT",
+          "count": 368
+        },
+        {
+          "value": 53,
+          "symbol_in_historical_enum": "TSCAT_CLOSE_CONTENT_OPT",
+          "count": 2156
+        },
+        {
+          "value": 55,
+          "symbol_in_historical_enum": "TSCAT_SEND_MAIL",
+          "count": 1
+        }
+      ],
+      "unknown_values": [],
+      "unknown_source_rows": [],
+      "omitted_source_rows": [
+        {
+          "task_id": 1101785,
+          "index": 7,
+          "pointer": "/RocoDataRows/1101785/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130009,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130009/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130011,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130011/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130013,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130013/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130017,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130017/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 1130019,
+          "index": 7,
+          "pointer": "/RocoDataRows/1130019/finish_action/7",
+          "condition": {}
+        },
+        {
+          "task_id": 5005022,
+          "index": 1,
+          "pointer": "/RocoDataRows/5005022/finish_action/1",
+          "condition": {}
+        },
+        {
+          "task_id": 52081298,
+          "index": 1,
+          "pointer": "/RocoDataRows/52081298/finish_action/1",
+          "condition": {}
+        },
+        {
+          "task_id": 52081298,
+          "index": 3,
+          "pointer": "/RocoDataRows/52081298/finish_action/3",
+          "condition": {}
+        },
+        {
+          "task_id": 59000320,
+          "index": 2,
+          "pointer": "/RocoDataRows/59000320/finish_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 59000455,
+          "index": 2,
+          "pointer": "/RocoDataRows/59000455/finish_action/2",
+          "condition": {}
+        },
+        {
+          "task_id": 70000446,
+          "index": 0,
+          "pointer": "/RocoDataRows/70000446/finish_action/0",
+          "condition": {}
+        }
+      ],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/41/Struct/Properties/0",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 0,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    },
+    {
+      "field": "TASK_CONF.reward_action[].type",
+      "candidate_enum": "TaskStateChangeActionType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 0,
+      "omitted_type_slots": 0,
+      "invalid_type_slots": 0,
+      "observed_values": [],
+      "unknown_values": [],
+      "unknown_source_rows": [],
+      "omitted_source_rows": [],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/42/Struct/Properties/0",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 0,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    },
+    {
+      "field": "TASK_CONF.failed_action[].type",
+      "candidate_enum": "TaskStateChangeActionType",
+      "candidate_binding_status": "inference_not_declared_by_BinConf_schema",
+      "observed_slots": 0,
+      "omitted_type_slots": 0,
+      "invalid_type_slots": 0,
+      "observed_values": [],
+      "unknown_values": [],
+      "unknown_source_rows": [],
+      "omitted_source_rows": [],
+      "invalid_source_rows": [],
+      "schema_evidence": {
+        "pointer": "/Properties/58/Struct/Properties/0",
+        "property": {
+          "Name": "type",
+          "Type": "EInt32",
+          "Offset": 0,
+          "Size": 4
+        }
+      },
+      "inference_basis": "Field role/name and observed numeric overlap with the named historical enum; not an explicit schema binding or a runtime implementation."
+    }
+  ]
+}
