@@ -1,0 +1,771 @@
+{
+  "format": "roco_candidate_release_gate_v1",
+  "snapshot_id": "pc-1.111.0.177-229314",
+  "game_version": "1.111.0.177",
+  "build_number": "229314",
+  "source_zip_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+  "upstream_lineage_run": "41069687803",
+  "input_count": 2314,
+  "technical_integrity": {
+    "status": "passed",
+    "file_sha256_and_semantic_hashes_match": true,
+    "source_manifest_complete": true,
+    "original_json_parse_errors": 0,
+    "ordinary_tables": 870,
+    "international_row_files": 3,
+    "schema_files": 870,
+    "localization_files": 571,
+    "ordinary_row_count": 675341,
+    "ordinary_empty_tables": 50,
+    "source_bytes_of_data_and_localization_verified": 331744429,
+    "id_unique_key_mismatch_rows": 10,
+    "id_unique_key_mismatch_tables": 1,
+    "id_key_anomalies": [
+      {
+        "table": "BinDataCompressed/ROGUE_CHALLENGE_GLOBAL_CONFIG",
+        "rows": 10,
+        "declared_unique_key": "id",
+        "note": "Record map keys may be named configuration keys; ID mismatch is not automatically corruption."
+      }
+    ],
+    "season_ids_1_through_4_present": true
+  },
+  "schema_review": {
+    "status": "incomplete",
+    "record_fields_outside_exported_schema_tables": 107,
+    "tables_with_fields_not_seen_in_july": 33,
+    "new_fields_occurrences": 56,
+    "rows_for_unseen_fields_checked": true,
+    "unseen_field_details": [
+      {
+        "table": "BinDataCompressed/ACTIVITY_DROP_METHOD_CONF",
+        "row_count": 652,
+        "new_fields": [
+          {
+            "name": "day_got_limit_type",
+            "rows_present": 62,
+            "value_types": {
+              "int": 62
+            }
+          },
+          {
+            "name": "week_day_time",
+            "rows_present": 652,
+            "value_types": {
+              "list": 652
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ACTIVITY_PET_CERTIFICATION",
+        "row_count": 4,
+        "new_fields": [
+          {
+            "name": "fullstar",
+            "rows_present": 2,
+            "value_types": {
+              "int": 2
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ACTIVITY_RECALLBP_CONF",
+        "row_count": 5,
+        "new_fields": [
+          {
+            "name": "up_bp_name",
+            "rows_present": 5,
+            "value_types": {
+              "str": 5
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor_0_P"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ACTIVITY_SEASON_SPRINT_CONF",
+        "row_count": 3,
+        "new_fields": [
+          {
+            "name": "chasing_reward_title",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          },
+          {
+            "name": "exp_chasing_limit",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          },
+          {
+            "name": "instruction_desc",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          },
+          {
+            "name": "pass_exp_module_desc",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          },
+          {
+            "name": "pass_exp_progress_desc",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          },
+          {
+            "name": "season_bg_umg_path",
+            "rows_present": 2,
+            "value_types": {
+              "str": 2
+            }
+          },
+          {
+            "name": "task_group",
+            "rows_present": 1,
+            "value_types": {
+              "list": 1
+            }
+          },
+          {
+            "name": "window_title",
+            "rows_present": 1,
+            "value_types": {
+              "str": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor_1_P"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ALL_RIDE_PET",
+        "row_count": 653,
+        "new_fields": [
+          {
+            "name": "monitor_data_version",
+            "rows_present": 653,
+            "value_types": {
+              "int": 653
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/AREA_FUNC_CONF",
+        "row_count": 582,
+        "new_fields": [
+          {
+            "name": "ascription_proprity",
+            "rows_present": 6,
+            "value_types": {
+              "int": 6
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/BALL_CONF",
+        "row_count": 27,
+        "new_fields": [
+          {
+            "name": "param_move",
+            "rows_present": 1,
+            "value_types": {
+              "list": 1
+            }
+          },
+          {
+            "name": "param_surface",
+            "rows_present": 1,
+            "value_types": {
+              "list": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/BATTLE_CONF",
+        "row_count": 7298,
+        "new_fields": [
+          {
+            "name": "is_pvp_season_music",
+            "rows_present": 1,
+            "value_types": {
+              "bool": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/BATTLE_PASS_CONF",
+        "row_count": 4,
+        "new_fields": [
+          {
+            "name": "bp_pass_select",
+            "rows_present": 4,
+            "value_types": {
+              "str": 4
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/BUTTON_SETTING_CONF",
+        "row_count": 61,
+        "new_fields": [
+          {
+            "name": "sort_id",
+            "rows_present": 61,
+            "value_types": {
+              "int": 61
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/CHAT_BUBBLE_CONF",
+        "row_count": 1,
+        "new_fields": [
+          {
+            "name": "item_quality",
+            "rows_present": 1,
+            "value_types": {
+              "int": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor_2_P"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/FURNITURE_ITEM_CONF",
+        "row_count": 269,
+        "new_fields": [
+          {
+            "name": "furniture_center_offset",
+            "rows_present": 2,
+            "value_types": {
+              "list": 2
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/LEVEL_SKILL_CONF",
+        "row_count": 925,
+        "new_fields": [
+          {
+            "name": "extra_machine_skill_group_id",
+            "rows_present": 1,
+            "value_types": {
+              "int": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/MODEL_CONF",
+        "row_count": 3387,
+        "new_fields": [
+          {
+            "name": "resource_inpackage_version",
+            "rows_present": 302,
+            "value_types": {
+              "str": 302
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/NORMAL_SHOP_CONF",
+        "row_count": 2060,
+        "new_fields": [
+          {
+            "name": "resource_inpackage",
+            "rows_present": 234,
+            "value_types": {
+              "str": 234
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/NPC_CONF",
+        "row_count": 18962,
+        "new_fields": [
+          {
+            "name": "can_be_bound_and_hidden",
+            "rows_present": 2837,
+            "value_types": {
+              "bool": 2837
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/NPC_REFRESH_CONTENT_CONF",
+        "row_count": 39385,
+        "new_fields": [
+          {
+            "name": "first_emerge_skill",
+            "rows_present": 677,
+            "value_types": {
+              "str": 677
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PETBASE_CONF",
+        "row_count": 1147,
+        "new_fields": [
+          {
+            "name": "habit_ai_group_info_id",
+            "rows_present": 4,
+            "value_types": {
+              "int": 4
+            }
+          },
+          {
+            "name": "head_marker_offset",
+            "rows_present": 5,
+            "value_types": {
+              "float": 5
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PET_INFORMATION_CONF",
+        "row_count": 10,
+        "new_fields": [
+          {
+            "name": "condition_param2",
+            "rows_present": 4,
+            "value_types": {
+              "str": 4
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor_0_P"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PET_TOPIC_TYPE_CONF",
+        "row_count": 16,
+        "new_fields": [
+          {
+            "name": "is_show_in_magic_challenge",
+            "rows_present": 16,
+            "value_types": {
+              "bool": 16
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PLANT_GROW_CONF",
+        "row_count": 24,
+        "new_fields": [
+          {
+            "name": "plant_show_bagitem",
+            "rows_present": 24,
+            "value_types": {
+              "list": 24
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PVP_CONF",
+        "row_count": 8,
+        "new_fields": [
+          {
+            "name": "end_time",
+            "rows_present": 2,
+            "value_types": {
+              "str": 2
+            }
+          },
+          {
+            "name": "rule_list",
+            "rows_present": 5,
+            "value_types": {
+              "list": 5
+            }
+          },
+          {
+            "name": "rule_num",
+            "rows_present": 2,
+            "value_types": {
+              "int": 2
+            }
+          },
+          {
+            "name": "rule_tips",
+            "rows_present": 2,
+            "value_types": {
+              "str": 2
+            }
+          },
+          {
+            "name": "start_time",
+            "rows_present": 2,
+            "value_types": {
+              "str": 2
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/PVP_RANK_CONF",
+        "row_count": 117,
+        "new_fields": [
+          {
+            "name": "share_bg",
+            "rows_present": 117,
+            "value_types": {
+              "str": 117
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/RELATIONTREE_ANIM_CONF",
+        "row_count": 27,
+        "new_fields": [
+          {
+            "name": "allow_broadcast",
+            "rows_present": 7,
+            "value_types": {
+              "bool": 7
+            }
+          },
+          {
+            "name": "roleplay_id",
+            "rows_present": 2,
+            "value_types": {
+              "int": 2
+            }
+          },
+          {
+            "name": "simple_action_id",
+            "rows_present": 1,
+            "value_types": {
+              "int": 1
+            }
+          },
+          {
+            "name": "single_key",
+            "rows_present": 2,
+            "value_types": {
+              "str": 2
+            }
+          },
+          {
+            "name": "socialshare_type",
+            "rows_present": 1,
+            "value_types": {
+              "int": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/RIDE_SOCKET",
+        "row_count": 153,
+        "new_fields": [
+          {
+            "name": "skill_socket_pc1",
+            "rows_present": 12,
+            "value_types": {
+              "str": 12
+            }
+          },
+          {
+            "name": "skill_socket_pc2",
+            "rows_present": 12,
+            "value_types": {
+              "str": 12
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ROLEPLAY_BEHAVIOR_CONF",
+        "row_count": 105,
+        "new_fields": [
+          {
+            "name": "relationtree_anim_id",
+            "rows_present": 7,
+            "value_types": {
+              "int": 7
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/ROLEPLAY_PROP_CONF",
+        "row_count": 18,
+        "new_fields": [
+          {
+            "name": "related_function_id",
+            "rows_present": 1,
+            "value_types": {
+              "list": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/SCENE_STATUS_WPST_CONF",
+        "row_count": 31,
+        "new_fields": [
+          {
+            "name": "is_afk_wandhold",
+            "rows_present": 2,
+            "value_types": {
+              "bool": 2
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/SEASON_ADVENTURE_BADGE_LEVEL",
+        "row_count": 24,
+        "new_fields": [
+          {
+            "name": "badge_level_reward",
+            "rows_present": 12,
+            "value_types": {
+              "str": 12
+            }
+          },
+          {
+            "name": "badge_level_up",
+            "rows_present": 12,
+            "value_types": {
+              "str": 12
+            }
+          },
+          {
+            "name": "star_icon",
+            "rows_present": 12,
+            "value_types": {
+              "str": 12
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/SEASON_HANDBOOK_CONF",
+        "row_count": 4,
+        "new_fields": [
+          {
+            "name": "shining_collect_task",
+            "rows_present": 1,
+            "value_types": {
+              "int": 1
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor_0_P"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/TREASURE_ITEM_CONF",
+        "row_count": 10,
+        "new_fields": [
+          {
+            "name": "if_last_safety_net",
+            "rows_present": 10,
+            "value_types": {
+              "bool": 10
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/WEEKLY_CHALLENGE_EVENT_CONF",
+        "row_count": 41,
+        "new_fields": [
+          {
+            "name": "extra_reward_limit",
+            "rows_present": 12,
+            "value_types": {
+              "int": 12
+            }
+          },
+          {
+            "name": "extra_star",
+            "rows_present": 12,
+            "value_types": {
+              "int": 12
+            }
+          },
+          {
+            "name": "reward",
+            "rows_present": 12,
+            "value_types": {
+              "list": 12
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      },
+      {
+        "table": "BinDataCompressed/WISH_EXCHANGE_CONF",
+        "row_count": 51,
+        "new_fields": [
+          {
+            "name": "wish_exchange",
+            "rows_present": 26,
+            "value_types": {
+              "list": 26
+            }
+          }
+        ],
+        "prior_schema_versions_cover_all_observed": false,
+        "historical_schema_exact_matches": [
+          "pakchunk4-WindowsNoEditor"
+        ]
+      }
+    ],
+    "evidence_limit": "The FModel merged JSON does not prove the originating Pak and corresponding .non for each table."
+  },
+  "release_decision": {
+    "private_candidate_preparation": "ready",
+    "public_release": "hold_until_rights_and_schema_provenance_review",
+    "does_not_contain_raw_game_values": true,
+    "reason": "Source rights for public redistribution unverified; per-table .non/Pak provenance is unverified for some tables."
+  }
+}

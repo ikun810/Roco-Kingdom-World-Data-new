@@ -4,6 +4,13 @@
 
 > **现有数据快照：2026-07-16（仓库资料日期，不是当前客户端版本）**。数据来源为 [`candyflosssss/Roco-Kingdom-World-Data`](https://github.com/candyflosssss/Roco-Kingdom-World-Data)，起始提交 `93e9130bc7b53d370003571fa266d1487a2a43bf`。本仓库还包含后续独立开发的查询、目录扫描和差异工具。**S4 及其后续内容不能仅凭这份快照认定已收录。**
 
+## 2026-10 最新 PC 候选版本（尚未公开发布完整数据）
+
+- 用户确认客户端版本 `1.111.0.177 (229314)`，已由 FModel 合并导出 `2,314` 份 JSON（`870` 张普通配置表、`870` 份 Schema、`571` 份本地化、`3` 份 ROW）。
+- **本仓库中的现行游戏配置正文仍是 2026-07-16。** 新版已完成本地源 ZIP 与元数据的全文件哈希校验，但没有将新版游戏配置正文提交到 GitHub。
+- <a href="docs/reports/pc-1.111.0.177-release-qa.md">新版候选完整性 QA 报告</a> · <a href="docs/RELEASE_CANDIDATE.md">本地候选打包和发布门槛</a> · <a href="docs/reports/pc-1.111.0.177-schema-lineage.md">Schema 血缘报告</a>。
+- 新版公开发布仍需确认同版本 Schema 来源与游戏数据的再分发权限。工具提供本地私有候选包，但不会在 CI 中上传原始 JSON / Pak。
+
 ## 目录与工具一览
 
 ```text

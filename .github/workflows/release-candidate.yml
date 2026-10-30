@@ -1,0 +1,43 @@
+name: Validate candidate release metadata
+on:
+  pull_request:
+    paths:
+      - 'tools/release_candidate.py'
+      - 'tests/test_release_candidate.py'
+      - 'docs/RELEASE_CANDIDATE.md'
+      - 'docs/reports/pc-1.111.0.177-release-qa.json'
+      - 'docs/reports/pc-1.111.0.177-release-qa.md'
+      - '.github/workflows/release-candidate.yml'
+      - 'docs/snapshots/pc-1.111.0.177-229314.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Run synthetic release candidate tests (no game data)
+        run: python -m unittest discover -s tests -p 'test_release_candidate.py' -v
+      - name: Regenerate lineage metadata using July history
+        run: >-
+          python tools/schema_lineage.py
+          --manifest docs/snapshots/pc-1.111.0.177-229314.json
+          --history-root .
+          --output build/schema_lineage_229314.json
+          --summary build/schema_lineage_summary_229314.json
+      - name: Validate published QA metadata (cannot recheck private source ZIP)
+        run: >-
+          python tools/release_candidate.py
+          --manifest docs/snapshots/pc-1.111.0.177-229314.json
+          --lineage build/schema_lineage_229314.json
+          --report docs/reports/pc-1.111.0.177-release-qa.json
+          --check-published-report
