@@ -4,6 +4,12 @@ on:
     paths:
       - 'data/supplements/**'
       - 'data/evidence/**'
+      - 'data/raw/**'
+      - 'tools/raw_content.py'
+      - 'tools/roco_raw.py'
+      - 'tests/test_raw_content.py'
+      - 'tests/test_roco_raw.py'
+      - 'docs/RAW_CONTENT.md'
       - 'tools/content_supplement.py'
       - 'tools/dialogue_closure.py'
       - 'tools/content_binding_audit.py'
@@ -36,6 +42,9 @@ jobs:
           python tools/content_binding_audit.py --repo . --output build/content_binding_evidence.json
           python tools/reward_source_evidence.py --repo . --output build/reward_source_evidence.json
           python tools/source_semantics.py --repo . --output-dir build/source-evidence
+      - name: Rebuild repairs from pinned original binary assets
+        run: |
+          python tools/raw_content.py export --output-dir build/raw-content
       - name: Compare reproduced evidence with checked-in source evidence
         run: |
           python - <<'PY'
@@ -48,6 +57,8 @@ jobs:
           pairs += [("build/source-evidence/" + name, "data/evidence/" + name) for name in (
               "condition_action_source_enums.json", "condition_action_numeric_coverage.json", "scene_entry_identity_evidence.json")]
           pairs.append(("build/source-evidence/optional_story_content.json", "data/supplements/optional_story_content.json"))
+          pairs += [("build/raw-content/raw_content_audit.json", "data/evidence/raw_content_audit.json"),
+                    ("build/raw-content/binary_content_recovery.json", "data/supplements/binary_content_recovery.json")]
           for generated, committed in pairs:
               assert read(generated) == read(committed), (generated, committed)
           main = read("build/referenced_content_resolved.json")["summary"]
@@ -57,6 +68,15 @@ jobs:
           graph = read("build/dialogue_reference_audit.json")["summary"]
           assert graph["missing_target_count"] == 0 and graph["new_additions"] == 0 and graph["new_reviews"] == 0, graph
           print({"main": main, "optional": optional, "dialogue_graph": graph})
+          raw = read("build/raw-content/raw_content_audit.json")["summary"]
+          assert (raw["data_pairing_count"], raw["localization_file_count"], raw["total_decoded_rows"]) == (52, 52, 345270), raw
+          assert raw["missing_localization_count"] == raw["struct_diagnostic_count"] == 0, raw
+          merged = read("build/raw-content/referenced_content_resolved.json")["summary"]
+          assert (merged["resolved_count"], merged["review_count"], merged["unresolved_count"]) == (659, 0, 0), merged
+          assert (merged["binary_source_count"], merged["historical_source_count"]) == (255, 404), merged
+          reward = next(x["record"] for x in read("build/raw-content/binary_content_recovery.json")["entries"] if x["table"] == "REWARD_CONF" and x["id"] == "19589")
+          assert reward["RewardItem"] == [{"Type": 2, "Id": 77, "Count": 40}], reward
+          print({"raw": raw, "binary_assisted_recovery": merged})
           PY
       - name: Upload recovered subsets and source evidence
         uses: actions/upload-artifact@v4
@@ -70,3 +90,4 @@ jobs:
             build/content_binding_evidence.json
             build/reward_source_evidence.json
             build/source-evidence/*.json
+            build/raw-content/**/*.json

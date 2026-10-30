@@ -1,0 +1,1614 @@
+{
+  "format": "roco_raw_source_manifest_v1",
+  "received_date": "2026-10-31",
+  "submission": {
+    "filename": "roco_extract.zip",
+    "sha256": "fa867dd3985f06ad32649f0e17f09f7a2dfdc4b305574d80017e3996e5e30bbd",
+    "byte_length": 20605402,
+    "asset_count": 120,
+    "report_count": 4
+  },
+  "bundle": {
+    "path": "data/raw/roco-config-20261031.tar.xz",
+    "sha256": "6b83e7bf80dd23f0b945d62f55a368a9fc4ce6613ea641cbb9e6908c35997916",
+    "byte_length": 4346996,
+    "format": "tar.xz",
+    "member_policy": "Original .bytes/.non only; paths preserve Pak and internal path; bytes unchanged; report metadata retained separately."
+  },
+  "parser_reference": {
+    "url": "https://github.com/FabianFG/CUE4Parse/blob/2a159ad0702120db30fdd85c1219dff78e5204b8/CUE4Parse/GameTypes/Tencent/RocoKingdomWorld/Assets/Objects/FRocoBinData.cs",
+    "blob_sha": "af7deb84924662a2ac34d0de45bc948db4ca8665"
+  },
+  "claim_limit": "Explicit investigation pairings validated by byte consumption and localization coverage; game build and runtime mount order not independently verified. Latest supplied means largest supplied numeric patch, not runtime effective data.",
+  "baseline_archive": {
+    "path": "data/current.zip",
+    "sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515"
+  },
+  "assets": [
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "MESSAGE_CONF",
+      "slot": "BinConf",
+      "byte_length": 1862,
+      "sha256": "b2ff8b5c9239040f8616d0f7e69557c0acf327a5766ae7eab617ca0355dfaaf4"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "REWARD_CONF",
+      "slot": "BinConf",
+      "byte_length": 3271,
+      "sha256": "9be2dd6e6c5be5693e870dc67ce8c0386a8032372b0e8b9037c3f2630cea6796"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "SELECT_CONF",
+      "slot": "BinConf",
+      "byte_length": 4285,
+      "sha256": "a170e591db5750af79d75a2580c6bfb9f00560de0811429aed01b494fab6b478"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "TASK_CONF",
+      "slot": "BinConf",
+      "byte_length": 25380,
+      "sha256": "ef60b75b6e7e91da0d04ed8ec545015ac70b4a7d777cb9db170d074127d14a05"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 26895,
+      "sha256": "98aa83f2fb32bab35df70a75738749b4575d75c181da88bf261fcfd9507b55c1"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1246720,
+      "sha256": "6c807c280261ba65b9e43523976529ca4a1bf399d2a365f81245672028e40bf6"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 927761,
+      "sha256": "8924724eb946bddc270597370f143e0be30aedb604b5d6759d0d7b7d92299af8"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1523868,
+      "sha256": "1b13ac6109a768de6646d3408cf1729911155fa6853da266be13d32bc9f0d328"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 3343,
+      "sha256": "1dd0001b96e8aa0f1326abb3afbf0b4c9afa124507c7905d8642ce5933feb88d"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "patch_number": -1,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/zh_CN",
+      "byte_length": 3343,
+      "sha256": "1dd0001b96e8aa0f1326abb3afbf0b4c9afa124507c7905d8642ce5933feb88d"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "MESSAGE_CONF",
+      "slot": "BinConf",
+      "byte_length": 1762,
+      "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "REWARD_CONF",
+      "slot": "BinConf",
+      "byte_length": 3196,
+      "sha256": "22a316a1c9c437c5ceb318628df60a48f197ce2cf79896cf34182075615e632b"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "SELECT_CONF",
+      "slot": "BinConf",
+      "byte_length": 4262,
+      "sha256": "802dabe4b7aeffdb1b79374748110cfd3b33b4f8c85e40ca2a5017a034a4f882"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "TASK_CONF",
+      "slot": "BinConf",
+      "byte_length": 25227,
+      "sha256": "404c6a4eaf27364eade286fa710e86628a38aa866fe7dfcc00660ffdd074412b"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 3311,
+      "sha256": "346b04e0dd5b0655262704581c3acf7e450ce9bd3184b39152c39a440b00a3d2"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 981948,
+      "sha256": "e8e2df186f91a68b14ec993e5bf61413b581c0ec77234a5a889e906b813a3982"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 524902,
+      "sha256": "6fefce4e89e2254ab85f02e1fb705420378c3b34df785496f6d016ad21ad4192"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1256315,
+      "sha256": "e2c815e1524c5c5969851f1cbfcf04a43c46304171779163ab467fa58041147d"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 28364,
+      "sha256": "ccf12a4225d367c4195d366fe5a19ac929484cec94d7f6c6afb2cfd953c06592"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 828110,
+      "sha256": "7d6a461d45ef5de71c78cc61a89e690091d32ab9c06b8f3f1adbc93f70a61187"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 338050,
+      "sha256": "b20186016283e5ee69aa56ce24cde9b83e67e9aac8417d69ff12d09b85b694d0"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 665691,
+      "sha256": "736d8b78b921989469ac25fa365cd0b1d742773cd7199c6798356e5161feef13"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 28364,
+      "sha256": "ccf12a4225d367c4195d366fe5a19ac929484cec94d7f6c6afb2cfd953c06592"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 828110,
+      "sha256": "7d6a461d45ef5de71c78cc61a89e690091d32ab9c06b8f3f1adbc93f70a61187"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 338050,
+      "sha256": "b20186016283e5ee69aa56ce24cde9b83e67e9aac8417d69ff12d09b85b694d0"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "patch_number": 0,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 665691,
+      "sha256": "736d8b78b921989469ac25fa365cd0b1d742773cd7199c6798356e5161feef13"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "REWARD_CONF",
+      "slot": "BinConf",
+      "byte_length": 2251,
+      "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001214,
+      "sha256": "5496109916f5f1e8242d441ecaba5e6aa89b3244c3fac4ffe3a36d1b8ed847b1"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 650005,
+      "sha256": "164f1adc6febd5456ce08d5e31e5552404f35543b000731beee23aba6c0dcd9f"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1644837,
+      "sha256": "b4cc3b8c76fecd03e332e9dd8aa09e94d32bc9bc509344bda0e887d40ecd4999"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 424276,
+      "sha256": "66bd7e859029f64d2aaaa27ee34cdebd6b47a152cdab1487cd2658ce44c66340"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "patch_number": 10,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 876985,
+      "sha256": "254da3ca48c5888ebd84a278838d77125a78fe5b54c4d1a27da17db8655cf948"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_11_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_11_P",
+      "patch_number": 11,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 876985,
+      "sha256": "3e18a02fce43dcdcc8d0dc75032cef92420c9673d323e522894bf85810631775"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 5051,
+      "sha256": "09b4e26529d60d79f014b71bc51e091c316ebe732a19240a4a0cdb25f43502bf"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001586,
+      "sha256": "3d76121fa22aa0d7026d4dd1ba85c2800ae7e0441d4a7de16f06f926b872d025"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1644771,
+      "sha256": "f8326dab0d016d80379e5b07dbd29570f43f78de57b1180672d45fbd45d63222"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 50780,
+      "sha256": "a92978260fbb32b5b663a8cb6717a4f0086f6f875902420b963459b0cbd257e3"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 983789,
+      "sha256": "24173e846513f2ce04192860941b6340b16fd4904abfdb132628c62d378983b5"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "patch_number": 14,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 876906,
+      "sha256": "9d736a5fe880ffd44fa7051cfc5c08de93c403e63fceca5269eb2a249bb0df3e"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_18_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_18_P",
+      "patch_number": 18,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1644779,
+      "sha256": "08e9dbb1cd6bf16e1670ed6cef2c798c5c11aec9af9342c5f33fe6391cf20ff0"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "REWARD_CONF",
+      "slot": "BinConf",
+      "byte_length": 3351,
+      "sha256": "7b92dd77dd30072f2b615e979b11738b0d5e020b18aa5acd5614b575c2b04475"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 3349,
+      "sha256": "3f1a08f4b8cfb23e48a00f8fcd3803f6f40a710defd42ab834cceb82bf8564da"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 985587,
+      "sha256": "09296a939ef57d902374cc0f715a2eabf083b02fafa7df332ea51dce35687776"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 525411,
+      "sha256": "81a742e3390bd85ce11a9177d19ee3c1b2895ffeddf76d2d693572ab4e3460a1"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1262304,
+      "sha256": "33806fcad303b1ed8f1d08ad72dbf1d0016b7365b31bb9ca941c59f02301f574"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 28621,
+      "sha256": "2e77a9bd6e6a4ca11d25629e115be1f758d5dcaf0f527214ef549df685ca47c7"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 830541,
+      "sha256": "c3708b522c7a1ef69351510e77d3964ed4ce9d880fb475826777b511c93bb3c1"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 338561,
+      "sha256": "9c8697060898ff0ff3c845f4660b6fe9fdd777e01470c4b669d4208aafa290bf"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 667684,
+      "sha256": "c0228976a820abb1f5e1950aea6b0c9e1ea719be437fb4e822516796e301e224"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 28621,
+      "sha256": "2e77a9bd6e6a4ca11d25629e115be1f758d5dcaf0f527214ef549df685ca47c7"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 830541,
+      "sha256": "c3708b522c7a1ef69351510e77d3964ed4ce9d880fb475826777b511c93bb3c1"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 338561,
+      "sha256": "9c8697060898ff0ff3c845f4660b6fe9fdd777e01470c4b669d4208aafa290bf"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "patch_number": 1,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/zh_Hans",
+      "byte_length": 667684,
+      "sha256": "c0228976a820abb1f5e1950aea6b0c9e1ea719be437fb4e822516796e301e224"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 5039,
+      "sha256": "d6495ea412dd4de8b8ff10e29df87a976bdd6d670eddcbe678fe9a873973df1a"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1002041,
+      "sha256": "4b5da7902cca701be081dd904ba153a57c7cf0efcafc5ce41327845449fa020c"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 651205,
+      "sha256": "5fe10d1236c81bc17e71a79d66e813ca29014bc5ce316333bb6f93c368b6c629"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1644793,
+      "sha256": "6c0971692e41d7d59a64c8447ab8bc9db39fb3dfb8481c2fb433318ec3d1e3f6"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 48417,
+      "sha256": "1d3fbe8178242e9f733717a04f7f5eebcb9fd3dcbd169df77409884917dff976"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 984539,
+      "sha256": "2132d07846637cea7ec1dc10062f3f68724fb119d8246db19cd522dc9f55b6ad"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 424926,
+      "sha256": "d212ddd718dfcfaa31240aa52be9aa7b447d0a7d35adab65fd197686ca9fb90d"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "patch_number": 21,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 876955,
+      "sha256": "b265514ddc1dc501ceac4548482bf0118905d52603a519ab20cb843de6469ebe"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "patch_number": 22,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1002083,
+      "sha256": "c88289e39cb5797d98d0abbb9468502c9b4e951b7a85807e208ec8c6df8f10c4"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "patch_number": 22,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1645581,
+      "sha256": "87a2045a144f0de0ce1923e94ed7bff2612a0518c0404547cd3c4c029b8f5b9e"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "patch_number": 22,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 984779,
+      "sha256": "4a3f454347ec91eb8ae76a10f4026d71814bc2fd673278f6ade9ca97ffe01292"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "patch_number": 22,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 877568,
+      "sha256": "82ce60e62f3fefd248018a1eec2d743508a289bdbf50d34c039fec7fa5bc038e"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_23_P",
+      "patch_number": 23,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1646233,
+      "sha256": "b7496aa3a601a7826c5ef57c99720f29fbe609a4557f90a8c21ecb98fb741c7a"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_23_P",
+      "patch_number": 23,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 878084,
+      "sha256": "8246d6c2ce31c766bc264a954ef504c0bbe56b3bbd86332bde85bc75d27d9845"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_26_P",
+      "patch_number": 26,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1002149,
+      "sha256": "2f8b78414fb7b22fea761b0581224e714fcab47c30d1863538c5a95bbece256a"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_26_P",
+      "patch_number": 26,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1646917,
+      "sha256": "d8a0d933ce7b78301c754f9be303b462c27eae72395664f44163db572a7c2839"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_26_P",
+      "patch_number": 26,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 878364,
+      "sha256": "dee95b67e34eb3254d2957e985e1c05a1e20d174d0f89c248bb2b871eba5dcc5"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 5115,
+      "sha256": "b30d6001c348ab034497a891b120a2e072886abf129f96f447c7832c3a5eeb10"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1002761,
+      "sha256": "fc053a85bb28e05f7ae0f8046b457938961943263bb4a9d9842a018e29a02765"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 652651,
+      "sha256": "f5fe06d63c0629ac3b8817ca7cab0deeb518139f8ed82f17dc581f955fbab822"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1657506,
+      "sha256": "ec9959bd35bfc6418eb88c7f933400cd4dbf49e8cd7ebd78f59a16f2789af565"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 49734,
+      "sha256": "bed6607001de967e1e16cc0a1971215c39412d4b98d00da4d4e712700659aa47"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 985411,
+      "sha256": "bc891ca81b2bdf41690bb366288583f13887275c4dfcc0a7d0e42445bd5c0c88"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 425860,
+      "sha256": "7e8df990063edadaecaefb57ba1ca0409c4c5ef19ce2e0f453203b33eafe9e4f"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "patch_number": 27,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 881774,
+      "sha256": "011ef000e90fe830086a8eb2efe26b8d7f9f1cee45f84297cae9cd2cfa6eed21"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_28_P",
+      "patch_number": 28,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1657674,
+      "sha256": "375521311000964e5e6015b0a571f7b1ef6aa3c21989bd1de1eeae72c4853dab"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_28_P",
+      "patch_number": 28,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 881718,
+      "sha256": "6c1dca7223413c51a94841327d600cb443af0ccfabc6d4ae21a1c577c5275a36"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 5153,
+      "sha256": "ee7d500a0e4ed702c62a480abaa787eaca09b0a93f575730171ec9c412bbed14"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1003156,
+      "sha256": "0ac2b4c9ceec9eb6bc483c559c88a172d0f2e7f12101d26672897d548dad8d97"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 654626,
+      "sha256": "84ed1d70f106d38f6891e1b6ea5af46ee9a278a95cff9979c111d2da31529e95"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1662902,
+      "sha256": "a9941012497a958c9051225f8bcea50c0c93ad622201ee5b0c73c05b4b066da8"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 49979,
+      "sha256": "2cc42d0e8cab40772d07cdabb514c216cc03d0e29b5b50acc7c1347b2eb7e297"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 986197,
+      "sha256": "1c181c8effbdef4214179883c4a27933baa059f607f2f690443bc99b6471508e"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 427139,
+      "sha256": "ac042f8dde11d32e976778edfad89fa1f69911a31fda6a887f8377c7e78d9bab"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "patch_number": 29,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 883486,
+      "sha256": "0dbcb458415827a020975b482f31f3dae6ab1d2e01bbabb12160aaa62908e3eb"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "SELECT_CONF",
+      "slot": "BinConf",
+      "byte_length": 4262,
+      "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "TASK_CONF",
+      "slot": "BinConf",
+      "byte_length": 25227,
+      "sha256": "d6ae13a029b566e2501e1c1214f1459472e3b03f5feb26da02a655468c04e6ab"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 4107,
+      "sha256": "561bd692004185fbaf60d34d7bdd3a5b2f3168f9a4787c3755a6a62544f50d6f"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1041187,
+      "sha256": "81039cdc40ad55fe6603b449729a8a32b3b061f5bd637a3a8ae66df56afeb738"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 614572,
+      "sha256": "e1bcd51d8fee43bcee9ec299458d827028d953addca932970a25d69f20428b13"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1574512,
+      "sha256": "17a7b40d77561e99a68d5b8a4feaf045c8b27aaab22cc86c827951c71ab08656"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 36813,
+      "sha256": "3e6ccb497c5389bec6231863d1909670bfa017bd691d2747bc2ebcc09bac1c67"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 929570,
+      "sha256": "eef2f1849c4af560ebd9a36b7484603be4bb74f530531e59b0ab097e027237da"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 402172,
+      "sha256": "d5799acf23849aae7160b3111ef9def2fee0b3d023aa459010bf29e03f739d87"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "patch_number": 2,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 830634,
+      "sha256": "3dedf01f1ac2fadabc8f4f9ab3adaeff9c6b90380833d211beca142e04c3a526"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_31_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_31_P",
+      "patch_number": 31,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1662904,
+      "sha256": "de587dabfefc08ff8839639f31751ba7b0bda210c5efb1d3220fbcd34ae8e8bc"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_33_P",
+      "patch_number": 33,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1003421,
+      "sha256": "b3b957e9125aae6b88f5bc367ad92cf102a4c73e5850f5af851aabdface1f533"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_33_P",
+      "patch_number": 33,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 986440,
+      "sha256": "e98492bbfcb7573ba1198307afc4a43e615a400fc5af97a4f51fb5359a5ead54"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_35_P",
+      "patch_number": 35,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1003463,
+      "sha256": "7807ed079a9b9e2b6d23ce9d707d7e47eb398794942ebce584f6d32100895b49"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_35_P",
+      "patch_number": 35,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 986554,
+      "sha256": "7ae173cc4770fd7194973a5ca421cb589b3eea7d8cfd1ff20fc2e85076f3672f"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "MESSAGE_CONF",
+      "slot": "BinConf",
+      "byte_length": 1762,
+      "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "REWARD_CONF",
+      "slot": "BinConf",
+      "byte_length": 2251,
+      "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "SELECT_CONF",
+      "slot": "BinConf",
+      "byte_length": 4262,
+      "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "TASK_CONF",
+      "slot": "BinConf",
+      "byte_length": 16841,
+      "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "MESSAGE_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 5017,
+      "sha256": "b1bb961ac346b6f30a1590717eacb766f6a91d628c529d427ab80bbf5cc2af85"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001053,
+      "sha256": "2e4b2e36926ad74c73ff39d6cb66c6c1e55aa30c9f5997246746cc791106853b"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "SELECT_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 649621,
+      "sha256": "5403f525250792b32f81eebca9cb968b10ed3436866d7eadbf5b6a15ed5e9d2d"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1643509,
+      "sha256": "ea9c095ce3aadd06bb4169a94a5ae7f0e814bd0ca541dc2f93b8192be5b624c2"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "MESSAGE_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 49969,
+      "sha256": "9ac1b79e2a893d95000323737bb604430bfdd66d0e092be949a967bd22e13727"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 983363,
+      "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "SELECT_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 424098,
+      "sha256": "c44006120472fe42506619ba9d9cde8a59c26036ea2b7f9e94a612e7c1719710"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "patch_number": 3,
+      "table": "TASK_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 876190,
+      "sha256": "4805e874e3fc2a01425821e6496e2ee11736700504c9181dede7daa7a6e30840"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_4_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_4_P",
+      "patch_number": 4,
+      "table": "TASK_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1643582,
+      "sha256": "99e37156fafcb3369ee5b97c18f23c5e5e34e85382ab67bbc258d6ae4d3cc0cc"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_5_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_5_P",
+      "patch_number": 5,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001057,
+      "sha256": "6f2272a8e507bdbbfef36a7d77137d257868429a4d18c1c108923efe7caa9259"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_7_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_7_P",
+      "patch_number": 7,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001057,
+      "sha256": "b09372745b668ab99148b30309d29b9b7cf8c66e8d5d35123a35e6b3255ace53"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_8_P",
+      "patch_number": 8,
+      "table": "REWARD_CONF",
+      "slot": "BinDataCompressed",
+      "byte_length": 1001148,
+      "sha256": "3de689db7903a2286e189a10223f75bb564b454206962b6318cbe9d2d4987b07"
+    },
+    {
+      "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+      "pak": "pakchunk4-WindowsNoEditor_8_P",
+      "patch_number": 8,
+      "table": "REWARD_CONF",
+      "slot": "BinLocalize/dev_CN",
+      "byte_length": 983477,
+      "sha256": "1afd1fb6da42e1cf15d9951a7adeb993bf954f0f36ed0ed59ff0a5f254e05922"
+    }
+  ],
+  "pairings": [
+    {
+      "id": "MESSAGE_CONF@base",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "data": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": null,
+      "allowed_top_level_padding_bits": [
+        11
+      ],
+      "padding_evidence": "These exact bits are set in every top-level record in this hash-pinned base file; all declared fields consume the entire row. No nested or other bits are allowed."
+    },
+    {
+      "id": "MESSAGE_CONF@0_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "data": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@1_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "data": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@2_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "data": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@3_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "data": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@14_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "data": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@21_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "data": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@27_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "data": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "MESSAGE_CONF@29_P",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "data": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@base",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "data": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@0_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "data": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@1_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "data": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@2_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "data": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@3_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "data": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@4_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_4_P",
+      "data": "pakchunk4-WindowsNoEditor_4_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@10_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "data": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@14_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "data": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@18_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_18_P",
+      "data": "pakchunk4-WindowsNoEditor_18_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@21_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "data": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@22_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "data": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@23_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_23_P",
+      "data": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@26_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_26_P",
+      "data": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@27_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "data": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@28_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_28_P",
+      "data": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@29_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "data": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "TASK_CONF@31_P",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_31_P",
+      "data": "pakchunk4-WindowsNoEditor_31_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@base",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "data": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": null
+    },
+    {
+      "id": "REWARD_CONF@0_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "data": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@1_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "data": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@2_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "data": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@3_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "data": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@5_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_5_P",
+      "data": "pakchunk4-WindowsNoEditor_5_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@7_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_7_P",
+      "data": "pakchunk4-WindowsNoEditor_7_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@8_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_8_P",
+      "data": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@10_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "data": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@14_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_14_P",
+      "data": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@21_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "data": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@22_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_22_P",
+      "data": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@26_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_26_P",
+      "data": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@27_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "data": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@29_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "data": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@33_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_33_P",
+      "data": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "REWARD_CONF@35_P",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_35_P",
+      "data": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@base",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "data": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": null,
+      "allowed_top_level_padding_bits": [
+        29,
+        30
+      ],
+      "padding_evidence": "These exact bits are set in every top-level record in this hash-pinned base file; all declared fields consume the entire row. No nested or other bits are allowed."
+    },
+    {
+      "id": "SELECT_CONF@0_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "data": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@1_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_1_P",
+      "data": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@2_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "data": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@3_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "data": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@10_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_10_P",
+      "data": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@21_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_21_P",
+      "data": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@27_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_27_P",
+      "data": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    },
+    {
+      "id": "SELECT_CONF@29_P",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_29_P",
+      "data": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    }
+  ],
+  "views": {
+    "snapshot_repair": {
+      "MESSAGE_CONF": "MESSAGE_CONF@base",
+      "TASK_CONF": "TASK_CONF@3_P",
+      "REWARD_CONF": "REWARD_CONF@0_P",
+      "SELECT_CONF": "SELECT_CONF@2_P"
+    },
+    "latest_supplied": {
+      "MESSAGE_CONF": "MESSAGE_CONF@29_P",
+      "TASK_CONF": "TASK_CONF@31_P",
+      "REWARD_CONF": "REWARD_CONF@35_P",
+      "SELECT_CONF": "SELECT_CONF@29_P"
+    }
+  },
+  "missing_row_fallback": {
+    "MESSAGE_CONF": "MESSAGE_CONF@3_P",
+    "REWARD_CONF": "REWARD_CONF@3_P"
+  },
+  "reports": [
+    {
+      "path": "_pairing.md",
+      "byte_length": 7934,
+      "sha256": "536a9e038729b827b15bcb97f76dd9c2f7cc7da6cf9ae9e9caea8aa1ee2aa44f"
+    },
+    {
+      "path": "_report.json",
+      "byte_length": 476128,
+      "sha256": "9e61fe7859434ff8b7e5236de8e28eb06c48a221c191ecc16f427061875cc408"
+    },
+    {
+      "path": "_report.md",
+      "byte_length": 335349,
+      "sha256": "2f51f5d61185204584db63203b1ebc456da7c9bcb3dc0b4bb4f4d0c9c851e9ff"
+    },
+    {
+      "path": "_validate.md",
+      "byte_length": 29475,
+      "sha256": "b0b37ec0238709aa72a39ae8ec95d26e0dc1d7e94acefe249e8616eea1e0496d"
+    }
+  ],
+  "counterfactual_pairings": {
+    "MESSAGE_CONF": {
+      "id": "MESSAGE_CONF@counterfactual",
+      "table": "MESSAGE_CONF",
+      "pak": "pakchunk4-WindowsNoEditor",
+      "data": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes"
+    },
+    "TASK_CONF": {
+      "id": "TASK_CONF@counterfactual",
+      "table": "TASK_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_3_P",
+      "data": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes"
+    },
+    "REWARD_CONF": {
+      "id": "REWARD_CONF@counterfactual",
+      "table": "REWARD_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_0_P",
+      "data": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes"
+    },
+    "SELECT_CONF": {
+      "id": "SELECT_CONF@counterfactual",
+      "table": "SELECT_CONF",
+      "pak": "pakchunk4-WindowsNoEditor_2_P",
+      "data": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+      "schema": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+      "localization": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes"
+    }
+  },
+  "counterfactual_notes": [
+    "The supplied MESSAGE 0_P and 1_P locale files both exactly reproduce all 58 current rows with the localized schema; this does not identify one unique original locale selection.",
+    "The current.zip locale JSONs equal supplied 0_P locales, while 1_P locales are necessary to reproduce the other three decoded tables. Exported companions were not a consistent decoding input set."
+  ]
+}

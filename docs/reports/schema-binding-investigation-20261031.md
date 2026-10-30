@@ -1,5 +1,7 @@
 # Schema 与奖励字段绑定核对（2026-10-31）
 
+**原始文件后续核验已完成：** 以下保留收到原始 `.bytes/.non` 之前的调查状态。新交付已完整复现四表错误输出、找回 19589，并修复引用字段；实际 MESSAGE 3_P 原文件与 0_P 相同，纠正了下文基于粘贴声明的分类，REWARD 10_P 也已收到。最新结果及复现命令见[原始配置重解码](../RAW_CONTENT.md)。
+
 本次接续[引用内容维护](referenced-content-maintenance-20261031.md)，核对维护者补充的 `MESSAGE_CONF`、`TASK_CONF`、`REWARD_CONF`、`SELECT_CONF` Schema。数据比较仍固定于 `data/current.zip`，SHA-256 为 `9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515`。
 
 **新发现：当前奖励载荷的有无和分组，与历史 `ObtainLimit` 精确对应，支持把旧标量字段误当数组常量索引的结构错配推断。** 这是覆盖全表的 JSON 关联证据；尚未用原始 `.bytes` 重解码，不能据此声称当前奖励已恢复，也不能确认实际运行时选择了哪一份 Schema。

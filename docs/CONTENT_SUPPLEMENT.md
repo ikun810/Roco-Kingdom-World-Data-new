@@ -1,5 +1,7 @@
 # Referenced content supplement
 
+**2026-10-31 raw-source follow-up:** The four requested tables can now be redecoded from original binary assets. Use `python tools/raw_content.py export --output-dir build/raw-content` for 659 scoped records: 255 verified from raw sources plus 404 historical recoveries, with the original 171 binding reviews and reward 19589 addressed in that output. See [Raw configuration recovery](RAW_CONTENT.md) for provenance and remaining runtime limitations. The commands and counts below describe the preserved historical-only recovery path.
+
 This is a scoped recovery from original historical Pak exports. It preserves the pinned `data/current.zip` and keeps historical provenance separate from current-client validation.
 
 ## Export recovered content

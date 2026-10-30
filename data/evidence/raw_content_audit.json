@@ -1,0 +1,2936 @@
+{
+  "format": "roco_raw_content_audit_v1",
+  "submission": {
+    "filename": "roco_extract.zip",
+    "sha256": "fa867dd3985f06ad32649f0e17f09f7a2dfdc4b305574d80017e3996e5e30bbd",
+    "byte_length": 20605402,
+    "asset_count": 120,
+    "report_count": 4
+  },
+  "source_bundle": {
+    "path": "data/raw/roco-config-20261031.tar.xz",
+    "sha256": "6b83e7bf80dd23f0b945d62f55a368a9fc4ce6613ea641cbb9e6908c35997916",
+    "byte_length": 4346996,
+    "format": "tar.xz",
+    "member_policy": "Original .bytes/.non only; paths preserve Pak and internal path; bytes unchanged; report metadata retained separately."
+  },
+  "baseline_archive": {
+    "path": "data/current.zip",
+    "sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515"
+  },
+  "claim_limit": "Explicit investigation pairings validated by byte consumption and localization coverage; game build and runtime mount order not independently verified. Latest supplied means largest supplied numeric patch, not runtime effective data.",
+  "pairings": [
+    {
+      "pairing_id": "MESSAGE_CONF@base",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "98aa83f2fb32bab35df70a75738749b4575d75c181da88bf261fcfd9507b55c1"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "b2ff8b5c9239040f8616d0f7e69557c0acf327a5766ae7eab617ca0355dfaaf4"
+        },
+        "localization": null
+      },
+      "row_count": 58,
+      "rows_canonical_sha256": "d3ddc7543b1f240a6901c015ee1ebd2a3d38440ba3a0637cfb983482c5eb8908",
+      "localized_reference_count": 0,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [
+        11
+      ],
+      "structs_with_allowed_padding": 58,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 1252,
+        "EntriesCount": 58,
+        "StructSize": 44,
+        "DataTableOffset": 23467,
+        "DataTableEntriesCount": 58,
+        "ConstantsTableOffset": 24395,
+        "ConstantsTableEntriesCount": 152,
+        "ConstantsSectionOffset": 1256,
+        "ConstantsSectionLength": 22211,
+        "FooterOffset": 26827,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@0_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "346b04e0dd5b0655262704581c3acf7e450ce9bd3184b39152c39a440b00a3d2"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "ccf12a4225d367c4195d366fe5a19ac929484cec94d7f6c6afb2cfd953c06592"
+        }
+      },
+      "row_count": 65,
+      "rows_canonical_sha256": "22948164960b91cca0f2f323c2920ed076388f907591db1be8424da80495a74a",
+      "localized_reference_count": 222,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 1398,
+        "EntriesCount": 65,
+        "StructSize": 44,
+        "DataTableOffset": 2091,
+        "DataTableEntriesCount": 65,
+        "ConstantsTableOffset": 3131,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 1402,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 3243,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@1_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "3f1a08f4b8cfb23e48a00f8fcd3803f6f40a710defd42ab834cceb82bf8564da"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "2e77a9bd6e6a4ca11d25629e115be1f758d5dcaf0f527214ef549df685ca47c7"
+        }
+      },
+      "row_count": 66,
+      "rows_canonical_sha256": "020cff1741c29011c32ed5f906f9dc3f44dcb2fc53c7e238d277273377fdec15",
+      "localized_reference_count": 226,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 1420,
+        "EntriesCount": 66,
+        "StructSize": 44,
+        "DataTableOffset": 2113,
+        "DataTableEntriesCount": 66,
+        "ConstantsTableOffset": 3169,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 1424,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 3281,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@2_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "561bd692004185fbaf60d34d7bdd3a5b2f3168f9a4787c3755a6a62544f50d6f"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "3e6ccb497c5389bec6231863d1909670bfa017bd691d2747bc2ebcc09bac1c67"
+        }
+      },
+      "row_count": 87,
+      "rows_canonical_sha256": "2919b7bdc1b62cc6da37518a050248514b037da26f901013d717fc5b88703b0d",
+      "localized_reference_count": 298,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 1842,
+        "EntriesCount": 87,
+        "StructSize": 44,
+        "DataTableOffset": 2535,
+        "DataTableEntriesCount": 87,
+        "ConstantsTableOffset": 3927,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 1846,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 4039,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@3_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "b1bb961ac346b6f30a1590717eacb766f6a91d628c529d427ab80bbf5cc2af85"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "9ac1b79e2a893d95000323737bb604430bfdd66d0e092be949a967bd22e13727"
+        }
+      },
+      "row_count": 112,
+      "rows_canonical_sha256": "f757ce9c1813bbd0b54259649095d08ec39a2b557205871efec71c1199978bed",
+      "localized_reference_count": 388,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 2352,
+        "EntriesCount": 112,
+        "StructSize": 44,
+        "DataTableOffset": 3045,
+        "DataTableEntriesCount": 112,
+        "ConstantsTableOffset": 4837,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 2356,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 4949,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@14_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "09b4e26529d60d79f014b71bc51e091c316ebe732a19240a4a0cdb25f43502bf"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "a92978260fbb32b5b663a8cb6717a4f0086f6f875902420b963459b0cbd257e3"
+        }
+      },
+      "row_count": 113,
+      "rows_canonical_sha256": "62730b4eb51531964c9f321019da6d49c4ed4646bc3be7caac4e4be5286f05c3",
+      "localized_reference_count": 391,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 2370,
+        "EntriesCount": 113,
+        "StructSize": 44,
+        "DataTableOffset": 3063,
+        "DataTableEntriesCount": 113,
+        "ConstantsTableOffset": 4871,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 2374,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 4983,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@21_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "d6495ea412dd4de8b8ff10e29df87a976bdd6d670eddcbe678fe9a873973df1a"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "1d3fbe8178242e9f733717a04f7f5eebcb9fd3dcbd169df77409884917dff976"
+        }
+      },
+      "row_count": 113,
+      "rows_canonical_sha256": "95f61832340a2e2feaf69812d4b4e74e09a270e990114c32d37b70d6b4cc4847",
+      "localized_reference_count": 388,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 2358,
+        "EntriesCount": 113,
+        "StructSize": 44,
+        "DataTableOffset": 3051,
+        "DataTableEntriesCount": 113,
+        "ConstantsTableOffset": 4859,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 2362,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 4971,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@27_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "b30d6001c348ab034497a891b120a2e072886abf129f96f447c7832c3a5eeb10"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "bed6607001de967e1e16cc0a1971215c39412d4b98d00da4d4e712700659aa47"
+        }
+      },
+      "row_count": 115,
+      "rows_canonical_sha256": "94d28d1694de4ed33431436b9018a1e025920812bdd873d80ad618ed413be18a",
+      "localized_reference_count": 396,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 2402,
+        "EntriesCount": 115,
+        "StructSize": 44,
+        "DataTableOffset": 3095,
+        "DataTableEntriesCount": 115,
+        "ConstantsTableOffset": 4935,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 2406,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 5047,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "MESSAGE_CONF@29_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "ee7d500a0e4ed702c62a480abaa787eaca09b0a93f575730171ec9c412bbed14"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "2cc42d0e8cab40772d07cdabb514c216cc03d0e29b5b50acc7c1347b2eb7e297"
+        }
+      },
+      "row_count": 116,
+      "rows_canonical_sha256": "d1dd28efe093aa87b30f572feb6202e44cd9131fc4e3112b7b0c927e9af7b903",
+      "localized_reference_count": 400,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 2424,
+        "EntriesCount": 116,
+        "StructSize": 44,
+        "DataTableOffset": 3117,
+        "DataTableEntriesCount": 116,
+        "ConstantsTableOffset": 4973,
+        "ConstantsTableEntriesCount": 7,
+        "ConstantsSectionOffset": 2428,
+        "ConstantsSectionLength": 689,
+        "FooterOffset": 5085,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@base",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "1b13ac6109a768de6646d3408cf1729911155fa6853da266be13d32bc9f0d328"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "ef60b75b6e7e91da0d04ed8ec545015ac70b4a7d777cb9db170d074127d14a05"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "1dd0001b96e8aa0f1326abb3afbf0b4c9afa124507c7905d8642ce5933feb88d"
+        }
+      },
+      "row_count": 3729,
+      "rows_canonical_sha256": "1891b1297842de0e42b37492425cfa39b1a88b74b9529a2e994166fe5c16b8e5",
+      "localized_reference_count": 164,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 217684,
+        "EntriesCount": 3729,
+        "StructSize": 229,
+        "DataTableOffset": 810616,
+        "DataTableEntriesCount": 3729,
+        "ConstantsTableOffset": 870280,
+        "ConstantsTableEntriesCount": 40845,
+        "ConstantsSectionOffset": 217688,
+        "ConstantsSectionLength": 592928,
+        "FooterOffset": 1523800,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@0_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "e2c815e1524c5c5969851f1cbfcf04a43c46304171779163ab467fa58041147d"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "404c6a4eaf27364eade286fa710e86628a38aa866fe7dfcc00660ffdd074412b"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "736d8b78b921989469ac25fa365cd0b1d742773cd7199c6798356e5161feef13"
+        }
+      },
+      "row_count": 4151,
+      "rows_canonical_sha256": "122729e91e3011be524b626cc9ff81e5b63e6fcdca33b1ad9de83898d7049586",
+      "localized_reference_count": 12238,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 242910,
+        "EntriesCount": 4151,
+        "StructSize": 233,
+        "DataTableOffset": 581447,
+        "DataTableEntriesCount": 4151,
+        "ConstantsTableOffset": 647863,
+        "ConstantsTableEntriesCount": 38024,
+        "ConstantsSectionOffset": 242914,
+        "ConstantsSectionLength": 338533,
+        "FooterOffset": 1256247,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@1_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "33806fcad303b1ed8f1d08ad72dbf1d0016b7365b31bb9ca941c59f02301f574"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "404c6a4eaf27364eade286fa710e86628a38aa866fe7dfcc00660ffdd074412b"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "c0228976a820abb1f5e1950aea6b0c9e1ea719be437fb4e822516796e301e224"
+        }
+      },
+      "row_count": 4168,
+      "rows_canonical_sha256": "bb0b71393a24c39d587bea93332ecb4522cdd7a62f017a1aa1c916a15c83f3a2",
+      "localized_reference_count": 12289,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 243996,
+        "EntriesCount": 4168,
+        "StructSize": 233,
+        "DataTableOffset": 584076,
+        "DataTableEntriesCount": 4168,
+        "ConstantsTableOffset": 650764,
+        "ConstantsTableEntriesCount": 38217,
+        "ConstantsSectionOffset": 244000,
+        "ConstantsSectionLength": 340076,
+        "FooterOffset": 1262236,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@2_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "17a7b40d77561e99a68d5b8a4feaf045c8b27aaab22cc86c827951c71ab08656"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "d6ae13a029b566e2501e1c1214f1459472e3b03f5feb26da02a655468c04e6ab"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "3dedf01f1ac2fadabc8f4f9ab3adaeff9c6b90380833d211beca142e04c3a526"
+        }
+      },
+      "row_count": 5081,
+      "rows_canonical_sha256": "446aa63d5bec37dbde0cb85d58d3303178dde4a8a843c910fef05914cdb58d73",
+      "localized_reference_count": 15284,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 303251,
+        "EntriesCount": 5081,
+        "StructSize": 233,
+        "DataTableOffset": 729628,
+        "DataTableEntriesCount": 5081,
+        "ConstantsTableOffset": 810924,
+        "ConstantsTableEntriesCount": 47720,
+        "ConstantsSectionOffset": 303255,
+        "ConstantsSectionLength": 426373,
+        "FooterOffset": 1574444,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@3_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "ea9c095ce3aadd06bb4169a94a5ae7f0e814bd0ca541dc2f93b8192be5b624c2"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "4805e874e3fc2a01425821e6496e2ee11736700504c9181dede7daa7a6e30840"
+        }
+      },
+      "row_count": 5542,
+      "rows_canonical_sha256": "1ebe5e716578427e84c52e5e2f7b5d6db041ea23d0167b0d5795446887cd51e0",
+      "localized_reference_count": 16155,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 283817,
+        "EntriesCount": 5542,
+        "StructSize": 154,
+        "DataTableOffset": 738753,
+        "DataTableEntriesCount": 5542,
+        "ConstantsTableOffset": 827425,
+        "ConstantsTableEntriesCount": 51001,
+        "ConstantsSectionOffset": 283821,
+        "ConstantsSectionLength": 454932,
+        "FooterOffset": 1643441,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@4_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_4_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "99e37156fafcb3369ee5b97c18f23c5e5e34e85382ab67bbc258d6ae4d3cc0cc"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "4805e874e3fc2a01425821e6496e2ee11736700504c9181dede7daa7a6e30840"
+        }
+      },
+      "row_count": 5542,
+      "rows_canonical_sha256": "c68f1d7a6ab415e9abfdc92589275b92c98b0f6ff78d79ce751e6514968c15c1",
+      "localized_reference_count": 16155,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 283821,
+        "EntriesCount": 5542,
+        "StructSize": 154,
+        "DataTableOffset": 738778,
+        "DataTableEntriesCount": 5542,
+        "ConstantsTableOffset": 827450,
+        "ConstantsTableEntriesCount": 51004,
+        "ConstantsSectionOffset": 283825,
+        "ConstantsSectionLength": 454953,
+        "FooterOffset": 1643514,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@10_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "b4cc3b8c76fecd03e332e9dd8aa09e94d32bc9bc509344bda0e887d40ecd4999"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "254da3ca48c5888ebd84a278838d77125a78fe5b54c4d1a27da17db8655cf948"
+        }
+      },
+      "row_count": 5552,
+      "rows_canonical_sha256": "78339adc1f7b59bc8f63a65e85b4fac6256fb078ab2350e9b0a1e34f7d4349f1",
+      "localized_reference_count": 16169,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284171,
+        "EntriesCount": 5552,
+        "StructSize": 154,
+        "DataTableOffset": 739409,
+        "DataTableEntriesCount": 5552,
+        "ConstantsTableOffset": 828241,
+        "ConstantsTableEntriesCount": 51033,
+        "ConstantsSectionOffset": 284175,
+        "ConstantsSectionLength": 455234,
+        "FooterOffset": 1644769,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@14_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "f8326dab0d016d80379e5b07dbd29570f43f78de57b1180672d45fbd45d63222"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "9d736a5fe880ffd44fa7051cfc5c08de93c403e63fceca5269eb2a249bb0df3e"
+        }
+      },
+      "row_count": 5552,
+      "rows_canonical_sha256": "e3b02e065250497514d590d39f29f04912bc0e794d8b8043298090511230f285",
+      "localized_reference_count": 16169,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284171,
+        "EntriesCount": 5552,
+        "StructSize": 154,
+        "DataTableOffset": 739375,
+        "DataTableEntriesCount": 5552,
+        "ConstantsTableOffset": 828207,
+        "ConstantsTableEntriesCount": 51031,
+        "ConstantsSectionOffset": 284175,
+        "ConstantsSectionLength": 455200,
+        "FooterOffset": 1644703,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@18_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_18_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "08e9dbb1cd6bf16e1670ed6cef2c798c5c11aec9af9342c5f33fe6391cf20ff0"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "9d736a5fe880ffd44fa7051cfc5c08de93c403e63fceca5269eb2a249bb0df3e"
+        }
+      },
+      "row_count": 5552,
+      "rows_canonical_sha256": "08b36250600094a5cb88eaef6d9c38e219dfdc96c2781ef556b57ceb69e1a390",
+      "localized_reference_count": 16169,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284179,
+        "EntriesCount": 5552,
+        "StructSize": 154,
+        "DataTableOffset": 739383,
+        "DataTableEntriesCount": 5552,
+        "ConstantsTableOffset": 828215,
+        "ConstantsTableEntriesCount": 51031,
+        "ConstantsSectionOffset": 284183,
+        "ConstantsSectionLength": 455200,
+        "FooterOffset": 1644711,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@21_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "6c0971692e41d7d59a64c8447ab8bc9db39fb3dfb8481c2fb433318ec3d1e3f6"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "b265514ddc1dc501ceac4548482bf0118905d52603a519ab20cb843de6469ebe"
+        }
+      },
+      "row_count": 5552,
+      "rows_canonical_sha256": "2ab544a90a325605b97a8bfb1aa33064cfb92e032cd3d7467fbeaf2d9139dcbd",
+      "localized_reference_count": 16169,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284179,
+        "EntriesCount": 5552,
+        "StructSize": 154,
+        "DataTableOffset": 739381,
+        "DataTableEntriesCount": 5552,
+        "ConstantsTableOffset": 828213,
+        "ConstantsTableEntriesCount": 51032,
+        "ConstantsSectionOffset": 284183,
+        "ConstantsSectionLength": 455198,
+        "FooterOffset": 1644725,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@22_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "87a2045a144f0de0ce1923e94ed7bff2612a0518c0404547cd3c4c029b8f5b9e"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "82ce60e62f3fefd248018a1eec2d743508a289bdbf50d34c039fec7fa5bc038e"
+        }
+      },
+      "row_count": 5556,
+      "rows_canonical_sha256": "0e65a2636f387a1dda89490d353fa2c3c71611b6f3cf4594ed47c7fe0e4ba315",
+      "localized_reference_count": 16181,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284367,
+        "EntriesCount": 5556,
+        "StructSize": 154,
+        "DataTableOffset": 739865,
+        "DataTableEntriesCount": 5556,
+        "ConstantsTableOffset": 828761,
+        "ConstantsTableEntriesCount": 51047,
+        "ConstantsSectionOffset": 284371,
+        "ConstantsSectionLength": 455494,
+        "FooterOffset": 1645513,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@23_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "b7496aa3a601a7826c5ef57c99720f29fbe609a4557f90a8c21ecb98fb741c7a"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_23_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "8246d6c2ce31c766bc264a954ef504c0bbe56b3bbd86332bde85bc75d27d9845"
+        }
+      },
+      "row_count": 5568,
+      "rows_canonical_sha256": "f4b0f21536a8d4323bca9c58e33318a8d871506840bc45e0e6a09b4313f5d28c",
+      "localized_reference_count": 16205,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284827,
+        "EntriesCount": 5568,
+        "StructSize": 154,
+        "DataTableOffset": 740325,
+        "DataTableEntriesCount": 5568,
+        "ConstantsTableOffset": 829413,
+        "ConstantsTableEntriesCount": 51047,
+        "ConstantsSectionOffset": 284831,
+        "ConstantsSectionLength": 455494,
+        "FooterOffset": 1646165,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@26_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "d8a0d933ce7b78301c754f9be303b462c27eae72395664f44163db572a7c2839"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "dee95b67e34eb3254d2957e985e1c05a1e20d174d0f89c248bb2b871eba5dcc5"
+        }
+      },
+      "row_count": 5570,
+      "rows_canonical_sha256": "770017254d1f4ed6dff265ac6b728f71105876f989abbf2c33e11b80ac79da9b",
+      "localized_reference_count": 16211,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 284935,
+        "EntriesCount": 5570,
+        "StructSize": 154,
+        "DataTableOffset": 740609,
+        "DataTableEntriesCount": 5570,
+        "ConstantsTableOffset": 829729,
+        "ConstantsTableEntriesCount": 51070,
+        "ConstantsSectionOffset": 284939,
+        "ConstantsSectionLength": 455670,
+        "FooterOffset": 1646849,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@27_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "ec9959bd35bfc6418eb88c7f933400cd4dbf49e8cd7ebd78f59a16f2789af565"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "011ef000e90fe830086a8eb2efe26b8d7f9f1cee45f84297cae9cd2cfa6eed21"
+        }
+      },
+      "row_count": 5590,
+      "rows_canonical_sha256": "cb5b903d36e589f0a5fb970bab9a55dce813f4ec95de31fe5563236e9f8126d6",
+      "localized_reference_count": 16290,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 286167,
+        "EntriesCount": 5590,
+        "StructSize": 154,
+        "DataTableOffset": 744990,
+        "DataTableEntriesCount": 5590,
+        "ConstantsTableOffset": 834430,
+        "ConstantsTableEntriesCount": 51438,
+        "ConstantsSectionOffset": 286171,
+        "ConstantsSectionLength": 458819,
+        "FooterOffset": 1657438,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@28_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "375521311000964e5e6015b0a571f7b1ef6aa3c21989bd1de1eeae72c4853dab"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_28_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "6c1dca7223413c51a94841327d600cb443af0ccfabc6d4ae21a1c577c5275a36"
+        }
+      },
+      "row_count": 5590,
+      "rows_canonical_sha256": "e82b3a8a2ebd99ca4d6958179aff47a7fe6ca8c3f0305414c23827cce1c04b0c",
+      "localized_reference_count": 16290,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 286167,
+        "EntriesCount": 5590,
+        "StructSize": 154,
+        "DataTableOffset": 745158,
+        "DataTableEntriesCount": 5590,
+        "ConstantsTableOffset": 834598,
+        "ConstantsTableEntriesCount": 51438,
+        "ConstantsSectionOffset": 286171,
+        "ConstantsSectionLength": 458987,
+        "FooterOffset": 1657606,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@29_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "a9941012497a958c9051225f8bcea50c0c93ad622201ee5b0c73c05b4b066da8"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "0dbcb458415827a020975b482f31f3dae6ab1d2e01bbabb12160aaa62908e3eb"
+        }
+      },
+      "row_count": 5602,
+      "rows_canonical_sha256": "c0cc72c40a200437d81ca8ff865ff509889dbb8f36eb0511373a3a58043007f6",
+      "localized_reference_count": 16328,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 286964,
+        "EntriesCount": 5602,
+        "StructSize": 154,
+        "DataTableOffset": 747362,
+        "DataTableEntriesCount": 5602,
+        "ConstantsTableOffset": 836994,
+        "ConstantsTableEntriesCount": 51615,
+        "ConstantsSectionOffset": 286968,
+        "ConstantsSectionLength": 460394,
+        "FooterOffset": 1662834,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "TASK_CONF@31_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_31_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "de587dabfefc08ff8839639f31751ba7b0bda210c5efb1d3220fbcd34ae8e8bc"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "0dbcb458415827a020975b482f31f3dae6ab1d2e01bbabb12160aaa62908e3eb"
+        }
+      },
+      "row_count": 5602,
+      "rows_canonical_sha256": "a9b7d6b223343719fb66bdb4ad88cb274459c902f1fe7404ee8af8b109d39953",
+      "localized_reference_count": 16328,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 286966,
+        "EntriesCount": 5602,
+        "StructSize": 154,
+        "DataTableOffset": 747364,
+        "DataTableEntriesCount": 5602,
+        "ConstantsTableOffset": 836996,
+        "ConstantsTableEntriesCount": 51615,
+        "ConstantsSectionOffset": 286970,
+        "ConstantsSectionLength": 460394,
+        "FooterOffset": 1662836,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@base",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "6c807c280261ba65b9e43523976529ca4a1bf399d2a365f81245672028e40bf6"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "9be2dd6e6c5be5693e870dc67ce8c0386a8032372b0e8b9037c3f2630cea6796"
+        },
+        "localization": null
+      },
+      "row_count": 7179,
+      "rows_canonical_sha256": "44552e5afbee443933325f1378d2d7234410209b51fef872a3b9c2ce241fa295",
+      "localized_reference_count": 0,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 191718,
+        "EntriesCount": 7179,
+        "StructSize": 48,
+        "DataTableOffset": 706156,
+        "DataTableEntriesCount": 7179,
+        "ConstantsTableOffset": 821020,
+        "ConstantsTableEntriesCount": 26602,
+        "ConstantsSectionOffset": 191722,
+        "ConstantsSectionLength": 514434,
+        "FooterOffset": 1246652,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": null
+    },
+    {
+      "pairing_id": "REWARD_CONF@0_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "e8e2df186f91a68b14ec993e5bf61413b581c0ec77234a5a889e906b813a3982"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "22a316a1c9c437c5ceb318628df60a48f197ce2cf79896cf34182075615e632b"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "7d6a461d45ef5de71c78cc61a89e690091d32ab9c06b8f3f1adbc93f70a61187"
+        }
+      },
+      "row_count": 7826,
+      "rows_canonical_sha256": "f4dcd59cf2b688476de8707b358170494f3b75ceb5586a6ffeddccdd00de66d1",
+      "localized_reference_count": 19887,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 210304,
+        "EntriesCount": 7826,
+        "StructSize": 48,
+        "DataTableOffset": 538296,
+        "DataTableEntriesCount": 7826,
+        "ConstantsTableOffset": 663512,
+        "ConstantsTableEntriesCount": 19898,
+        "ConstantsSectionOffset": 210308,
+        "ConstantsSectionLength": 327988,
+        "FooterOffset": 981880,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": null
+    },
+    {
+      "pairing_id": "REWARD_CONF@1_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "09296a939ef57d902374cc0f715a2eabf083b02fafa7df332ea51dce35687776"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "7b92dd77dd30072f2b615e979b11738b0d5e020b18aa5acd5614b575c2b04475"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "c3708b522c7a1ef69351510e77d3964ed4ce9d880fb475826777b511c93bb3c1"
+        }
+      },
+      "row_count": 7854,
+      "rows_canonical_sha256": "7b83415b20bf6367e70c75c4db54ad8061135c0482c6addb6b612c29fd1e84ed",
+      "localized_reference_count": 19935,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 212208,
+        "EntriesCount": 7854,
+        "StructSize": 52,
+        "DataTableOffset": 540783,
+        "DataTableEntriesCount": 7854,
+        "ConstantsTableOffset": 666447,
+        "ConstantsTableEntriesCount": 19942,
+        "ConstantsSectionOffset": 212212,
+        "ConstantsSectionLength": 328571,
+        "FooterOffset": 985519,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": null
+    },
+    {
+      "pairing_id": "REWARD_CONF@2_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "81039cdc40ad55fe6603b449729a8a32b3b061f5bd637a3a8ae66df56afeb738"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "7b92dd77dd30072f2b615e979b11738b0d5e020b18aa5acd5614b575c2b04475"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "eef2f1849c4af560ebd9a36b7484603be4bb74f530531e59b0ab097e027237da"
+        }
+      },
+      "row_count": 8865,
+      "rows_canonical_sha256": "5f57f3910911fa09ab43ec983822c24009fcb50f3af6c3d35daea2ef25a199d9",
+      "localized_reference_count": 22302,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 237626,
+        "EntriesCount": 8865,
+        "StructSize": 52,
+        "DataTableOffset": 569871,
+        "DataTableEntriesCount": 8865,
+        "ConstantsTableOffset": 711711,
+        "ConstantsTableEntriesCount": 20588,
+        "ConstantsSectionOffset": 237630,
+        "ConstantsSectionLength": 332241,
+        "FooterOffset": 1041119,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": null
+    },
+    {
+      "pairing_id": "REWARD_CONF@3_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "2e4b2e36926ad74c73ff39d6cb66c6c1e55aa30c9f5997246746cc791106853b"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+        }
+      },
+      "row_count": 9346,
+      "rows_canonical_sha256": "54e886c43463cd55f9ea5eea91f2196d35757dc5195f3b0060e5fff7e3ae606b",
+      "localized_reference_count": 23617,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225468,
+        "EntriesCount": 9346,
+        "StructSize": 36,
+        "DataTableOffset": 511001,
+        "DataTableEntriesCount": 9346,
+        "ConstantsTableOffset": 660537,
+        "ConstantsTableEntriesCount": 21278,
+        "ConstantsSectionOffset": 225472,
+        "ConstantsSectionLength": 285529,
+        "FooterOffset": 1000985,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@3_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "2e4b2e36926ad74c73ff39d6cb66c6c1e55aa30c9f5997246746cc791106853b"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@5_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_5_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "6f2272a8e507bdbbfef36a7d77137d257868429a4d18c1c108923efe7caa9259"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+        }
+      },
+      "row_count": 9346,
+      "rows_canonical_sha256": "57b361445d1248201a53910205b1b3ccf53f07e100ece62492db96362e885bd3",
+      "localized_reference_count": 23617,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225468,
+        "EntriesCount": 9346,
+        "StructSize": 36,
+        "DataTableOffset": 511005,
+        "DataTableEntriesCount": 9346,
+        "ConstantsTableOffset": 660541,
+        "ConstantsTableEntriesCount": 21278,
+        "ConstantsSectionOffset": 225472,
+        "ConstantsSectionLength": 285533,
+        "FooterOffset": 1000989,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@5_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_5_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "6f2272a8e507bdbbfef36a7d77137d257868429a4d18c1c108923efe7caa9259"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@7_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_7_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "b09372745b668ab99148b30309d29b9b7cf8c66e8d5d35123a35e6b3255ace53"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+        }
+      },
+      "row_count": 9346,
+      "rows_canonical_sha256": "038035a87fa89bedfb8a3e31775224b2165378ac1e7d0028ec8b824d8e787651",
+      "localized_reference_count": 23617,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225468,
+        "EntriesCount": 9346,
+        "StructSize": 36,
+        "DataTableOffset": 511005,
+        "DataTableEntriesCount": 9346,
+        "ConstantsTableOffset": 660541,
+        "ConstantsTableEntriesCount": 21278,
+        "ConstantsSectionOffset": 225472,
+        "ConstantsSectionLength": 285533,
+        "FooterOffset": 1000989,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@7_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_7_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "b09372745b668ab99148b30309d29b9b7cf8c66e8d5d35123a35e6b3255ace53"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "d74e069c35781c9509ae4278230a7a426b74bb8e9e83832b4d75c207873d6bc9"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@8_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "3de689db7903a2286e189a10223f75bb564b454206962b6318cbe9d2d4987b07"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "1afd1fb6da42e1cf15d9951a7adeb993bf954f0f36ed0ed59ff0a5f254e05922"
+        }
+      },
+      "row_count": 9347,
+      "rows_canonical_sha256": "c32cd52362eaa799a0658e456049fbb16c0e218a50155b42433eeb15924079a1",
+      "localized_reference_count": 23620,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225494,
+        "EntriesCount": 9347,
+        "StructSize": 36,
+        "DataTableOffset": 511048,
+        "DataTableEntriesCount": 9347,
+        "ConstantsTableOffset": 660600,
+        "ConstantsTableEntriesCount": 21280,
+        "ConstantsSectionOffset": 225498,
+        "ConstantsSectionLength": 285550,
+        "FooterOffset": 1001080,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@8_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "3de689db7903a2286e189a10223f75bb564b454206962b6318cbe9d2d4987b07"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "1afd1fb6da42e1cf15d9951a7adeb993bf954f0f36ed0ed59ff0a5f254e05922"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@10_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "5496109916f5f1e8242d441ecaba5e6aa89b3244c3fac4ffe3a36d1b8ed847b1"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "1afd1fb6da42e1cf15d9951a7adeb993bf954f0f36ed0ed59ff0a5f254e05922"
+        }
+      },
+      "row_count": 9347,
+      "rows_canonical_sha256": "05357c63fb76bcf4aec051f6cf40ae01342ac14d72deef9ab4b841a615e37202",
+      "localized_reference_count": 23620,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225494,
+        "EntriesCount": 9347,
+        "StructSize": 36,
+        "DataTableOffset": 511146,
+        "DataTableEntriesCount": 9347,
+        "ConstantsTableOffset": 660698,
+        "ConstantsTableEntriesCount": 21278,
+        "ConstantsSectionOffset": 225498,
+        "ConstantsSectionLength": 285648,
+        "FooterOffset": 1001146,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@10_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "5496109916f5f1e8242d441ecaba5e6aa89b3244c3fac4ffe3a36d1b8ed847b1"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_8_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "1afd1fb6da42e1cf15d9951a7adeb993bf954f0f36ed0ed59ff0a5f254e05922"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@14_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "3d76121fa22aa0d7026d4dd1ba85c2800ae7e0441d4a7de16f06f926b872d025"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "24173e846513f2ce04192860941b6340b16fd4904abfdb132628c62d378983b5"
+        }
+      },
+      "row_count": 9350,
+      "rows_canonical_sha256": "e5d0e047cf3cd6035aeafa332a328263aed5de3c68f05773da6407a4c911b236",
+      "localized_reference_count": 23629,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225572,
+        "EntriesCount": 9350,
+        "StructSize": 36,
+        "DataTableOffset": 511326,
+        "DataTableEntriesCount": 9350,
+        "ConstantsTableOffset": 660926,
+        "ConstantsTableEntriesCount": 21287,
+        "ConstantsSectionOffset": 225576,
+        "ConstantsSectionLength": 285750,
+        "FooterOffset": 1001518,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@14_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "3d76121fa22aa0d7026d4dd1ba85c2800ae7e0441d4a7de16f06f926b872d025"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_14_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "24173e846513f2ce04192860941b6340b16fd4904abfdb132628c62d378983b5"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@21_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "4b5da7902cca701be081dd904ba153a57c7cf0efcafc5ce41327845449fa020c"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "2132d07846637cea7ec1dc10062f3f68724fb119d8246db19cd522dc9f55b6ad"
+        }
+      },
+      "row_count": 9355,
+      "rows_canonical_sha256": "010bb6e956c1d6b9306c198224cc7528b9346d7c5d5e2c4f4a26b1807ce02a45",
+      "localized_reference_count": 23644,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225702,
+        "EntriesCount": 9355,
+        "StructSize": 36,
+        "DataTableOffset": 511541,
+        "DataTableEntriesCount": 9355,
+        "ConstantsTableOffset": 661221,
+        "ConstantsTableEntriesCount": 21297,
+        "ConstantsSectionOffset": 225706,
+        "ConstantsSectionLength": 285835,
+        "FooterOffset": 1001973,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@21_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "4b5da7902cca701be081dd904ba153a57c7cf0efcafc5ce41327845449fa020c"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "2132d07846637cea7ec1dc10062f3f68724fb119d8246db19cd522dc9f55b6ad"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@22_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "c88289e39cb5797d98d0abbb9468502c9b4e951b7a85807e208ec8c6df8f10c4"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "4a3f454347ec91eb8ae76a10f4026d71814bc2fd673278f6ade9ca97ffe01292"
+        }
+      },
+      "row_count": 9356,
+      "rows_canonical_sha256": "cd700c4ead0708ea2021ca8300d9e669debe6ca94020d0f352c07b60368a4ab5",
+      "localized_reference_count": 23647,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225728,
+        "EntriesCount": 9356,
+        "StructSize": 36,
+        "DataTableOffset": 511567,
+        "DataTableEntriesCount": 9356,
+        "ConstantsTableOffset": 661263,
+        "ConstantsTableEntriesCount": 21297,
+        "ConstantsSectionOffset": 225732,
+        "ConstantsSectionLength": 285835,
+        "FooterOffset": 1002015,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@22_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "c88289e39cb5797d98d0abbb9468502c9b4e951b7a85807e208ec8c6df8f10c4"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "4a3f454347ec91eb8ae76a10f4026d71814bc2fd673278f6ade9ca97ffe01292"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@26_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "2f8b78414fb7b22fea761b0581224e714fcab47c30d1863538c5a95bbece256a"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "4a3f454347ec91eb8ae76a10f4026d71814bc2fd673278f6ade9ca97ffe01292"
+        }
+      },
+      "row_count": 9356,
+      "rows_canonical_sha256": "ccb2e5a71e95a9fbfa70e10bc1fc6a00c7e9916be777ed58e725250b7a66a5c9",
+      "localized_reference_count": 23647,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225728,
+        "EntriesCount": 9356,
+        "StructSize": 36,
+        "DataTableOffset": 511601,
+        "DataTableEntriesCount": 9356,
+        "ConstantsTableOffset": 661297,
+        "ConstantsTableEntriesCount": 21299,
+        "ConstantsSectionOffset": 225732,
+        "ConstantsSectionLength": 285869,
+        "FooterOffset": 1002081,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@26_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_26_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "2f8b78414fb7b22fea761b0581224e714fcab47c30d1863538c5a95bbece256a"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_22_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "4a3f454347ec91eb8ae76a10f4026d71814bc2fd673278f6ade9ca97ffe01292"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@27_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "fc053a85bb28e05f7ae0f8046b457938961943263bb4a9d9842a018e29a02765"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "bc891ca81b2bdf41690bb366288583f13887275c4dfcc0a7d0e42445bd5c0c88"
+        }
+      },
+      "row_count": 9361,
+      "rows_canonical_sha256": "70faf242e0b3a060ae702e69d8b99e26752e1852682d010a37aa46cf14f8e484",
+      "localized_reference_count": 23661,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 225854,
+        "EntriesCount": 9361,
+        "StructSize": 36,
+        "DataTableOffset": 511893,
+        "DataTableEntriesCount": 9361,
+        "ConstantsTableOffset": 661669,
+        "ConstantsTableEntriesCount": 21314,
+        "ConstantsSectionOffset": 225858,
+        "ConstantsSectionLength": 286035,
+        "FooterOffset": 1002693,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@27_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "fc053a85bb28e05f7ae0f8046b457938961943263bb4a9d9842a018e29a02765"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "bc891ca81b2bdf41690bb366288583f13887275c4dfcc0a7d0e42445bd5c0c88"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@29_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "0ac2b4c9ceec9eb6bc483c559c88a172d0f2e7f12101d26672897d548dad8d97"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "1c181c8effbdef4214179883c4a27933baa059f607f2f690443bc99b6471508e"
+        }
+      },
+      "row_count": 9367,
+      "rows_canonical_sha256": "6bf6642a8e1cfca9438fbdece838d28d0331fc00c53c6eb30c3633a5f2c1630a",
+      "localized_reference_count": 23679,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 226014,
+        "EntriesCount": 9367,
+        "StructSize": 36,
+        "DataTableOffset": 512112,
+        "DataTableEntriesCount": 9367,
+        "ConstantsTableOffset": 661984,
+        "ConstantsTableEntriesCount": 21319,
+        "ConstantsSectionOffset": 226018,
+        "ConstantsSectionLength": 286094,
+        "FooterOffset": 1003088,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@29_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "0ac2b4c9ceec9eb6bc483c559c88a172d0f2e7f12101d26672897d548dad8d97"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "1c181c8effbdef4214179883c4a27933baa059f607f2f690443bc99b6471508e"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@33_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "b3b957e9125aae6b88f5bc367ad92cf102a4c73e5850f5af851aabdface1f533"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "e98492bbfcb7573ba1198307afc4a43e615a400fc5af97a4f51fb5359a5ead54"
+        }
+      },
+      "row_count": 9370,
+      "rows_canonical_sha256": "3882ad5d081b989a1480dcfb24236a8d568d8c0d9c4fb563653e5e4b46422284",
+      "localized_reference_count": 23686,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 226084,
+        "EntriesCount": 9370,
+        "StructSize": 36,
+        "DataTableOffset": 512233,
+        "DataTableEntriesCount": 9370,
+        "ConstantsTableOffset": 662153,
+        "ConstantsTableEntriesCount": 21325,
+        "ConstantsSectionOffset": 226088,
+        "ConstantsSectionLength": 286145,
+        "FooterOffset": 1003353,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@33_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "b3b957e9125aae6b88f5bc367ad92cf102a4c73e5850f5af851aabdface1f533"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_33_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "e98492bbfcb7573ba1198307afc4a43e615a400fc5af97a4f51fb5359a5ead54"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "REWARD_CONF@35_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "7807ed079a9b9e2b6d23ce9d707d7e47eb398794942ebce584f6d32100895b49"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "7ae173cc4770fd7194973a5ca421cb589b3eea7d8cfd1ff20fc2e85076f3672f"
+        }
+      },
+      "row_count": 9371,
+      "rows_canonical_sha256": "26ab2d4af2718eed4d997870785f8c7cd7dae4d7219a1037dcd28475ce5740f6",
+      "localized_reference_count": 23689,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 226110,
+        "EntriesCount": 9371,
+        "StructSize": 36,
+        "DataTableOffset": 512259,
+        "DataTableEntriesCount": 9371,
+        "ConstantsTableOffset": 662195,
+        "ConstantsTableEntriesCount": 21325,
+        "ConstantsSectionOffset": 226114,
+        "ConstantsSectionLength": 286145,
+        "FooterOffset": 1003395,
+        "Format": "BinDataCompressed"
+      },
+      "reward_19589": {
+        "id": 19589,
+        "Name": "S3赛季手册-周常任务奖励",
+        "Type": 1,
+        "DisplayName": "S3赛季手册-周常章节任务奖励",
+        "Description": "40赛季token",
+        "RewardItem": [
+          {
+            "Type": 2,
+            "Id": 77,
+            "Count": 40
+          }
+        ]
+      },
+      "reward_19589_provenance": {
+        "pairing_id": "REWARD_CONF@35_P",
+        "sources": {
+          "data": {
+            "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+            "sha256": "7807ed079a9b9e2b6d23ce9d707d7e47eb398794942ebce584f6d32100895b49"
+          },
+          "schema": {
+            "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+            "sha256": "e9b698bdb5f959e33899ae97fccb3793ed67ce92640b15193d3aed091923a514"
+          },
+          "localization": {
+            "path": "pakchunk4-WindowsNoEditor_35_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+            "sha256": "7ae173cc4770fd7194973a5ca421cb589b3eea7d8cfd1ff20fc2e85076f3672f"
+          }
+        },
+        "row": {
+          "offset": 15162,
+          "length": 26,
+          "index": 594,
+          "sha256": "2774b23c2f32ef829937ec2fbe05b556770b05d4a47b7fd1bdce7d9720f9c27d"
+        },
+        "localized_references": [
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Name",
+            "raw_index": 1778,
+            "byte_offset": 15168,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/DisplayName",
+            "raw_index": 1779,
+            "byte_offset": 15176,
+            "resolved": true
+          },
+          {
+            "row_id": "19589",
+            "json_pointer": "/rows/19589/Description",
+            "raw_index": 1780,
+            "byte_offset": 15180,
+            "resolved": true
+          }
+        ]
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@base",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "8924724eb946bddc270597370f143e0be30aedb604b5d6759d0d7b7d92299af8"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a170e591db5750af79d75a2580c6bfb9f00560de0811429aed01b494fab6b478"
+        },
+        "localization": null
+      },
+      "row_count": 9187,
+      "rows_canonical_sha256": "894ac13e4f5ca961df418f78de7ae6592f461ae7845cf1ff0be1671a374a510b",
+      "localized_reference_count": 0,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [
+        29,
+        30
+      ],
+      "structs_with_allowed_padding": 9187,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 336141,
+        "EntriesCount": 9187,
+        "StructSize": 98,
+        "DataTableOffset": 591981,
+        "DataTableEntriesCount": 9187,
+        "ConstantsTableOffset": 738973,
+        "ConstantsTableEntriesCount": 11795,
+        "ConstantsSectionOffset": 336145,
+        "ConstantsSectionLength": 255836,
+        "FooterOffset": 927693,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@0_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "6fefce4e89e2254ab85f02e1fb705420378c3b34df785496f6d016ad21ad4192"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "802dabe4b7aeffdb1b79374748110cfd3b33b4f8c85e40ca2a5017a034a4f882"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "b20186016283e5ee69aa56ce24cde9b83e67e9aac8417d69ff12d09b85b694d0"
+        }
+      },
+      "row_count": 9675,
+      "rows_canonical_sha256": "c9e217610c147dbb59795d505f29257e65fcb47eceedc3213fabcbc53d85f318",
+      "localized_reference_count": 9666,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 315824,
+        "EntriesCount": 9675,
+        "StructSize": 98,
+        "DataTableOffset": 330706,
+        "DataTableEntriesCount": 9675,
+        "ConstantsTableOffset": 485506,
+        "ConstantsTableEntriesCount": 2458,
+        "ConstantsSectionOffset": 315828,
+        "ConstantsSectionLength": 14878,
+        "FooterOffset": 524834,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@1_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "81a742e3390bd85ce11a9177d19ee3c1b2895ffeddf76d2d693572ab4e3460a1"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "802dabe4b7aeffdb1b79374748110cfd3b33b4f8c85e40ca2a5017a034a4f882"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "9c8697060898ff0ff3c845f4660b6fe9fdd777e01470c4b669d4208aafa290bf"
+        }
+      },
+      "row_count": 9691,
+      "rows_canonical_sha256": "8909b7c577d30af6e8bc497b6364f0cbac0bc39e8ce4dbcdf1aa9fdf96983889",
+      "localized_reference_count": 9682,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 316341,
+        "EntriesCount": 9691,
+        "StructSize": 98,
+        "DataTableOffset": 331151,
+        "DataTableEntriesCount": 9691,
+        "ConstantsTableOffset": 486207,
+        "ConstantsTableEntriesCount": 2446,
+        "ConstantsSectionOffset": 316345,
+        "ConstantsSectionLength": 14806,
+        "FooterOffset": 525343,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@2_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "e1bcd51d8fee43bcee9ec299458d827028d953addca932970a25d69f20428b13"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "d5799acf23849aae7160b3111ef9def2fee0b3d023aa459010bf29e03f739d87"
+        }
+      },
+      "row_count": 11520,
+      "rows_canonical_sha256": "8d85c3ec13ba0013a834e4b23b8ce14fdc60db254c6c0af0f4ecd276de2f434a",
+      "localized_reference_count": 11511,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 372068,
+        "EntriesCount": 11520,
+        "StructSize": 98,
+        "DataTableOffset": 388120,
+        "DataTableEntriesCount": 11520,
+        "ConstantsTableOffset": 572440,
+        "ConstantsTableEntriesCount": 2629,
+        "ConstantsSectionOffset": 372072,
+        "ConstantsSectionLength": 16048,
+        "FooterOffset": 614504,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@3_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "5403f525250792b32f81eebca9cb968b10ed3436866d7eadbf5b6a15ed5e9d2d"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "c44006120472fe42506619ba9d9cde8a59c26036ea2b7f9e94a612e7c1719710"
+        }
+      },
+      "row_count": 12267,
+      "rows_canonical_sha256": "c9578aeee3aa05d23f7a63b72cfc2960d0d0191729424f79b8cb8fd6c06d5aca",
+      "localized_reference_count": 12258,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 393402,
+        "EntriesCount": 12267,
+        "StructSize": 98,
+        "DataTableOffset": 410209,
+        "DataTableEntriesCount": 12267,
+        "ConstantsTableOffset": 606481,
+        "ConstantsTableEntriesCount": 2692,
+        "ConstantsSectionOffset": 393406,
+        "ConstantsSectionLength": 16803,
+        "FooterOffset": 649553,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@10_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "164f1adc6febd5456ce08d5e31e5552404f35543b000731beee23aba6c0dcd9f"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_10_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "66bd7e859029f64d2aaaa27ee34cdebd6b47a152cdab1487cd2658ce44c66340"
+        }
+      },
+      "row_count": 12274,
+      "rows_canonical_sha256": "17ab733b82600b0192821a6c09a14eeae16254b70f63bd3532c48cff265e0c86",
+      "localized_reference_count": 12265,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 393634,
+        "EntriesCount": 12274,
+        "StructSize": 98,
+        "DataTableOffset": 410449,
+        "DataTableEntriesCount": 12274,
+        "ConstantsTableOffset": 606833,
+        "ConstantsTableEntriesCount": 2694,
+        "ConstantsSectionOffset": 393638,
+        "ConstantsSectionLength": 16811,
+        "FooterOffset": 649937,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@21_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "5fe10d1236c81bc17e71a79d66e813ca29014bc5ce316333bb6f93c368b6c629"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_21_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "d212ddd718dfcfaa31240aa52be9aa7b447d0a7d35adab65fd197686ca9fb90d"
+        }
+      },
+      "row_count": 12294,
+      "rows_canonical_sha256": "16b95e083e190cdc13c7fa6fee9d9f602e11345d8c1c32ae3a0a19a2b36a631d",
+      "localized_reference_count": 12285,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 394314,
+        "EntriesCount": 12294,
+        "StructSize": 98,
+        "DataTableOffset": 411169,
+        "DataTableEntriesCount": 12294,
+        "ConstantsTableOffset": 607873,
+        "ConstantsTableEntriesCount": 2704,
+        "ConstantsSectionOffset": 394318,
+        "ConstantsSectionLength": 16851,
+        "FooterOffset": 651137,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@27_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "f5fe06d63c0629ac3b8817ca7cab0deeb518139f8ed82f17dc581f955fbab822"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_27_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "7e8df990063edadaecaefb57ba1ca0409c4c5ef19ce2e0f453203b33eafe9e4f"
+        }
+      },
+      "row_count": 12319,
+      "rows_canonical_sha256": "b467b011e960ffece0dad159592b8266e3103ced0ad3f24e4afc27dfc9708abf",
+      "localized_reference_count": 12310,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 395120,
+        "EntriesCount": 12319,
+        "StructSize": 98,
+        "DataTableOffset": 412023,
+        "DataTableEntriesCount": 12319,
+        "ConstantsTableOffset": 609127,
+        "ConstantsTableEntriesCount": 2716,
+        "ConstantsSectionOffset": 395124,
+        "ConstantsSectionLength": 16899,
+        "FooterOffset": 652583,
+        "Format": "BinDataCompressed"
+      }
+    },
+    {
+      "pairing_id": "SELECT_CONF@29_P",
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "84ed1d70f106d38f6891e1b6ea5af46ee9a278a95cff9979c111d2da31529e95"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_29_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "ac042f8dde11d32e976778edfad89fa1f69911a31fda6a887f8377c7e78d9bab"
+        }
+      },
+      "row_count": 12357,
+      "rows_canonical_sha256": "ab167686d21800b8dfeefa93ec25b0f85cfc529819d2e617d09bd8274bd88e62",
+      "localized_reference_count": 12348,
+      "missing_localization_count": 0,
+      "struct_diagnostic_count": 0,
+      "allowed_padding_bits": [],
+      "structs_with_allowed_padding": 0,
+      "footer": {
+        "DataSectionOffset": 4,
+        "DataSectionLength": 396347,
+        "EntriesCount": 12357,
+        "StructSize": 98,
+        "DataTableOffset": 413278,
+        "DataTableEntriesCount": 12357,
+        "ConstantsTableOffset": 610990,
+        "ConstantsTableEntriesCount": 2723,
+        "ConstantsSectionOffset": 396351,
+        "ConstantsSectionLength": 16927,
+        "FooterOffset": 654558,
+        "Format": "BinDataCompressed"
+      }
+    }
+  ],
+  "snapshot_repair": {
+    "MESSAGE_CONF": {
+      "pairing_id": "MESSAGE_CONF@base",
+      "row_count": 58,
+      "identical_id_set": true,
+      "changed_row_count": 56,
+      "unchanged_non_text_row_count": 58,
+      "current_locale_exact_matches": [
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/MESSAGE_CONF.bytes"
+      ]
+    },
+    "TASK_CONF": {
+      "pairing_id": "TASK_CONF@3_P",
+      "row_count": 5542,
+      "identical_id_set": true,
+      "changed_row_count": 5542,
+      "unchanged_non_text_row_count": 5542,
+      "current_locale_exact_matches": [
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/TASK_CONF.bytes"
+      ]
+    },
+    "REWARD_CONF": {
+      "pairing_id": "REWARD_CONF@0_P",
+      "row_count": 7826,
+      "identical_id_set": true,
+      "changed_row_count": 7740,
+      "unchanged_non_text_row_count": 91,
+      "current_locale_exact_matches": [
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/REWARD_CONF.bytes"
+      ]
+    },
+    "SELECT_CONF": {
+      "pairing_id": "SELECT_CONF@2_P",
+      "row_count": 11520,
+      "identical_id_set": true,
+      "changed_row_count": 11170,
+      "unchanged_non_text_row_count": 11520,
+      "current_locale_exact_matches": [
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+        "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/zh_Hans/SELECT_CONF.bytes"
+      ]
+    }
+  },
+  "counterfactual_reproductions": {
+    "MESSAGE_CONF": {
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/MESSAGE_CONF.bytes",
+          "sha256": "98aa83f2fb32bab35df70a75738749b4575d75c181da88bf261fcfd9507b55c1"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/MESSAGE_CONF.non",
+          "sha256": "e9d9cef94d465bc579cfed02b9c430d236001332731e3a08fea28a7c62f81945"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/MESSAGE_CONF.bytes",
+          "sha256": "2e77a9bd6e6a4ca11d25629e115be1f758d5dcaf0f527214ef549df685ca47c7"
+        }
+      },
+      "identical_row_count": 58,
+      "full_rows_equal": true,
+      "struct_diagnostic_count": 58,
+      "schema_diagnostics": [],
+      "missing_localization_count": 0,
+      "claim_limit": "Exact counterfactual reproduction, not original exporter log verification."
+    },
+    "TASK_CONF": {
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/TASK_CONF.bytes",
+          "sha256": "ea9c095ce3aadd06bb4169a94a5ae7f0e814bd0ca541dc2f93b8192be5b624c2"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/TASK_CONF.non",
+          "sha256": "4db54bdc76795ca51ef3c4ba35c53bc0f68bf1433c0b908a2f704638a96e4dee"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/TASK_CONF.bytes",
+          "sha256": "c0228976a820abb1f5e1950aea6b0c9e1ea719be437fb4e822516796e301e224"
+        }
+      },
+      "identical_row_count": 5542,
+      "full_rows_equal": true,
+      "struct_diagnostic_count": 0,
+      "schema_diagnostics": [],
+      "missing_localization_count": 4035,
+      "claim_limit": "Exact counterfactual reproduction, not original exporter log verification."
+    },
+    "REWARD_CONF": {
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_0_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/REWARD_CONF.bytes",
+          "sha256": "e8e2df186f91a68b14ec993e5bf61413b581c0ec77234a5a889e906b813a3982"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_3_P/NRC/Content/ScriptC/Data/Bin/BinConf/REWARD_CONF.non",
+          "sha256": "3e719babf05a6ce8ab01fba67054d4c78429788f7aa0d34e49e340a7a80a9739"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/REWARD_CONF.bytes",
+          "sha256": "c3708b522c7a1ef69351510e77d3964ed4ce9d880fb475826777b511c93bb3c1"
+        }
+      },
+      "identical_row_count": 7826,
+      "full_rows_equal": true,
+      "struct_diagnostic_count": 8456,
+      "schema_diagnostics": [
+        {
+          "kind": "schema_size_mismatch",
+          "schema_size": 36,
+          "footer_struct_size": 48
+        }
+      ],
+      "missing_localization_count": 0,
+      "claim_limit": "Exact counterfactual reproduction, not original exporter log verification."
+    },
+    "SELECT_CONF": {
+      "sources": {
+        "data": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinDataCompressed/SELECT_CONF.bytes",
+          "sha256": "e1bcd51d8fee43bcee9ec299458d827028d953addca932970a25d69f20428b13"
+        },
+        "schema": {
+          "path": "pakchunk4-WindowsNoEditor_2_P/NRC/Content/ScriptC/Data/Bin/BinConf/SELECT_CONF.non",
+          "sha256": "a4aa258933c731d74b3a30bf4a94eeaac409b65c5fe8208513ed43a7f046d5cc"
+        },
+        "localization": {
+          "path": "pakchunk4-WindowsNoEditor_1_P/NRC/Content/ScriptC/Data/Bin/BinLocalize/dev_CN/SELECT_CONF.bytes",
+          "sha256": "9c8697060898ff0ff3c845f4660b6fe9fdd777e01470c4b669d4208aafa290bf"
+        }
+      },
+      "identical_row_count": 11520,
+      "full_rows_equal": true,
+      "struct_diagnostic_count": 0,
+      "schema_diagnostics": [],
+      "missing_localization_count": 1829,
+      "claim_limit": "Exact counterfactual reproduction, not original exporter log verification."
+    }
+  },
+  "recovery_sha256": "3c4b5785bd517c6b1e668901b414fd438e9bad6adb176d370066c1328a7c45d9",
+  "summary": {
+    "raw_asset_count": 120,
+    "data_pairing_count": 52,
+    "localization_file_count": 52,
+    "total_decoded_rows": 345270,
+    "missing_localization_count": 0,
+    "struct_diagnostic_count": 0,
+    "resolved_count": 659,
+    "review_count": 0,
+    "unresolved_count": 0,
+    "binary_source_count": 255,
+    "historical_source_count": 404
+  }
+}
