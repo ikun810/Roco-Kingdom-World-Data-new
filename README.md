@@ -18,4 +18,6 @@ python tools/query.py search --domain pet --query 喵喵
 python -m zipfile -e data/current.zip build/current
 ```
 
+引用内容的历史补缺与来源核验见 [补充资料用法](docs/CONTENT_SUPPLEMENT.md)。
+
 数据为客户端静态配置的第三方导出，非官方服务；使用与再分发应遵守权利人的许可和相关规定。

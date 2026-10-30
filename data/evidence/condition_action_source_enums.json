@@ -1,0 +1,3549 @@
+{
+  "format": "roco_source_enum_evidence_v1",
+  "historical_is_not_verified_as_current": true,
+  "scope": "Source symbol-to-integer definitions only; field mapping inferences are a separate output.",
+  "binding_limit": "BinConf numeric fields do not declare protobuf enums. This dictionary does not assert field bindings, operands, defaults, omitted-zero rules or evaluation code.",
+  "evaluation_limit": "ALL/ONE_OF/ANY/SEQ symbols do not establish an AND/OR default for arbitrary arrays or empty-array behavior.",
+  "enum_count": 30,
+  "member_count": 787,
+  "enums": [
+    {
+      "enum": "TaskKeyType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 899,
+      "members": [
+        {
+          "symbol": "TKT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TKT_BAT_MIN",
+          "value": 1
+        },
+        {
+          "symbol": "TKT_CATCH_MONSTER_ID",
+          "value": 2
+        },
+        {
+          "symbol": "TKT_CATCH_PET_DICT",
+          "value": 3
+        },
+        {
+          "symbol": "TKT_BAT_MONSTER",
+          "value": 4
+        },
+        {
+          "symbol": "TKT_BAT_CONF_WIN",
+          "value": 5
+        },
+        {
+          "symbol": "TKT_BAT_MONSTER_DICT_WIN",
+          "value": 6
+        },
+        {
+          "symbol": "TKT_BAT_CONF",
+          "value": 7
+        },
+        {
+          "symbol": "TKT_CATCH_SPEC_PET_SET",
+          "value": 8
+        },
+        {
+          "symbol": "TKT_CATCH_PET_WEIGHT",
+          "value": 9
+        },
+        {
+          "symbol": "TKT_CATCH_PET_HEIGHT",
+          "value": 10
+        },
+        {
+          "symbol": "TKT_BAT_USE_SPEC_PET",
+          "value": 11
+        },
+        {
+          "symbol": "TKT_BAT_USE_SPEC_SKILL",
+          "value": 12
+        },
+        {
+          "symbol": "TKT_BAT_USE_SPEC_EFFECT",
+          "value": 13
+        },
+        {
+          "symbol": "TKT_BAT_WITH_SPEC_MONSTER",
+          "value": 14
+        },
+        {
+          "symbol": "TKT_SKILL_EFFECT",
+          "value": 15
+        },
+        {
+          "symbol": "TKT_BALL_CATCH",
+          "value": 16
+        },
+        {
+          "symbol": "TKT_CATCH_OR_WIN",
+          "value": 17
+        },
+        {
+          "symbol": "TKT_BAT_BLOOD_BATTLE",
+          "value": 18
+        },
+        {
+          "symbol": "TKT_BAT_CONF_BYTYPE",
+          "value": 19
+        },
+        {
+          "symbol": "TKT_TEAM_CATCH",
+          "value": 20
+        },
+        {
+          "symbol": "TKT_BAT_CONF_WIN_SPEC",
+          "value": 21
+        },
+        {
+          "symbol": "TKT_CATCH_CHAIN",
+          "value": 22
+        },
+        {
+          "symbol": "TKT_CATCH_PET_BLOOD",
+          "value": 23
+        },
+        {
+          "symbol": "TKT_SELF_OR_TEAM_CATCH",
+          "value": 24
+        },
+        {
+          "symbol": "TKT_PVP_COMBAT_MAGIC",
+          "value": 25
+        },
+        {
+          "symbol": "TKT_BATTLE_MAX",
+          "value": 150
+        },
+        {
+          "symbol": "TKT_EVO_MIN",
+          "value": 151
+        },
+        {
+          "symbol": "TKT_EVO_MONSTER_DICT_WIN",
+          "value": 152
+        },
+        {
+          "symbol": "TKT_EVO_WORLD_MONSTER_ID",
+          "value": 153
+        },
+        {
+          "symbol": "TKT_EVO_MAX",
+          "value": 200
+        },
+        {
+          "symbol": "TKT_CHECK_MIN",
+          "value": 201
+        },
+        {
+          "symbol": "TKT_CHECK_VITEM",
+          "value": 202
+        },
+        {
+          "symbol": "TKT_CHECK_PET_LEVEL",
+          "value": 203
+        },
+        {
+          "symbol": "TKT_CHECK_BASE_PET_NUM",
+          "value": 204
+        },
+        {
+          "symbol": "TKT_CHECK_PET_EVOLUTION_STATE",
+          "value": 205
+        },
+        {
+          "symbol": "TKT_CHECK_PET_ID",
+          "value": 206
+        },
+        {
+          "symbol": "TKT_CHECK_TASK_DONE",
+          "value": 207
+        },
+        {
+          "symbol": "TKT_CHECK_TELEPORT_STATE",
+          "value": 208
+        },
+        {
+          "symbol": "TKT_CHECK_BAG_ITEM",
+          "value": 209
+        },
+        {
+          "symbol": "TKT_CHECK_PET_FORMATION",
+          "value": 210
+        },
+        {
+          "symbol": "TKT_CHECK_HANDBOOK_COLLECT_PETNUM",
+          "value": 211
+        },
+        {
+          "symbol": "TKT_CHECK_PET_PROGRESS",
+          "value": 212
+        },
+        {
+          "symbol": "TKT_CHECK_MAGICIAN_STAR",
+          "value": 213
+        },
+        {
+          "symbol": "TKT_CHECK_FINISH_DUNGEON",
+          "value": 214
+        },
+        {
+          "symbol": "TKT_CHECK_HANDBOOK_LESSON",
+          "value": 215
+        },
+        {
+          "symbol": "TKT_CHECK_TELEPORT_LEVEL",
+          "value": 216
+        },
+        {
+          "symbol": "TKT_CHECK_PET_TOPIC_ALL_COMPLETE_NUM",
+          "value": 217
+        },
+        {
+          "symbol": "TKT_CHECK_PET_EFFORT_LEVEL",
+          "value": 218
+        },
+        {
+          "symbol": "TKT_CHECK_SCENE",
+          "value": 219
+        },
+        {
+          "symbol": "TKT_CHECK_LEGENDARY_QUEST_STATE",
+          "value": 220
+        },
+        {
+          "symbol": "TKT_CHECK_HANDBOOK_NODE_FINNUM",
+          "value": 221
+        },
+        {
+          "symbol": "TKT_CHECK_ADVENTURE_CHAPTER",
+          "value": 222
+        },
+        {
+          "symbol": "TKT_CHECK_CROP_FRUIT",
+          "value": 223
+        },
+        {
+          "symbol": "TKT_CHECK_BAGITEMTYPE",
+          "value": 224
+        },
+        {
+          "symbol": "TKT_CHECK_PVP_RANK",
+          "value": 225
+        },
+        {
+          "symbol": "TKT_CHECK_HANDBOOK_NODE_AWARD",
+          "value": 226
+        },
+        {
+          "symbol": "TKT_CHECK_FASHION",
+          "value": 227
+        },
+        {
+          "symbol": "TKT_CHECK_PLANT_EQUIPED_SEED",
+          "value": 228
+        },
+        {
+          "symbol": "TKT_CHECK_FRIEND_NUM",
+          "value": 230
+        },
+        {
+          "symbol": "TKT_CHECK_APPLAUSE_LEVEL",
+          "value": 231
+        },
+        {
+          "symbol": "TKT_CHECK_HOME_COMFORT",
+          "value": 232
+        },
+        {
+          "symbol": "TKT_CHECK_ADVENTURE_CORE_DONE",
+          "value": 233
+        },
+        {
+          "symbol": "TKT_CHECK_RELATIONTREE_COUNT",
+          "value": 234
+        },
+        {
+          "symbol": "TKT_CHECK_RP_BEHAVIOR",
+          "value": 235
+        },
+        {
+          "symbol": "TKT_CHECK_HAD_BAGITEM",
+          "value": 236
+        },
+        {
+          "symbol": "TKT_CHECK_TOTAL_POPULARITY_VALUE",
+          "value": 237
+        },
+        {
+          "symbol": "TKT_CHECK_DAILY_ONLINE_TIME",
+          "value": 238
+        },
+        {
+          "symbol": "TKT_CHECK_SCENE_RES",
+          "value": 239
+        },
+        {
+          "symbol": "TKT_CHECK_TASK_DAY_PASS",
+          "value": 240
+        },
+        {
+          "symbol": "TKT_CHECK_BOX_EMPTY",
+          "value": 241
+        },
+        {
+          "symbol": "TKT_CHECK_VERSION_NUMBER",
+          "value": 242
+        },
+        {
+          "symbol": "TKT_CHECK_SERVER_CONTRIBUTION",
+          "value": 243
+        },
+        {
+          "symbol": "TKT_CHECK_FASHION_TAB",
+          "value": 244
+        },
+        {
+          "symbol": "TKT_CHECK_PET_LORDEVO",
+          "value": 245
+        },
+        {
+          "symbol": "TKT_CHECK_MAX",
+          "value": 300
+        },
+        {
+          "symbol": "TKT_OTHER_MIN",
+          "value": 301
+        },
+        {
+          "symbol": "TKT_BUY_REC_GOODS",
+          "value": 302
+        },
+        {
+          "symbol": "TKT_BUY_ID_GOODS",
+          "value": 303
+        },
+        {
+          "symbol": "TKT_ADD_PET_EXP",
+          "value": 304
+        },
+        {
+          "symbol": "TKT_ADD_PET_BASE_POINT",
+          "value": 305
+        },
+        {
+          "symbol": "TKT_PLAY_END",
+          "value": 306
+        },
+        {
+          "symbol": "TKT_STATE_DIALOGUE",
+          "value": 307
+        },
+        {
+          "symbol": "TKT_STATE_OPTION",
+          "value": 308
+        },
+        {
+          "symbol": "TKT_TIME_PASS",
+          "value": 309
+        },
+        {
+          "symbol": "TKT_DAY_PASS",
+          "value": 310
+        },
+        {
+          "symbol": "TKT_ITEM_CRAFT",
+          "value": 311
+        },
+        {
+          "symbol": "TKT_STATE_OPTION_PLAYER",
+          "value": 312
+        },
+        {
+          "symbol": "TKT_STATE_OPTION_PET",
+          "value": 313
+        },
+        {
+          "symbol": "TKT_PET_INTERACTION",
+          "value": 314
+        },
+        {
+          "symbol": "TKT_ADD_VITEM",
+          "value": 315
+        },
+        {
+          "symbol": "TKT_CONSUME_VITEM",
+          "value": 316
+        },
+        {
+          "symbol": "TKT_SHELTER_LEVEL",
+          "value": 317
+        },
+        {
+          "symbol": "TKT_PET_EVOLVE",
+          "value": 318
+        },
+        {
+          "symbol": "TKT_CONSUME_BAGITEM_TYPE",
+          "value": 319
+        },
+        {
+          "symbol": "TKT_THROW",
+          "value": 320
+        },
+        {
+          "symbol": "TKT_UPGRADE_PET_MEMORY_TIME",
+          "value": 321
+        },
+        {
+          "symbol": "TKT_REPORT_PET_TIME",
+          "value": 322
+        },
+        {
+          "symbol": "TKT_TRAVEL_PET_TIME",
+          "value": 323
+        },
+        {
+          "symbol": "TKT_HATCH_EGG_TIME",
+          "value": 324
+        },
+        {
+          "symbol": "TKT_USE_BATTLE_MAGIC_TIME",
+          "value": 325
+        },
+        {
+          "symbol": "TKT_WORLDCOMBAT_WIN",
+          "value": 326
+        },
+        {
+          "symbol": "TKT_CLIENT_TRIGGER",
+          "value": 327
+        },
+        {
+          "symbol": "TKT_USE_PET_PERCEPTION",
+          "value": 328
+        },
+        {
+          "symbol": "TKT_STATE_MINIGAME",
+          "value": 329
+        },
+        {
+          "symbol": "TKT_VISIT_TIME",
+          "value": 330
+        },
+        {
+          "symbol": "TKT_FINISH_DAILY_TASK_TIME",
+          "value": 331
+        },
+        {
+          "symbol": "TKT_UPGRADE_ROLE_TIME",
+          "value": 332
+        },
+        {
+          "symbol": "TKT_STATE_AILOGICSTATUS",
+          "value": 333
+        },
+        {
+          "symbol": "TKT_ADD_TALENT_PET",
+          "value": 334
+        },
+        {
+          "symbol": "TKT_AREA_TRIG_TIME",
+          "value": 335
+        },
+        {
+          "symbol": "TKT_PET_PARAM",
+          "value": 336
+        },
+        {
+          "symbol": "TKT_TOTAL_CONSUMPTION",
+          "value": 337
+        },
+        {
+          "symbol": "TKT_CONSUME_BAGITEM",
+          "value": 338
+        },
+        {
+          "symbol": "TKT_ADD_NPC_CHALLENGE_STAR",
+          "value": 339
+        },
+        {
+          "symbol": "TKT_ADD_BOSS_CHALLENGE_STAR",
+          "value": 340
+        },
+        {
+          "symbol": "TKT_PVP_COMBAT",
+          "value": 341
+        },
+        {
+          "symbol": "TKT_PET_RELASE",
+          "value": 342
+        },
+        {
+          "symbol": "TKT_PVP_WEEKLY",
+          "value": 344
+        },
+        {
+          "symbol": "TKT_WISDOMTREE",
+          "value": 346
+        },
+        {
+          "symbol": "TKT_OWL_SANCTUARY_FRUIT_PUT_TIME",
+          "value": 347
+        },
+        {
+          "symbol": "TKT_OWL_SANCTUARY_LEVEL_UP_TIME",
+          "value": 348
+        },
+        {
+          "symbol": "TKT_ADD_BAGITEM",
+          "value": 349
+        },
+        {
+          "symbol": "TKT_REACH_POINT",
+          "value": 350
+        },
+        {
+          "symbol": "TKT_CLIENT_CINEMA_FINISHED",
+          "value": 351
+        },
+        {
+          "symbol": "TKT_SHARE_TIME",
+          "value": 352
+        },
+        {
+          "symbol": "TKT_PVP_WINNING_STEAK",
+          "value": 353
+        },
+        {
+          "symbol": "TKT_PLANT_IN_LAND",
+          "value": 354
+        },
+        {
+          "symbol": "TKT_HOME_SET_PET",
+          "value": 355
+        },
+        {
+          "symbol": "TKT_HOME_SET_FURNITURE",
+          "value": 356
+        },
+        {
+          "symbol": "TKT_HOME_FURNITURE_HANDBOOK_REWARD",
+          "value": 357
+        },
+        {
+          "symbol": "TKT_COMPASS_CONVERSE",
+          "value": 358
+        },
+        {
+          "symbol": "TKT_ADD_PET_GLASS",
+          "value": 359
+        },
+        {
+          "symbol": "TKT_STATE_INTERACT_INVITETYPE",
+          "value": 360
+        },
+        {
+          "symbol": "TKT_STATE_CHANGE_TOD",
+          "value": 361
+        },
+        {
+          "symbol": "TKT_STATE_NPC_COMB",
+          "value": 362
+        },
+        {
+          "symbol": "TKT_FRIEND_GIVE_PET",
+          "value": 363
+        },
+        {
+          "symbol": "TKT_FRIEND_GIVE_PETEGG",
+          "value": 364
+        },
+        {
+          "symbol": "TKT_CAMERA",
+          "value": 365
+        },
+        {
+          "symbol": "TKT_INVITE_FRIEND",
+          "value": 366
+        },
+        {
+          "symbol": "TKT_MINI_PACKAGE_DONE",
+          "value": 367
+        },
+        {
+          "symbol": "TKT_PET_BOND",
+          "value": 368
+        },
+        {
+          "symbol": "TKT_ADD_PET_SEPC",
+          "value": 369
+        },
+        {
+          "symbol": "TKT_GOT_SPECIFIC_PET",
+          "value": 370
+        },
+        {
+          "symbol": "TKT_TOTAL_POPULARITY_VALUE",
+          "value": 371
+        },
+        {
+          "symbol": "TKT_DAILY_ONLINE_TIME",
+          "value": 372
+        },
+        {
+          "symbol": "TKT_PLAY_DISPLAY_ONYL",
+          "value": 373
+        },
+        {
+          "symbol": "TKT_PET_CHANGE_TALENT",
+          "value": 374
+        },
+        {
+          "symbol": "TKT_PET_PERFORMANCE",
+          "value": 375
+        },
+        {
+          "symbol": "TKT_CARD_CHANGE",
+          "value": 376
+        },
+        {
+          "symbol": "TKT_LOTTERY",
+          "value": 378
+        },
+        {
+          "symbol": "TKT_TEAM_SHARE",
+          "value": 379
+        },
+        {
+          "symbol": "TKT_GIVE_MEDAL",
+          "value": 380
+        },
+        {
+          "symbol": "TKT_CHANGE_PET_NAME",
+          "value": 381
+        },
+        {
+          "symbol": "TKT_PVP_WATCH",
+          "value": 382
+        },
+        {
+          "symbol": "TKT_PHOTO_SHARE",
+          "value": 383
+        },
+        {
+          "symbol": "TKT_TASK_DAY_PASS",
+          "value": 384
+        },
+        {
+          "symbol": "TKT_RECALL_SUB_ACTIVITY_CTRL",
+          "value": 385
+        },
+        {
+          "symbol": "TKT_STATE_PATH_FINISH",
+          "value": 386
+        },
+        {
+          "symbol": "TKT_GRASS_TRIAL_SETTLE",
+          "value": 387
+        },
+        {
+          "symbol": "TKT_GRASS_TRIAL_PREPARE_HAS_STORYFLAG",
+          "value": 388
+        },
+        {
+          "symbol": "TKT_BUILDING_NPC_LEVEL",
+          "value": 389
+        },
+        {
+          "symbol": "TKT_OTHER_MAX",
+          "value": 400
+        }
+      ]
+    },
+    {
+      "enum": "TaskAcceptConditionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1113,
+      "members": [
+        {
+          "symbol": "TACT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TACT_LEVEL",
+          "value": 1
+        },
+        {
+          "symbol": "TACT_TASK",
+          "value": 2
+        },
+        {
+          "symbol": "TACT_ITEM",
+          "value": 3
+        },
+        {
+          "symbol": "TACT_DIALOGUE",
+          "value": 4
+        },
+        {
+          "symbol": "TACT_TIME",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "enum": "TaskSwitchCondition",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1122,
+      "members": [
+        {
+          "symbol": "TSC_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TSC_TASK",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "enum": "TaskStateChangeActionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1192,
+      "members": [
+        {
+          "symbol": "TSCAT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TSCAT_PERFORM",
+          "value": 1
+        },
+        {
+          "symbol": "TSCAT_ADDPERFORMTONPC",
+          "value": 2
+        },
+        {
+          "symbol": "TSCAT_DELETEPERFORMFROMNPC",
+          "value": 3
+        },
+        {
+          "symbol": "TSCAT_CREATENPC",
+          "value": 4
+        },
+        {
+          "symbol": "TSCAT_DELETENPC",
+          "value": 5
+        },
+        {
+          "symbol": "TSCAT_ADDDIALOG",
+          "value": 6
+        },
+        {
+          "symbol": "TSCAT_ADDDIALOGTONPC",
+          "value": 7
+        },
+        {
+          "symbol": "TSCAT_OPEN_NPC_CONTENT",
+          "value": 8
+        },
+        {
+          "symbol": "TSCAT_CLOSE_NPC_CONTENT",
+          "value": 9
+        },
+        {
+          "symbol": "TSCAT_ADD_OPTION_TO_NPC",
+          "value": 10
+        },
+        {
+          "symbol": "TSCAT_DELETE_OPTION_IN_NPC",
+          "value": 11
+        },
+        {
+          "symbol": "TSCAT_ADD_STORY_FLAG",
+          "value": 12
+        },
+        {
+          "symbol": "TSCAT_DELETE_STORY_FLAG",
+          "value": 13
+        },
+        {
+          "symbol": "TSCAT_ADD_SEQUENCE",
+          "value": 14
+        },
+        {
+          "symbol": "TSCAT_GIVE_UP_TASK",
+          "value": 15
+        },
+        {
+          "symbol": "TSCAT_CAMERA_MOVE",
+          "value": 16
+        },
+        {
+          "symbol": "TSCAT_CLOSE_BLACKSCREEN",
+          "value": 17
+        },
+        {
+          "symbol": "TSCAT_ADD_TASK",
+          "value": 18
+        },
+        {
+          "symbol": "TSCAT_CHANGE_WEATHER",
+          "value": 19
+        },
+        {
+          "symbol": "TSCAT_END_WEATHER",
+          "value": 20
+        },
+        {
+          "symbol": "TSCAT_SALS_NPC_OPEN",
+          "value": 21
+        },
+        {
+          "symbol": "TSCAT_SALS_NPC_CLOSE",
+          "value": 22
+        },
+        {
+          "symbol": "TSCAT_CHANGE_ORIGINAL_ACTION",
+          "value": 23
+        },
+        {
+          "symbol": "TSCAT_UNLOCK_NEW_WORLDMAP",
+          "value": 24
+        },
+        {
+          "symbol": "TSCAT_PC_TRANSFORM_TO_PET",
+          "value": 25
+        },
+        {
+          "symbol": "TSCAT_PC_TRANSFORM_CANCEL",
+          "value": 26
+        },
+        {
+          "symbol": "TSCAT_PC_TRANSFORM_TO_MODEL",
+          "value": 27
+        },
+        {
+          "symbol": "TSCAT_ADD_STATE",
+          "value": 28
+        },
+        {
+          "symbol": "TSCAT_DELETE_STATE",
+          "value": 29
+        },
+        {
+          "symbol": "TSCAT_OPEN_AREA_TRIG",
+          "value": 30
+        },
+        {
+          "symbol": "TSCAT_CLOSE_AREA_TRIG",
+          "value": 31
+        },
+        {
+          "symbol": "TSCAT_DEDUCT_GP",
+          "value": 32
+        },
+        {
+          "symbol": "TSCAT_TASK_SUMMARY",
+          "value": 33
+        },
+        {
+          "symbol": "TSCAT_GP_CONTEST_FINISHED",
+          "value": 34
+        },
+        {
+          "symbol": "TSCAT_GP_CONTEST_UPDATE",
+          "value": 35
+        },
+        {
+          "symbol": "TSCAT_HIDE_CONTENT_STATIC",
+          "value": 36
+        },
+        {
+          "symbol": "TSCAT_SHOW_CONTENT_STATIC",
+          "value": 37
+        },
+        {
+          "symbol": "TSCAT_DISABLE_RELEASE_PET",
+          "value": 38
+        },
+        {
+          "symbol": "TSCAT_ENABLE_RELEASE_PET",
+          "value": 39
+        },
+        {
+          "symbol": "TSCAT_OPEN_AREA_CHECK",
+          "value": 40
+        },
+        {
+          "symbol": "TSCAT_CLOSE_AREA_CHECK",
+          "value": 41
+        },
+        {
+          "symbol": "TSCAT_ADD_MP4",
+          "value": 42
+        },
+        {
+          "symbol": "TSCAT_CHANGE_DUNGEON_STAGE",
+          "value": 43
+        },
+        {
+          "symbol": "TSCAT_ENTER_DUNGEON",
+          "value": 44
+        },
+        {
+          "symbol": "TSCAT_ROLE_TELEPORT",
+          "value": 45
+        },
+        {
+          "symbol": "TSCAT_LEAVE_DUNGEON",
+          "value": 46
+        },
+        {
+          "symbol": "TSCAT_SUMMON_PET",
+          "value": 47
+        },
+        {
+          "symbol": "TSCAT_RECALL_PET",
+          "value": 48
+        },
+        {
+          "symbol": "TSCAT_RECYCLE_TASKBAGITEM",
+          "value": 50
+        },
+        {
+          "symbol": "TSCAT_GO_CMD",
+          "value": 51
+        },
+        {
+          "symbol": "TSCAT_OPEN_CONTENT_OPT",
+          "value": 52
+        },
+        {
+          "symbol": "TSCAT_CLOSE_CONTENT_OPT",
+          "value": 53
+        },
+        {
+          "symbol": "TSCAT_SLIDE",
+          "value": 54
+        },
+        {
+          "symbol": "TSCAT_SEND_MAIL",
+          "value": 55
+        }
+      ]
+    },
+    {
+      "enum": "ConditionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1285,
+      "members": [
+        {
+          "symbol": "COND_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "COND_WINBATTLE",
+          "value": 1
+        },
+        {
+          "symbol": "COND_WINRANDOMBATTLE",
+          "value": 2
+        },
+        {
+          "symbol": "COND_CLICKSEVERALTIMES",
+          "value": 3
+        },
+        {
+          "symbol": "COND_CLICKINSEQUENCE",
+          "value": 4
+        },
+        {
+          "symbol": "COND_WINNPC",
+          "value": 5
+        },
+        {
+          "symbol": "COND_ENTERBATTLE",
+          "value": 6
+        },
+        {
+          "symbol": "COND_ENTERRANDOMBATTLE",
+          "value": 7
+        },
+        {
+          "symbol": "COND_PLAY_END",
+          "value": 8
+        },
+        {
+          "symbol": "COND_PROGRESS",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "enum": "DlgSelectEnableCond",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1419,
+      "members": [
+        {
+          "symbol": "DLG_SEL_ENABLE_COND_ON",
+          "value": 0
+        },
+        {
+          "symbol": "DLG_SEL_ENABLE_COND_HAS_ALL_STORY_FLAGS",
+          "value": 1
+        },
+        {
+          "symbol": "DLG_SEL_ENABLE_COND_HAS_ONE_OF_STORY_FLAGS",
+          "value": 2
+        },
+        {
+          "symbol": "DLG_SEL_ENABLE_COND_DISABLE_HAS_ALL_STORY_FLAGS",
+          "value": 3
+        },
+        {
+          "symbol": "DLG_SEL_ENABLE_COND_DISABLE_HAS_ONE_OF_STORY_FLAGS",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "enum": "DlgSelectDisableCond",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1427,
+      "members": [
+        {
+          "symbol": "DLG_SEL_DISABLE_COND_ON",
+          "value": 0
+        },
+        {
+          "symbol": "DLG_SEL_DISABLE_COND_HAS_ALL_STORY_FLAGS",
+          "value": 1
+        },
+        {
+          "symbol": "DLG_SEL_DISABLE_COND_HAS_ONE_OF_STORY_FLAGS",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "OptionEnableCond",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1433,
+      "members": [
+        {
+          "symbol": "OEC_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "OEC_HAS_ALL_STORY_FLAGS",
+          "value": 1
+        },
+        {
+          "symbol": "OEC_HAS_ONE_OF_STORY_FLAGS",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "NpcCombType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 861,
+      "members": [
+        {
+          "symbol": "NCT_ALL_ABT",
+          "value": 0
+        },
+        {
+          "symbol": "NCT_SEQ_ABT",
+          "value": 1
+        },
+        {
+          "symbol": "NCT_ANY_ABT",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "OptionCondType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 867,
+      "members": [
+        {
+          "symbol": "OCT_TIMES",
+          "value": 0
+        },
+        {
+          "symbol": "OCT_STATE_CANNOT",
+          "value": 1
+        },
+        {
+          "symbol": "OCT_STATE_EQUAL",
+          "value": 2
+        },
+        {
+          "symbol": "OCT_PROPERTY_TYPE_RESTRAINT",
+          "value": 3
+        },
+        {
+          "symbol": "OCT_PATROL_TERMINAL",
+          "value": 4
+        },
+        {
+          "symbol": "OCT_NPC_DELETE",
+          "value": 5
+        },
+        {
+          "symbol": "OCT_AREA_EQUAL",
+          "value": 6
+        },
+        {
+          "symbol": "OCT_OPT_TIMES",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "enum": "CombinationResultType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 878,
+      "members": [
+        {
+          "symbol": "CRT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "CRT_CREATE_NPC",
+          "value": 1
+        },
+        {
+          "symbol": "CRT_CREATE_NPC_BY_PLAYER",
+          "value": 2
+        },
+        {
+          "symbol": "CRT_DELETE_NPC",
+          "value": 3
+        },
+        {
+          "symbol": "CRT_REMOVE_NPC_LOGIC_STATUS",
+          "value": 4
+        },
+        {
+          "symbol": "CRT_ADD_NPC_LOGIC_STATUS",
+          "value": 5
+        },
+        {
+          "symbol": "CRT_STATUS_FLOW",
+          "value": 7
+        },
+        {
+          "symbol": "CRT_CREATE_GROUP",
+          "value": 8
+        },
+        {
+          "symbol": "CRT_UPDATE_NPC_LOGIC_STATUS",
+          "value": 9
+        },
+        {
+          "symbol": "CRT_ADD_OPTION_TO_NPC",
+          "value": 10
+        },
+        {
+          "symbol": "CRT_CREATE_CONTENT_NPC",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "enum": "StoryFlagAction",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 6393,
+      "members": [
+        {
+          "symbol": "SFA_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "SFA_ACTOR_TAG_OPEN",
+          "value": 1
+        },
+        {
+          "symbol": "SFA_ACTOR_TAG_CLOSE",
+          "value": 2
+        },
+        {
+          "symbol": "SFA_AIR_WALL_OPEN",
+          "value": 3
+        },
+        {
+          "symbol": "SFA_AIR_WALL_CLOSE",
+          "value": 4
+        },
+        {
+          "symbol": "SFA_TASK_BGM",
+          "value": 5
+        },
+        {
+          "symbol": "SFA_LOAD_LEVEL",
+          "value": 6
+        },
+        {
+          "symbol": "SFA_AREA_VISIBLE_CLOSE",
+          "value": 7
+        },
+        {
+          "symbol": "SFA_OPEN_LIGHT_LEVEL",
+          "value": 8
+        },
+        {
+          "symbol": "SFA_TASK_PRELOAD",
+          "value": 9
+        },
+        {
+          "symbol": "SFA_MARK_VISABLE_CLOSE",
+          "value": 10
+        },
+        {
+          "symbol": "SFA_TOD_LOCK",
+          "value": 11
+        },
+        {
+          "symbol": "SFA_TELEPORT_AREA_CLOSE",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "enum": "TaskClientTriggerType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 7767,
+      "members": [
+        {
+          "symbol": "TCTT_READ_LETTER",
+          "value": 0
+        },
+        {
+          "symbol": "TCTT_READ_BOOK",
+          "value": 1
+        },
+        {
+          "symbol": "TCTT_READ_NOTE",
+          "value": 2
+        },
+        {
+          "symbol": "TCTT_READ_SCROLLS",
+          "value": 3
+        },
+        {
+          "symbol": "TCTT_READ_STORYBOOK",
+          "value": 4
+        },
+        {
+          "symbol": "TCTT_READ_SLIDE",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "enum": "NextTaskType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 6858,
+      "members": [
+        {
+          "symbol": "NEXT_TASK_ALL",
+          "value": 1
+        },
+        {
+          "symbol": "NEXT_TASK_RAND",
+          "value": 2
+        },
+        {
+          "symbol": "NEXT_TASK_RAND_NO_REPEAT",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "enum": "TaskStructureType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1093,
+      "members": [
+        {
+          "symbol": "TSTT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TSTT_BATTLE",
+          "value": 1
+        },
+        {
+          "symbol": "TSTT_TELEPORT",
+          "value": 2
+        },
+        {
+          "symbol": "TSTT_CINEMA",
+          "value": 3
+        },
+        {
+          "symbol": "TSTT_DIALOGUE",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "enum": "TaskGuideType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 5348,
+      "members": [
+        {
+          "symbol": "TGT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TGT_BASE_NPC",
+          "value": 1
+        },
+        {
+          "symbol": "TGT_NPC_CONTENT",
+          "value": 2
+        },
+        {
+          "symbol": "TGT_MAP_NPC_CONTENT",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "enum": "TaskGoActionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1141,
+      "members": [
+        {
+          "symbol": "TGAT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "TGAT_NPC",
+          "value": 1
+        },
+        {
+          "symbol": "TGAT_MAP",
+          "value": 2
+        },
+        {
+          "symbol": "TGAT_AREA",
+          "value": 3
+        },
+        {
+          "symbol": "TGAT_TIPS",
+          "value": 4
+        },
+        {
+          "symbol": "TGAT_UI",
+          "value": 5
+        },
+        {
+          "symbol": "TGAT_BASE_NPC",
+          "value": 6
+        },
+        {
+          "symbol": "TGAT_CONTENT",
+          "value": 7
+        },
+        {
+          "symbol": "TGAT_NPC_CIRCLE",
+          "value": 8
+        },
+        {
+          "symbol": "TGAT_TRACK_TASK",
+          "value": 9
+        },
+        {
+          "symbol": "TGAT_NPC_PRIORITY",
+          "value": 10
+        },
+        {
+          "symbol": "TGAT_POINT_SET",
+          "value": 11
+        },
+        {
+          "symbol": "TGAT_TELE_STRUCTURE",
+          "value": 12
+        },
+        {
+          "symbol": "TGAT_WILD_CREATURE",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "enum": "TaskTeleportType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 8551,
+      "members": [
+        {
+          "symbol": "TTT_BIG_WORLD",
+          "value": 1
+        },
+        {
+          "symbol": "TTT_ENTER_DUNGEON",
+          "value": 2
+        },
+        {
+          "symbol": "TTT_SWITCH_DUNGEON",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "enum": "TaskGoRetentionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 1135,
+      "members": [
+        {
+          "symbol": "TGRT_TONE",
+          "value": 0
+        },
+        {
+          "symbol": "TGRT_SCENE_RES",
+          "value": 1
+        },
+        {
+          "symbol": "TGRT_AREA_FUNC",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "NpcOptTimesDecCond",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 824,
+      "members": [
+        {
+          "symbol": "OPT_DEC_DONE",
+          "value": 0
+        },
+        {
+          "symbol": "OPT_DEC_BATTLEPAS",
+          "value": 1
+        },
+        {
+          "symbol": "OPT_DEC_REWARD",
+          "value": 2
+        },
+        {
+          "symbol": "OPT_DEC_GET_STORY_FLAG",
+          "value": 3
+        },
+        {
+          "symbol": "OPT_DEC_DEL_PET",
+          "value": 4
+        },
+        {
+          "symbol": "OPT_DEC_SUBMITITEM",
+          "value": 5
+        },
+        {
+          "symbol": "OPT_DEC_SUBMITPET",
+          "value": 6
+        },
+        {
+          "symbol": "OPT_DEC_NORMAL_INTERACT_DONE",
+          "value": 7
+        },
+        {
+          "symbol": "OPT_DEC_AFTER_EXEC_DIOLOG",
+          "value": 8
+        },
+        {
+          "symbol": "OPT_DEC_PET_INTERACT_DONE",
+          "value": 9
+        },
+        {
+          "symbol": "OPT_DEC_AFTER_EXEC_ACTION",
+          "value": 10
+        },
+        {
+          "symbol": "OPT_DEC_BEFORE_EXEC_DIOLOG",
+          "value": 11
+        },
+        {
+          "symbol": "OPT_DEC_BEFORE_EXEC_ACTION",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "enum": "SelectTimesDecCond",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 840,
+      "members": [
+        {
+          "symbol": "STDC_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "STDC_CLICK",
+          "value": 1
+        },
+        {
+          "symbol": "STDC_INTERACT_FIN",
+          "value": 2
+        },
+        {
+          "symbol": "STDC_BATTLEPAS",
+          "value": 3
+        },
+        {
+          "symbol": "STDC_REWARD",
+          "value": 4
+        },
+        {
+          "symbol": "STDC_DEL_PET",
+          "value": 5
+        },
+        {
+          "symbol": "STDC_SUBMITITEM",
+          "value": 6
+        },
+        {
+          "symbol": "STDC_SUBMITPET",
+          "value": 7
+        },
+        {
+          "symbol": "STDC_AFTER_EXEC_DIOLOG",
+          "value": 8
+        },
+        {
+          "symbol": "STDC_AFTER_EXEC_ACTION",
+          "value": 9
+        },
+        {
+          "symbol": "STDC_BEFORE_EXEC_DIOLOG",
+          "value": 10
+        },
+        {
+          "symbol": "STDC_BEFORE_EXEC_ACTION",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "enum": "RefreshType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3351,
+      "members": [
+        {
+          "symbol": "RFT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "RFT_AREA",
+          "value": 1
+        },
+        {
+          "symbol": "RFT_NPC",
+          "value": 2
+        },
+        {
+          "symbol": "RFT_RELY",
+          "value": 3
+        },
+        {
+          "symbol": "RFT_BYTAGID",
+          "value": 4
+        },
+        {
+          "symbol": "RFT_BYTAG",
+          "value": 5
+        },
+        {
+          "symbol": "RFT_BONUS",
+          "value": 6
+        },
+        {
+          "symbol": "RFT_AREA_NEAREST",
+          "value": 7
+        },
+        {
+          "symbol": "RFT_NPC_AROUND",
+          "value": 8
+        },
+        {
+          "symbol": "RFT_AREA_GROUP_NEAREST",
+          "value": 9
+        },
+        {
+          "symbol": "RFT_AFFILIATE",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "enum": "PatrolBelongType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3376,
+      "members": [
+        {
+          "symbol": "PBT_AREA",
+          "value": 1
+        },
+        {
+          "symbol": "PBT_POINT",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "TeleportDestType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3801,
+      "members": [
+        {
+          "symbol": "TELE_DEST_TYPE_AREA",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "enum": "TeleportBeginPointType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3796,
+      "members": [
+        {
+          "symbol": "TELE_BEGIN_POINT_TYPE_UNLIMITED",
+          "value": 1
+        },
+        {
+          "symbol": "TELE_BEGIN_POINT_TYPE_NPC",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "AreaType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3320,
+      "members": [
+        {
+          "symbol": "AREAT_POLYGON",
+          "value": 0
+        },
+        {
+          "symbol": "AREAT_POINTSET",
+          "value": 1
+        },
+        {
+          "symbol": "AREAT_POINT",
+          "value": 2
+        },
+        {
+          "symbol": "AREAT_CIRCLE",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "enum": "NpcInteractOption",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 3292,
+      "members": [
+        {
+          "symbol": "NIO_START",
+          "value": 1
+        },
+        {
+          "symbol": "NIO_COMMIT",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "enum": "ActionType",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/xls_enum.proto",
+        "git_blob_sha": "15238458364b18d6e8cf7f3a56015a2e03390b11",
+        "sha256": "3df73d6d75f9b82b735a05e180bde66c14118143f7bab62f9eeeb569465d48b5"
+      },
+      "source_line": 417,
+      "members": [
+        {
+          "symbol": "ACT_NONE",
+          "value": 0
+        },
+        {
+          "symbol": "ACT_DIALOG",
+          "value": 21
+        },
+        {
+          "symbol": "ACT_LOCKCAM",
+          "value": 22
+        },
+        {
+          "symbol": "ACT_FINISH_LOCKCAM",
+          "value": 23
+        },
+        {
+          "symbol": "ACT_CG",
+          "value": 24
+        },
+        {
+          "symbol": "ACT_FINISH_CG",
+          "value": 25
+        },
+        {
+          "symbol": "ACT_PLAY_CAMERA_LITE",
+          "value": 26
+        },
+        {
+          "symbol": "ACT_LOAD_LEGENDARY_BATTLE",
+          "value": 27
+        },
+        {
+          "symbol": "ACT_GHOST_ACTIVE",
+          "value": 28
+        },
+        {
+          "symbol": "ACT_DELAY",
+          "value": 29
+        },
+        {
+          "symbol": "ACT_TOUCH_LEGENDARY_SPOT",
+          "value": 30
+        },
+        {
+          "symbol": "ACT_ENABLE_PET_SUBMIT",
+          "value": 31
+        },
+        {
+          "symbol": "ACT_PET_SUBMIT",
+          "value": 32
+        },
+        {
+          "symbol": "ACT_TURNAROUND",
+          "value": 33
+        },
+        {
+          "symbol": "ACT_OPEN_TEAM_BATTLE_UI",
+          "value": 34
+        },
+        {
+          "symbol": "ACT_OPEN_TRAVEL_UI",
+          "value": 35
+        },
+        {
+          "symbol": "ACT_PET_SUBMIT_FREE",
+          "value": 36
+        },
+        {
+          "symbol": "ACT_PET_SUBMIT_CHECK",
+          "value": 37
+        },
+        {
+          "symbol": "ACT_OPEN_NPC_CHALLENGE_UI",
+          "value": 38
+        },
+        {
+          "symbol": "ACT_OPEN_BOSS_CHALLENGE_UI",
+          "value": 39
+        },
+        {
+          "symbol": "ACT_OPEN_MAIN_MAP_SELECT_UI",
+          "value": 40
+        },
+        {
+          "symbol": "ACT_OPEN_HOME_PLANT_GUARD_UI",
+          "value": 42
+        },
+        {
+          "symbol": "ACT_OPEN_WEEKLY_CHALLENGE_UI",
+          "value": 78
+        },
+        {
+          "symbol": "ACT_BLOOD_MAGIC_UI",
+          "value": 41
+        },
+        {
+          "symbol": "ACT_OPENSHOP",
+          "value": 43
+        },
+        {
+          "symbol": "ACT_OPEN_CLOSET",
+          "value": 44
+        },
+        {
+          "symbol": "ACT_OPENLEVELUPAWARDS",
+          "value": 45
+        },
+        {
+          "symbol": "ACT_AWARD_USE_STAR",
+          "value": 46
+        },
+        {
+          "symbol": "ACT_OPEN_FASHION",
+          "value": 47
+        },
+        {
+          "symbol": "ACT_SUBMITPET_NPC",
+          "value": 49
+        },
+        {
+          "symbol": "ACT_SUBMITPET_REWARD",
+          "value": 50
+        },
+        {
+          "symbol": "ACT_SUBMITITEM_NPC",
+          "value": 51
+        },
+        {
+          "symbol": "ACT_WORLDLV_PROMOTE_UI",
+          "value": 52
+        },
+        {
+          "symbol": "ACT_WORLDLV_RETRACTION_COMPASS",
+          "value": 53
+        },
+        {
+          "symbol": "ACT_OPEN_ALCHEMY",
+          "value": 54
+        },
+        {
+          "symbol": "ACT_CLOSE_ALCHEMY",
+          "value": 55
+        },
+        {
+          "symbol": "ACT_MIRACLE_CHANGE",
+          "value": 56
+        },
+        {
+          "symbol": "ACT_OWL_SANCTUARY",
+          "value": 57
+        },
+        {
+          "symbol": "ACT_ENTER_DUNGEON",
+          "value": 58
+        },
+        {
+          "symbol": "ACT_LEAVE_DUNGEON",
+          "value": 59
+        },
+        {
+          "symbol": "ACT_BUTTEN",
+          "value": 62
+        },
+        {
+          "symbol": "ACT_OPEN_DOOR",
+          "value": 63
+        },
+        {
+          "symbol": "ACT_PET_WALL",
+          "value": 64
+        },
+        {
+          "symbol": "ACT_CHANGE_TOD",
+          "value": 66
+        },
+        {
+          "symbol": "ACT_OPEN_ACADEMIC_RESEARCH",
+          "value": 69
+        },
+        {
+          "symbol": "ACT_OPEN_CRAFT_UI",
+          "value": 70
+        },
+        {
+          "symbol": "ACT_ENTER_CAMP",
+          "value": 71
+        },
+        {
+          "symbol": "ACT_EXIT_CAMP",
+          "value": 72
+        },
+        {
+          "symbol": "ACT_OPEN_CAMPINGLEVEL_UI",
+          "value": 73
+        },
+        {
+          "symbol": "ACT_OPEN_PETWAREHOUSE",
+          "value": 74
+        },
+        {
+          "symbol": "ACT_OPEN_PETADJUSTTEAM",
+          "value": 75
+        },
+        {
+          "symbol": "ACT_RECOVER_ALL",
+          "value": 76
+        },
+        {
+          "symbol": "ACT_TRIG_MINIGAME",
+          "value": 79
+        },
+        {
+          "symbol": "ACT_TRIGGER_SWITCH",
+          "value": 80
+        },
+        {
+          "symbol": "ACT_SEQUENCE",
+          "value": 81
+        },
+        {
+          "symbol": "ACT_MP4",
+          "value": 82
+        },
+        {
+          "symbol": "ACT_DIMO_COMMON_SHOW",
+          "value": 83
+        },
+        {
+          "symbol": "ACT_DIMO_GO_UPSTAIRS",
+          "value": 84
+        },
+        {
+          "symbol": "ACT_DIMO_TO_BAG",
+          "value": 85
+        },
+        {
+          "symbol": "ACT_PETEVO",
+          "value": 86
+        },
+        {
+          "symbol": "ACT_LEGENDARY_ENTRY_SHOW",
+          "value": 87
+        },
+        {
+          "symbol": "ACT_LEGENDARY_ENTRY_UI",
+          "value": 88
+        },
+        {
+          "symbol": "ACT_PETHATCH",
+          "value": 89
+        },
+        {
+          "symbol": "ACT_MIRACLE_CHANGE_ANIME",
+          "value": 90
+        },
+        {
+          "symbol": "ACT_STELE_DOCUMENT",
+          "value": 91
+        },
+        {
+          "symbol": "ACT_STELE_KNOWLEDGE",
+          "value": 92
+        },
+        {
+          "symbol": "ACT_PET_MIMIC",
+          "value": 93
+        },
+        {
+          "symbol": "ACT_MAGIC_STAR",
+          "value": 94
+        },
+        {
+          "symbol": "ACT_SUBMIT_PET",
+          "value": 95
+        },
+        {
+          "symbol": "ACT_SUBMIT_ITEM",
+          "value": 96
+        },
+        {
+          "symbol": "ACT_CAMP_OPENPIKA",
+          "value": 97
+        },
+        {
+          "symbol": "ACT_SHORT_DISTANCE_TELEPORT",
+          "value": 98
+        },
+        {
+          "symbol": "ACT_BOND_TOUCH",
+          "value": 99
+        },
+        {
+          "symbol": "ACT_BOND_NICKNAME",
+          "value": 100
+        },
+        {
+          "symbol": "ACT_RELATION_PREPARE",
+          "value": 101
+        },
+        {
+          "symbol": "ACT_PET_NORMAL",
+          "value": 102
+        },
+        {
+          "symbol": "ACT_SWITCH_STATE",
+          "value": 103
+        },
+        {
+          "symbol": "ACT_UNLOCK_DUNGEON_ENTRY",
+          "value": 104
+        },
+        {
+          "symbol": "ACT_TOKEN_DRAW",
+          "value": 105
+        },
+        {
+          "symbol": "ACT_AUTO_SCENE_ABILITY",
+          "value": 106
+        },
+        {
+          "symbol": "ACT_REVEAL_DUNGEON_ENTRY",
+          "value": 107
+        },
+        {
+          "symbol": "ACT_WILD_RIDING",
+          "value": 108
+        },
+        {
+          "symbol": "ACT_DIALOG_REALTIME",
+          "value": 109
+        },
+        {
+          "symbol": "ACT_OPEN_PVP_TEAM_UI",
+          "value": 110
+        },
+        {
+          "symbol": "ACT_PET_FLASH",
+          "value": 111
+        },
+        {
+          "symbol": "ACT_FRUIT_TREE",
+          "value": 112
+        },
+        {
+          "symbol": "ACT_NIGHTMARE_SPACE_OPEN",
+          "value": 113
+        },
+        {
+          "symbol": "ACT_OWL_LEVELUP",
+          "value": 114
+        },
+        {
+          "symbol": "ACT_OPEN_OWLFRUITPIT_UI",
+          "value": 115
+        },
+        {
+          "symbol": "ACT_CAMP_DIALOG",
+          "value": 116
+        },
+        {
+          "symbol": "ACT_REWARD_BY_CONGRA_PANEL",
+          "value": 117
+        },
+        {
+          "symbol": "ACT_PAGE_ENDING",
+          "value": 118
+        },
+        {
+          "symbol": "ACT_SWITCH_DUNGEON",
+          "value": 119
+        },
+        {
+          "symbol": "ACT_OPEN_PVP_RANK_UI",
+          "value": 120
+        },
+        {
+          "symbol": "ACT_START_NEWROCO",
+          "value": 121
+        },
+        {
+          "symbol": "ACT_READ",
+          "value": 122
+        },
+        {
+          "symbol": "ACT_OPEN_ASI",
+          "value": 123
+        },
+        {
+          "symbol": "ACT_OPEN_REPORT_PET",
+          "value": 124
+        },
+        {
+          "symbol": "ACT_OPEN_MAP",
+          "value": 125
+        },
+        {
+          "symbol": "ACT_OPEN_ACTIVITY",
+          "value": 126
+        },
+        {
+          "symbol": "ACT_CAGE_BREAK",
+          "value": 130
+        },
+        {
+          "symbol": "ACT_DUNGEON_GATE",
+          "value": 131
+        },
+        {
+          "symbol": "ACT_DUNGEON_EXIT",
+          "value": 132
+        },
+        {
+          "symbol": "ACT_PICK_FRUIT",
+          "value": 133
+        },
+        {
+          "symbol": "ACT_DIALOGUE_LOCAL",
+          "value": 134
+        },
+        {
+          "symbol": "ACT_OPEN_BLOODBATTLE_UI",
+          "value": 135
+        },
+        {
+          "symbol": "ACT_OPEN_PET_CATCH_POINTS_UI",
+          "value": 136
+        },
+        {
+          "symbol": "ACT_LOOKATME",
+          "value": 137
+        },
+        {
+          "symbol": "ACT_GO_CMD",
+          "value": 138
+        },
+        {
+          "symbol": "ACT_SHOW_CONTENT",
+          "value": 139
+        },
+        {
+          "symbol": "ACT_HIDE_CONTENT",
+          "value": 140
+        },
+        {
+          "symbol": "ACT_FRUIT_TREE_RESONANCE",
+          "value": 141
+        },
+        {
+          "symbol": "ACT_MAGIC_MASSAGE_READ",
+          "value": 142
+        },
+        {
+          "symbol": "ACT_SIT",
+          "value": 143
+        },
+        {
+          "symbol": "ACT_HOME_SIT_LIE",
+          "value": 144
+        },
+        {
+          "symbol": "ACT_FAKE_MAGIC_MASSAGE_READ",
+          "value": 145
+        },
+        {
+          "symbol": "ACT_UNLOCK_TEACHIMG",
+          "value": 146
+        },
+        {
+          "symbol": "ACT_TELEPORT_SUITCASE",
+          "value": 147
+        },
+        {
+          "symbol": "ACT_SLIDE",
+          "value": 148
+        },
+        {
+          "symbol": "ACT_OPEN_COLLEGE_CARD",
+          "value": 150
+        },
+        {
+          "symbol": "ACT_MAGIC_VIDEO_PLAY",
+          "value": 151
+        },
+        {
+          "symbol": "ACT_RECALL_GIFT_PACKAGE",
+          "value": 152
+        },
+        {
+          "symbol": "ACT_RECALL_PETGIFT",
+          "value": 153
+        },
+        {
+          "symbol": "ACT_RECALL_ACTIVITY_OPEN",
+          "value": 154
+        },
+        {
+          "symbol": "ACT_BUILDING_NPC_UPDATE",
+          "value": 155
+        },
+        {
+          "symbol": "ACT_GO_CMD_CLIENT",
+          "value": 156
+        },
+        {
+          "symbol": "ACT_NPC_MAGIC_TRANSFER",
+          "value": 201
+        },
+        {
+          "symbol": "ACT_RETRIEVE_MAGIC_CREATURE",
+          "value": 202
+        },
+        {
+          "symbol": "ACT_MAGIC_SUBMIT_ITEM",
+          "value": 203
+        },
+        {
+          "symbol": "ACT_STAR_DESTROY_NIGHTMARE_BIGWORLD",
+          "value": 204
+        },
+        {
+          "symbol": "ACT_NPC_MAGIC_TRANSFER_BY_SUBMIT_ITEM",
+          "value": 205
+        },
+        {
+          "symbol": "ACT_OPEN_PET_CERTIFICATION_UI",
+          "value": 206
+        },
+        {
+          "symbol": "ACT_KNOCK_SCAREDBOX",
+          "value": 207
+        },
+        {
+          "symbol": "ACT_BLINDBOX_IN",
+          "value": 208
+        },
+        {
+          "symbol": "ACT_BLINDBOX_OUT",
+          "value": 209
+        },
+        {
+          "symbol": "ACT_BATTLE_WATCH_LITE",
+          "value": 210
+        },
+        {
+          "symbol": "ACT_CANNON_FIRE",
+          "value": 211
+        },
+        {
+          "symbol": "ACT_SIT_WORLD",
+          "value": 212
+        },
+        {
+          "symbol": "ACT_TEMP_RIDING",
+          "value": 213
+        },
+        {
+          "symbol": "ACT_TELEPORT_SE",
+          "value": 214
+        },
+        {
+          "symbol": "ACT_SPRINGBOARD",
+          "value": 215
+        },
+        {
+          "symbol": "ACT_DIALOG_THREED_REALTIME",
+          "value": 216
+        },
+        {
+          "symbol": "ACT_STORY_CHANGE",
+          "value": 217
+        },
+        {
+          "symbol": "ACT_OPENBOOK",
+          "value": 218
+        },
+        {
+          "symbol": "ACT_CLOSEBOOK",
+          "value": 219
+        },
+        {
+          "symbol": "ACT_BOOK_TELEPORT",
+          "value": 220
+        },
+        {
+          "symbol": "ACT_OPEN_LIGHT",
+          "value": 221
+        },
+        {
+          "symbol": "ACT_AMYCRYSTAL_NOURISH",
+          "value": 222
+        },
+        {
+          "symbol": "ACT_AMYCRYSTAL_CLAIM",
+          "value": 223
+        },
+        {
+          "symbol": "ACT_GODDESS_ALTAR",
+          "value": 224
+        },
+        {
+          "symbol": "ACT_ACTIVE_SELECT_OPTION",
+          "value": 225
+        },
+        {
+          "symbol": "ACT_HANDHELD",
+          "value": 226
+        },
+        {
+          "symbol": "ACT_OPEN_STOCK_SHOP",
+          "value": 227
+        },
+        {
+          "symbol": "ACT_TRIG_MULTI_MINIGAME",
+          "value": 228
+        },
+        {
+          "symbol": "ACT_MULTI_MINIGAME_RECORD_SHOW",
+          "value": 229
+        },
+        {
+          "symbol": "ACT_MULTI_MINIGAME_SCORE",
+          "value": 230
+        },
+        {
+          "symbol": "ACT_REASONING_OPEN",
+          "value": 231
+        },
+        {
+          "symbol": "ACT_YAYANMO_EVENT",
+          "value": 232
+        },
+        {
+          "symbol": "ACT_QTE",
+          "value": 233
+        },
+        {
+          "symbol": "ACT_PET_DESTROY_TARGET",
+          "value": 234
+        },
+        {
+          "symbol": "ACT_PROP_RECALL",
+          "value": 235
+        },
+        {
+          "symbol": "ACT_YAYANMO_MINIGAME",
+          "value": 236
+        },
+        {
+          "symbol": "ACT_BUILDING_NPC_FIX",
+          "value": 237
+        },
+        {
+          "symbol": "ACT_BUILDING_THANKS",
+          "value": 238
+        },
+        {
+          "symbol": "ACT_KNOCK_BOOK",
+          "value": 239
+        },
+        {
+          "symbol": "ACT_DELETE_BOOK",
+          "value": 240
+        },
+        {
+          "symbol": "ACT_COPY_BUILDING_NPC_DESTROY",
+          "value": 241
+        },
+        {
+          "symbol": "ACT_YAYANMO_MINIGAME_FINISH",
+          "value": 243
+        },
+        {
+          "symbol": "ACT_BOOKWORLD_TELEPORT",
+          "value": 245
+        },
+        {
+          "symbol": "ACT_HOME_PET_CHECK_IN",
+          "value": 301
+        },
+        {
+          "symbol": "ACT_HOME_PET_GET_BACK",
+          "value": 302
+        },
+        {
+          "symbol": "ACT_HOME_PET_FEED",
+          "value": 303
+        },
+        {
+          "symbol": "ACT_HOME_PET_GET_REWARD",
+          "value": 304
+        },
+        {
+          "symbol": "ACT_HOME_PET_STEAL_REWARD",
+          "value": 305
+        },
+        {
+          "symbol": "ACT_HOME_PET_STOP_WAIT",
+          "value": 306
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_LAND_UNLOCK",
+          "value": 310
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_SEEDLING_MOVALCK",
+          "value": 311
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_LAND_HIGHLIGHT",
+          "value": 312
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_ROLE_WATER",
+          "value": 313
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_PET_WATER",
+          "value": 314
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_ROLE_MANURE",
+          "value": 315
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_PET_MANURE",
+          "value": 316
+        },
+        {
+          "symbol": "ACT_HOME_OWNER_PICK",
+          "value": 317
+        },
+        {
+          "symbol": "ACT_HOME_VISITOR_PICK",
+          "value": 318
+        },
+        {
+          "symbol": "ACT_HOME_PLANT_UNLOCK_NPC_ENTRANCE",
+          "value": 319
+        },
+        {
+          "symbol": "ACT_HOME_OWNER_PET_PICK",
+          "value": 320
+        },
+        {
+          "symbol": "ACT_HOME_LEVEL_REWARD",
+          "value": 321
+        },
+        {
+          "symbol": "ACT_HOME_ROOM_EXPEND",
+          "value": 322
+        },
+        {
+          "symbol": "ACT_HOME_FURNITURE_EXCHANGE",
+          "value": 323
+        },
+        {
+          "symbol": "ACT_HOME_ROOM_EXPEND_SUCCEED",
+          "value": 324
+        },
+        {
+          "symbol": "ACT_HOME_INFORMATION",
+          "value": 325
+        },
+        {
+          "symbol": "ACT_HOME_ENTER_HOME",
+          "value": 326
+        },
+        {
+          "symbol": "ACT_HOME_LEAVE_HOME",
+          "value": 327
+        },
+        {
+          "symbol": "ACT_HOME_CREATE_PET",
+          "value": 328
+        },
+        {
+          "symbol": "ACT_HOME_ONLINE_VISIT",
+          "value": 329
+        },
+        {
+          "symbol": "ACT_HOME_FOOD_PROCESSING",
+          "value": 330
+        },
+        {
+          "symbol": "ACT_HOME_TELEPORT_TO_PLAYER",
+          "value": 331
+        },
+        {
+          "symbol": "ACT_HOME_OWNER_PLANT",
+          "value": 351
+        },
+        {
+          "symbol": "ACT_NPC_BATTLE_UI",
+          "value": 371
+        },
+        {
+          "symbol": "ACT_DRAW_A_LOTTERY",
+          "value": 372
+        },
+        {
+          "symbol": "ACT_FURNITURE_PLAY_ANIMATION",
+          "value": 400
+        },
+        {
+          "symbol": "ACT_FURNITURE_CHANGE_BGM",
+          "value": 401
+        },
+        {
+          "symbol": "ACT_VIEW_WALL_ART",
+          "value": 402
+        },
+        {
+          "symbol": "ACT_BATTLE",
+          "value": 10001
+        },
+        {
+          "symbol": "ACT_AI_TRIGGER",
+          "value": 10002
+        },
+        {
+          "symbol": "ACT_ITEM_GET_RELY_BATTLE",
+          "value": 10003
+        },
+        {
+          "symbol": "ACT_TOUCHBATTLE",
+          "value": 10004
+        },
+        {
+          "symbol": "ACT_SKILL",
+          "value": 10005
+        },
+        {
+          "symbol": "ACT_BOX_BATTLE",
+          "value": 10006
+        },
+        {
+          "symbol": "ACT_PETCOLLECT",
+          "value": 10010
+        },
+        {
+          "symbol": "ACT_OPENCHEST",
+          "value": 10011
+        },
+        {
+          "symbol": "ACT_TOUCHLIGHT",
+          "value": 10012
+        },
+        {
+          "symbol": "ACT_TOUCHSTONE",
+          "value": 10013
+        },
+        {
+          "symbol": "ACT_SHAKETREE",
+          "value": 10014
+        },
+        {
+          "symbol": "ACT_PETSHAKETREE",
+          "value": 10015
+        },
+        {
+          "symbol": "ACT_PETCOLLORE",
+          "value": 10016
+        },
+        {
+          "symbol": "ACT_PETCOLLOBJ_AWARD",
+          "value": 10017
+        },
+        {
+          "symbol": "ACT_PETCOLLOBJ_BAGITEM",
+          "value": 10018
+        },
+        {
+          "symbol": "ACT_PET_TRIGGER_SWITCH",
+          "value": 10019
+        },
+        {
+          "symbol": "ACT_DESTORY_STONE",
+          "value": 10020
+        },
+        {
+          "symbol": "ACT_PET_DIG_LIGHTSPOT",
+          "value": 10021
+        },
+        {
+          "symbol": "ACT_PICKEGG",
+          "value": 10022
+        },
+        {
+          "symbol": "ACT_MAGIC_FLOWER",
+          "value": 10023
+        },
+        {
+          "symbol": "ACT_PICKEGG_SHORT",
+          "value": 10024
+        },
+        {
+          "symbol": "ACT_PICKEGG_HOME",
+          "value": 10025
+        },
+        {
+          "symbol": "ACT_PET_CRYSTAL_DESTROY",
+          "value": 10026
+        },
+        {
+          "symbol": "ACT_DELETENPC",
+          "value": 10032
+        },
+        {
+          "symbol": "ACT_CHANGEMODEL",
+          "value": 10033
+        },
+        {
+          "symbol": "ACT_CHANGEFX",
+          "value": 10034
+        },
+        {
+          "symbol": "ACT_CALLFUNC",
+          "value": 10035
+        },
+        {
+          "symbol": "ACT_ACCEPTTASK",
+          "value": 10036
+        },
+        {
+          "symbol": "ACT_OPTION_ON",
+          "value": 10037
+        },
+        {
+          "symbol": "ACT_OPTION_OFF",
+          "value": 10038
+        },
+        {
+          "symbol": "ACT_RESETOPTION",
+          "value": 10039
+        },
+        {
+          "symbol": "ACT_AWARD",
+          "value": 10040
+        },
+        {
+          "symbol": "ACT_BAGITEM",
+          "value": 10041
+        },
+        {
+          "symbol": "ACT_ADD_PET_HP",
+          "value": 10042
+        },
+        {
+          "symbol": "ACT_UNLOCK_NPC",
+          "value": 10044
+        },
+        {
+          "symbol": "ACT_CHARGE_BAGITEM",
+          "value": 10046
+        },
+        {
+          "symbol": "ACT_OPEN_CHAPTER",
+          "value": 10047
+        },
+        {
+          "symbol": "ACT_CREATE_NPC",
+          "value": 10048
+        },
+        {
+          "symbol": "ACT_ADD_ROLE_ENERGY",
+          "value": 10052
+        },
+        {
+          "symbol": "ACT_THROW_CATCH",
+          "value": 10054
+        },
+        {
+          "symbol": "ACT_PET_TRIG_ENERGY",
+          "value": 10055
+        },
+        {
+          "symbol": "ACT_ADD_ROLE_HP",
+          "value": 10056
+        },
+        {
+          "symbol": "ACT_ADD_ROLE_HP_MAX",
+          "value": 10057
+        },
+        {
+          "symbol": "ACT_RUN_OPTION_NPC",
+          "value": 10065
+        },
+        {
+          "symbol": "ACT_ADD_OPTION",
+          "value": 10074
+        },
+        {
+          "symbol": "ACT_DEL_OPTION",
+          "value": 10075
+        },
+        {
+          "symbol": "ACT_ADD_AURA",
+          "value": 10076
+        },
+        {
+          "symbol": "ACT_STAR_HIT_PET",
+          "value": 10077
+        },
+        {
+          "symbol": "ACT_ITEM_BURST",
+          "value": 10078
+        },
+        {
+          "symbol": "ACT_STAR_INTERACT",
+          "value": 10079
+        },
+        {
+          "symbol": "ACT_UNLOCK_OTHERS",
+          "value": 10080
+        },
+        {
+          "symbol": "ACT_PET_NPC_LIKE",
+          "value": 10081
+        },
+        {
+          "symbol": "ACT_PET_NPC_SURPRISE",
+          "value": 10082
+        },
+        {
+          "symbol": "ACT_PET_NPC_TROUBLE",
+          "value": 10083
+        },
+        {
+          "symbol": "ACT_PET_NPC_EVENT",
+          "value": 10084
+        },
+        {
+          "symbol": "ACT_STAR_HIT_FRUITTREE",
+          "value": 10085
+        },
+        {
+          "symbol": "ACT_STAR_HIT_SHRUB",
+          "value": 10086
+        },
+        {
+          "symbol": "ACT_STAR_UNLOCK_OWL",
+          "value": 10087
+        },
+        {
+          "symbol": "ACT_STAR_UNLOCK_SANCTUARY",
+          "value": 10088
+        },
+        {
+          "symbol": "ACT_STAR_HIT_DIRECTION",
+          "value": 10090
+        },
+        {
+          "symbol": "ACT_ROLE_TELEPORT",
+          "value": 10091
+        },
+        {
+          "symbol": "ACT_OPENLOTTERYCHEST",
+          "value": 10092
+        },
+        {
+          "symbol": "ACT_WIND_TUNNEL",
+          "value": 10093
+        },
+        {
+          "symbol": "ACT_WIND_UNLOCK_OWL",
+          "value": 10094
+        },
+        {
+          "symbol": "ACT_ADD_STORY_FLAG",
+          "value": 10095
+        },
+        {
+          "symbol": "ACT_REMOVE_STORY_FLAG",
+          "value": 10096
+        },
+        {
+          "symbol": "ACT_TELEPORT",
+          "value": 10097
+        },
+        {
+          "symbol": "ACT_DELETE_SELF",
+          "value": 10098
+        },
+        {
+          "symbol": "ACT_WORLD_COMBAT_BEGIN",
+          "value": 10099
+        },
+        {
+          "symbol": "ACT_WORLD_COMBAT_BOSS",
+          "value": 10100
+        },
+        {
+          "symbol": "ACT_WORLD_COMBAT_WEAKNESS",
+          "value": 10101
+        },
+        {
+          "symbol": "ACT_CHANGE_WEATHER",
+          "value": 10102
+        },
+        {
+          "symbol": "ACT_END_WEATHER",
+          "value": 10103
+        },
+        {
+          "symbol": "ACT_DELETENPC_WITHOUT_ERROR",
+          "value": 10104
+        },
+        {
+          "symbol": "ACT_WEATHER_CONDITION",
+          "value": 10105
+        },
+        {
+          "symbol": "ACT_TOKEN_USE",
+          "value": 10106
+        },
+        {
+          "symbol": "ACT_GET_BADGE",
+          "value": 10107
+        },
+        {
+          "symbol": "ACT_CHANGE_ORIGINAL_ACTION",
+          "value": 10108
+        },
+        {
+          "symbol": "ACT_CHECK_GOODS_NUM",
+          "value": 10109
+        },
+        {
+          "symbol": "ACT_ADD_NPC_GUIDE",
+          "value": 10110
+        },
+        {
+          "symbol": "ACT_REMOVE_NPC_GUIDE",
+          "value": 10111
+        },
+        {
+          "symbol": "ACT_REMOVE_NPC_LOGIC_STATUS",
+          "value": 10112
+        },
+        {
+          "symbol": "ACT_ADD_NPC_LOGIC_STATUS",
+          "value": 10113
+        },
+        {
+          "symbol": "ACT_PET_TO_BAG",
+          "value": 10114
+        },
+        {
+          "symbol": "ACT_NPC_MOVE",
+          "value": 10115
+        },
+        {
+          "symbol": "ACT_BASE_PVP_MATCH",
+          "value": 10116
+        },
+        {
+          "symbol": "ACT_CHECK_CAMP_PET_REPORT_BONUS",
+          "value": 10117
+        },
+        {
+          "symbol": "ACT_RECEIVE_CAMP_PET_REPORT_BONUS",
+          "value": 10118
+        },
+        {
+          "symbol": "ACT_AUTO_DETECT_CHANGE_WEATHER",
+          "value": 10119
+        },
+        {
+          "symbol": "ACT_AUTO_DETECT_TELEPORT",
+          "value": 10120
+        },
+        {
+          "symbol": "ACT_CHECK_OWL_COST",
+          "value": 10121
+        },
+        {
+          "symbol": "ACT_BEHAVIOR_OVERWRITE",
+          "value": 10123
+        },
+        {
+          "symbol": "ACT_TEAM_NUM",
+          "value": 10124
+        },
+        {
+          "symbol": "ACT_UNLOCK_TEACH",
+          "value": 10125
+        },
+        {
+          "symbol": "ACT_PERFORM_CONF_OVERWRITE",
+          "value": 10126
+        },
+        {
+          "symbol": "ACT_BEHAVIOR_OVERWRITE_CONTENT",
+          "value": 10127
+        },
+        {
+          "symbol": "ACT_FASHION_CHECK",
+          "value": 10128
+        },
+        {
+          "symbol": "ACT_TIME_CHECK",
+          "value": 10129
+        },
+        {
+          "symbol": "ACT_REALTIME_CHECK",
+          "value": 10130
+        },
+        {
+          "symbol": "ACT_PC_TRANSFORM_TO_PET",
+          "value": 10131
+        },
+        {
+          "symbol": "ACT_PC_TRANSFORM_CANCEL",
+          "value": 10132
+        },
+        {
+          "symbol": "ACT_PC_TRANSFORM_TO_MODEL",
+          "value": 10133
+        },
+        {
+          "symbol": "ACT_WEATHER_CHECK",
+          "value": 10134
+        },
+        {
+          "symbol": "ACT_TRIGGER_OPTION_ACTION",
+          "value": 10135
+        },
+        {
+          "symbol": "ACT_CHECK_IS_MALE",
+          "value": 10136
+        },
+        {
+          "symbol": "ACT_FASHION_SET_CHECK",
+          "value": 10137
+        },
+        {
+          "symbol": "ACT_AREA_TRIG_OPEN",
+          "value": 10138
+        },
+        {
+          "symbol": "ACT_AREA_TRIG_CLOSE",
+          "value": 10139
+        },
+        {
+          "symbol": "ACT_TASK_SUMMARY",
+          "value": 10140
+        },
+        {
+          "symbol": "ACT_STORAGE_ITEM_TO_NPC",
+          "value": 10141
+        },
+        {
+          "symbol": "ACT_RELEASE_ITEM_STORAGE",
+          "value": 10142
+        },
+        {
+          "symbol": "ACT_NEW_MAIN_PET",
+          "value": 10143
+        },
+        {
+          "symbol": "ACT_CHANGE_SHIELD_NOW_BATTLE",
+          "value": 10144
+        },
+        {
+          "symbol": "ACT_MAGIC_REVEAL",
+          "value": 10145
+        },
+        {
+          "symbol": "ACT_MAGIC_REVEAL_FAILED",
+          "value": 10146
+        },
+        {
+          "symbol": "ACT_FASHION_CHECK_OR",
+          "value": 10147
+        },
+        {
+          "symbol": "ACT_PERFORM_CONF_OVERWRITE_CONTENT",
+          "value": 10148
+        },
+        {
+          "symbol": "ACT_REMOVE_LOCKED_JIDIAN",
+          "value": 10149
+        },
+        {
+          "symbol": "ACT_A1FB_SUMMON_PET_COMFRIM",
+          "value": 10150
+        },
+        {
+          "symbol": "ACT_A1FB_SUMMON_PET_CANCEL",
+          "value": 10151
+        },
+        {
+          "symbol": "ACT_CHECK_NPC_LEVEL_GE",
+          "value": 10152
+        },
+        {
+          "symbol": "ACT_A1FB_OPEN_TUTORIAL",
+          "value": 10153
+        },
+        {
+          "symbol": "ACT_WIND_GRASS",
+          "value": 10154
+        },
+        {
+          "symbol": "ACT_RECOVER_BLOODMAGIC",
+          "value": 10155
+        },
+        {
+          "symbol": "ACT_BEHAVIOR_CHANGE_CLOTHES",
+          "value": 10156
+        },
+        {
+          "symbol": "ACT_SUBMIT_ITEM_FREE",
+          "value": 10157
+        },
+        {
+          "symbol": "ACT_CHECK_PLAYERSKILL",
+          "value": 10158
+        },
+        {
+          "symbol": "ACT_CHECK_PLAYER_OWL_LEVEL",
+          "value": 10159
+        },
+        {
+          "symbol": "ACT_SET_NPC_EXHAUSTED",
+          "value": 10160
+        },
+        {
+          "symbol": "ACT_CHANGE_CONTENT_SIZE",
+          "value": 10161
+        },
+        {
+          "symbol": "ACT_CHANGE_CONTENT_SIZE_EFFECT",
+          "value": 10162
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_NODE",
+          "value": 10163
+        },
+        {
+          "symbol": "ACT_AUTO_OPENBOX",
+          "value": 10164
+        },
+        {
+          "symbol": "ACT_REFRESH_BONUS",
+          "value": 10165
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_BOSS_NODE",
+          "value": 10166
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_ENTER_BOSS_FIGHT",
+          "value": 10167
+        },
+        {
+          "symbol": "ACT_BOOK_BATTLE",
+          "value": 10168
+        },
+        {
+          "symbol": "ACT_QQMUSIC_COLLABORATION",
+          "value": 10169
+        },
+        {
+          "symbol": "ACT_CHECK_CURRENT_HP",
+          "value": 10170
+        },
+        {
+          "symbol": "ACT_CONSUME_HP",
+          "value": 10171
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_TEMPLE_PATROL",
+          "value": 10172
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_UNLOCK_BADGE_GATE",
+          "value": 10173
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_INTERACT_BADGE_GATE",
+          "value": 10174
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_ENTER_2D",
+          "value": 10175
+        },
+        {
+          "symbol": "ACT_GRASS_TRIAL_LEAVE_2D",
+          "value": 10176
+        },
+        {
+          "symbol": "ACT_BOND_NONE",
+          "value": 10301
+        },
+        {
+          "symbol": "ACT_BOND_GIFT",
+          "value": 10302
+        },
+        {
+          "symbol": "ACT_BOND_FIND",
+          "value": 10303
+        },
+        {
+          "symbol": "ACT_BOND_RANDOM",
+          "value": 10305
+        },
+        {
+          "symbol": "ACT_BOND_GUESS_PET_GIFT",
+          "value": 10306
+        },
+        {
+          "symbol": "ACT_BOND_GIFT_FIND_FAIL",
+          "value": 10307
+        },
+        {
+          "symbol": "ACT_NPC_FOLLOW_FLAG_0",
+          "value": 10310
+        },
+        {
+          "symbol": "ACT_NPC_FOLLOW_FLAG_1",
+          "value": 10311
+        },
+        {
+          "symbol": "ACT_NPC_FOLLOW_FLAG_2",
+          "value": 10312
+        },
+        {
+          "symbol": "ACT_NPC_FOLLOW_FLAG_3",
+          "value": 10313
+        },
+        {
+          "symbol": "ACT_NPC_FOLLOW_FLAG_4",
+          "value": 10314
+        },
+        {
+          "symbol": "ACT_PET_CATCH_REPORT",
+          "value": 10315
+        },
+        {
+          "symbol": "ACT_INTERACTION_CIFU_PREPARE",
+          "value": 10320
+        },
+        {
+          "symbol": "ACT_RELATION_ACCEPT",
+          "value": 10321
+        },
+        {
+          "symbol": "ACT_BOND_TOUCH_ACTIVE",
+          "value": 10322
+        },
+        {
+          "symbol": "ACT_THROW_LIGHT_BONFIRE",
+          "value": 20001
+        },
+        {
+          "symbol": "ACT_TRIG_PET_INTERACT",
+          "value": 20002
+        },
+        {
+          "symbol": "ACT_PET_SWITCH_TORCH",
+          "value": 20003
+        },
+        {
+          "symbol": "ACT_PET_ADD_PROPERTY_TYPE",
+          "value": 20004
+        },
+        {
+          "symbol": "ACT_PET_DESTROY_THRON",
+          "value": 20005
+        },
+        {
+          "symbol": "ACT_PET_CREATE_FRUIT",
+          "value": 20006
+        },
+        {
+          "symbol": "ACT_PET_UNLOCK_NPC",
+          "value": 20007
+        },
+        {
+          "symbol": "ACT_TRIG_RAND_PET_INTERACT",
+          "value": 20008
+        },
+        {
+          "symbol": "ACT_WORLD_TASK",
+          "value": 20010
+        },
+        {
+          "symbol": "ACT_PET_CHANGE_WEATHER",
+          "value": 20011
+        },
+        {
+          "symbol": "ACT_PET_REVIVE_NUTS",
+          "value": 20012
+        },
+        {
+          "symbol": "ACT_PET_NAUTY_CHEST",
+          "value": 20013
+        },
+        {
+          "symbol": "ACT_PET_STRENGTH_TEST",
+          "value": 20014
+        },
+        {
+          "symbol": "ACT_PET_POISONOUS_GRASS",
+          "value": 20015
+        },
+        {
+          "symbol": "ACT_PET_FLAME_STONE",
+          "value": 20016
+        },
+        {
+          "symbol": "ACT_PET_SWITCH_GENERAL",
+          "value": 20017
+        },
+        {
+          "symbol": "ACT_PET_DESTROY",
+          "value": 20018
+        },
+        {
+          "symbol": "ACT_PET_UNLOCK_NPC_AND_RECORD_TYPE",
+          "value": 20019
+        },
+        {
+          "symbol": "ACT_CONSUME_PET_ENERGY",
+          "value": 20020
+        },
+        {
+          "symbol": "ACT_TIMER_COLLISION",
+          "value": 30001
+        },
+        {
+          "symbol": "ACT_STAR_DESTROY_NIGHTMARE",
+          "value": 30002
+        },
+        {
+          "symbol": "ACT_TIMER_STAR_MAGIC",
+          "value": 30003
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_SKILL_CAST",
+          "value": 40001
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_SKILL_END",
+          "value": 40002
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_CRUSH",
+          "value": 40003
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_Hit",
+          "value": 40004
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_Rotation",
+          "value": 40005
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_LookAt",
+          "value": 40006
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_CRUSH_END",
+          "value": 40007
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_MISSILE_LAUNCH",
+          "value": 40008
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_MISSILE_DESTROY",
+          "value": 40009
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_MISSILE_STOP_TRACE",
+          "value": 40010
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_JUMP",
+          "value": 40011
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_JUMP_CANCEL",
+          "value": 40012
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_JUMP_END",
+          "value": 40013
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_RCD",
+          "value": 40014
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_RCD_END",
+          "value": 40015
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_SHOW_HIDE_CHANGE",
+          "value": 40016
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_LERP_POS_DIR",
+          "value": 40017
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_ANIM_CANCEL",
+          "value": 40018
+        },
+        {
+          "symbol": "ACT_DOTS_WORLD_COMBAT_SELECT_POS",
+          "value": 40019
+        }
+      ]
+    },
+    {
+      "enum": "EMTaskState",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/com_task.proto",
+        "git_blob_sha": "e431a47ee1662c4f71ee9ae5e8fc8851dfe6ca7f",
+        "sha256": "7c2064eb681a6c2a67ac3ab330e60f73853fe19157ea89d28377f134f6f7a893"
+      },
+      "source_line": 12,
+      "members": [
+        {
+          "symbol": "EM_TASK_STATE_INIT",
+          "value": 1
+        },
+        {
+          "symbol": "EM_TASK_STATE_OPEN_PLAY",
+          "value": 2
+        },
+        {
+          "symbol": "EM_TASK_STATE_OPEN",
+          "value": 4
+        },
+        {
+          "symbol": "EM_TASK_STATE_WAITING",
+          "value": 6
+        },
+        {
+          "symbol": "EM_TASK_STATE_WAIT",
+          "value": 8
+        },
+        {
+          "symbol": "EM_TASK_STATE_DONE_PLAY",
+          "value": 16
+        },
+        {
+          "symbol": "EM_TASK_STATE_DONEING",
+          "value": 24
+        },
+        {
+          "symbol": "EM_TASK_STATE_DONE",
+          "value": 32
+        },
+        {
+          "symbol": "EM_TASK_STATE_CLOSEING",
+          "value": 48
+        },
+        {
+          "symbol": "EM_TASK_STATE_CLOSED",
+          "value": 64
+        },
+        {
+          "symbol": "EM_TASK_STATE_EXPIRE",
+          "value": 128
+        }
+      ]
+    },
+    {
+      "enum": "WorldLevelTaskState",
+      "source": {
+        "repository": "ikun810/Roco-Kingdom-World-Data-new",
+        "commit": "b5e36a2bb22400599dbeeccf44c75b4e318a4518",
+        "path": "pakchunk4-WindowsNoEditor_3_P/PB/proto_out/com_task.proto",
+        "git_blob_sha": "e431a47ee1662c4f71ee9ae5e8fc8851dfe6ca7f",
+        "sha256": "7c2064eb681a6c2a67ac3ab330e60f73853fe19157ea89d28377f134f6f7a893"
+      },
+      "source_line": 26,
+      "members": [
+        {
+          "symbol": "WLTS_UNABLE_TO_UNLOCK",
+          "value": 1
+        },
+        {
+          "symbol": "WLTS_ENABLE_TO_UNLOCK",
+          "value": 2
+        },
+        {
+          "symbol": "WLTS_IS_OPENED",
+          "value": 3
+        },
+        {
+          "symbol": "WLTS_IS_WAITED",
+          "value": 4
+        },
+        {
+          "symbol": "WLTS_IS_DONE",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

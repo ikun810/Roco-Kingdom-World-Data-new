@@ -56,4 +56,14 @@ class SourceSupplementTests(unittest.TestCase):
     def test_duplicate_ids(self):
         self.doc["entries"].append(dict(self.doc["entries"][0]))
         with self.assertRaisesRegex(ValueError,"Duplicate"):mod.resolve(self.zip,self.doc,self.root)
+    def test_evidence_output_preserves_source_inputs(self):
+        before = self.old.read_bytes()
+        for destination in (self.zip, self.old, self.root / 'data' / 'new.json'):
+            with self.assertRaisesRegex(ValueError, 'source'):
+                mod.write_output_json(destination, {'x': 1}, self.root, [self.zip])
+        self.assertEqual(self.old.read_bytes(), before)
+    def test_evidence_output_creates_destination_parent(self):
+        destination = self.root / 'build' / 'evidence.json'
+        mod.write_output_json(destination, {'x': 1}, self.root, [self.zip])
+        self.assertEqual(json.loads(destination.read_text()), {'x': 1})
 if __name__=="__main__":unittest.main()

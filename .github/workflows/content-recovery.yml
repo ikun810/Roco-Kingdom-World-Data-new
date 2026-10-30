@@ -2,9 +2,17 @@ name: Check referenced content recovery
 on:
   pull_request:
     paths:
-      - 'data/supplements/referenced_content.json'
+      - 'data/supplements/**'
+      - 'data/evidence/**'
       - 'tools/content_supplement.py'
+      - 'tools/dialogue_closure.py'
+      - 'tools/content_binding_audit.py'
+      - 'tools/reward_source_evidence.py'
+      - 'tools/source_semantics.py'
       - 'tests/test_content_supplement.py'
+      - 'tests/test_dialogue_closure.py'
+      - 'tests/test_source_semantics.py'
+      - 'tests/test_reward_source_evidence.py'
       - 'docs/CONTENT_SUPPLEMENT.md'
       - '.github/workflows/content-recovery.yml'
   workflow_dispatch:
@@ -18,10 +26,46 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Synthetic tests
-        run: python -m unittest discover -s tests -p 'test_content_supplement.py' -v
       - name: Check real historical source and current ZIP
         run: |
           python tools/content_supplement.py verify
           python tools/content_supplement.py export --output build/referenced_content_resolved.json
-          python -c 'import json; x=json.load(open("build/referenced_content_resolved.json", encoding="utf-8")); s=x["summary"]; print(s); assert s["resolved_count"]==206 and s["review_count"]==41 and s["unresolved_count"]==1 and s["historical_fallback"]==132 and s["backfilled_fields"]==74'
+          python tools/content_supplement.py --supplement data/supplements/optional_story_content.json export --output build/optional_story_resolved.json
+          python tools/dialogue_closure.py
+          python tools/content_binding_audit.py --repo . --output build/content_binding_evidence.json
+          python tools/reward_source_evidence.py --repo . --output build/reward_source_evidence.json
+          python tools/source_semantics.py --repo . --output-dir build/source-evidence
+      - name: Compare reproduced evidence with checked-in source evidence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          def read(path):
+              return json.loads(Path(path).read_text(encoding="utf-8"))
+          pairs = [("build/" + name, "data/evidence/" + name) for name in (
+              "dialogue_reference_audit.json", "content_binding_evidence.json", "reward_source_evidence.json")]
+          pairs += [("build/source-evidence/" + name, "data/evidence/" + name) for name in (
+              "condition_action_source_enums.json", "condition_action_numeric_coverage.json", "scene_entry_identity_evidence.json")]
+          pairs.append(("build/source-evidence/optional_story_content.json", "data/supplements/optional_story_content.json"))
+          for generated, committed in pairs:
+              assert read(generated) == read(committed), (generated, committed)
+          main = read("build/referenced_content_resolved.json")["summary"]
+          assert (main["resolved_count"], main["review_count"], main["unresolved_count"]) == (487, 171, 1), main
+          optional = read("build/optional_story_resolved.json")["summary"]
+          assert (optional["resolved_count"], optional["review_count"], optional["unresolved_count"]) == (75, 0, 0), optional
+          graph = read("build/dialogue_reference_audit.json")["summary"]
+          assert graph["missing_target_count"] == 0 and graph["new_additions"] == 0 and graph["new_reviews"] == 0, graph
+          print({"main": main, "optional": optional, "dialogue_graph": graph})
+          PY
+      - name: Upload recovered subsets and source evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: referenced-content-and-source-evidence
+          retention-days: 30
+          path: |
+            build/referenced_content_resolved.json
+            build/optional_story_resolved.json
+            build/dialogue_reference_audit.json
+            build/content_binding_evidence.json
+            build/reward_source_evidence.json
+            build/source-evidence/*.json

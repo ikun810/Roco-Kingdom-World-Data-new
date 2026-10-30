@@ -1,0 +1,6680 @@
+{
+  "format": "roco_dialogue_reference_audit_v1",
+  "target_archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+  "historical_is_not_verified_as_current": true,
+  "scope": {
+    "root_dialogue_ids": [
+      "303010000",
+      "303010005",
+      "303010018",
+      "303010019",
+      "303010020",
+      "303010021",
+      "303010022",
+      "303010032",
+      "303010033",
+      "303010035",
+      "303010037",
+      "303010040",
+      "303010056",
+      "303010060",
+      "303010065",
+      "303010100",
+      "303010165",
+      "303010169",
+      "303010170",
+      "303010200",
+      "303010290",
+      "303010300",
+      "303010390",
+      "303010450",
+      "303010459",
+      "303010500",
+      "303010580",
+      "303010600",
+      "303010605",
+      "320030000",
+      "320030300",
+      "320030500",
+      "320030600",
+      "320030800",
+      "320031200",
+      "320031400",
+      "320031500",
+      "320031700",
+      "320031800",
+      "320032000",
+      "320032400",
+      "320032680",
+      "320032700",
+      "320032900",
+      "320033000",
+      "320033200",
+      "320033600",
+      "320033800",
+      "320033895",
+      "320034100",
+      "320034200",
+      "320034400",
+      "320034495",
+      "320034550",
+      "320034800",
+      "320035000",
+      "320035010",
+      "320035050",
+      "320035100",
+      "320035220",
+      "320035300",
+      "320035360",
+      "320035400",
+      "320035650",
+      "320035700",
+      "320035900",
+      "320036000",
+      "320036200",
+      "320036300",
+      "320036500",
+      "320036600",
+      "320036800",
+      "320036900",
+      "320037100",
+      "320037110",
+      "320037400",
+      "320037495",
+      "320037700",
+      "320037800",
+      "320038000",
+      "320038090",
+      "320038300",
+      "320038400",
+      "320038600",
+      "320038700",
+      "320038900",
+      "320039000",
+      "320039200",
+      "320039300",
+      "320039500",
+      "320040000",
+      "320040120",
+      "320040195",
+      "320040240",
+      "320041000",
+      "320041190",
+      "320041500",
+      "320041560",
+      "320041800",
+      "320042060",
+      "681000010"
+    ],
+    "historical_sources": {
+      "DIALOGUE_CONF": {
+        "path": "pakchunk4-WindowsNoEditor_3_P/Bin/BinDataCompressed/DIALOGUE_CONF.json",
+        "git_blob_sha": "9fdef1055192feae0e20af3c865f416bc90676b6"
+      },
+      "SELECT_CONF": {
+        "path": "pakchunk4-WindowsNoEditor_3_P/Bin/BinDataCompressed/SELECT_CONF.json",
+        "git_blob_sha": "755cc9b89d56a6a2ce65ce161455f05c2b6fd67c"
+      }
+    },
+    "link_fields": {
+      "DIALOGUE_CONF": [
+        "next_dialog_id",
+        "select_ids"
+      ],
+      "SELECT_CONF": [
+        "select_next_dialogue",
+        "notimes_dialogue"
+      ]
+    },
+    "selection_policy": "Explicit pinned historical files, not inferred runtime Pak priority; current rows win."
+  },
+  "summary": {
+    "root_dialogue_count": 101,
+    "node_count": 512,
+    "edge_count": 495,
+    "missing_target_count": 0,
+    "historical_dialogue_count": 382,
+    "current_selector_count": 130,
+    "selector_text_review_count": 130,
+    "new_additions": 0,
+    "new_reviews": 0,
+    "input_supplement_summary": {
+      "resolved_count": 487,
+      "review_count": 171,
+      "unresolved_count": 1,
+      "historical_fallback": 413,
+      "review_required": 171,
+      "backfilled_fields": 74
+    }
+  },
+  "nodes": [
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010005",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010006",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010007",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010008",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010009",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010011",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010014",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010015",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010016",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010017",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010018",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010019",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010021",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010022",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010032",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010033",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010035",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010036",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010037",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010041",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010042",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010043",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010044",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010045",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010046",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010047",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010048",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010049",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010051",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010052",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010053",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010054",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010055",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010056",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010060",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010061",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010062",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010063",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010064",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010065",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010066",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010105",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010106",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010107",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010110",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010115",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010120",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010125",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010130",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010131",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010135",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010140",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010165",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010169",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010170",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010210",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010220",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010230",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010240",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010250",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010260",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010290",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010310",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010320",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010390",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010450",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010452",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010454",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010459",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010510",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010520",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010530",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010540",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010550",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010560",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010570",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010580",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "303010605",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030310",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030320",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030330",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030340",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030350",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030360",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030370",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030380",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030390",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030410",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030610",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030620",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030630",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030640",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030650",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030660",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030670",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030680",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030690",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320030800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031210",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031220",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031230",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031240",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031250",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031260",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031270",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031280",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031290",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031510",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031515",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031520",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031530",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031540",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031550",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031560",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031570",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031580",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031590",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031610",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031620",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031630",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320031810",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032401",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032410",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032420",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032430",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032440",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032450",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032470",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032480",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032490",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032510",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032680",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032705",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032710",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032720",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032730",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032740",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032750",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032760",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032770",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032780",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320032900",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033035",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033055",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033610",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033620",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033630",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033640",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033650",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033660",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033670",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033680",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033690",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033710",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033720",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320033895",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034210",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034220",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034230",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034240",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034250",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034260",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034270",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034280",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034290",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034495",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034550",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034810",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034820",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034830",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034840",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034850",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034860",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320034870",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035030",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035110",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035120",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035130",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035140",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035150",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035160",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035170",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035180",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035190",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035210",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035220",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035310",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035320",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035330",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035340",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035350",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035360",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035650",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035710",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035720",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035730",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035740",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320035900",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036305",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036310",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036610",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320036900",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037110",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037120",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037130",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037140",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037150",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037160",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037165",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037495",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037810",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037820",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037830",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320037840",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038090",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038400",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038410",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038420",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038430",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038440",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038450",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038460",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038470",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038480",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038490",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038510",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038520",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038530",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038600",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038700",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038710",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038720",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038730",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038740",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320038900",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039030",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039060",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039070",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039080",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039090",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039110",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039300",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039310",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039320",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320039500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040030",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040060",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040070",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040080",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040090",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040100",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040110",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040120",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040195",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040200",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040210",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040220",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040230",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320040240",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041030",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041060",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041070",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041190",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041500",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041510",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041520",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041530",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041540",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041550",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041560",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041800",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041810",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041820",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041830",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041840",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041850",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041860",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041870",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041880",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041890",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041900",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041910",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041920",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041930",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041940",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041950",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041960",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041970",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041980",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320041990",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042000",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042020",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042030",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042040",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042050",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "320042060",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "DIALOGUE_CONF",
+      "id": "681000010",
+      "origin": "historical_fallback"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002001",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002002",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002003",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002004",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002005",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002006",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002007",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002008",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002010",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002011",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002012",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002013",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002014",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002015",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002016",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002017",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002018",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002019",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002020",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002021",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002022",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002023",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002024",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002025",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002026",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002027",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002028",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002100",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002101",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002102",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002103",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002104",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002105",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002106",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002107",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002108",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002111",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002112",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002115",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002201",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002202",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002203",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002204",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002205",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002206",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002207",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002208",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002209",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002210",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002211",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002212",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002225",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002226",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002230",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002231",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002232",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002233",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002234",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002235",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002236",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002237",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002238",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002239",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002240",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002241",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002242",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002243",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002244",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002245",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002246",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002247",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002248",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002249",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002301",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002302",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002303",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002304",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002305",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002306",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002307",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002308",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002309",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002310",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002311",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002312",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002313",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002314",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002315",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002322",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002323",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002324",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002325",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002326",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "302002327",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000025",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000026",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000027",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000028",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000029",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000030",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000031",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000032",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000034",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000035",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000036",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000037",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000038",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000039",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000040",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000041",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000042",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000043",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000044",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000045",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000046",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000047",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000048",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000049",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000050",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000051",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000052",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000053",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000054",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000055",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000056",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000057",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000058",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000059",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000060",
+      "origin": "current_archive"
+    },
+    {
+      "table": "SELECT_CONF",
+      "id": "750000061",
+      "origin": "current_archive"
+    }
+  ],
+  "edges": [
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010005",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000025",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010005",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000026",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010006",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010007",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010007",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000027",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010008",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010014",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010009",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010011",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010011",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000028",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010014",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010015",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010015",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010016",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010016",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010017",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010017",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000029",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010019",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010021",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010022",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010032",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010033",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010035",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010036",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010036",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010037",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010041",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010041",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000034",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010042",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000035",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010043",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010044",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010044",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000036",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010045",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010046",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010046",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010047",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010047",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010048",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010048",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000037",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010049",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010050",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010051",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010051",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010052",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010052",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010053",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010053",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010054",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010054",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010055",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010055",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010056",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010060",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010061",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010061",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010062",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010062",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000030",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010062",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000060",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010063",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010064",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010064",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000031",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010064",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000032",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010066",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010062",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010100",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000038",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010105",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000057",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010105",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000058",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010106",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000059",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010107",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010110",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010110",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000039",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010115",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010120",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010120",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000040",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010125",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010130",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010130",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010135",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010135",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000042",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010140",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000041",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010169",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010170",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010200",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010210",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010210",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010220",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010220",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010230",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010230",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010240",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010240",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000043",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010240",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000044",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010250",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010260",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010260",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010290",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010310",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010320",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010320",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010390",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010450",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010452",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010452",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000061",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010500",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010510",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010510",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010520",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010520",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000045",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010530",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000046",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010540",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010550",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010550",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010560",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010560",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000047",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010570",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010580",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "303010600",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010605",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030310",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030320",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030320",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030330",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030330",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002006",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030330",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002007",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030340",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002008",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030350",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030360",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030360",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030370",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030370",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030380",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030380",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030390",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030390",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030400",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030400",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030410",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030600",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030610",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030620",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030620",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002011",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030620",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002012",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030630",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030640",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030640",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002013",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030650",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002014",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030660",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030670",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030670",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002015",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030670",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002016",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030680",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030700",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030690",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030700",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320030700",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030800",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031200",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002017",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031200",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002018",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031210",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031220",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031220",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002019",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031230",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031230",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002021",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031240",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031250",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031250",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031260",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031260",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002022",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031260",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002023",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031270",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031290",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031280",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002024",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031290",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031300",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031400",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031500",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031510",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031510",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031515",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031515",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031520",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031520",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031530",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031530",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031540",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031540",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031550",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031550",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031560",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031560",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031570",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031570",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031580",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031580",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031590",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031590",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031600",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031600",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031610",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031610",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031620",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031620",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031630",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031630",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031700",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031800",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031810",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320031810",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032000",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032400",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032401",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032401",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032410",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032410",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002025",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032420",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032430",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032430",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002026",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032430",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002027",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032440",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032470",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032450",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032470",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032470",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032480",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032480",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002028",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032490",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032500",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032500",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032510",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032700",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032705",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032705",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032710",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032710",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002201",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032710",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002202",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032720",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032730",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032730",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002203",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032740",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002204",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032750",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032760",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032760",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002205",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032760",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002206",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032770",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032780",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320032780",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032900",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033000",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033010",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002207",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033010",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002208",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033035",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033035",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033040",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033050",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033055",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033600",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002100",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033610",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002101",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033610",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002102",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033620",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033630",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033630",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033640",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033640",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002103",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033640",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002104",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033650",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033660",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033660",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033670",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033670",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033680",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033680",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002105",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033680",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002106",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033690",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033700",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033700",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002107",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033710",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033720",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320033720",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002108",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034200",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034210",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034210",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034220",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034220",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034230",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034230",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034240",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034240",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034250",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034250",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034260",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034260",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034270",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034270",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034280",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034280",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002111",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034280",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002112",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034290",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034400",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034800",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034810",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034810",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034820",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034820",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034830",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034830",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034840",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034840",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034850",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034850",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034860",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034860",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034870",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320034870",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002115",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035010",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000048",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035010",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000049",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035040",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035030",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035040",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035100",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035110",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035110",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035120",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035120",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035130",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035130",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035140",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035140",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035150",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035150",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035160",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035160",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035170",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035170",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035180",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035180",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035190",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035190",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035200",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035200",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035200",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000051",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035210",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000052",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035310",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035320",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035320",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000053",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035320",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000054",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035330",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035340",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035340",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000055",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035340",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "750000056",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035350",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035360",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035400",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035500",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035500",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035600",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035600",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035650",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035700",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035710",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035710",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002001",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035710",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002002",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035720",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035730",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035730",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002003",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035730",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002004",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320035740",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002005",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036000",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036200",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036305",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036305",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036310",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036500",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036600",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036610",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320036610",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320036800",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037110",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037120",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037120",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037130",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037130",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002209",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037130",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002210",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037140",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037150",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037150",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002211",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037150",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002212",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037160",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037165",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037800",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037810",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037810",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037820",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037820",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002225",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037820",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002226",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037830",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037840",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320037840",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038000",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038400",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038410",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038410",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038420",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038420",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038430",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038430",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002230",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038440",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038450",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038450",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002231",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038450",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002232",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038460",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038470",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038470",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038480",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038480",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002233",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038480",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002234",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038490",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038500",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038500",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002235",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038500",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002236",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038510",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038520",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038520",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002237",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038520",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002238",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038530",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002239",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038530",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002240",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038700",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002241",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038700",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002242",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038710",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038720",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038720",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038730",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038730",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038740",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038740",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002243",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320038740",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002244",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039000",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039020",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002245",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039020",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002246",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039030",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039040",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039050",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002247",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039060",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039070",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039070",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039080",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039080",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039090",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039090",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002248",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039090",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002249",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039100",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039110",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039110",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039200",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039300",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039310",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039320",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320039320",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039500",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040000",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002301",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040000",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002302",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040030",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040030",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002303",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040030",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002304",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040050",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002305",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040050",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002306",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040060",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040070",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040070",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040080",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040080",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002307",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040080",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002308",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040090",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040100",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040100",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002309",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040100",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002310",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040110",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040120",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040195",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040200",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040200",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040210",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040210",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002311",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040210",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002312",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040220",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040230",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320040230",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040240",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041000",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041030",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041030",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002313",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041030",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002314",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041050",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002315",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041060",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041070",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041500",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041510",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041510",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041520",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041520",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041530",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041530",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041540",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041540",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041550",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041550",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041560",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041800",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041810",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041810",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041820",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041820",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002322",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041820",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002323",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041830",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041840",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041840",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041850",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041850",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041860",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041860",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041870",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041870",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041880",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041880",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041890",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041890",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041900",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041900",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041910",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041910",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041920",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041920",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041930",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041930",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041940",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041940",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002324",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041940",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002325",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041950",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041960",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041960",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041970",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041970",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041980",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041980",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041990",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320041990",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042000",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042000",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042010",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042010",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042020",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042020",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042030",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042030",
+      "field": "select_ids/0",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002326",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042030",
+      "field": "select_ids/1",
+      "to_table": "SELECT_CONF",
+      "to_id": "302002327",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042040",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042050",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "DIALOGUE_CONF",
+      "from_id": "320042050",
+      "field": "next_dialog_id",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042060",
+      "source": "historical_fallback"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002001",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035720",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002002",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035720",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002003",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035740",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002004",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035900",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002005",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035900",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002006",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030340",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002007",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030340",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002008",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030350",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002010",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030610",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002011",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030630",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002012",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030630",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002013",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030650",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002014",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030660",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002015",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030680",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002016",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320030690",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002017",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031210",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002018",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031210",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002019",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031230",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002020",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031240",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002021",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031240",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002022",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031270",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002023",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031280",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002024",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320031270",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002025",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032420",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002026",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032440",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002027",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032450",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002028",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032490",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002100",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033610",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002101",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033620",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002102",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033620",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002103",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033650",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002104",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033650",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002105",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033690",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002106",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033690",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002107",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033710",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002108",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033800",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002111",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034290",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002112",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320034290",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002115",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035000",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002201",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032720",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002202",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032720",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002203",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032740",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002204",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032750",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002205",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032770",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002206",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320032770",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002207",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033020",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002208",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320033020",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002209",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037140",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002210",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037140",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002211",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037160",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002212",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037160",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002225",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037830",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002226",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320037830",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002230",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038440",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002231",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038460",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002232",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038460",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002233",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038490",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002234",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038490",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002235",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038510",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002236",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038510",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002237",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038530",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002238",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038530",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002239",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038600",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002240",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038600",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002241",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038710",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002242",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038710",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002243",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038900",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002244",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320038900",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002245",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039030",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002246",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039030",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002247",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039060",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002248",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039100",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002249",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320039100",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002301",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040010",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002302",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040010",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002303",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002304",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002305",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040060",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002306",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040060",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002307",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040090",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002308",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040090",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002309",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040110",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002310",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040110",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002311",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040220",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002312",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320040220",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002313",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002314",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002315",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041060",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002322",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041830",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002323",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041830",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002324",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041950",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002325",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320041950",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002326",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "302002327",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320042040",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000025",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010006",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000026",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010009",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000027",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010008",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000028",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010014",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000029",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010018",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000030",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010063",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000031",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010065",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000032",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010065",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000034",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010042",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000035",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010043",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000036",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010045",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000037",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010049",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000038",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010105",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000039",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010115",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000040",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010125",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000041",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010131",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000042",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010140",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000043",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010250",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000044",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010250",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000045",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010530",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000046",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010540",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000047",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010570",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000048",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035020",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000049",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035030",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000050",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035210",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000051",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035210",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000052",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035220",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000053",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035330",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000054",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035330",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000055",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035350",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000056",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "320035350",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000057",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010106",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000058",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010107",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000059",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010107",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000060",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010066",
+      "source": "current_archive"
+    },
+    {
+      "from_table": "SELECT_CONF",
+      "from_id": "750000061",
+      "field": "select_next_dialogue",
+      "to_table": "DIALOGUE_CONF",
+      "to_id": "303010454",
+      "source": "current_archive"
+    }
+  ],
+  "missing": [],
+  "limits": [
+    "Only the four explicitly listed reference fields are followed.",
+    "Existing rows are traversed as exported, without historical field replacement.",
+    "Zero missing targets is structural coverage, not proof of correct current text, condition evaluation, game receipts or story playability."
+  ]
+}

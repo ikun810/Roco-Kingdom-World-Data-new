@@ -1,0 +1,204 @@
+{
+  "format": "roco_m1_coordinate_anchor_investigation_v1",
+  "runtime_source": {
+    "repository": "ikun810/rock-world-lite",
+    "commit": "6b9a7455a899c793f4a5b6db69234fdff113c5bf",
+    "path": "data/runtime-map.json",
+    "git_blob_sha": "9fd8572671fccc6d6ab5d4671791f8ad4d460a81"
+  },
+  "target_archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+  "sources": {
+    "SCENE_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/SCENE_CONF.json",
+      "member_sha256": "e9d63bff745d2e8d8d3b23c2497d5ec944becb5b0cbb26324d8ecc3253ad889c"
+    },
+    "SCENE_RES_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/SCENE_RES_CONF.json",
+      "member_sha256": "27ae3c3310b5c8d27498e18266fd9c1edafa2cce25eb0010bb35d0dc1891317e"
+    },
+    "AREA_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/AREA_CONF.json",
+      "member_sha256": "b7ddaa7bf7646aa3d91f1a98c62d01f2fa7deeefcfaca217a1a8812acdb5a9cf"
+    },
+    "NPC_REFRESH_CONTENT_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/NPC_REFRESH_CONTENT_CONF.json",
+      "member_sha256": "70ab08442552fd387e7ddf104b35763a96becf8cff6a3f7be20f2ef7fe67ba71"
+    },
+    "TELEPORT_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/TELEPORT_CONF.json",
+      "member_sha256": "1639fea8cde43ea65c4c092ce4e8599b4713cc22f5c5b005ec40e6378700c831"
+    }
+  },
+  "anchors": [
+    {
+      "runtime_marker": {
+        "id": "p-87585a77a91d8e89",
+        "name": "商店街周边的魔力之源",
+        "position": {
+          "layer_id": "surface",
+          "map_id": "mainland",
+          "x": 436099,
+          "y": 691324
+        },
+        "source": {
+          "archive": "inputs/data02a-r1.zip",
+          "canonical_object_sha256": "088021c98d300286c552529c5cd6e19faf23c32069200b36e5515974eca6e057",
+          "member": "data02a/evidence/bwiki/mainland-map-points-4.js.decoded.json",
+          "member_sha256": "ad29608566509efdc529d4b574e4fea4996e78fd6827bae8327c82e3a01cc590",
+          "pointer": "/1080",
+          "source_id": "bwiki.page.12322.rev.17324",
+          "source_version": "17324"
+        }
+      },
+      "area_matches": [
+        {
+          "id": 11030776,
+          "scene_res_id": 10003,
+          "scene_id": 103,
+          "area_type": 2,
+          "pos": [
+            {
+              "position_xyz": [
+                436099,
+                691324,
+                2293
+              ],
+              "rotation_xyz": [
+                0,
+                0,
+                136
+              ]
+            }
+          ],
+          "center_xyz": [
+            436099,
+            691324,
+            2293
+          ]
+        }
+      ],
+      "npc_content_ids": [
+        130310
+      ],
+      "method": "exact_integer_xy_on_unique_point_area_no_name_matching"
+    },
+    {
+      "runtime_marker": {
+        "id": "p-b856492a6d6e8f2f",
+        "name": "月牙湖岸的魔力之源",
+        "position": {
+          "layer_id": "surface",
+          "map_id": "mainland",
+          "x": 426929,
+          "y": 660928
+        },
+        "source": {
+          "archive": "inputs/data02a-r1.zip",
+          "canonical_object_sha256": "3f45104e3d3bac78c8548edd487973a1cbd06477e027710008ecd4120d7094fe",
+          "member": "data02a/evidence/bwiki/mainland-map-points-4.js.decoded.json",
+          "member_sha256": "ad29608566509efdc529d4b574e4fea4996e78fd6827bae8327c82e3a01cc590",
+          "pointer": "/1079",
+          "source_id": "bwiki.page.12322.rev.17324",
+          "source_version": "17324"
+        }
+      },
+      "area_matches": [
+        {
+          "id": 11030775,
+          "scene_res_id": 10003,
+          "scene_id": 103,
+          "area_type": 2,
+          "pos": [
+            {
+              "position_xyz": [
+                426929,
+                660928,
+                1749
+              ],
+              "rotation_xyz": [
+                0,
+                0,
+                30
+              ]
+            }
+          ],
+          "center_xyz": [
+            426929,
+            660928,
+            1749
+          ]
+        }
+      ],
+      "npc_content_ids": [
+        130309
+      ],
+      "method": "exact_integer_xy_on_unique_point_area_no_name_matching"
+    },
+    {
+      "runtime_marker": {
+        "id": "p-cf0c2b4a82190cf1",
+        "name": "学院广场的魔力之源",
+        "position": {
+          "layer_id": "surface",
+          "map_id": "academy",
+          "x": -797775,
+          "y": -774871
+        },
+        "source": {
+          "archive": "inputs/data02a-r1.zip",
+          "canonical_object_sha256": "757471055a27b1a31b6224ab42aa88d44cc1a0a35198658d5d77848bd8d1ba25",
+          "member": "data02a/evidence/bwiki/academy-map-points-1.js.decoded.json",
+          "member_sha256": "e255cdea7cf1334dcfce66ed872945df9fb6fe332096c5457018e14c825c5ec0",
+          "pointer": "/0",
+          "source_id": "bwiki.page.12327.rev.13044",
+          "source_version": "13044"
+        }
+      },
+      "area_matches": [
+        {
+          "id": 71180001,
+          "scene_res_id": 10018,
+          "scene_id": 103,
+          "area_type": 2,
+          "pos": [
+            {
+              "position_xyz": [
+                -797775,
+                -774871,
+                29693
+              ],
+              "rotation_xyz": [
+                0,
+                0,
+                90
+              ]
+            }
+          ],
+          "center_xyz": [
+            -797775,
+            -774871,
+            29693
+          ]
+        }
+      ],
+      "npc_content_ids": [
+        130313
+      ],
+      "method": "exact_integer_xy_on_unique_point_area_no_name_matching"
+    }
+  ],
+  "limits": [
+    "Coordinate matches support these markers only, not all region, interior, task or actor identities.",
+    "No display name was used to select a row. No downstream movement or teleport permission is changed."
+  ]
+}

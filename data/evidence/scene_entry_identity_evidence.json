@@ -1,0 +1,692 @@
+{
+  "format": "roco_scene_entry_identity_evidence_v1",
+  "target_archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+  "sources": {
+    "SCENE_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/SCENE_CONF.json",
+      "member_sha256": "e9d63bff745d2e8d8d3b23c2497d5ec944becb5b0cbb26324d8ecc3253ad889c"
+    },
+    "SCENE_RES_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/SCENE_RES_CONF.json",
+      "member_sha256": "27ae3c3310b5c8d27498e18266fd9c1edafa2cce25eb0010bb35d0dc1891317e"
+    },
+    "AREA_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/AREA_CONF.json",
+      "member_sha256": "b7ddaa7bf7646aa3d91f1a98c62d01f2fa7deeefcfaca217a1a8812acdb5a9cf"
+    },
+    "NPC_REFRESH_CONTENT_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/NPC_REFRESH_CONTENT_CONF.json",
+      "member_sha256": "70ab08442552fd387e7ddf104b35763a96becf8cff6a3f7be20f2ef7fe67ba71"
+    },
+    "TELEPORT_CONF": {
+      "archive": "data/current.zip",
+      "archive_sha256": "9fa5d0cecd25ac32335f3d6e9624e49353e5f357f14504c9cdd032002fd1b515",
+      "member": "BinDataCompressed/TELEPORT_CONF.json",
+      "member_sha256": "1639fea8cde43ea65c4c092ce4e8599b4713cc22f5c5b005ec40e6378700c831"
+    }
+  },
+  "entry_count": 17,
+  "entries": [
+    {
+      "scene_res_id": 10010,
+      "scene_id": 103,
+      "scene_export_id": 1000,
+      "world_map_entry_npc_content_id": 4900085,
+      "content_record": {
+        "id": 4900085,
+        "refresh_type": 1,
+        "refresh_param": 491030077,
+        "npc_id": 490070
+      },
+      "refresh_param_area_record": {
+        "id": 491030077,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              436442,
+              716718,
+              2308
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          436442,
+          716718,
+          2308
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10017,
+      "scene_id": 103,
+      "scene_export_id": 1001,
+      "world_map_entry_npc_content_id": 4300241,
+      "content_record": {
+        "id": 4300241,
+        "refresh_type": 1,
+        "refresh_param": 431030202,
+        "npc_id": 20713
+      },
+      "refresh_param_area_record": {
+        "id": 431030202,
+        "scene_res_id": 10018,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              -805943,
+              -787014,
+              30599
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          -805943,
+          -787014,
+          30599
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10019,
+      "scene_id": 103,
+      "scene_export_id": 1003,
+      "world_map_entry_npc_content_id": 1500021,
+      "content_record": {
+        "id": 1500021,
+        "refresh_type": 1,
+        "refresh_param": 151030056,
+        "npc_id": 600006
+      },
+      "refresh_param_area_record": {
+        "id": 151030056,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "area_height": 1,
+        "pos": [
+          {
+            "position_xyz": [
+              443202,
+              671070,
+              1415
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              335
+            ]
+          }
+        ],
+        "center_xyz": [
+          443202,
+          671070,
+          1415
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10020,
+      "scene_id": 103,
+      "scene_export_id": 1004,
+      "world_map_entry_npc_content_id": 2901726,
+      "content_record": {
+        "id": 2901726,
+        "refresh_type": 1,
+        "refresh_param": 291030270,
+        "npc_id": 600032
+      },
+      "refresh_param_area_record": {
+        "id": 291030270,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              441840,
+              668136,
+              1311
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          441840,
+          668136,
+          1311
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10022,
+      "scene_id": 103,
+      "scene_export_id": 1005,
+      "world_map_entry_npc_content_id": 4300176,
+      "content_record": {
+        "id": 4300176,
+        "refresh_type": 1,
+        "refresh_param": 431030093,
+        "npc_id": 20701
+      },
+      "refresh_param_area_record": {
+        "id": 431030093,
+        "scene_res_id": 10018,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              -813002,
+              -795064,
+              31821
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              90
+            ]
+          }
+        ],
+        "center_xyz": [
+          -813002,
+          -795064,
+          31821
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10026,
+      "scene_id": 103,
+      "scene_export_id": 1006,
+      "world_map_entry_npc_content_id": 4300177,
+      "content_record": {
+        "id": 4300177,
+        "refresh_type": 1,
+        "refresh_param": 431030094,
+        "npc_id": 20703
+      },
+      "refresh_param_area_record": {
+        "id": 431030094,
+        "scene_res_id": 10018,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              -796211,
+              -787634,
+              30454
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              90
+            ]
+          }
+        ],
+        "center_xyz": [
+          -796211,
+          -787634,
+          30454
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10027,
+      "scene_id": 103,
+      "scene_export_id": 1007,
+      "world_map_entry_npc_content_id": 4300154,
+      "content_record": {
+        "id": 4300154,
+        "refresh_type": 1,
+        "refresh_param": 431030090,
+        "npc_id": 20699
+      },
+      "refresh_param_area_record": {
+        "id": 431030090,
+        "scene_res_id": 10018,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              -805384,
+              -794342,
+              31570
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          -805384,
+          -794342,
+          31570
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10035,
+      "scene_id": 103,
+      "scene_export_id": 1010,
+      "world_map_entry_npc_content_id": 1600547,
+      "content_record": {
+        "id": 1600547,
+        "refresh_type": 1,
+        "refresh_param": 161030396,
+        "npc_id": 19480
+      },
+      "refresh_param_area_record": {
+        "id": 161030396,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              562406,
+              700677,
+              2941
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          562406,
+          700677,
+          2941
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10036,
+      "scene_id": 103,
+      "scene_export_id": 1011,
+      "world_map_entry_npc_content_id": 1500029,
+      "content_record": {
+        "id": 1500029,
+        "refresh_type": 1,
+        "refresh_param": 511030258,
+        "npc_id": 600028
+      },
+      "refresh_param_area_record": {
+        "id": 511030258,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              598639,
+              596371,
+              4376
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          598639,
+          596371,
+          4376
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10037,
+      "scene_id": 103,
+      "scene_export_id": 1012,
+      "world_map_entry_npc_content_id": 1500030,
+      "content_record": {
+        "id": 1500030,
+        "refresh_type": 1,
+        "refresh_param": 511030259,
+        "npc_id": 600029
+      },
+      "refresh_param_area_record": {
+        "id": 511030259,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              563510,
+              690649,
+              3098
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              180
+            ]
+          }
+        ],
+        "center_xyz": [
+          563510,
+          690649,
+          3098
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10039,
+      "scene_id": 103,
+      "scene_export_id": 1014,
+      "world_map_entry_npc_content_id": 1600625,
+      "content_record": {
+        "id": 1600625,
+        "refresh_type": 1,
+        "refresh_param": 161030470,
+        "npc_id": 19517
+      },
+      "refresh_param_area_record": {
+        "id": 161030470,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              559304,
+              695448,
+              3041
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          559304,
+          695448,
+          3041
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10047,
+      "scene_id": 103,
+      "scene_export_id": 1024,
+      "world_map_entry_npc_content_id": 1600625,
+      "content_record": {
+        "id": 1600625,
+        "refresh_type": 1,
+        "refresh_param": 161030470,
+        "npc_id": 19517
+      },
+      "refresh_param_area_record": {
+        "id": 161030470,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              559304,
+              695448,
+              3041
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          559304,
+          695448,
+          3041
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 10054,
+      "scene_id": 103,
+      "scene_export_id": 1031,
+      "world_map_entry_npc_content_id": 4900167,
+      "content_record": {
+        "id": 4900167,
+        "refresh_type": 1,
+        "refresh_param": 491030127,
+        "npc_id": 490108
+      },
+      "refresh_param_area_record": {
+        "id": 491030127,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              564517,
+              644184,
+              4982
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          564517,
+          644184,
+          4982
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 20039,
+      "scene_id": 239,
+      "scene_export_id": 239,
+      "world_map_entry_npc_content_id": 2901726,
+      "content_record": {
+        "id": 2901726,
+        "refresh_type": 1,
+        "refresh_param": 291030270,
+        "npc_id": 600032
+      },
+      "refresh_param_area_record": {
+        "id": 291030270,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              441840,
+              668136,
+              1311
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "center_xyz": [
+          441840,
+          668136,
+          1311
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 50001,
+      "scene_id": 103,
+      "scene_export_id": 1015,
+      "world_map_entry_npc_content_id": 6400006,
+      "content_record": {
+        "id": 6400006,
+        "refresh_type": 1,
+        "refresh_param": 641030001,
+        "npc_id": 640008
+      },
+      "refresh_param_area_record": {
+        "id": 641030001,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              501453,
+              572395,
+              7592
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              325
+            ]
+          }
+        ],
+        "center_xyz": [
+          501453,
+          572395,
+          7592
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 50002,
+      "scene_id": 103,
+      "scene_export_id": 1016,
+      "world_map_entry_npc_content_id": 6400014,
+      "content_record": {
+        "id": 6400014,
+        "refresh_type": 1,
+        "refresh_param": 641030021,
+        "npc_id": 640015
+      },
+      "refresh_param_area_record": {
+        "id": 641030021,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              553878,
+              622122,
+              3886
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              210
+            ]
+          }
+        ],
+        "center_xyz": [
+          553878,
+          622122,
+          3886
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    },
+    {
+      "scene_res_id": 50003,
+      "scene_id": 103,
+      "scene_export_id": 1017,
+      "world_map_entry_npc_content_id": 6400019,
+      "content_record": {
+        "id": 6400019,
+        "refresh_type": 1,
+        "refresh_param": 641030033,
+        "npc_id": 640019
+      },
+      "refresh_param_area_record": {
+        "id": 641030033,
+        "scene_res_id": 10003,
+        "scene_id": 103,
+        "area_type": 2,
+        "pos": [
+          {
+            "position_xyz": [
+              563043,
+              697886,
+              2881
+            ],
+            "rotation_xyz": [
+              0,
+              0,
+              184
+            ]
+          }
+        ],
+        "center_xyz": [
+          563043,
+          697886,
+          2881
+        ]
+      },
+      "association_status": "explicit_content_id_reference_and_matching_area_id"
+    }
+  ],
+  "limits": [
+    "Scene resource identity and exported scene identity are distinct from scene_id.",
+    "Resources 10003 and 10018 both have scene_id 103; do not merge them by scene_id.",
+    "refresh_type=1 matches historical symbol RFT_AREA; matching refresh_param IDs are preserved with full AREA_CONF records. This is not a runtime field-binding attestation.",
+    "No downstream location ID or display-name matching is applied."
+  ]
+}
